@@ -344,3 +344,37 @@ La aplicación debe contar con una interfaz **amigable, intuitiva y accesible**,
 **Creemos que** la aplicación debe permitir un **registro detallado e histórico de cada animal**, incluyendo variables como peso, estado de salud, historial reproductivo, ingresos y egresos asociados, lo que proporcionará información confiable para el análisis productivo y económico.  
 
 **Creemos que** **AgroDigital** debe integrar un **módulo de reportes y visualizaciones gráficas interactivas**, que permita a los ganaderos comprender de manera clara la evolución de su hato, tomar decisiones informadas basadas en datos y demostrar trazabilidad ante compradores, asociaciones o autoridades regulatorias.
+
+<div id='1.2.2.3.'><h5>1.2.2.3. Lean UX Hypothesis Statements</h5></div>
+
+* **Hypothesis Statement 01**  
+
+  **Creemos que** los pequeños y medianos ganaderos estarán dispuestos a adoptar **AgroDigital** como herramienta principal para registrar digitalmente la información sanitaria, productiva y económica de su hato.  
+
+  **Sabremos** que hemos tenido éxito  
+
+  **Cuando** al menos el 50% de los usuarios registrados utilicen activamente la aplicación móvil durante el primer trimestre posterior a su lanzamiento.  
+
+* **Hypothesis Statement 02**  
+
+  **Creemos que** la integración de **alertas automáticas e inteligentes** sobre vacunas, partos y tratamientos sanitarios permitirá a los ganaderos reducir significativamente los descuidos y las pérdidas relacionadas con la salud de su ganado.  
+
+  **Sabremos** que hemos tenido éxito  
+
+  **Cuando** al menos el 40% de los usuarios reporten haber evitado incidentes sanitarios relevantes gracias a las notificaciones emitidas por la aplicación.  
+
+* **Hypothesis Statement 03**  
+
+  **Creemos que** el acceso a **reportes visuales interactivos** y al historial individual de los animales permitirá a los usuarios tomar decisiones más acertadas en materia económica y reproductiva.  
+
+  **Sabremos** que hemos tenido éxito  
+
+  **Cuando** al menos el 60% de los ganaderos indiquen haber tomado decisiones de venta, reproducción o tratamiento basadas directamente en la información proporcionada por **AgroDigital**.  
+
+* **Hypothesis Statement 04**  
+
+  **Creemos que** el uso de **AgroDigital** reducirá los errores frecuentes asociados a los métodos tradicionales de registro (cuadernos físicos, hojas sueltas o planillas digitales improvisadas) y mejorará la organización de la información ganadera.  
+
+  **Sabremos** que hemos tenido éxito  
+
+  **Cuando** se evidencie una disminución de al menos el 50% en los errores de registro —como omisiones, datos incompletos o duplicados— tras tres meses de uso continuo de la aplicación móvil.
