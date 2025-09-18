@@ -222,4 +222,14 @@ Revolucionar la gestión y trazabilidad del ganado en pequeños y medianos hatos
 
 **Visión:**  
 AgroDigital se proyecta como la **aplicación líder** en el registro y control del ganado en Latinoamérica durante los próximos tres años.  
-GanTrace busca consolidarse como un **modelo de negocio sostenible, confiable y comprometido con la mejora continua de la productividad rural**, a través de tecnología simple, práctica y efectiva.  
+GanTrace busca consolidarse como un **modelo de negocio sostenible, confiable y comprometido con la mejora continua de la productividad rural**, a través de tecnología simple, práctica y efectiva.
+
+<div id='1.1.2.'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
+
+|| Perfiles de los integrantes del equipo |
+| :-------------------------------------- | :---------------------------------: |
+| Mi nombre es **Nelson Fabrizio Guerrero Tomas**, tengo … | <img src="linkfoto" alt="Foto Nelson" width="250px" /> |
+| Mi nombre es **Ernesto Rodas Sotomayor**, tengo … | <img src="linkfoto" alt="Foto Ernesto" width="250px" /> |
+| Mi nombre es **Milenio Huamán Hinostroza**, tengo … | <img src="linkfoto" alt="Foto Milenio" width="250px" /> |
+| Mi nombre es **Diego Alonzo Mora Blas**, tengo … | <img src="linkfoto" alt="Foto Diego" width="250px" /> |
+
