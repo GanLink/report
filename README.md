@@ -233,3 +233,44 @@ GanTrace busca consolidarse como un **modelo de negocio sostenible, confiable y 
 | Mi nombre es **Milenio Huamán Hinostroza**, tengo … | <img src="linkfoto" alt="Foto Milenio" width="250px" /> |
 | Mi nombre es **Diego Alonzo Mora Blas**, tengo … | <img src="linkfoto" alt="Foto Diego" width="250px" /> |
 
+<div id='1.2.'><h3>1.2. Solution Profile</h3></div>
+<div id='1.2.1.'><h4>1.2.1. Antecedentes y Problemática</h4></div>
+
+###### What (Qué)  
+###### ¿Cuál es el problema?  
+Los pequeños y medianos ganaderos de Latinoamérica no gestionan de manera adecuada la información relacionada con su ganado. En la mayoría de los casos, recurren a métodos manuales como cuadernos, hojas sueltas o registros incompletos para controlar aspectos fundamentales como la salud, la productividad y la reproducción de los animales. Esta práctica genera pérdida de información, errores frecuentes y baja eficiencia en la gestión. Además, dificulta la **trazabilidad**, impide cumplir con normativas sanitarias y reduce las posibilidades de acceder a mejores precios en los mercados más exigentes.
+
+###### When (Cuándo)  
+###### ¿Cuándo sucede el problema?  
+El problema se presenta de forma recurrente a lo largo de todo el ciclo de vida del ganado: desde el nacimiento, pasando por los controles sanitarios y reproductivos, hasta la etapa de comercialización. La falta de registros digitales ocasiona desorganización en cada fase y afecta diariamente la operación de los productores, limitando su productividad y sostenibilidad.
+
+###### Where (Dónde)  
+###### ¿Dónde surge el problema?  
+La problemática se origina principalmente en las zonas rurales de América Latina, donde se concentra la producción ganadera de pequeña y mediana escala. En este entorno, la ausencia de digitalización se convierte en un **problema estructural** que limita el crecimiento de la actividad, disminuye la competitividad frente a productores más tecnificados y compromete la sostenibilidad del sector en los mercados nacionales e internacionales.
+
+###### Who (Quién)  
+###### ¿Quiénes están involucrados?  
+Los principales actores involucrados son los pequeños y medianos ganaderos, responsables directos de la producción. También participan las asociaciones ganaderas, que agrupan a productores locales; los técnicos agropecuarios, encargados de brindar asesoría en campo; y las entidades públicas, que promueven la formalización y la trazabilidad del sector.  
+
+###### ¿Quién utilizará la solución?  
+La solución será utilizada principalmente por los ganaderos que buscan mejorar la productividad, el control sanitario y la trazabilidad de su ganado. Asimismo, será de utilidad para los técnicos agropecuarios que los asesoran en el campo.
+
+###### Why (Por qué)  
+###### ¿Cuál es la causa del problema?  
+Las causas principales son la falta de acceso a herramientas tecnológicas adaptadas al contexto rural, el desconocimiento sobre la importancia de la trazabilidad y de la gestión de datos, y el limitado acompañamiento técnico, factores que perpetúan el uso de métodos manuales e ineficientes para la administración del ganado.
+
+##### ¿Cuáles son las 2H?  
+
+###### How (Cómo)  
+###### ¿Cómo se utilizará el producto?  
+**AgroDigital**, desarrollado por **GanTrace**, será una **aplicación móvil multiplataforma** complementada con una versión web. Permitirá a los ganaderos registrar información individual de cada animal —raza, edad, peso, estado reproductivo—, recibir alertas sanitarias automáticas para vacunas y tratamientos, controlar ingresos y gastos, generar reportes visuales y descargables, y acceder a contenidos educativos a través de la **Academia Ganadera**. Todo ello mediante una interfaz sencilla, intuitiva y adaptada al contexto rural.
+
+###### ¿Cómo lograremos una gestión eficiente dentro de la aplicación?  
+La eficiencia se alcanzará mediante un diseño de interfaz **simple, modular y adaptable**, la integración de **alertas automáticas y recordatorios**, la generación de **reportes interactivos y comparativos**, la disponibilidad de **acceso offline** en zonas rurales con baja conectividad y la capacitación de los usuarios a través de la Academia Ganadera para garantizar un uso efectivo de la plataforma.
+
+###### How much (Cuánto)  
+###### ¿Cuál es la magnitud del problema?  
+Según reportes regionales, más del **70% de los pequeños ganaderos** no cuentan con un sistema digital para el registro y control de su ganado. Esta carencia genera pérdidas económicas, baja productividad, dificultades para cumplir con normativas sanitarias y limitaciones para acceder a mercados formales e internacionales.
+
+###### ¿Qué porcentaje del sector se beneficiará?  
+Se estima que entre el **40% y 60%** de los pequeños y medianos ganaderos, junto con las asociaciones rurales, podrían beneficiarse directamente del uso de **AgroDigital**, especialmente en aquellas zonas donde el acceso a teléfonos inteligentes está en crecimiento constante.
