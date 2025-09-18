@@ -288,3 +288,29 @@ La ausencia de una solución tecnológica adaptada al contexto rural impide que 
 
 **Pregunta orientadora:**  
 ¿Cómo podríamos digitalizar y automatizar la gestión de la información del ganado de manera que los pequeños y medianos productores puedan optimizar sus procesos sanitarios, reproductivos y económicos, evitando la dependencia de registros manuales y la pérdida de datos relevantes?
+
+<div id='1.2.2.2.'><h5>1.2.2.2. Lean UX Assumptions</h5></div>
+
+###### **Business Assumptions**
+
+1. **Creemos que nuestros usuarios necesitan** una solución más eficiente, confiable y accesible para registrar y monitorear la información relacionada con la salud, la productividad y la trazabilidad del ganado, superando las limitaciones de los métodos manuales.  
+
+2. **Estas necesidades se pueden satisfacer** mediante el desarrollo de **AgroDigital**, una aplicación móvil multiplataforma complementada con una versión web, que permita registrar datos clave del hato, emitir alertas automáticas y generar reportes útiles para la toma de decisiones.  
+
+3. **Nuestros clientes iniciales serán** pequeños y medianos ganaderos que dispongan de teléfonos móviles inteligentes o computadoras básicas, así como técnicos agropecuarios que brindan asesoría directa en campo.  
+
+4. **El valor más importante que un cliente busca en nuestros servicios es** contar con un sistema ordenado y automatizado de gestión ganadera que prevenga pérdidas por descuidos, optimice la productividad y facilite el cumplimiento de normativas de trazabilidad para acceder a mejores mercados.  
+
+5. **El cliente también obtendrá** beneficios adicionales como alertas sanitarias programadas, reportes económicos integrados, acceso a historiales completos de cada animal y contenidos educativos dentro de la plataforma.  
+
+6. **Vamos a captar la mayoría de clientes mediante** alianzas estratégicas con asociaciones ganaderas, programas de desarrollo rural y campañas de difusión digital dirigidas a zonas con alta actividad pecuaria.  
+
+7. **Vamos a generar ingresos mediante** un modelo de suscripción mensual escalable, con planes diferenciados según el tamaño del hato ganadero, además de licencias institucionales para asociaciones y entidades vinculadas al agro.  
+
+8. **Nuestra competencia en el mercado está conformada por** aplicaciones genéricas de gestión ganadera, el uso de hojas de cálculo digitales y los métodos tradicionales como cuadernos o registros manuales.  
+
+9. **Nuestra ventaja competitiva frente a la competencia será** ofrecer una solución diseñada específicamente para el contexto rural: simple de usar, con funcionalidades adaptadas a pequeños y medianos productores, e integrada con un enfoque educativo a través de la **Academia Ganadera**.  
+
+10. **El principal riesgo identificado es** que algunos ganaderos, por factores culturales o falta de experiencia digital, presenten resistencia a adoptar el uso de una aplicación tecnológica para la gestión de su ganado.  
+
+11. **Mitigaremos este riesgo mediante** capacitaciones presenciales y virtuales, el diseño de una interfaz altamente intuitiva, la integración de tutoriales interactivos y el fortalecimiento de la **Academia Ganadera** como soporte formativo continuo.
