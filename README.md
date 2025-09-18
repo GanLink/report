@@ -334,3 +334,13 @@ La aplicación se integra directamente en la rutina diaria del productor ganader
 
 ###### **¿Cómo debe verse y comportarse nuestro producto?**  
 La aplicación debe contar con una interfaz **amigable, intuitiva y accesible**, pensada para usuarios con poca experiencia tecnológica. Su comportamiento debe ser estable, rápido y seguro, garantizando la protección de los datos personales del productor y de la información ganadera. El diseño debe transmitir confianza, practicidad y modernidad adaptada al contexto rural, ofreciendo una experiencia clara, sin tecnicismos innecesarios, y con una estética que combine tecnología con cercanía al campo.
+
+###### **Feature Assumptions**
+
+**Creemos que** la aplicación debe contar con una **interfaz intuitiva y responsiva**, accesible desde dispositivos móviles y computadoras, que facilite su uso incluso a ganaderos con poca experiencia tecnológica, garantizando una curva de aprendizaje mínima.  
+
+**Creemos que** **AgroDigital** debe incorporar un **sistema de alertas inteligentes y personalizables**, que notifique oportunamente al usuario sobre vacunas, tratamientos sanitarios, partos y fechas clave, reduciendo riesgos de pérdida de productividad por descuidos.  
+
+**Creemos que** la aplicación debe permitir un **registro detallado e histórico de cada animal**, incluyendo variables como peso, estado de salud, historial reproductivo, ingresos y egresos asociados, lo que proporcionará información confiable para el análisis productivo y económico.  
+
+**Creemos que** **AgroDigital** debe integrar un **módulo de reportes y visualizaciones gráficas interactivas**, que permita a los ganaderos comprender de manera clara la evolución de su hato, tomar decisiones informadas basadas en datos y demostrar trazabilidad ante compradores, asociaciones o autoridades regulatorias.
