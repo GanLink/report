@@ -82,3 +82,117 @@ Se explican las ramas más prominentes:
 Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo. 
 
 **TB1**
+
+## Student Outcomes
+
+| Criterio específico | Acciones realizadas | Conclusiones |
+|-|:-|-|
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | **Ernesto Rodas** <br> TB1: Responsable del **Capítulo I** (Startup Profile, Solution Profile, Lean UX, Segmentos objetivo). <br> **Nelson Guerrero** <br> TB1: Responsable de **Competidores (2.1)** y **Needfinding (2.3)**. <br> **Milenio Huamán** <br> TB1: Responsable de **Entrevistas (2.2)** y **Requirements Specification (2.4)**. <br> **Diego Mora** <br> TB1: Responsable de **Strategic-Level DDD (2.5)** y **Tactical-Level DDD (2.6)**. | Cada integrante desarrolló secciones específicas del documento, aplicando conceptos técnicos actualizados y orientados al desarrollo de soluciones de software en el marco del proyecto. |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software | **Ernesto Rodas** <br> TB1: En su sección incorporó fundamentos actualizados sobre la startup y la solución digital. <br> **Nelson Guerrero** <br> TB1: Investigó y contrastó información de competidores, aplicando metodologías de Needfinding. <br> **Milenio Huamán** <br> TB1: Realizó entrevistas, recopiló evidencia y redactó la especificación de requerimientos. <br> **Diego Mora** <br> TB1: Desarrolló el modelado estratégico y táctico de DDD, aplicando buenas prácticas arquitectónicas. | El equipo demostró capacidad de aprendizaje continuo al integrar metodologías y herramientas modernas en el desarrollo del proyecto, reforzando la importancia de la actualización constante para responder a los retos profesionales. |
+
+
+## Contenido
+1. [**Capítulo I: Presentación**](#1) <br>
+1.1. [Startup Profile](#1.1) <br>
+1.1.1. [Descripción de la Startup](#1.1.1) <br>
+1.1.2. [Perfiles de integrantes del equipo](#1.1.2) <br>
+1.2. [Solution Profile](#1.2) <br>
+1.2.1. [Antecedentes y problemática](#1.2.1) <br>
+1.2.2. [Lean UX Process](#1.2.2) <br>
+1.2.2.1. [Lean UX Problem Statements](#1.2.2.1) <br>
+1.2.2.2. [Lean UX Assumptions](#1.2.2.2) <br>
+1.2.2.3. [Lean UX Hypothesis Statements](#1.2.2.3) <br>
+1.2.2.4. [Lean UX Canvas](#1.2.2.4) <br>
+1.3. [Segmentos objetivo](#1.3) <br>
+
+2. [**Capítulo II: Requirements Development and Software Solution Design**](#2) <br>
+2.1. [Competidores](#2.1) <br>
+2.1.1. [Análisis competitivo](#2.1.1) <br>
+2.1.2. [Estrategias y tácticas frente a competidores](#2.1.2) <br>
+2.2. [Entrevistas](#2.2) <br>
+2.2.1. [Diseño de entrevistas](#2.2.1) <br>
+2.2.2. [Registro de entrevistas](#2.2.2) <br>
+2.2.3. [Análisis de entrevistas](#2.2.3) <br>
+2.3. [Needfinding](#2.3) <br>
+2.3.1. [User Personas](#2.3.1) <br>
+2.3.2. [User Task Matrix](#2.3.2) <br>
+2.3.3. [User Journey Mapping](#2.3.3) <br>
+2.3.4. [Empathy Mapping](#2.3.4) <br>
+2.3.5. [Ubiquitous Language](#2.3.5) <br>
+2.4. [Requirements Specification](#2.4) <br>
+2.4.1. [User Stories](#2.4.1) <br>
+2.4.2. [Impact Mapping](#2.4.2) <br>
+2.4.3. [Product Backlog](#2.4.3) <br>
+2.5. [Strategic-Level Domain-Driven Design](#2.5) <br>
+2.5.1. [EventStorming](#2.5.1) <br>
+2.5.1.1. [Candidate Context Discovery](#2.5.1.1) <br>
+2.5.1.2. [Domain Message Flows Modeling](#2.5.1.2) <br>
+2.5.1.3. [Bounded Context Canvases](#2.5.1.3) <br>
+2.5.2. [Context Mapping](#2.5.2) <br>
+2.5.3. [Software Architecture](#2.5.3) <br>
+2.5.3.1. [Software Architecture Context Level Diagrams](#2.5.3.1) <br>
+2.5.3.2. [Software Architecture Container Level Diagrams](#2.5.3.2) <br>
+2.5.3.3. [Software Architecture Deployment Diagrams](#2.5.3.3) <br>
+2.6. [Tactical-Level Domain-Driven Design](#2.6) <br>
+2.6.x. [Bounded Context: `<Bounded Context Name>`](#2.6.x) <br>
+2.6.x.1. [Domain Layer](#2.6.x.1) <br>
+2.6.x.2. [Interface Layer](#2.6.x.2) <br>
+2.6.x.3. [Application Layer](#2.6.x.3) <br>
+2.6.x.4. [Infrastructure Layer](#2.6.x.4) <br>
+2.6.x.5. [Bounded Context Software Architecture Component Level Diagrams](#2.6.x.5) <br>
+2.6.x.6. [Bounded Context Software Architecture Code Level Diagrams](#2.6.x.6) <br>
+2.6.x.6.1. [Bounded Context Domain Layer Class Diagrams](#2.6.x.6.1) <br>
+2.6.x.6.2. [Bounded Context Database Design Diagram](#2.6.x.6.2) <br>
+
+3. [**Capítulo III: Solution UI/UX Design**](#3) <br>
+3.1. [Product Design](#3.1) <br>
+3.1.1. [Style Guidelines](#3.1.1) <br>
+3.1.1.1. [General Style Guidelines](#3.1.1.1) <br>
+3.1.2. [Information Architecture](#3.1.2) <br>
+3.1.2.1. [Organization Systems](#3.1.2.1) <br>
+3.1.2.2. [Labelling Systems](#3.1.2.2) <br>
+3.1.2.3. [SEO Tags and Meta Tags](#3.1.2.3) <br>
+3.1.2.4. [Searching Systems](#3.1.2.4) <br>
+3.1.2.5. [Navigation Systems](#3.1.2.5) <br>
+3.1.3. [Landing Page UI Design](#3.1.3) <br>
+3.1.3.1. [Landing Page Wireframe](#3.1.3.1) <br>
+3.1.3.2. [Landing Page Mock-up](#3.1.3.2) <br>
+3.1.4. [Mobile Applications UX/UI Design](#3.1.4) <br>
+3.1.4.1. [Mobile Applications Wireframes](#3.1.4.1) <br>
+3.1.4.2. [Mobile Applications Wireflow Diagrams](#3.1.4.2) <br>
+3.1.4.3. [Mobile Applications Mock-ups](#3.1.4.3) <br>
+3.1.4.4. [Mobile Applications User Flow Diagrams](#3.1.4.4) <br>
+3.1.4.5. [Mobile Applications Prototyping](#3.1.4.5) <br>
+
+4. [**Capítulo IV: Product Implementation & Validation**](#4) <br>
+4.1. [Software Configuration Management](#4.1) <br>
+4.1.1. [Software Development Environment Configuration](#4.1.1) <br>
+4.1.2. [Source Code Management](#4.1.2) <br>
+4.1.3. [Source Code Style Guide & Conventions](#4.1.3) <br>
+4.1.4. [Software Deployment Configuration](#4.1.4) <br>
+4.2. [Landing Page & Mobile Application Implementation](#4.2) <br>
+4.2.1. [Sprint n](#4.2.1) <br>
+4.2.1.1. [Sprint Planning n](#4.2.1.1) <br>
+4.2.1.2. [Sprint Backlog n](#4.2.1.2) <br>
+4.2.1.3. [Development Evidence for Sprint Review](#4.2.1.3) <br>
+4.2.1.4. [Testing Suite Evidence for Sprint Review](#4.2.1.4) <br>
+4.2.1.5. [Execution Evidence for Sprint Review](#4.2.1.5) <br>
+4.2.1.6. [Services Documentation Evidence for Sprint Review](#4.2.1.6) <br>
+4.2.1.7. [Software Deployment Evidence for Sprint Review](#4.2.1.7) <br>
+4.2.1.8. [Team Collaboration Insights during Sprint](#4.2.1.8) <br>
+4.3. [Validation Interviews](#4.3) <br>
+4.3.1. [Diseño de entrevistas](#4.3.1) <br>
+4.3.2. [Registro de entrevistas](#4.3.2) <br>
+4.3.3. [Evaluaciones según heurísticas](#4.3.3) <br>
+
+5. [**Conclusiones**](#5) <br>
+5.1. [Conclusiones y recomendaciones](#5.1) <br>
+
+6. [**Videos**](#6) <br>
+6.1. [Video App Validation](#6.1) <br>
+6.2. [Video About the product](#6.2) <br>
+6.3. [Video About the team](#6.3) <br>
+
+7. [**Glosario**](#7) <br>
+8. [**Bibliografía**](#8) <br>
+9. [**Anexos**](#9) <br>
