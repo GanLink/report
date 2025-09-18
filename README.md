@@ -314,3 +314,23 @@ La ausencia de una solución tecnológica adaptada al contexto rural impide que 
 10. **El principal riesgo identificado es** que algunos ganaderos, por factores culturales o falta de experiencia digital, presenten resistencia a adoptar el uso de una aplicación tecnológica para la gestión de su ganado.  
 
 11. **Mitigaremos este riesgo mediante** capacitaciones presenciales y virtuales, el diseño de una interfaz altamente intuitiva, la integración de tutoriales interactivos y el fortalecimiento de la **Academia Ganadera** como soporte formativo continuo.
+
+###### **User Assumptions**
+
+###### **¿Quién es el usuario?**  
+Los usuarios principales de **AgroDigital** son pequeños y medianos ganaderos, así como técnicos agropecuarios que brindan asesoría directa en el campo. En una segunda etapa, la aplicación también podrá ser utilizada por asociaciones ganaderas, cooperativas y entidades públicas vinculadas a programas de formalización, sanidad animal y trazabilidad, ampliando su alcance a un ecosistema más amplio de actores del sector rural.
+
+###### **¿Qué problemas busca resolver nuestro producto?**  
+El principal problema que **AgroDigital** pretende solucionar es la desorganización en el manejo de la información ganadera y la pérdida de datos clave debido al uso de registros manuales. En la actualidad, muchos productores carecen de un sistema confiable para dar seguimiento a vacunas, partos, tratamientos o controles económicos, lo que afecta negativamente su rentabilidad y limita el cumplimiento de requisitos normativos para acceder a mercados más competitivos.
+
+###### **¿Qué características son importantes para el usuario?**  
+Las funcionalidades más valoradas incluyen el registro individual de cada animal (edad, raza, estado de salud, productividad), la emisión de alertas automáticas para vacunas y tratamientos, la generación de reportes económicos simplificados, el acceso a historiales completos de cada animal y la disponibilidad de contenidos educativos en formatos prácticos como video o audio. La **facilidad de uso**, incluso en escenarios con conectividad limitada, constituye un factor decisivo para su adopción en zonas rurales.
+
+###### **¿Dónde encaja nuestro producto en su vida y trabajo?**  
+La aplicación se integra directamente en la rutina diaria del productor ganadero, fortaleciendo su capacidad de planificación, reduciendo pérdidas por descuidos, facilitando el cumplimiento de normativas sanitarias y mejorando la toma de decisiones estratégicas sobre la gestión del hato. Todo ello se traduce en mayor eficiencia operativa, incremento de la rentabilidad y una mejora tangible en la calidad de vida del usuario.
+
+###### **¿Cuándo y cómo se utiliza nuestro producto?**  
+**AgroDigital** es empleada cada vez que el productor registra un nuevo animal, aplica un tratamiento, registra un parto, controla ingresos o consulta indicadores de productividad. Asimismo, es usada para analizar datos históricos y planificar decisiones estratégicas como ventas, selección de reproductores o gestión de recursos. La aplicación está diseñada para funcionar desde dispositivos móviles y computadoras, en el campo o en el hogar, adaptándose a las condiciones de trabajo del usuario.
+
+###### **¿Cómo debe verse y comportarse nuestro producto?**  
+La aplicación debe contar con una interfaz **amigable, intuitiva y accesible**, pensada para usuarios con poca experiencia tecnológica. Su comportamiento debe ser estable, rápido y seguro, garantizando la protección de los datos personales del productor y de la información ganadera. El diseño debe transmitir confianza, practicidad y modernidad adaptada al contexto rural, ofreciendo una experiencia clara, sin tecnicismos innecesarios, y con una estética que combine tecnología con cercanía al campo.
