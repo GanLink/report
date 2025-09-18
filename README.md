@@ -274,3 +274,17 @@ Según reportes regionales, más del **70% de los pequeños ganaderos** no cuent
 
 ###### ¿Qué porcentaje del sector se beneficiará?  
 Se estima que entre el **40% y 60%** de los pequeños y medianos ganaderos, junto con las asociaciones rurales, podrían beneficiarse directamente del uso de **AgroDigital**, especialmente en aquellas zonas donde el acceso a teléfonos inteligentes está en crecimiento constante.
+
+<div id='1.2.2.'><h4>1.2.2. Lean UX Process</h4></div>
+<div id='1.2.2.1.'><h5>1.2.2.1. Lean UX Problem Statements</h5></div>
+
+###### **Problem Statement**
+
+El propósito de **AgroDigital** es ofrecer a los pequeños y medianos ganaderos una **aplicación móvil multiplataforma, simple y accesible**, que les permita registrar, organizar y supervisar la información clave de su hato ganadero. Con esta herramienta se busca optimizar los procesos sanitarios, reproductivos y económicos que, en la actualidad, se gestionan de manera manual, fragmentada y poco confiable.
+
+En la situación actual, la mayoría de los ganaderos mantiene un control limitado o inexistente de su ganado. Los registros suelen hacerse en cuadernos físicos, hojas sueltas o, en algunos casos, con herramientas digitales improvisadas que no se ajustan a sus necesidades reales. Esta dependencia de métodos tradicionales genera errores en los registros, omisión de vacunas y tratamientos, pérdida de información y baja trazabilidad. Como consecuencia, se afecta la productividad, se dificulta el cumplimiento de normativas y se restringen las oportunidades de acceder a mercados más competitivos.
+
+La ausencia de una solución tecnológica adaptada al contexto rural impide que los productores tomen decisiones **informadas, oportunas y sostenibles**, limitando su desarrollo y reduciendo su competitividad dentro del sector ganadero.
+
+**Pregunta orientadora:**  
+¿Cómo podríamos digitalizar y automatizar la gestión de la información del ganado de manera que los pequeños y medianos productores puedan optimizar sus procesos sanitarios, reproductivos y económicos, evitando la dependencia de registros manuales y la pérdida de datos relevantes?
