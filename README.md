@@ -386,3 +386,31 @@ El Lean UX Canvas es una herramienta empleada dentro del enfoque de diseño cent
 ![AgroDigital_Lean Canvas](https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/LeanUXCanvas.png)
 
 Enlace para acceder al [Canvas](https://docs.google.com/document/d/1QeEyI6S3-2wqPz3qXxDNnxgeR3CyS6JbQkdSieTT3ho/edit?tab=t.0#heading=h.vhscor30k2do)
+
+<div id='1.3.'><h3>1.3. Segmento Objetivo</h3></div>
+
+Según el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023), el Perú cuenta con más de 
+5 millones de cabezas de ganado vacuno, siendo la ganadería una de las actividades más 
+relevantes en regiones como Cajamarca, Puno, Cusco y La Libertad. El valor bruto de la 
+producción ganadera nacional supera los 3 mil millones de soles anuales, y más del 65 % de 
+las unidades productivas son gestionadas por pequeños y medianos ganaderos.  
+
+Este grupo constituye el **único segmento objetivo de GanTrace**, dado que aún depende en gran 
+medida de registros manuales para controlar vacunaciones, nacimientos, alimentación, peso 
+y reproducción. La falta de digitalización genera errores, pérdida de datos, baja eficiencia en 
+la gestión y dificultades para cumplir con las exigencias de trazabilidad.  
+
+Ante el crecimiento proyectado de la demanda mundial de alimentos en un 70 % hacia el año 
+2050 (FAO, 2021), la incorporación de herramientas digitales en el sector se vuelve urgente.  
+**GanTrace**, a través de **AgroDigital**, busca transformar la gestión tradicional en una ganadería 
+**inteligente, eficiente y rentable**, brindando a los ganaderos una aplicación móvil que centraliza 
+y automatiza sus procesos de manera accesible y práctica.
+
+<div id='1.3.1.'><h4>1.3.1. Stakeholders</h4></div>
+
+* **Stakeholders Internos:**  
+  - Equipo fundador de GanTrace.  
+  - Equipo de desarrollo y soporte técnico del producto.  
+
+* **Stakeholders Externos:**  
+  - **Ganaderos pequeños y medianos**, usuarios principales y beneficiarios directos de la plataforma.  
