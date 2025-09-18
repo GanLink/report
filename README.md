@@ -196,3 +196,30 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 7. [**Glosario**](#7) <br>
 8. [**Bibliografía**](#8) <br>
 9. [**Anexos**](#9) <br>
+
+<div id='1.'><h2>Capítulo I: Introducción</h2></div>
+
+<div id='1.1.'><h3>1.1 Startup Profile</h3></div>
+En esta sección se presenta la descripción de la startup y los perfiles de los miembros del equipo.
+
+<div id='1.1.1.'><h4>1.1.1 Descripción de la Startup</h4></div>
+
+**GanTrace** es una startup dedicada a ofrecer soluciones tecnológicas accesibles y efectivas para los **pequeños y medianos ganaderos de Latinoamérica**. Su propuesta se centra en digitalizar la gestión del ganado mediante herramientas móviles simples y asequibles que acompañan al productor en la toma de decisiones estratégicas.
+
+El producto principal de la startup es **AgroDigital**, una **aplicación móvil multiplataforma**, diseñada para que los ganaderos puedan gestionar de manera intuitiva y eficiente sus hatos directamente desde un **teléfono celular**. Adicionalmente, cuenta con una versión web que complementa la experiencia y permite acceder a la información desde cualquier dispositivo.
+
+La aplicación organiza la vida productiva del ganado en **módulos especializados**:  
+- **Registro individual de animales** (raza, edad, reproducción).  
+- **Calendario sanitario** con alertas automáticas para vacunas y tratamientos.  
+- **Control económico** (registro de producción de leche, peso, ingresos y gastos).  
+- **Historial completo de trazabilidad**, alineado con las normativas vigentes.  
+- **Academia ganadera**, con contenido educativo práctico para mejorar la gestión.  
+
+Gracias a la integración de datos históricos y actualizados en tiempo real, **AgroDigital** permite a los ganaderos **tomar decisiones informadas**, mejorar la productividad, reducir pérdidas por descuidos y fortalecer su competitividad en mercados cada vez más exigentes. De esta forma, GanTrace impulsa la transición hacia una **ganadería inteligente, eficiente y sostenible**.
+
+**Misión:**  
+Revolucionar la gestión y trazabilidad del ganado en pequeños y medianos hatos ganaderos de Latinoamérica, mediante una aplicación móvil accesible que optimice los procesos productivos y sanitarios.  
+
+**Visión:**  
+AgroDigital se proyecta como la **aplicación líder** en el registro y control del ganado en Latinoamérica durante los próximos tres años.  
+GanTrace busca consolidarse como un **modelo de negocio sostenible, confiable y comprometido con la mejora continua de la productividad rural**, a través de tecnología simple, práctica y efectiva.  
