@@ -31,3 +31,10 @@ style="width:50%;" />
 </div>
 
 <h5 style="text-align: center"> Ciclo 2025-020 </h5>
+
+## Registro de versiones del informe
+
+|Versión|Fecha|Autor|Descripción de modificación|
+|:-:|:-:|:-:|-|
+|1.0|17/09/2025|Mora Blas, Diego Alonzo|Creación del documento de trabajo en formato markdown|
+|1.1|18/09/2025|Rodas Sotomayor, Ernesto|Desarrollo del capítulo 1 del documento en formato markdown|
