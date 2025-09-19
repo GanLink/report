@@ -60,3 +60,28 @@ Entrevistas semiestructuradas de 25 a 30 minutos, registradas en audio o video c
 - Objetivos personales en la actividad ganadera  
 - Principales frustraciones en la gestión diaria  
 - Influencia de técnicos, asociaciones o cooperativas en sus decisiones  
+
+<div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas. </h4></div>
+
+**Entrevista a Ganaderos**
+
+|Entrevistado 1|Josep Melgarejo|
+|-|-|
+|Edad|22|
+|Distrito|Lima|
+|<img width="1292" alt="Entrevista1_JosepMelgarejo" src="https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/Entrevistas/Entrevista1_JosepMelgarejo.jpg">|Josep Melgarejo a pesar de ser una persona de corta edad, cuenta con experiencia en el sector de ganadero debido a haber vivido toda su vida con una familia dedicada a la ganadería, trabaja en una unidad de ganadería de 45 animales y ocho personas apróximadamente. Se evidencia la falta de seguridad en el traslado de datos, puesto que lo realizan de manera manual con libros y cuadernos en donde realizan apuntes sobre la alimentación de los animales, vacunas, controles, etc. Sus principales dificultades son que las vacas y cerdos, debido al corto espacio pueden sufrir el tema de la convivencia diaria en el ganado, lo cual esto perjudicaría en la producción de alimentos, calidad de vida, entre otras cosas. Considera importante un registro digital, de esta forma facilitaría los procesos de producción y registro de vacunas de sus animales.  |
+|Timing: 0:01-5:28 |URL: [upc-pre-202520-1acc0238-GanTrace-AgroDigital](https://www.youtube.com/watch?v=VVIPcymbLgw)|
+
+|Entrevistado 2|Angel Berrospi|
+|-|-|
+|Edad|25|
+|Distrito|Lima|
+|<img width="1292" alt="Entrevista2_AngelBerrospi" src="https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/Entrevistas/Entrevista2_AngelBerrospi.jpg">|Angel es una persona que cuenta con 7 años de experiencia en el sector de la ganadería, empezando desde muy joven hasta el día de hoy, en su ganadería cuenta con 60 animales entre 3 personas en la que esas personas se encuentra su padre como principal responsable del sector ganadero. En su experiencia cuenta que un momento complicado en la gestión fue cuando al momento de querer gestionar y saber el registro de vacunas de las vacas, esta no era posible debido a una posible confusión en la selección de los animales que les corresponda la vacuna. Lo que a él le gustaría para su gestión es encontrar un medio digital en el que se le pueda proporcionar la información acerca del historial de salud, comida, vacunas, tratamientos, etc. En su momento, un registro básico. Nunca ha usado una aplicación que le ayude a gestionar y para él sería una gran oportunidad para solucionar estas problemáticas que complican la gestión de su ganado.|
+|Timing: 5:30-9:27 |URL: [upc-pre-202520-1acc0238-GanTrace-AgroDigital](https://www.youtube.com/watch?v=VVIPcymbLgw)|
+
+|Entrevistado 3|Jose Galvez|
+|-|-|
+|Edad|25|
+|Distrito|Lima|
+|<img width="1292" alt="Entrevista3_JoseGalvez" src="https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/Entrevistas/Entrevista3_JoseGalvez.jpg">|José Galvez lleva 7 años en la dedicación de la ganadería, decidiendo ayudar a su padre en la gestión, maneja ganado bovino que es su principal especialidad. En su ganado cuenta con 120 animales de las cuales trabajan 3 personas, las cuales son: Un vaquero fijo, un ayudante eventual y él. Cuenta en su experiencia que el lleva los registros de su ganado en un cuaderno para apuntar las vacunas y también los pesos de los animales, también cuenta con un excel básico en su laptop portatil, pero no es de mucha ayuda. Considera de gran importancia una plataforma digital que ayude en su registro, pues un problema constante que pasa en su ganado es que suele olvidarse el día y/o animal al cual ha vacunado, por lo que tener ese registro digital lo ayudaría un montón a mejorar la calidad de la producción del ganado. |
+|Timing: 9:28-16:28 |URL: [upc-pre-202520-1acc0238-GanTrace-AgroDigital](https://www.youtube.com/watch?v=VVIPcymbLgw)|
