@@ -12,9 +12,9 @@ style="width:50%;" />
 
 <h5> Docente: Mayta Guillermo, Jorge Luis </h5>
 
-<h5> Startup: GanTrace </h5>
+<h5> Startup: GanLink </h5>
 
-<h5> Producto: AgroDigital </h5>
+<h5> Producto: AgroTracer </h5>
 
 </div>
 
@@ -38,6 +38,8 @@ style="width:50%;" />
 |:-:|:-:|:-:|-|
 |1.0|17/09/2025|Mora Blas, Diego Alonzo|Creación del documento de trabajo en formato markdown|
 |1.1|18/09/2025|Rodas Sotomayor, Ernesto|Desarrollo del capítulo 1 del documento en formato markdown|
+|1.2|18/09/2025|Guerrero Tomas, Nelson Fabrizio  |Desarrollo del capítulo 2 del documento en formato markdown|
+|1.3|18/09/2025|Huaman Hinostroza, Milenio  |Desarrollo del capítulo 2.5 del documento en formato markdown|
 
 ## Project Report Collaboration Insights
 
@@ -54,7 +56,7 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 |Milenio Huamán  |Empathy Mapping (2.3.4), Ubiquitous Language (2.3.5) y Requirements Specification (2.4)|
 |Diego Mora      |Strategic-Level Domain-Driven Design (2.5) y Tactical-Level Domain-Driven Design (2.6)|
 
-El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización GanTrace.
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización GanLink.
 
 ## Project Report Collaboration Insights
 
@@ -204,9 +206,9 @@ En esta sección se presenta la descripción de la startup y los perfiles de los
 
 <div id='1.1.1.'><h4>1.1.1 Descripción de la Startup</h4></div>
 
-**GanTrace** es una startup dedicada a ofrecer soluciones tecnológicas accesibles y efectivas para los **pequeños y medianos ganaderos de Latinoamérica**. Su propuesta se centra en digitalizar la gestión del ganado mediante herramientas móviles simples y asequibles que acompañan al productor en la toma de decisiones estratégicas.
+**GanLink** es una startup dedicada a ofrecer soluciones tecnológicas accesibles y efectivas para los **pequeños y medianos ganaderos de Latinoamérica**. Su propuesta se centra en digitalizar la gestión del ganado mediante herramientas móviles simples y asequibles que acompañan al productor en la toma de decisiones estratégicas.
 
-El producto principal de la startup es **AgroDigital**, una **aplicación móvil multiplataforma**, diseñada para que los ganaderos puedan gestionar de manera intuitiva y eficiente sus hatos directamente desde un **teléfono celular**. Adicionalmente, cuenta con una versión web que complementa la experiencia y permite acceder a la información desde cualquier dispositivo.
+El producto principal de la startup es **AgroTracer**, una **aplicación móvil multiplataforma**, diseñada para que los ganaderos puedan gestionar de manera intuitiva y eficiente sus hatos directamente desde un **teléfono celular**. Adicionalmente, cuenta con una versión web que complementa la experiencia y permite acceder a la información desde cualquier dispositivo.
 
 La aplicación organiza la vida productiva del ganado en **módulos especializados**:  
 - **Registro individual de animales** (raza, edad, reproducción).  
@@ -215,19 +217,19 @@ La aplicación organiza la vida productiva del ganado en **módulos especializad
 - **Historial completo de trazabilidad**, alineado con las normativas vigentes.  
 - **Academia ganadera**, con contenido educativo práctico para mejorar la gestión.  
 
-Gracias a la integración de datos históricos y actualizados en tiempo real, **AgroDigital** permite a los ganaderos **tomar decisiones informadas**, mejorar la productividad, reducir pérdidas por descuidos y fortalecer su competitividad en mercados cada vez más exigentes. De esta forma, GanTrace impulsa la transición hacia una **ganadería inteligente, eficiente y sostenible**.
+Gracias a la integración de datos históricos y actualizados en tiempo real, **AgroTracer** permite a los ganaderos **tomar decisiones informadas**, mejorar la productividad, reducir pérdidas por descuidos y fortalecer su competitividad en mercados cada vez más exigentes. De esta forma, GanLink impulsa la transición hacia una **ganadería inteligente, eficiente y sostenible**.
 
 **Misión:**  
 Revolucionar la gestión y trazabilidad del ganado en pequeños y medianos hatos ganaderos de Latinoamérica, mediante una aplicación móvil accesible que optimice los procesos productivos y sanitarios.  
 
 **Visión:**  
-AgroDigital se proyecta como la **aplicación líder** en el registro y control del ganado en Latinoamérica durante los próximos tres años.  
-GanTrace busca consolidarse como un **modelo de negocio sostenible, confiable y comprometido con la mejora continua de la productividad rural**, a través de tecnología simple, práctica y efectiva.
+AgroTracer se proyecta como la **aplicación líder** en el registro y control del ganado en Latinoamérica durante los próximos tres años.  
+GanLink busca consolidarse como un **modelo de negocio sostenible, confiable y comprometido con la mejora continua de la productividad rural**, a través de tecnología simple, práctica y efectiva.
 
 ##### Logotipo de la Startup:
-![logotipo_start](https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/GanTrace_Logo.jpeg)
+![logotipo_start](https://raw.githubusercontent.com/GanLink/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/GanLink_Logo.jpeg)
 ##### Logotipo del servicio
-![logotipo_servicio](https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/AgroDigital_Logo.png)
+![logotipo_servicio](https://raw.githubusercontent.com/GanLink/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/AgroTracer_Logo.png)
 
 <div id='1.1.2.'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
@@ -268,7 +270,7 @@ Las causas principales son la falta de acceso a herramientas tecnológicas adapt
 
 ###### How (Cómo)  
 ###### ¿Cómo se utilizará el producto?  
-**AgroDigital**, desarrollado por **GanTrace**, será una **aplicación móvil multiplataforma** complementada con una versión web. Permitirá a los ganaderos registrar información individual de cada animal —raza, edad, peso, estado reproductivo—, recibir alertas sanitarias automáticas para vacunas y tratamientos, controlar ingresos y gastos, generar reportes visuales y descargables, y acceder a contenidos educativos a través de la **Academia Ganadera**. Todo ello mediante una interfaz sencilla, intuitiva y adaptada al contexto rural.
+**AgroTracer**, desarrollado por **GanLink**, será una **aplicación móvil multiplataforma** complementada con una versión web. Permitirá a los ganaderos registrar información individual de cada animal —raza, edad, peso, estado reproductivo—, recibir alertas sanitarias automáticas para vacunas y tratamientos, controlar ingresos y gastos, generar reportes visuales y descargables, y acceder a contenidos educativos a través de la **Academia Ganadera**. Todo ello mediante una interfaz sencilla, intuitiva y adaptada al contexto rural.
 
 ###### ¿Cómo lograremos una gestión eficiente dentro de la aplicación?  
 La eficiencia se alcanzará mediante un diseño de interfaz **simple, modular y adaptable**, la integración de **alertas automáticas y recordatorios**, la generación de **reportes interactivos y comparativos**, la disponibilidad de **acceso offline** en zonas rurales con baja conectividad y la capacitación de los usuarios a través de la Academia Ganadera para garantizar un uso efectivo de la plataforma.
@@ -278,14 +280,14 @@ La eficiencia se alcanzará mediante un diseño de interfaz **simple, modular y 
 Según reportes regionales, más del **70% de los pequeños ganaderos** no cuentan con un sistema digital para el registro y control de su ganado. Esta carencia genera pérdidas económicas, baja productividad, dificultades para cumplir con normativas sanitarias y limitaciones para acceder a mercados formales e internacionales.
 
 ###### ¿Qué porcentaje del sector se beneficiará?  
-Se estima que entre el **40% y 60%** de los pequeños y medianos ganaderos, junto con las asociaciones rurales, podrían beneficiarse directamente del uso de **AgroDigital**, especialmente en aquellas zonas donde el acceso a teléfonos inteligentes está en crecimiento constante.
+Se estima que entre el **40% y 60%** de los pequeños y medianos ganaderos, junto con las asociaciones rurales, podrían beneficiarse directamente del uso de **AgroTracer**, especialmente en aquellas zonas donde el acceso a teléfonos inteligentes está en crecimiento constante.
 
 <div id='1.2.2.'><h4>1.2.2. Lean UX Process</h4></div>
 <div id='1.2.2.1.'><h5>1.2.2.1. Lean UX Problem Statements</h5></div>
 
 ###### **Problem Statement**
 
-El propósito de **AgroDigital** es ofrecer a los pequeños y medianos ganaderos una **aplicación móvil multiplataforma, simple y accesible**, que les permita registrar, organizar y supervisar la información clave de su hato ganadero. Con esta herramienta se busca optimizar los procesos sanitarios, reproductivos y económicos que, en la actualidad, se gestionan de manera manual, fragmentada y poco confiable.
+El propósito de **AgroTracer** es ofrecer a los pequeños y medianos ganaderos una **aplicación móvil multiplataforma, simple y accesible**, que les permita registrar, organizar y supervisar la información clave de su hato ganadero. Con esta herramienta se busca optimizar los procesos sanitarios, reproductivos y económicos que, en la actualidad, se gestionan de manera manual, fragmentada y poco confiable.
 
 En la situación actual, la mayoría de los ganaderos mantiene un control limitado o inexistente de su ganado. Los registros suelen hacerse en cuadernos físicos, hojas sueltas o, en algunos casos, con herramientas digitales improvisadas que no se ajustan a sus necesidades reales. Esta dependencia de métodos tradicionales genera errores en los registros, omisión de vacunas y tratamientos, pérdida de información y baja trazabilidad. Como consecuencia, se afecta la productividad, se dificulta el cumplimiento de normativas y se restringen las oportunidades de acceder a mercados más competitivos.
 
@@ -300,7 +302,7 @@ La ausencia de una solución tecnológica adaptada al contexto rural impide que 
 
 1. **Creemos que nuestros usuarios necesitan** una solución más eficiente, confiable y accesible para registrar y monitorear la información relacionada con la salud, la productividad y la trazabilidad del ganado, superando las limitaciones de los métodos manuales.  
 
-2. **Estas necesidades se pueden satisfacer** mediante el desarrollo de **AgroDigital**, una aplicación móvil multiplataforma complementada con una versión web, que permita registrar datos clave del hato, emitir alertas automáticas y generar reportes útiles para la toma de decisiones.  
+2. **Estas necesidades se pueden satisfacer** mediante el desarrollo de **AgroTracer**, una aplicación móvil multiplataforma complementada con una versión web, que permita registrar datos clave del hato, emitir alertas automáticas y generar reportes útiles para la toma de decisiones.  
 
 3. **Nuestros clientes iniciales serán** pequeños y medianos ganaderos que dispongan de teléfonos móviles inteligentes o computadoras básicas, así como técnicos agropecuarios que brindan asesoría directa en campo.  
 
@@ -323,10 +325,10 @@ La ausencia de una solución tecnológica adaptada al contexto rural impide que 
 ###### **User Assumptions**
 
 ###### **¿Quién es el usuario?**  
-Los usuarios principales de **AgroDigital** son pequeños y medianos ganaderos, así como técnicos agropecuarios que brindan asesoría directa en el campo. En una segunda etapa, la aplicación también podrá ser utilizada por asociaciones ganaderas, cooperativas y entidades públicas vinculadas a programas de formalización, sanidad animal y trazabilidad, ampliando su alcance a un ecosistema más amplio de actores del sector rural.
+Los usuarios principales de **AgroTracer** son pequeños y medianos ganaderos, así como técnicos agropecuarios que brindan asesoría directa en el campo. En una segunda etapa, la aplicación también podrá ser utilizada por asociaciones ganaderas, cooperativas y entidades públicas vinculadas a programas de formalización, sanidad animal y trazabilidad, ampliando su alcance a un ecosistema más amplio de actores del sector rural.
 
 ###### **¿Qué problemas busca resolver nuestro producto?**  
-El principal problema que **AgroDigital** pretende solucionar es la desorganización en el manejo de la información ganadera y la pérdida de datos clave debido al uso de registros manuales. En la actualidad, muchos productores carecen de un sistema confiable para dar seguimiento a vacunas, partos, tratamientos o controles económicos, lo que afecta negativamente su rentabilidad y limita el cumplimiento de requisitos normativos para acceder a mercados más competitivos.
+El principal problema que **AgroTracer** pretende solucionar es la desorganización en el manejo de la información ganadera y la pérdida de datos clave debido al uso de registros manuales. En la actualidad, muchos productores carecen de un sistema confiable para dar seguimiento a vacunas, partos, tratamientos o controles económicos, lo que afecta negativamente su rentabilidad y limita el cumplimiento de requisitos normativos para acceder a mercados más competitivos.
 
 ###### **¿Qué características son importantes para el usuario?**  
 Las funcionalidades más valoradas incluyen el registro individual de cada animal (edad, raza, estado de salud, productividad), la emisión de alertas automáticas para vacunas y tratamientos, la generación de reportes económicos simplificados, el acceso a historiales completos de cada animal y la disponibilidad de contenidos educativos en formatos prácticos como video o audio. La **facilidad de uso**, incluso en escenarios con conectividad limitada, constituye un factor decisivo para su adopción en zonas rurales.
@@ -335,7 +337,7 @@ Las funcionalidades más valoradas incluyen el registro individual de cada anima
 La aplicación se integra directamente en la rutina diaria del productor ganadero, fortaleciendo su capacidad de planificación, reduciendo pérdidas por descuidos, facilitando el cumplimiento de normativas sanitarias y mejorando la toma de decisiones estratégicas sobre la gestión del hato. Todo ello se traduce en mayor eficiencia operativa, incremento de la rentabilidad y una mejora tangible en la calidad de vida del usuario.
 
 ###### **¿Cuándo y cómo se utiliza nuestro producto?**  
-**AgroDigital** es empleada cada vez que el productor registra un nuevo animal, aplica un tratamiento, registra un parto, controla ingresos o consulta indicadores de productividad. Asimismo, es usada para analizar datos históricos y planificar decisiones estratégicas como ventas, selección de reproductores o gestión de recursos. La aplicación está diseñada para funcionar desde dispositivos móviles y computadoras, en el campo o en el hogar, adaptándose a las condiciones de trabajo del usuario.
+**AgroTracer** es empleada cada vez que el productor registra un nuevo animal, aplica un tratamiento, registra un parto, controla ingresos o consulta indicadores de productividad. Asimismo, es usada para analizar datos históricos y planificar decisiones estratégicas como ventas, selección de reproductores o gestión de recursos. La aplicación está diseñada para funcionar desde dispositivos móviles y computadoras, en el campo o en el hogar, adaptándose a las condiciones de trabajo del usuario.
 
 ###### **¿Cómo debe verse y comportarse nuestro producto?**  
 La aplicación debe contar con una interfaz **amigable, intuitiva y accesible**, pensada para usuarios con poca experiencia tecnológica. Su comportamiento debe ser estable, rápido y seguro, garantizando la protección de los datos personales del productor y de la información ganadera. El diseño debe transmitir confianza, practicidad y modernidad adaptada al contexto rural, ofreciendo una experiencia clara, sin tecnicismos innecesarios, y con una estética que combine tecnología con cercanía al campo.
@@ -344,17 +346,17 @@ La aplicación debe contar con una interfaz **amigable, intuitiva y accesible**,
 
 **Creemos que** la aplicación debe contar con una **interfaz intuitiva y responsiva**, accesible desde dispositivos móviles y computadoras, que facilite su uso incluso a ganaderos con poca experiencia tecnológica, garantizando una curva de aprendizaje mínima.  
 
-**Creemos que** **AgroDigital** debe incorporar un **sistema de alertas inteligentes y personalizables**, que notifique oportunamente al usuario sobre vacunas, tratamientos sanitarios, partos y fechas clave, reduciendo riesgos de pérdida de productividad por descuidos.  
+**Creemos que** **AgroTracer** debe incorporar un **sistema de alertas inteligentes y personalizables**, que notifique oportunamente al usuario sobre vacunas, tratamientos sanitarios, partos y fechas clave, reduciendo riesgos de pérdida de productividad por descuidos.  
 
 **Creemos que** la aplicación debe permitir un **registro detallado e histórico de cada animal**, incluyendo variables como peso, estado de salud, historial reproductivo, ingresos y egresos asociados, lo que proporcionará información confiable para el análisis productivo y económico.  
 
-**Creemos que** **AgroDigital** debe integrar un **módulo de reportes y visualizaciones gráficas interactivas**, que permita a los ganaderos comprender de manera clara la evolución de su hato, tomar decisiones informadas basadas en datos y demostrar trazabilidad ante compradores, asociaciones o autoridades regulatorias.
+**Creemos que** **AgroTracer** debe integrar un **módulo de reportes y visualizaciones gráficas interactivas**, que permita a los ganaderos comprender de manera clara la evolución de su hato, tomar decisiones informadas basadas en datos y demostrar trazabilidad ante compradores, asociaciones o autoridades regulatorias.
 
 <div id='1.2.2.3.'><h5>1.2.2.3. Lean UX Hypothesis Statements</h5></div>
 
 * **Hypothesis Statement 01**  
 
-  **Creemos que** los pequeños y medianos ganaderos estarán dispuestos a adoptar **AgroDigital** como herramienta principal para registrar digitalmente la información sanitaria, productiva y económica de su hato.  
+  **Creemos que** los pequeños y medianos ganaderos estarán dispuestos a adoptar **AgroTracer** como herramienta principal para registrar digitalmente la información sanitaria, productiva y económica de su hato.  
 
   **Sabremos** que hemos tenido éxito  
 
@@ -374,11 +376,11 @@ La aplicación debe contar con una interfaz **amigable, intuitiva y accesible**,
 
   **Sabremos** que hemos tenido éxito  
 
-  **Cuando** al menos el 60% de los ganaderos indiquen haber tomado decisiones de venta, reproducción o tratamiento basadas directamente en la información proporcionada por **AgroDigital**.  
+  **Cuando** al menos el 60% de los ganaderos indiquen haber tomado decisiones de venta, reproducción o tratamiento basadas directamente en la información proporcionada por **AgroTracer**.  
 
 * **Hypothesis Statement 04**  
 
-  **Creemos que** el uso de **AgroDigital** reducirá los errores frecuentes asociados a los métodos tradicionales de registro (cuadernos físicos, hojas sueltas o planillas digitales improvisadas) y mejorará la organización de la información ganadera.  
+  **Creemos que** el uso de **AgroTracer** reducirá los errores frecuentes asociados a los métodos tradicionales de registro (cuadernos físicos, hojas sueltas o planillas digitales improvisadas) y mejorará la organización de la información ganadera.  
 
   **Sabremos** que hemos tenido éxito  
 
@@ -388,7 +390,7 @@ La aplicación debe contar con una interfaz **amigable, intuitiva y accesible**,
 
 El Lean UX Canvas es una herramienta empleada dentro del enfoque de diseño centrado en el usuario (UX) y la metodología Lean, destinada a facilitar la creación y evolución de productos de forma ágil y eficiente. Su finalidad es ofrecer una estructura organizada que promueva la colaboración entre equipos multidisciplinarios. A continuación, se muestra el Lean UX Canvas desarrollado por el equipo mediante el uso de la plataforma digital **Mural**:
 
-![AgroDigital_Lean Canvas](https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/LeanUXCanvas.png)
+![AgroTracer_Lean Canvas](https://raw.githubusercontent.com/GanLink/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/LeanUXCanvas.png)
 
 Enlace para acceder al [Canvas](https://docs.google.com/document/d/1QeEyI6S3-2wqPz3qXxDNnxgeR3CyS6JbQkdSieTT3ho/edit?tab=t.0#heading=h.vhscor30k2do)
 
@@ -400,21 +402,21 @@ relevantes en regiones como Cajamarca, Puno, Cusco y La Libertad. El valor bruto
 producción ganadera nacional supera los 3 mil millones de soles anuales, y más del 65 % de 
 las unidades productivas son gestionadas por pequeños y medianos ganaderos.  
 
-Este grupo constituye el **único segmento objetivo de GanTrace**, dado que aún depende en gran 
+Este grupo constituye el **único segmento objetivo de GanLink**, dado que aún depende en gran 
 medida de registros manuales para controlar vacunaciones, nacimientos, alimentación, peso 
 y reproducción. La falta de digitalización genera errores, pérdida de datos, baja eficiencia en 
 la gestión y dificultades para cumplir con las exigencias de trazabilidad.  
 
 Ante el crecimiento proyectado de la demanda mundial de alimentos en un 70 % hacia el año 
 2050 (FAO, 2021), la incorporación de herramientas digitales en el sector se vuelve urgente.  
-**GanTrace**, a través de **AgroDigital**, busca transformar la gestión tradicional en una ganadería 
+**GanLink**, a través de **AgroTracer**, busca transformar la gestión tradicional en una ganadería 
 **inteligente, eficiente y rentable**, brindando a los ganaderos una aplicación móvil que centraliza 
 y automatiza sus procesos de manera accesible y práctica.
 
 <div id='1.3.1.'><h4>1.3.1. Stakeholders</h4></div>
 
 * **Stakeholders Internos:**  
-  - Equipo fundador de GanTrace.  
+  - Equipo fundador de GanLink.  
   - Equipo de desarrollo y soporte técnico del producto.  
 
 * **Stakeholders Externos:**  
