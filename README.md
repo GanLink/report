@@ -280,3 +280,15 @@ Estas acciones, de alta frecuencia e importancia, constituyen la base del **MVP*
 En un segundo nivel de prioridad se ubican tareas como la generación de reportes de productividad, el registro de peso y la planificación reproductiva.  
 Finalmente, funciones como la academia ganadera o la compartición de registros con terceros pueden ser consideradas como **extensiones en fases posteriores**, al no ser percibidas como críticas en el día a día.  
 
+<div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
+
+El **User Journey Mapping** permite visualizar el ciclo completo de experiencia de los ganaderos con la aplicación **AgroDigital**, desarrollada por GanTrace.  
+Este análisis refleja cómo el usuario interactúa con la plataforma desde su primer contacto, pasando por la evaluación de su utilidad, el registro inicial, el uso de funcionalidades principales y la continuidad en el tiempo.  
+
+El recorrido se estructura en etapas que abarcan desde la **adquisición del conocimiento sobre la herramienta**, la **consideración de adoptarla**, el **registro y configuración de la cuenta**, la **interacción cotidiana con las funcionalidades clave** (alertas sanitarias, registros de animales, reportes), hasta escenarios de **retención o deserción**.  
+
+Este mapeo permite identificar los puntos críticos que influyen en la percepción del valor de la aplicación, así como las oportunidades de mejora en la experiencia del usuario. Con ello, se busca garantizar no solo la adopción inicial, sino también la satisfacción y fidelización del ganadero en el uso continuo de AgroDigital.
+
+###### User Journey del Ganadero
+
+<img src="https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/User%20Journey%20Mapping%20Ganadero.png">
