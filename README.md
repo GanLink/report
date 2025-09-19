@@ -1112,3 +1112,20 @@ Se presenta tres niveles del modelo C4 trabajado con structurizr para el proyect
 
 ##### 2.6.1.6.2. Database Design Diagram
 <img src="images/Class_Diagram.png">
+
+## Conclusiones
+AgroTrace se ha consolidado como una solución tecnológica clave para modernizar la gestión ganadera, reemplazando los obsoletos sistemas manuales por una plataforma digital que centraliza el registro de animales, historial sanitario y transacciones económicas. Su implementación ha demostrado beneficios tangibles: mejora en la trazabilidad para cumplimiento normativo, reducción de pérdidas mediante alertas automatizadas, y acceso a datos en tiempo real para una toma de decisiones más informada. El uso de tecnologías como Angular, Node.js y PostgreSQL aseguró un desarrollo escalable y adaptable a las necesidades cambiantes del sector. Este proyecto no solo optimiza procesos operativos, sino que también acerca la innovación tecnológica a los pequeños y medianos ganaderos, marcando un precedente para la transformación digital en la agricultura latinoamericana. Con potencial para incorporar inteligencia artificial e integraciones con blockchain en futuras iteraciones, AgroDigital sienta las bases para una ganadería más eficiente, sostenible y competitiva.
+## Bibliografía
+- Food and Agriculture Organization (FAO). (2020). Guidelines for the humane handling, transport and slaughter of livestock. http://www.fao.org/3/x6909e/x6909e00.htm
+
+- García, E., & Santos, R. (2019). Bienestar animal en ganadería extensiva: Fundamentos y aplicaciones. Editorial Acribia.
+
+- OIE. (2021). Terrestrial Animal Health Code (28th ed.). World Organisation for Animal Health. https://www.woah.org/en/what-we-do/standards/codes-and-manuals/
+
+- Blood, D. C., & Studdert, V. P. (2012). Veterinaria: Un enfoque hacia animales de producción (10a ed.). McGraw-Hill Interamericana.
+
+- Banhazi, T. M., & Halas, V. (2018). Precision livestock farming: Applications and perspectives. Wageningen Academic Publishers. https://doi.org/10.3920/978-90-8686-869-8
+
+- Ministerio de Agricultura [Perú]. (2022). Protocolo de trazabilidad ganadera. https://www.gob.pe/institucion/minagri
+## Anexos
+Enlace para acceder a los recursos
