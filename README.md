@@ -47,12 +47,12 @@ URL del repositorio para el reporte del proyecto:
 
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-|Integrante|Tareas Asignadas|
+|Integrante      |Tareas Asignadas|
 |-|-|
-|Nelson Guerrero||
-|Ernesto Rodas||
-|Milenio Huamán||
-|Diego Mora||
+|Nelson Guerrero |Competidores (2.1) y Needfinding (2.3)|
+|Ernesto Rodas   |Capítulo I completo (Startup Profile, Solution Profile y Segmento Objetivo)|
+|Milenio Huamán  |Empathy Mapping (2.3.4), Ubiquitous Language (2.3.5) y Requirements Specification (2.4)|
+|Diego Mora      |Strategic-Level Domain-Driven Design (2.5) y Tactical-Level Domain-Driven Design (2.6)|
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización GanTrace.
 
