@@ -256,3 +256,27 @@ A continuación, se presenta un ejemplo representativo de los ganaderos entrevis
 ###### User Persona: Ganadero
 
 ![User-Persona Ganadero](https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/userpersona_cesarhuaman.png)
+
+<div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
+
+La **User Task Matrix** permite descomponer y clasificar las tareas que realizan los ganaderos al gestionar su hato.  
+Al organizar estas actividades según su **frecuencia** e **importancia**, es posible priorizar el diseño y desarrollo de funcionalidades que maximicen el impacto en la experiencia del usuario.
+
+| **User Task**                                   | **Ganadero (Frecuencia)** | **Ganadero (Importancia)** |
+|-------------------------------------------------|---------------------------|----------------------------|
+| Registrar un nuevo animal                       | Often                     | High                       |
+| Actualizar registro sanitario (vacunas, tratamientos) | Always                | High                       |
+| Consultar calendario de vacunación              | Often                     | High                       |
+| Recibir alertas automáticas                     | Often                     | High                       |
+| Registrar peso y ganancia media diaria          | Sometimes                 | Medium                     |
+| Generar y revisar reportes de productividad     | Sometimes                 | Medium                     |
+| Compartir registros con asociación o compradores | Rarely                   | Medium                     |
+| Acceder a módulos de formación (*Academia ganadera*) | Sometimes             | Medium                     |
+| Planificar ciclos de reproducción               | Rarely                    | Medium                     |
+| Revisar historial completo de un animal         | Sometimes                 | High                       |
+
+El análisis evidencia que las tareas críticas para los ganaderos se concentran en la **gestión sanitaria del hato**: actualización de vacunas y tratamientos, consulta del calendario y recepción de alertas automáticas.  
+Estas acciones, de alta frecuencia e importancia, constituyen la base del **MVP** de AgroDigital.  
+En un segundo nivel de prioridad se ubican tareas como la generación de reportes de productividad, el registro de peso y la planificación reproductiva.  
+Finalmente, funciones como la academia ganadera o la compartición de registros con terceros pueden ser consideradas como **extensiones en fases posteriores**, al no ser percibidas como críticas en el día a día.  
+
