@@ -227,18 +227,18 @@ AgroTracer se proyecta como la **aplicación líder** en el registro y control d
 GanLink busca consolidarse como un **modelo de negocio sostenible, confiable y comprometido con la mejora continua de la productividad rural**, a través de tecnología simple, práctica y efectiva.
 
 ##### Logotipo de la Startup:
-![logotipo_start](https://raw.githubusercontent.com/GanLink/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/GanLink_Logo.jpeg)
+![logotipo_start](images/agrotrack.png)
 ##### Logotipo del servicio
-![logotipo_servicio](https://raw.githubusercontent.com/GanLink/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/AgroTracer_Logo.png)
+![logotipo_servicio](images/ganlink.png)
 
 <div id='1.1.2.'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
 || Perfiles de los integrantes del equipo |
 | :-------------------------------------- | :---------------------------------: |
-| Mi nombre es **Nelson Fabrizio Guerrero Tomas**, soy estudiante de Ingeniería de Software con interés en el análisis de usuarios y la investigación de requerimientos. Apoyo al equipo en la recopilación de información y validación de necesidades del sector ganadero. | <img src="linkfoto" alt="Foto Nelson" width="250px" /> |
-| Mi nombre es **Ernesto Rodas Sotomayor**, soy estudiante de Ingeniería de Software con experiencia en documentación académica, gestión de proyectos y diseño de soluciones digitales. Aporto al equipo en la redacción técnica, estructuración del informe y liderazgo en la organización de entregables. | <img src="linkfoto" alt="Foto Ernesto" width="250px" /> |
-| Mi nombre es **Milenio Huamán Hinostroza**, soy estudiante de Ingeniería de Software con afinidad por el modelado de procesos y la especificación de requisitos. Mi aporte se centra en la definición de herramientas de análisis, mapas de empatía y estructuración de historias de usuario. | <img src="linkfoto" alt="Foto Milenio" width="250px" /> |
-| Mi nombre es **Diego Alonzo Mora Blas**, soy estudiante de Ingeniería de Software con orientación al diseño técnico y arquitectónico. Contribuyo con la elaboración de diagramas, modelos de dominio y propuestas de arquitectura de software para el desarrollo de la aplicación. | <img src="linkfoto" alt="Foto Diego" width="250px" /> |
+| Mi nombre es **Nelson Fabrizio Guerrero Tomas**, soy estudiante de Ingeniería de Software con interés en el análisis de usuarios y la investigación de requerimientos. Apoyo al equipo en la recopilación de información y validación de necesidades del sector ganadero. | <img src="images/perfilEstudiantes_Nelson.jpg" alt="Foto Nelson" width="250px" /> |
+| Mi nombre es **Ernesto Rodas Sotomayor**, soy estudiante de Ingeniería de Software con experiencia en documentación académica, gestión de proyectos y diseño de soluciones digitales. Aporto al equipo en la redacción técnica, estructuración del informe y liderazgo en la organización de entregables. | <img src="images/137a.jpg" alt="Foto Ernesto" width="250px" /> |
+| Mi nombre es **Milenio Huamán Hinostroza**, soy estudiante de Ingeniería de Software con afinidad por el modelado de procesos y la especificación de requisitos. Mi aporte se centra en la definición de herramientas de análisis, mapas de empatía y estructuración de historias de usuario. | <img src="images/perfilMilenio.png" alt="Foto Milenio" width="250px" /> |
+| Mi nombre es **Diego Alonzo Mora Blas**, soy estudiante de Ingeniería de Software con orientación al diseño técnico y arquitectónico. Contribuyo con la elaboración de diagramas, modelos de dominio y propuestas de arquitectura de software para el desarrollo de la aplicación. | <img src="images/DiegoMora.PNG" alt="Foto Diego" width="250px" /> |
 
 <div id='1.2.'><h3>1.2. Solution Profile</h3></div>
 <div id='1.2.1.'><h4>1.2.1. Antecedentes y Problemática</h4></div>
