@@ -3,7 +3,7 @@
 As-Is Scenario Mapping Ganaderos
 
 <img src="https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/As-Is%20Scenario%20Mapping%20Ganaderos.jpg">
-<a href="https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/As-Is%20Scenario%20Mapping%20Ganaderos.jpg" target="_blank"> Acceder al Miro </a>
+<a href="https://miro.com/welcomeonboard/NS9kcmdQVnY4aWhkRVlhaHo0d3grWCszei8vaFA1NmJpYnZnWnE5dWZqVEVYNzN0S3Z5Yi84STM3bjhPOEdqQVM0V2dSNUpybGYzNWkrWlNPU2kvMnFSbWF0eEcrTjhUTHpoYzk0blU3K1ovdmhDUHNZNFNNL1piYWNjbW9oL2tBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=786853897174" target="_blank"> Acceder al Miro </a>
 
 <div id='2.3.5.'><h4> 2.3.5. Ubiquitous Language - GanLink. </h4></div>
   <p>
