@@ -233,3 +233,26 @@ El análisis de las entrevistas realizadas evidencia características comunes y 
 - El ingreso a la actividad está fuertemente influenciado por los **lazos familiares**, principalmente el apoyo brindado a los padres en la gestión del ganado.  
 - El **100 % señala que ninguna plataforma digital existente** ha resuelto sus necesidades relacionadas con la organización y traslado de datos, identificando este aspecto como el principal problema que requiere atención.  
 - Finalmente, todos coinciden en que uno de los **problemas más frecuentes** es el **olvido de datos importantes**, como vacunas, pesos y eventos reproductivos, lo que repercute directamente en la eficiencia de la gestión ganadera.  
+
+<div id='2.3.'><h3>2.3. Needfinding</h3></div>
+
+El proceso de *needfinding* constituye una etapa fundamental dentro del diseño centrado en el usuario, 
+pues permite identificar necesidades, expectativas y comportamientos de los ganaderos a partir de la 
+información recolectada en entrevistas y análisis de campo.  
+Como resultado de este proceso se construyen diferentes artefactos de investigación, tales como: 
+**User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-is Scenario Mapping**, 
+los cuales proporcionan una visión clara y estructurada del público objetivo y sus interacciones con la solución digital.
+
+<div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
+
+Los *User Personas* son perfiles ficticios que representan a los segmentos de usuarios entrevistados e identificados.  
+Su construcción permite sintetizar las características demográficas, motivaciones, objetivos, desafíos, 
+hábitos de comportamiento y nivel de adopción tecnológica de los ganaderos.  
+Estos perfiles facilitan la comprensión de sus necesidades reales y la forma en que interactúan con 
+herramientas digitales, convirtiéndose en una guía estratégica para orientar el diseño de la aplicación móvil.  
+
+A continuación, se presenta un ejemplo representativo de los ganaderos entrevistados:
+
+###### User Persona: Ganadero
+
+![User-Persona Ganadero](https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/userpersona_cesarhuaman.png)
