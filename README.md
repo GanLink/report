@@ -85,3 +85,16 @@ Entrevistas semiestructuradas de 25 a 30 minutos, registradas en audio o video c
 |Distrito|Lima|
 |<img width="1292" alt="Entrevista3_JoseGalvez" src="https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/Entrevistas/Entrevista3_JoseGalvez.jpg">|José Galvez lleva 7 años en la dedicación de la ganadería, decidiendo ayudar a su padre en la gestión, maneja ganado bovino que es su principal especialidad. En su ganado cuenta con 120 animales de las cuales trabajan 3 personas, las cuales son: Un vaquero fijo, un ayudante eventual y él. Cuenta en su experiencia que el lleva los registros de su ganado en un cuaderno para apuntar las vacunas y también los pesos de los animales, también cuenta con un excel básico en su laptop portatil, pero no es de mucha ayuda. Considera de gran importancia una plataforma digital que ayude en su registro, pues un problema constante que pasa en su ganado es que suele olvidarse el día y/o animal al cual ha vacunado, por lo que tener ese registro digital lo ayudaría un montón a mejorar la calidad de la producción del ganado. |
 |Timing: 9:28-16:28 |URL: [upc-pre-202520-1acc0238-GanTrace-AgroDigital](https://www.youtube.com/watch?v=VVIPcymbLgw)|
+
+<div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas. </h4></div>
+
+##### Análisis del segmento de Ganaderos
+
+El análisis de las entrevistas realizadas evidencia características comunes y problemáticas recurrentes en los pequeños y medianos ganaderos:
+
+- La **edad promedio** de los entrevistados se encuentra entre los 20 y 30 años, de los cuales el 66 % tiene exactamente 25 años.  
+- El **100 % de los ganaderos considera tedioso** realizar los registros de manera manual. El uso de cuadernos u hojas sueltas provoca pérdida de información, confusión entre datos y dificultades para mantener un control ordenado.  
+- Todos los entrevistados cuentan con **más de dos años de experiencia en el sector**, siendo que el 66 % supera los seis años de dedicación a la actividad ganadera.  
+- El ingreso a la actividad está fuertemente influenciado por los **lazos familiares**, principalmente el apoyo brindado a los padres en la gestión del ganado.  
+- El **100 % señala que ninguna plataforma digital existente** ha resuelto sus necesidades relacionadas con la organización y traslado de datos, identificando este aspecto como el principal problema que requiere atención.  
+- Finalmente, todos coinciden en que uno de los **problemas más frecuentes** es el **olvido de datos importantes**, como vacunas, pesos y eventos reproductivos, lo que repercute directamente en la eficiencia de la gestión ganadera.  
