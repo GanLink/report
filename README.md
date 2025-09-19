@@ -224,6 +224,11 @@ Revolucionar la gestión y trazabilidad del ganado en pequeños y medianos hatos
 AgroDigital se proyecta como la **aplicación líder** en el registro y control del ganado en Latinoamérica durante los próximos tres años.  
 GanTrace busca consolidarse como un **modelo de negocio sostenible, confiable y comprometido con la mejora continua de la productividad rural**, a través de tecnología simple, práctica y efectiva.
 
+##### Logotipo de la Startup:
+![logotipo_start](https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/GanTrace_Logo.jpeg)
+##### Logotipo del servicio
+![logotipo_servicio](https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/AgroDigital_Logo.png)
+
 <div id='1.1.2.'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
 || Perfiles de los integrantes del equipo |
