@@ -116,6 +116,23 @@ Realizar un análisis competitivo es fundamental para identificar las oportunida
 </body>
 </html>
 
+<div id='2.1.2.'><h4>2.1.2. Estrategias y tácticas frente a competidores</h4></div>
+
+Como parte del plan de posicionamiento y diferenciación de **GanTrace** en el mercado, se han definido las siguientes estrategias y tácticas orientadas a superar a la competencia y asegurar la adopción de **AgroDigital**:
+
+### Estrategias preliminares
+- **Penetración en zonas rurales:** establecer convenios con asociaciones ganaderas, cooperativas y programas de desarrollo rural para asegurar la llegada directa a pequeños y medianos productores.  
+- **Educación digital progresiva:** ofrecer material audiovisual sencillo y adaptado a usuarios con poca experiencia tecnológica, facilitando la curva de aprendizaje.  
+- **Soporte técnico accesible:** habilitar canales de atención simples y de confianza, como WhatsApp o llamadas telefónicas, que se ajusten al contexto del usuario rural.  
+- **Generación de valor inmediato:** brindar desde el primer uso alertas automáticas, reportes visuales y herramientas básicas gratuitas que evidencien la utilidad de la aplicación.  
+
+### Tácticas específicas
+- **Programas de referidos:** implementar promociones y beneficios por recomendación entre productores para acelerar la difusión de la plataforma.  
+- **Gamificación de registros:** incorporar dinámicas que motiven al ganadero a mantener actualizados sus datos mediante recompensas virtuales o logros.  
+- **Adaptación regional:** ofrecer versiones personalizadas con lenguaje local y soporte contextualizado según cada región.  
+- **Presencia en ferias y eventos agropecuarios:** participar activamente en ferias rurales, jornadas técnicas y espacios comunitarios para promover la solución directamente en el entorno del usuario.  
+
+
 <div id='2.2.'><h3>2.2. Entrevistas</h3></div>
 
 Las entrevistas son una herramienta fundamental para conocer de primera mano la realidad, 
