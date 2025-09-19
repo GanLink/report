@@ -77,3 +77,56 @@ En este último paso, agrupamos los eventos y comandos que pertenecen a un agreg
 operaciones dentro de un contexto estén alineadas y mantengan la consistencia del sistema.
 
 <img src="images/Event Storming-9.jpg">
+
+
+### 2.5.1.1. Candidate Context Discovery
+
+Nuestro equipo decidió usar la técnica “start-with-simple” ya que empezamos a observar que esta técnica se enfoca en identificar partes
+del sistema que claramente pertenecen juntas desde el punto de vista funcional, de usuario o de infraestructura. Ideal para sistemas
+bien entendidos
+
+Hemos identificado 6 Bounded Context.
+
+- IAM
+
+<img src="images/IAM.jpg" />
+
+- Farm Management
+
+<img src="images/Farm-Management.jpg" />
+
+- Bovinue Management
+
+<img src="images/Bovinue-Management.jpg" />
+
+- Bovinue Configuration
+
+<img src="images/Bovinue-Config.jpg" />
+
+- Farm Configuration
+
+<img src="images/Farm-Config.jpg" />
+
+- Shared
+
+<img src="images/Shared.jpg" />
+
+### 2.5.1.2. Domain Message Flows Modeling
+
+En esta sección, se describe el proceso utilizado para visualizar la interacción entre los diferentes bounded contexts que conforman el
+sistema. El objetivo principal es entender cómo estos contextos colaboran para resolver los casos de uso del negocio y satisfacer las
+necesidades de los usuarios. Para lograr esto, se aplicó la técnica de Domain Storytelling, que facilita la representación gráfica de los
+flujos de mensajes entre actores, contextos y sistemas, permitiendo identificar claramente las responsabilidades y los puntos de
+comunicación entre cada componente del dominio
+
+- IAM -> Shared
+
+<img src="images/registrarion-work.jpg" >
+
+- Farm Management -> Bovinue Management -> Bovinue Configuration
+
+<img src="images/bovinos-modification.jpg" >
+
+- Farm Configuration -> Shared
+
+<img src="images/farmconfig-shared.jpg">
