@@ -1357,6 +1357,48 @@ Se presenta tres niveles del modelo C4 trabajado con structurizr para el proyect
 ##### 2.6.1.6.2. Database Design Diagram
 <img src="images/Class_Diagram.png">
 
+
+<div id='4.'><h2>Capítulo IV: Product Implementation & Validation</h2></div>
+
+<div id='4.1.'><h3>4.1. Software Configuration Management</h3></div>
+
+<div id='4.1.1.'><h4>4.1.1. Software Development Environment Configuration</h4></div>
+
+<div id='4.1.2.'><h4>4.1.2. Source Code Management</h4></div>
+
+<div id='4.1.3.'><h4>4.1.3. Source Code Style Guide & Conventions</h4></div>
+
+<div id='4.1.4.'><h4>4.1.4. Software Deployment Configuration</h4></div>
+
+<div id='4.2.'><h3>4.2. Landing Page & Mobile Application Implementation</h3></div>
+
+<div id='4.2.1.'><h4>4.2.1. Sprint n</h4></div>
+
+<div id='4.2.1.1.'><h5>4.2.1.1. Sprint Planning n</h5></div>
+
+<div id='4.2.1.2.'><h5>4.2.1.2. Sprint Backlog n</h5></div>
+
+<div id='4.2.1.3.'><h5>4.2.1.3. Development Evidence for Sprint Review</h5></div>
+
+<div id='4.2.1.4.'><h5>4.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
+
+<div id='4.2.1.5.'><h5>4.2.1.5. Execution Evidence for Sprint Review</h5></div>
+
+<div id='4.2.1.6.'><h5>4.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
+
+<div id='4.2.1.7.'><h5>4.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+<div id='4.2.1.8.'><h5>4.2.1.8. Team Collaboration Insights during Sprint</h5></div>
+
+<div id='4.3.'><h3>4.3. Validation Interviews</h3></div>
+
+<div id='4.3.1.'><h4>4.3.1. Diseño de entrevistas</h4></div>
+
+<div id='4.3.2.'><h4>4.3.2. Registro de entrevistas</h4></div>
+
+<div id='4.3.3.'><h4>4.3.3. Evaluaciones según heurísticas</h4></div>
+
+
 ## Conclusiones
 AgroTrace se ha consolidado como una solución tecnológica clave para modernizar la gestión ganadera, reemplazando los obsoletos sistemas manuales por una plataforma digital que centraliza el registro de animales, historial sanitario y transacciones económicas. Su implementación ha demostrado beneficios tangibles: mejora en la trazabilidad para cumplimiento normativo, reducción de pérdidas mediante alertas automatizadas, y acceso a datos en tiempo real para una toma de decisiones más informada. El uso de tecnologías como Angular, Node.js y PostgreSQL aseguró un desarrollo escalable y adaptable a las necesidades cambiantes del sector. Este proyecto no solo optimiza procesos operativos, sino que también acerca la innovación tecnológica a los pequeños y medianos ganaderos, marcando un precedente para la transformación digital en la agricultura latinoamericana. Con potencial para incorporar inteligencia artificial e integraciones con blockchain en futuras iteraciones, AgroDigital sienta las bases para una ganadería más eficiente, sostenible y competitiva.
 ## Bibliografía
