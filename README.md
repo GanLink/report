@@ -12,9 +12,9 @@ style="width:50%;" />
 
 <h5> Docente: Mayta Guillermo, Jorge Luis </h5>
 
-<h5> Startup: GanLink </h5>
+<h5> Startup:AgroTracer  </h5>
 
-<h5> Producto: AgroTracer </h5>
+<h5> Producto: GanLink  </h5>
 
 </div>
 
@@ -262,68 +262,35 @@ Instituciones como el **SENASA** y el **MIDAGRI** han reconocido estas brechas, 
 En este contexto, surge la necesidad de desarrollar una **solución tecnológica integral** que permita a los ganaderos registrar, gestionar y consultar de forma sencilla la información de su hato, mejorando la trazabilidad, el control sanitario y la organización productiva. Esta propuesta busca cerrar la brecha digital del sector y fortalecer la sostenibilidad económica de los pequeños productores mediante la adopción de herramientas modernas de gestión y trazabilidad.
 ###### What (Qué)
 **¿Cuál es el problema?**  
-Los pequeños y medianos ganaderos de Latinoamérica no gestionan adecuadamente la información de sus hatos y suelen depender de cuadernos o registros incompletos, lo que provoca pérdida de datos, errores y baja eficiencia. Este manejo limita la **trazabilidad** y el cumplimiento de exigencias sanitarias, afectando la inocuidad y la confianza del mercado y, por ende, el acceso a mejores precios. Los estándares internacionales establecen que la identificación y la trazabilidad son herramientas clave para gestionar riesgos sanitarios y habilitar el comercio; además, guías nacionales promueven la identificación/registro y el uso de buenas prácticas para asegurar trazabilidad desde el origen. Experiencias regionales muestran que fortalecer la trazabilidad permite acceder a mercados más exigentes y de mayor valor.
+Los pequeños y medianos ganaderos de Latinoamérica no gestionan adecuadamente la información de sus hatos y suelen depender de cuadernos o registros incompletos, lo que provoca pérdida de datos, errores y baja eficiencia (SENASA, 2020). Según la WOAH (2024), “Animal identification and animal traceability are tools for addressing animal health (including zoonoses) and food safety issues.”  Además, como sintetiza Cartín-Rojas (2013), “La trazabilidad de los animales y sus productos a lo largo de su proceso productivo permite identificar, verificar y aislar los alimentos potencialmente peligrosos”. 
+En mercados internacionales, la trazabilidad es condición de acceso: “Para que sus cadenas productivas puedan acceder al mercado europeo, los países proveedores […] deberán contar con […] sistemas de trazabilidad” (Gautreau, 2024). 
 
-Referencias:
-- World Organisation for Animal Health (WOAH). (2024). *General principles on identification and traceability of live animals (Terrestrial Code, Ch. 4.2).* https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_ident_traceability.htm  
-- SENASA Perú. (2020). *Guía de Buenas Prácticas Pecuarias en producción de bovinos.* https://www.senasa.gob.pe/senasa/descargasarchivos/2020/07/Guia-BP-BOVINO.pdf  
-- Cartín-Rojas, A. (2013). Trazabilidad, salud pública veterinaria y seguridad alimentaria: un enfoque integral. *Revista de Investigaciones Veterinarias del Perú, 24*(3), 316–323. https://www.scielo.org.pe/pdf/rivep/v24n3/a08v24n3  
-- Gautreau, P. (2024). *Sistemas de trazabilidad de la carne bovina en Argentina, Paraguay y Uruguay.* AL-Invest Verde. https://alinvest-verde.eu/wp-content/uploads/2024/06/Sistemas-de-trazabilidad-carne-bovina.pdf
 
----
 
 ###### When (Cuándo)
 **¿Cuándo sucede el problema?**  
-El problema aparece a lo largo de **todo el ciclo de vida** del ganado: desde el nacimiento y los controles sanitarios/reproductivos, hasta la venta y el faenado. La ausencia de registros digitales consistentes en cada hito impide enlazar eventos (vacunaciones, tratamientos, movimientos) con el animal correcto, rompiendo la trazabilidad operativa diaria. Los marcos internacionales precisan que la trazabilidad debe abarcar toda la cadena “del animal al alimento”, mientras que los manuales de buenas prácticas exigen identificación (individual o por lote) y registros en cada fase.
+El problema aparece a lo largo de **todo el ciclo de vida** del ganado: desde el nacimiento y los controles sanitarios/reproductivos, hasta la venta y el faenado (FAO & ICAR, 2012; SENASA, 2020). Según FAO/ICAR (2012), “One of the key requirements is to demonstrate their origin by having a system of traceability from their point of origin to their final destination.” De acuerdo con la WOAH (2024), la trazabilidad debe “achieve traceability throughout the animal production and food chain”. 
 
-Referencias:
-- World Organisation for Animal Health (WOAH). (2024). *General principles on identification and traceability of live animals (Terrestrial Code, Ch. 4.2).* https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_ident_traceability.htm  
-- FAO & ICAR. (2012). *Animal identification and recording systems for traceability and livestock development in Latin America and the Caribbean (ICAR Technical Series No. 15).* https://www.icar.org/wp-content/uploads/documents/tec_series_15_Santiago_Chile.pdf  
-- SENASA Perú. (2020). *Guía de Buenas Prácticas Pecuarias en producción de bovinos.* https://www.senasa.gob.pe/senasa/descargasarchivos/2020/07/Guia-BP-BOVINO.pdf
-
----
 
 ###### Where (Dónde)
 **¿Dónde surge el problema?**  
-Predomina en **zonas rurales** de América Latina, donde la producción de pequeña y mediana escala enfrenta brechas de **digitalización**, servicios y organización. En Perú, la pequeña agricultura es mayoritaria y opera con limitadas capacidades de gestión e inserción a mercados de mayor valor; sin información de calidad y herramientas adecuadas, su competitividad se reduce frente a productores tecnificados.
+Predomina en **zonas rurales** de América Latina, donde la producción de pequeña y mediana escala enfrenta brechas de **digitalización**, servicios y organización. Como señalan Loukos y Arathoon (2021), “Las herramientas agropecuarias digitales de América Latina no han podido alcanzar la escala […] lo que dificulta su sostenibilidad a largo plazo.” En Perú, sin información de calidad y herramientas adecuadas, la competitividad relativa se reduce frente a productores tecnificados; el Banco Mundial resume que “the gap in productivity has widened over time.” (World Bank, 2017). 
 
-Referencias:
-- Escobal, J., Trivelli, C., & Revesz, B. (2006). *Pequeña agricultura comercial: dinámica y retos en el Perú.* GRADE. https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/LIBROGRADE_PEQUENAAGRICULTURACOMERCIAL.pdf  
-- World Bank. (2017). *Gaining momentum in Peruvian agriculture: Opportunities to increase productivity and enhance competitiveness.* https://documents1.worldbank.org/curated/en/107451498513689693/pdf/P162084-06-26-2017-1498513685623.pdf  
-- Loukos, P., & Arathoon, L. (2021). *Panorama del ecosistema agrotecnológico para los pequeños agricultores de ALC.* BID Lab. https://publications.iadb.org/publications/spanish/document/Panorama-del-ecosistema-agrotecnologico-para-los-pequenos-agricultores-de-America-Latina-y-el-Caribe.pdf
-
----
 
 ###### Who (Quién)
 **¿Quiénes están involucrados?**  
-Los principales actores son **pequeños y medianos ganaderos**, sus **asociaciones**, **técnicos agropecuarios** y el **sector público**. De acuerdo con el Código Terrestre de la WOAH, la **Autoridad Veterinaria** debe liderar el marco legal y la implementación de identificación/trazabilidad en coordinación con los demás actores. La literatura sobre acceso a mercados destaca el rol de las organizaciones de productores para mejorar calidad, estandarización y negociación.
+Los principales actores son **pequeños y medianos ganaderos**, sus **asociaciones**, **técnicos agropecuarios** y el **sector público**. El Código Terrestre de la WOAH establece que “Animal identification and animal traceability should be under the responsibility of the Veterinary Authority.” (WOAH, 2024). La literatura sobre acceso a mercados destaca el rol de las organizaciones de productores para mejorar calidad, estandarización y negociación (Riveros, 2008).
 
-Referencias :
-- World Organisation for Animal Health (WOAH). (2024). *General principles on identification and traceability of live animals (Terrestrial Code, Ch. 4.2).* https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_ident_traceability.htm  
-- MIDAGRI. (2017). *Plan Nacional de Desarrollo Ganadero 2017–2027.* https://www.midagri.gob.pe/portal/download/pdf/especiales/plan-nacional-ganadero.pdf  
-- Riveros, H. (2008). *Vinculando a los pequeños productores con los mercados: análisis de experiencias exitosas en América Latina.* IICA. https://repositorio.iica.int/server/api/core/bitstreams/4831442a-a7dd-4bf0-a6f2-aecddc1108ee/content
-
----
 
 ###### ¿Quién utilizará la solución?
-La solución será utilizada por **ganaderos** que busquen elevar productividad, control sanitario y trazabilidad, y por **técnicos agropecuarios** que acompañan la toma de decisiones en campo mediante registros digitales, alertas sanitarias y tableros simples para seguimiento. La evidencia regional indica que las herramientas digitales mejoran el acceso a servicios y mercados cuando son adaptadas al contexto rural.
+La solución será utilizada por **ganaderos** que busquen elevar productividad, control sanitario y trazabilidad, y por **técnicos agropecuarios** que acompañan la toma de decisiones en campo mediante registros digitales, alertas sanitarias y tableros simples. En línea con ello, “Las herramientas digitales que permiten que los agricultores accedan a los mercados […] son extremadamente útiles para la generación de conjuntos de datos ricos” (Loukos & Arathoon, 2021). 
 
-Referencias :
-- Loukos, P., & Arathoon, L. (2021). *Panorama del ecosistema agrotecnológico para los pequeños agricultores de ALC.* BID Lab. https://publications.iadb.org/publications/spanish/document/Panorama-del-ecosistema-agrotecnologico-para-los-pequenos-agricultores-de-America-Latina-y-el-Caribe.pdf  
-- World Bank. (2017). *Gaining momentum in Peruvian agriculture.* https://documents1.worldbank.org/curated/en/107451498513689693/pdf/P162084-06-26-2017-1498513685623.pdf
-
----
 
 ###### Why (Por qué)
 **¿Cuál es la causa del problema?**  
-Confluyen tres causas: (1) **falta de herramientas tecnológicas** adaptadas al contexto rural y de bajo costo; (2) **desconocimiento** de los beneficios de la trazabilidad y la gestión de datos para productividad, inocuidad y acceso a mercados; y (3) **limitado acompañamiento técnico y servicios** (conectividad, extensión, financiamiento). Informes para Perú documentan brechas de capacitación, conectividad e inversión sectorial, y recomiendan mejorar información/servicios para que pequeños productores cumplan estándares y compitan en mercados diferenciados.
+Confluyen tres causas: (1) **falta de herramientas tecnológicas** adaptadas al contexto rural y de bajo costo; (2) **desconocimiento** de los beneficios de la trazabilidad y la gestión de datos; y (3) **limitado acompañamiento técnico y servicios** (conectividad, extensión, financiamiento). Como evidencia estructural, el Banco Mundial señala que “the gap in productivity has widened over time.” (World Bank, 2017). A la vez, existen oportunidades: “Las intervenciones digitales pueden tener un impacto significativo en la salud y los ingresos de los pequeños agricultores” (Loukos & Arathoon, 2021). 
 
-Referencias:
-- World Bank. (2017). *Gaining momentum in Peruvian agriculture: Opportunities to increase productivity and enhance competitiveness.* https://documents1.worldbank.org/curated/en/107451498513689693/pdf/P162084-06-26-2017-1498513685623.pdf  
-- Loukos, P., & Arathoon, L. (2021). *Panorama del ecosistema agrotecnológico para los pequeños agricultores de ALC.* BID Lab. https://publications.iadb.org/publications/spanish/document/Panorama-del-ecosistema-agrotecnologico-para-los-pequenos-agricultores-de-America-Latina-y-el-Caribe.pdf  
-- Escobal, J., Trivelli, C., & Revesz, B. (2006). *Pequeña agricultura comercial: dinámica y retos en el Perú.* GRADE. https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/LIBROGRADE_PEQUENAAGRICULTURACOMERCIAL.pdf
 
----
 
 ##### ¿Cuáles son las 2H?
 
@@ -336,24 +303,12 @@ La eficiencia se alcanzará mediante un diseño de interfaz **simple, modular y 
 
 
 ###### How much (Cuánto)
-¿Cuál es la magnitud del problema?  
-En el Perú, la producción bovina está dominada por pequeños y medianos productores (alrededor del 80% de la carne bovina), pero la base digital y de trazabilidad aún es limitada. Aunque el acceso a internet en áreas rurales viene creciendo, en el 4to trimestre de 2024 solo 56,7% de la población rural usó internet y apenas 21,7% de los hogares rurales tenía servicio en casa. Históricamente, en el CENAGRO 2012, apenas 2,0% de los hogares de productores agropecuarios tenían internet y 4,0% computadora. En paralelo, el hato nacional bordea los 5,6 millones de bovinos y, si bien SENASA ha avanzado con campañas de identificación oficial (por ejemplo, más de 1,27 millones de bovinos identificados a 2021), la cobertura de trazabilidad aún se encuentra en expansión frente al tamaño del hato. Dado este contexto de baja adopción digital histórica, brechas de conectividad rural y despliegue gradual de identificación, es razonable inferir que la mayoría de pequeños ganaderos no opera con sistemas digitales de registro y trazabilidad, lo que repercute en costos por ineficiencia, dificultades regulatorias y menor acceso a mercados de mayor valor, tal como recomiendan los estándares de la WOAH para competitividad e inocuidad.
+**¿Cuál es la magnitud del problema?**  
+En el Perú, la producción bovina está dominada por pequeños y medianos productores (alrededor del 80% de la carne bovina), pero la base digital y de trazabilidad aún es limitada. Según INEI (2025), “en el cuarto trimestre de 2024, el 58,4 % de los hogares del país disponen del servicio de Internet” y “el mayor crecimiento porcentual… se dio en la población del área rural al pasar de 51,8 % a 56,7 %”.  Además, para el CENAGRO 2012, INEI reportó que “a nivel nacional el 1,8% de hogares de productoras agropecuarias y el 2,0% de los productores… tiene conexión de Internet en el hogar” y que “en promedio, el 3,7% de hogares… cuentan con computadora”.  En paralelo, el hato nacional bordea los 5,6 millones de bovinos: como sintetiza Zúñiga (2022), “En el Perú existen 5.6 millones de cabezas de ganado bovino”.  En identificación oficial, SENASA informó que “identificó oficialmente a 1’275,342 bovinos y 465,024 porcinos”.  Finalmente, a nivel global persiste la brecha de uso: GSMA subraya que “39% of the global population are living within mobile broadband coverage but are not using it – the usage gap”.  Este contexto, sumado a los estándares internacionales —por ejemplo, WOAH recuerda que “Animal identification and animal traceability are tools for addressing animal health… and food safety issues”—, refuerza la necesidad de digitalizar y trazar mejor “del animal al alimento”. 
 
-Referencias:
-- Instituto Nacional de Estadística e Informática (INEI). (2025, 26 de marzo). *58.4% of the households of the country has access to the Internet* (ENAHO, 4.º trim. 2024). https://www.gob.pe/en/institucion/inei/noticias/1133448-el-58-4-de-los-hogares-del-pais-tiene-acceso-a-internet  
-- Instituto Nacional de Estadística e Informática (INEI). (2014). *Inequidades de género en la actividad agropecuaria – TIC (CENAGRO 2012, Cap. 17).* https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1185/cap17.pdf  
-- Foreign Agricultural Service (USDA). (2024). *The Overlooked Consumer of Affordable Meat Products – Lima, Peru (PE2024-0010).* https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=The+Overlooked+Consumer+of+Affordable+Meat+Products+_Lima_Peru_PE2024-0010  
-- Zúñiga, J. L. (2022). *Análisis sobre el mercado potencial de carne bovina* (Perú: 5,6 millones de cabezas). https://produccionsostenible.org.pe/wp-content/uploads/2022/12/AGRAP-251122.pdf  
-- Servicio Nacional de Sanidad Agraria (SENASA). (2021, 19 de febrero). *Más de un millón y medio de animales cuenta hoy con identificación oficial.* https://www.gob.pe/institucion/senasa/noticias/343387-mas-de-un-millon-y-medio-de-animales-cuenta-hoy-con-identificacion-oficial  
-- GSMA. (2024). *The State of Mobile Internet Connectivity 2024* (brechas de uso rural en países de ingreso medio). https://www.gsma.com/r/wp-content/uploads/2024/10/The-State-of-Mobile-Internet-Connectivity-Report-2024.pdf 
 
 ###### ¿Qué porcentaje del sector se beneficiará?
-Con base en la tenencia de smartphones en hogares rurales del Perú (84,8% al cierre de 2024, OSIPTEL–ERESTEL) y el uso de internet en población rural (56,7% en el 4.º trimestre de 2024, INEI), el universo adoptable inmediato para AgroTracer se aproxima al 48% de pequeños y medianos ganaderos (0,848*0,567=0,48). Este valor respalda el rango operativo propuesto de 40–60% de beneficiarios directos, considerando que no toda la población con cobertura y dispositivo usa efectivamente servicios digitales (la brecha de uso sigue siendo alta en la región, según GSMA) y que la adopción mejora con acompañamiento técnico y diseño offline-first.  
-
-Referencias:
-- OSIPTEL. (2025, 7 de octubre). *Erestel: El 94.8 % de hogares peruanos cuenta con un smartphone* (rural: 84,8% en 2024). https://www.gob.pe/institucion/osiptel/noticias/1259617-erestel-el-94-8-de-hogares-peruanos-cuenta-con-un-smartphone  
-- Instituto Nacional de Estadística e Informática (INEI). (2025, 26 de marzo). *El 58,4% de los hogares del país tiene acceso a Internet* (uso de internet en población rural: 56,7% en 4T-2024). https://www.gob.pe/institucion/inei/noticias/1133448-el-58-4-de-los-hogares-del-pais-tiene-acceso-a-internet  
-- GSMA. (2024). *The State of Mobile Internet Connectivity 2024* (la brecha de uso supera ampliamente a la de cobertura). https://www.gsma.com/r/wp-content/uploads/2024/10/The-State-of-Mobile-Internet-Connectivity-Report-2024.pdf
+Con base en la tenencia de smartphones en hogares rurales del Perú y el uso de Internet, estimamos un universo adoptable inmediato cercano al 48% (0,848×0,567). Según Gestión (resumiendo ERESTEL–OSIPTEL), “al cierre de 2024 el 94.8% de los hogares peruanos cuenta con un smartphone” y “en el área rural… se disparó al 84.8%”. A su vez, INEI indicó que “el mayor crecimiento porcentual en el uso de Internet se dio… en el área rural… 56,7 %”. Dado que la brecha de **uso** suele superar a la de **cobertura** —“39%… within mobile broadband coverage but… not using it”—, el rango operativo de adopción directa del 40–60% es razonable si se acompaña con diseño *offline-first* y asistencia técnica. 
 
 <div id='1.2.2.'><h4>1.2.2. Lean UX Process</h4></div>
 <div id='1.2.2.1.'><h5>1.2.2.1. Lean UX Problem Statements</h5></div>
@@ -1123,27 +1078,40 @@ Hemos identificado 6 Bounded Context.
 
 - IAM
 
+Gestiona identidad y acceso: registro, inicio de sesión, emisión/validación de tokens y verificación de permisos. Aísla la seguridad para que el resto del sistema no duplique lógica.
+
 <img src="images/IAM.jpg" />
 
 - Farm Management
 
+Administra el predio: creación, edición, consulta y reglas de negocio del ciclo de vida de una granja. Prioriza trazabilidad y consistencia del dato.
+
 <img src="images/Farm-Management.jpg" />
 
 - Bovinue Management
+Opera sobre el hato: altas/bajas de bovinos y consultas principales. Orquesta la interacción con métricas y salud desde el punto de vista del animal.
 
 <img src="images/Bovinue-Management.jpg" />
 
 - Bovinue Configuration
 
+Define y mantiene catálogos y parámetros del dominio bovino (categorías de métricas, parámetros, estados, etc.). Permite configurar cómo se medirán y registrarán los datos.
+
 <img src="images/Bovinue-Config.jpg" />
 
 - Farm Configuration
+
+Mantiene configuraciones del predio (p. ej., certificaciones asociadas, reglas operativas). Complementa a farm management con datos maestros del contexto granja.
 
 <img src="images/Farm-Config.jpg" />
 
 - Shared
 
+Infraestructura común: repositorios base, unit of work, DbContext, auditoría y clientes a servicios externos. Reduce duplicación técnica y centraliza integraciones.
+
 <img src="images/Shared.jpg" />
+
+Concluimos en cuatro componentes núcleo: iam, farm management, bovinue system y shared, más la mobile application como cliente. Unificamos “bovinue management” y “bovinue configuration” en un único bounded context bovinue system, y “farm configuration” se integró dentro de farm management. shared concentra persistencia e integraciones con SUNAT/SENASA, mientras que la app móvil consume IAM, Farm y Bovinue vía APIs. El resultado es una separación por dominios clara, menos acoplamiento y una ruta de evolución más simple.
 
 ### 2.5.1.2. Domain Message Flow Modeling
 
@@ -1178,274 +1146,509 @@ Se presenta tres niveles del modelo C4 trabajado con structurizr para el proyect
 
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
-<img src="images/structurizr-101335-DiagramaContexto.png">
+GanLink es una plataforma pensada para el día a día del productor ganadero. Centraliza en un solo lugar la gestión del predio, del hato bovino y de la identidad de los usuarios, con una app móvil sencilla al frente y servicios robustos detrás. La meta es que el granjero pueda registrar en campo, validar información oficial y tomar decisiones con datos confiables.
+
+<img src="images/structurizr-ContextoSistema.png">
 
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
-<img src="images/structurizr-101335-DiagramaContenedores.png">
+La plataforma tiene una app móvil que el granjero usa en campo y que sincroniza por HTTP con tres servicios: IAM (registro, inicio de sesión y autorización), FarmManagement (gestión de granjas) y BovinueSystem (bovinos, métricas y salud). Todos se apoyan en un Shared que concentra infraestructura y clientes a SUNAT/SENASA, y persisten en una base MySQL común. Esta separación mantiene cada servicio enfocado y la app rápida y simple.
+
+<img src="images/structurizr-ContenedoresSistema.png">
+
 
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
-**BC de autenticación**
+**Mobile Application**
 
-<img src="images/structurizr-101335-Componentes_de_Autenticacion.png">
+La app móvil es la puerta de entrada para el granjero. Desde su teléfono puede registrarse, iniciar sesión y gestionar su predio, sus bovinos y sus métricas de salud. La aplicación prioriza la simplicidad: las pantallas muestran la información clara, el estado se mantiene estable y, cuando no hay internet, guarda datos de forma local para sincronizarlos después. Así el usuario no pierde tiempo ni datos en campo.
 
-**BC de eventos**
+<img src="images/structurizr-ComponentesAppMovil.png">
 
-<img src="images/structurizr-101335-Componentes_de_Eventos.png">
+
+**IAM Bounded Context**
+
+Este módulo se encarga de la identidad y el acceso. Aquí viven el registro y el inicio de sesión, la emisión de tokens y la verificación de permisos en cada petición. La idea es que el resto del sistema confíe en que quien llama está autenticado y autorizado, sin duplicar lógica de seguridad. Mantiene a los usuarios en la base de datos y protege credenciales con buenas prácticas de hashing.
+
+<img src="images/structurizr-IAM_BoundedContext.png">
+
+**Farm Management Bounded Context**
+
+Este módulo administra la información del predio. Permite crear, actualizar y consultar granjas de forma segura y trazable. Estandariza cómo se registran los datos de una granja y ofrece consultas rápidas para que el productor encuentre lo que necesita sin fricción. Su foco es la calidad del dato y la estabilidad en las operaciones del día a día.
+
+<img src="images/structurizr-FarmManagement_BoundedContext.png">
+
+**Bovinue System Bounded Context**
+
+Aquí se concentra la gestión del hato bovino: altas y bajas de animales, seguimiento de métricas y registro de eventos de salud. El objetivo es tener una historia clara de cada bovino y una lectura agregada del estado del hato. Con esto el productor puede tomar decisiones informadas, como detectar a tiempo problemas sanitarios o evaluar el impacto de una intervención.
+
+<img src="images/structurizr-BovinueSystem_BoundedContext.png">
+
+**Shared**
+
+Este módulo comparte piezas comunes para no reinventar la rueda. Provee la base de persistencia, auditoría y acceso a la base de datos, y también los clientes que hablan con servicios externos del Estado. Centralizar estas funciones reduce complejidad en los demás módulos y facilita el mantenimiento.
+
+<img src="images/structurizr-Shared_BoundedContext.png">
 
 ## 2.6 Tactical-Level Domain-Driven Design
 
-### 2.6.1. Bounded Context: Animal Health Management
+### 2.6.1. Bounded Context: IAM
 
 #### 2.6.1.1. Domain Layer
 
-**Table: Animal**
+**Table: `User` (Aggregate Root)** 
 
-| Attribute            | Type       | Notes                      |
-|----------------------|-----------|----------------------------|
-| id                   | string    | PK                         |
-| nombre               | string    |                            |
-| especie              | string    |                            |
-| raza                 | string    |                            |
-| sexo                 | string    |                            |
-| edad                 | int       |                            |
-| peso                 | decimal   |                            |
-| fechaNacimiento      | DateTime  |                            |
-| estadoSalud          | string    |                            |
-| esterilizado         | boolean   |                            |
-| numeroCrias          | int       |                            |
-| ubicacion            | string    |                            |
+| Attribute     | Type               | Notes |
+|---------------|--------------------|-------|
+| Id            | int                | PK |
+| Username      | string             | Required; StringLength(10); private set |
+| Firstname     | string             | Required; StringLength(10); private set |
+| Lastname      | string             | Required; StringLength(20); private set |
+| Email         | string             | Required; StringLength(20); private set |
+| Ruc           | `RUC`              | Required; StringLength(20); Value Object; private set |
+| Password      | string             | Required; private set |
+| Farms         | `ICollection<Farm>`| Navigation; initialized a `List<Farm>()` |
+| CreatedDate   | `DateTimeOffset?`  | Mapped column: `CreatedAt` |
+| UpdatedDate   | `DateTimeOffset?`  | Mapped column: `UpdatedAt` |
 
-**Methods:**
-- actualizarPeso(nuevoPeso: decimal): void
-- calcularEdad(): int
-- generarCodigoQR(): string
+**Constructors / Methods:**  
+- `User(SignUpCommand command, string hashedPassword)` — mappea valores del comando y asigna `RUC` y `Password` hasheado.
+- `User()` — inicializa strings vacíos y `RUC("10000000000")`. 
 
----
 
-**Table: HistorialClinico**
 
-| Attribute             | Type       | Notes          |
-|-----------------------|-----------|----------------|
-| id                    | string    | PK             |
-| fechaCreacion         | DateTime  |                |
-| ultimaActualizacion   | DateTime  |                |
+**Table: `RUC` (Value Object)** 
 
-**Methods:**
-- agregarRegistro(registro: RegistroMedico): void
-- buscarRegistrosPorTipo(tipo: string): List<RegistroMedico>
-- generarReporte(): PDF
+| Attribute | Type   | Notes |
+|-----------|--------|-------|
+| Number    | string | Required; exactly 11 digits; must start with `"10"` o `"20"` |
 
----
+**Constructors / Methods:**  
+- `RUC(string number)` — valida requerido, longitud 11 y prefijo `"10"`/`"20"`; asigna `Number`
+- `ToString(): string` — devuelve `Number`. 
 
-**Table: RegistroMedico**
-
-| Attribute      | Type      | Notes          |
-|----------------|----------|----------------|
-| id             | string   | PK             |
-| tipo           | string   |                |
-| fecha          | DateTime |                |
-| descripcion    | string   |                |
-| observaciones  | string   |                |
-
-**Methods:**
-- agregarAdjunto(archivo: Archivo): void
-- editarDescripcion(nuevasDesc: string): void
-
----
-
-**Table: Archivo**
-
-| Attribute     | Type      | Notes          |
-|---------------|----------|----------------|
-| id            | string   | PK             |
-| nombre        | string   |                |
-| url           | string   |                |
-| fechaSubida   | DateTime |                |
-
-**Methods:**
-- validarTipo(): bool
-
----
-
-**Table: Evento**
-
-| Attribute          | Type      | Notes          |
-|--------------------|----------|----------------|
-| id                 | string   | PK             |
-| tipo               | string   |                |
-| fechaProgramada    | DateTime |                |
-| fechaRealizacion   | DateTime |                |
-| estado             | string   |                |
-| prioridad          | string   |                |
-
-**Methods:**
-- agregarEvento(nuevaFecha: DateTime): void
-- completar(observaciones: string): void
-
----
 
 #### 2.6.1.2. Interface Layer
-- API REST: `/animals`, `/historial/{id}`, `/eventos`
-- UI para registro clínico y calendario de eventos
 
 #### 2.6.1.3. Application Layer
-- Registro y gestión de animales
-- Generación de reportes clínicos
-- Programación de eventos médicos
+
+**Table: `UserCommandService` (Application Command Service)**
+
+| Member / Handler                         | Signature                                               | Notes |
+|------------------------------------------|---------------------------------------------------------|-------|
+| Handle (sign up)                         | `Task<User?> Handle(SignUpCommand command)`             | Valida duplicado por username; hashea password y persiste usuario. :contentReference[oaicite:0]{index=0} |
+| Handle (delete user)                     | `Task Handle(DeleteUserCommand command)`                | Busca por Id; si no existe, lanza excepción; elimina y commitea. :contentReference[oaicite:1]{index=1} |
+| Handle (sign in)                         | `Task<(User? user, string? token)> Handle(SignInCommand command)` | Verifica credenciales con hash; genera token si válido. :contentReference[oaicite:2]{index=2} |
+
+
+**Table: `UserQueryService` (Application Query Service)**
+
+| Member / Handler                  | Signature                                            | Notes |
+|-----------------------------------|------------------------------------------------------|-------|
+| Handle (get all users)            | `Task<IEnumerable<User?>> Handle(GetAllUsersQuery q)`| Lista usuarios desde `IUserRepository`. :contentReference[oaicite:4]{index=4} |
+| Handle (get by id)                | `Task<User?> Handle(GetUserByIdQuery q)`             | Busca por Id. :contentReference[oaicite:5]{index=5} |
+| Handle (get by email)             | `Task<User?> Handle(GetUserByEmail q)`               | Busca por email. :contentReference[oaicite:6]{index=6} |
+| Handle (get by username)          | `Task<User?> Handle(GetUserByUsername q)`            | Busca por username. :contentReference[oaicite:7]{index=7} |
+| Handle (get farms by user id)     | `Task<List<Farm>> Handle(GetUserFarmsById q)`        | Retorna granjas asociadas al usuario. :contentReference[oaicite:8]{index=8} |
+
+
+
+**Table: `IHashingService` (Outbound Service Contract)**
+
+| Member          | Signature                                              | Notes |
+|-----------------|--------------------------------------------------------|-------|
+| HashPassword    | `string HashPassword(string password)`                 | Generación de hash para contraseñas. :contentReference[oaicite:10]{index=10} |
+| VerifyPassword  | `bool VerifyPassword(string password, string hashed)`  | Verifica password plano vs hash almacenado. :contentReference[oaicite:11]{index=11} |
+
+
+**Table: `ITokenService` (Outbound Service Contract)**
+
+| Member        | Signature                               | Notes |
+|---------------|-----------------------------------------|-------|
+| GenerateToken | `string GenerateToken(User user)`        | Emite token para el usuario autenticado. :contentReference[oaicite:12]{index=12} |
+| VerifyToken   | `Task<int?> VerifyToken(string token)`   | Valida token y devuelve `userId` (nullable). :contentReference[oaicite:13]{index=13} |
+
 
 #### 2.6.1.4. Infrastructure Layer
-- Persistencia en base de datos relacional
-- Almacenamiento de archivos en servidor o nube
-- Integración con servicios QR
+
+**Table: `HashingService` (BCrypt implementation)**
+
+| Member         | Signature                                                     | Notes |
+|----------------|---------------------------------------------------------------|-------|
+| HashPassword   | `string HashPassword(string password)`                        | Genera hash usando `BCrypt.Net.BCrypt.HashPassword`. |
+| VerifyPassword | `bool VerifyPassword(string password, string hashedPassword)` | Verifica contraseña en texto plano contra su hash. |
+
+
+**Table: `UserRepository` (EF Core Repository)**
+
+| Member             | Signature                                         | Notes |
+|--------------------|---------------------------------------------------|-------|
+| GetUserByIdAsync   | `Task<User?> GetUserByIdAsync(int id)`            | Busca por Id (`FirstOrDefaultAsync`). |
+| FindUserByEmail    | `Task<User?> FindUserByEmail(string email)`       | Busca por email. |
+| FindUserByUsername | `Task<User?> FindUserByUsername(string username)` | Busca por username. |
+| FindUserFarmById   | `Task<List<Farm>> FindUserFarmById(int id)`       | Incluye relación y filtra por `user.Id`. |
+
+
+**Table: `AllowAnonymousAttribute` (Attribute)**
+
+| Target | Usage              | Notes                                               |
+|--------|--------------------|-----------------------------------------------------|
+| Method | `[AllowAnonymous]` | Omite autenticación/autorización para la acción. |
+
+
+**Table: `AuthorizeAttribute` (Attribute + Filter)**
+
+| Member          | Signature                                                   | Notes |
+|-----------------|-------------------------------------------------------------|-------|
+| OnAuthorization | `void OnAuthorization(AuthorizationFilterContext context)`  | Permite si hay `[AllowAnonymous]`; si no, exige usuario en `HttpContext.Items["User"]`, de lo contrario retorna `Unauthorized`. |
+
+
+**Table: `RequestAuthorizationMiddleware` (ASP.NET Core Middleware)**
+
+| Member | Signature                                                                                  | Notes |
+|--------|--------------------------------------------------------------------------------------------|-------|
+| Invoke | `Task Invoke(HttpContext context, IUserQueryService userQueryService, ITokenService tokenService)` | Lee header `Authorization`, valida token, carga usuario y lo establece en `context.Items["User"]`; continúa el pipeline; lanza si falta o es inválido. |
+
+
+**Table: `RequestAuthorizationMiddlewareExtensions` (Middleware registration)**
+
+| Member                           | Signature                                                                                  | Notes |
+|----------------------------------|--------------------------------------------------------------------------------------------|-------|
+| UseRequestAuthorizationMiddleware| `IApplicationBuilder UseRequestAuthorizationMiddleware(this IApplicationBuilder builder)`  | Registra el middleware de autorización en el pipeline. |
 
 ---
 
-### 2.6.2. Bounded Context: User & Access Management
+### 2.6.2. Bounded Context: Farm Management
 
 #### 2.6.2.1. Domain Layer
 
-**Table: Usuario**
+**Table: `Farm` (Aggregate)**
 
-| Attribute        | Type      | Notes          |
-|------------------|----------|----------------|
-| id               | Guid     | PK             |
-| nombre           | string   |                |
-| email            | string   |                |
-| password         | string   |                |
-| telefono         | string   |                |
-| rol              | string   |                |
-| fechaRegistro    | DateTime |                |
+| Attribute    | Type       | Notes |
+|--------------|------------|-------|
+| Id           | int        | PK; private set |
+| Alias        | string     | private set |
+| UserId       | int        | FK a `User`; private set |
+| MainActivity | `Activity` | enum (`CARNE`, `LECHE`, `GENERICA`); private set |
+| OwnerDni     | string     | private set |
+| user         | `User`     | Navigation; `[Required]`, `[ForeignKey("UserId")]` |
 
-**Methods:**
-- autenticar(credenciales: string): bool
-- cambiarPassword(oldPass: string, newPass: string): bool
-- resetPassword(): void
+**Constructors / Methods:**
+- `Farm(CreateFarmCommand command)` — asigna `Alias`, `UserId`, `MainActivity`, `OwnerDni`.
+- `Farm()` — valores por defecto: `Id=0`, `Alias=""`, `UserId=0`, `MainActivity=Activity.CARNE`, `OwnerDni=""`.
 
----
 
-**Table: Credenciales**
+**Table: `Activity` (Enum)**
 
-| Attribute | Type    | Notes |
-|-----------|--------|-------|
-| id        | string | PK    |
-| email     | string |       |
-| password  | string |       |
+| Name     | Value | Notes                          |
+|----------|-------|--------------------------------|
+| CARNE    | 0     | Producción de carne            |
+| LECHE    | 1     | Producción de leche            |
+| GENERICA | 2     | Actividad genérica/mixta       |
 
-**Methods:**
-- validarFormato(): bool
 
----
+**Table: `IFarmRepository` (Domain Repository Contract)**
 
-**Table: Reporte**
+| Member                     | Signature                                                           | Notes |
+|----------------------------|---------------------------------------------------------------------|-------|
+| AddAsync                   | `Task AddAsync(Farm entity)`                                       | Crear |
+| FindByIdAsync              | `Task<Farm?> FindByIdAsync(int id)`                                | CRUD base heredado |
+| Update                     | `void Update(Farm entity)`                                         | CRUD base heredado |
+| Remove                     | `void Remove(Farm entity)`                                         | CRUD base heredado |
+| ListAsync                  | `Task<IEnumerable<Farm>> ListAsync()`                              | CRUD base heredado |
+| GetByIdAsync               | `Task<Farm?> GetByIdAsync(int id, CancellationToken ct = default)` | Consulta por Id (detallada) |
+| ListByUserIdAsync          | `Task<List<Farm>> ListByUserIdAsync(int userId, CancellationToken ct = default)` | Todas por `UserId` |
+| GetFirstByUserIdAsync      | `Task<Farm?> GetFirstByUserIdAsync(int userId, CancellationToken ct = default)` | Opcional |
+| AliasExistsAsync           | `Task<bool> AliasExistsAsync(int userId, string alias, CancellationToken ct = default)` | Opcional |
 
-| Attribute | Type   | Notes |
-|-----------|-------|-------|
-| id        | string| PK    |
-| tipo      | string|       |
 
-**Methods:**
-- generar(): PDF
-- filtrarPor(filtros: FiltroReporte): void
+**Table: `IFarmCommandService` (Command Service Contract)**
 
----
+| Member  | Signature                                   | Notes |
+|---------|---------------------------------------------|-------|
+| Handle  | `Task<Farm?> Handle(CreateFarmCommand command)` | Crear granja |
+| Handle  | `Task Handle(DeleteFarmCommand command)`        | Eliminar granja |
 
-**Table: FiltroReporte**
 
-| Attribute    | Type   | Notes |
-|--------------|-------|-------|
-| id           | string| PK    |
-| rangoEdad    | string|       |
-| sexo         | string|       |
-| estadoSalud  | string|       |
-| fechaInicio  | Date  |       |
-| fechaFin     | Date  |       |
+**Table: `IFarmQueryService` (Query Service Contract)**
 
-**Methods:**
-- validarFechas(): bool
-
----
+| Member  | Signature                                             | Notes |
+|---------|-------------------------------------------------------|-------|
+| Handle  | `Task<IEnumerable<Farm>> Handle(GetAllFarmsQuery query)` | Listar todas |
+| Handle  | `Task<Farm?> Handle(GetFarmByIdQuery query)`             | Obtener por Id |
+| Handle  | `Task<Farm?> Handle(GetFarmByUserId query)`              | Obtener por `UserId` |
 
 #### 2.6.2.2. Interface Layer
-- Login/Registro de usuarios
-- Dashboard de reportes
+
+**Table: `FarmController` (Endpoints REST)**
+
+| Recurso | Método | Path                      | Request DTO           | Response DTO         | Status codes (principal) | Notes |
+|---------|--------|---------------------------|-----------------------|----------------------|--------------------------|-------|
+| Farm    | POST   | `/api/v1/Farm`           | `CreateFarmResource`  | `FarmResource`       | 201, 400                 | Crea una granja; devuelve `CreatedAtAction` con `id`. |
+| Farm    | GET    | `/api/v1/Farm/{id}`      | —                     | `FarmResource`       | 200, 404                 | Obtiene granja por `id` (en el código el resumen menciona “Rent”, probable typo). |
+| Farm    | POST   | `/api/v1/Farm/delete`    | `DeleteFarmResource`  | —                    | 200                      | Elimina granja por `id` recibido en el body. |
+| Farm    | GET    | `/api/v1/Farm/user/{userid}` | —                  | `FarmResource`       | 200, 404                 | Obtiene granja por `userid`. |
+
+**Table: `FarmController` (Metadatos y dependencias)**
+
+| Atributo/Meta                     | Valor / Tipo                                      |
+|----------------------------------|---------------------------------------------------|
+| `[ApiController]`                | Sí                                                |
+| `[Route]`                        | `api/v1/[controller]`                             |
+| `[Produces]`                     | `application/json`                                |
+| `[Tags]`                         | `"Farm API"`                                      |
+| Dependencias por constructor     | `IFarmCommandService`, `IFarmQueryService`        |
+| Assemblers usados                | `CreateFarmCommandFromResourceAssembler`, `FarmResourceFromEntityAssembler`, `DeleteFarmCommandFromResourceAssembler` |
+
+**Table: Recursos (DTOs usados por el controller)**
+
+| DTO                     | Uso                          | Campos (según naming) |
+|-------------------------|------------------------------|------------------------|
+| `CreateFarmResource`    | Body para crear              | *(definido en Interfaces.REST.Resources)* |
+| `DeleteFarmResource`    | Body para eliminar           | *(definido en Interfaces.REST.Resources)* |
+| `FarmResource`          | Respuesta para lecturas      | *(definido en Interfaces.REST.Resources)* |
+
+**Table: Códigos y mensajes esperados (resumen)**
+
+| Operación                 | 2xx                        | 4xx/5xx             |
+|---------------------------|----------------------------|---------------------|
+| Create (`POST /Farm`)     | `201 Created`              | `400 BadRequest`    |
+| GetById (`GET /Farm/{id}`)| `200 OK`                   | `404 NotFound`      |
+| Delete (`POST /Farm/delete`)| `200 OK`                | *(no explícitos)*   |
+| GetByUserId (`GET /Farm/user/{userid}`)| `200 OK`    | `404 NotFound`      |
 
 #### 2.6.2.3. Application Layer
-- Autenticación y control de accesos
-- Generación de reportes filtrados
+
+
+**Table: `FarmQueryService` (Application Query Service)**
+
+| Member | Signature | Notes |
+|--------|-----------|-------|
+| —      | —         | Clase definida sin miembros aún. |
+
+**Namespace:** `GanLink.FarmManagement.Application.Internal.QueryServices`
 
 #### 2.6.2.4. Infrastructure Layer
-- Gestión de roles en BD
-- Encriptación de contraseñas
-- Control de sesiones
+
+**Table: `FarmRepository` (EF Core Repository)**
+
+| Member                   | Signature                                                           | Notes |
+|--------------------------|---------------------------------------------------------------------|-------|
+| GetByIdAsync             | `Task<Farm?> GetByIdAsync(int id, CancellationToken ct = default)` | Devuelve con tracking (útil para modificaciones). |
+| ListByUserIdAsync        | `Task<List<Farm>> ListByUserIdAsync(int userId, CancellationToken ct = default)` | `AsNoTracking()`, filtra por `UserId` y ordena por `Alias`. |
+| GetFirstByUserIdAsync    | `Task<Farm?> GetFirstByUserIdAsync(int userId, CancellationToken ct = default)` | Retorna la primera granja del usuario (convención). |
+| AliasExistsAsync         | `Task<bool> AliasExistsAsync(int userId, string alias, CancellationToken ct = default)` | Verifica unicidad de `Alias` por usuario. |
+
+**Inherits / Implements:** `BaseRepository<Farm>`, `IFarmRepository`  
+**Constructor dependency:** `GanLinkDBContext context`  
+**Namespace:** `GanLink.FarmManagement.Infraestructure.Persistence.EF.Repositories`
 
 ---
 
-### 2.6.3. Bounded Context: Economic Control
+### 2.6.3. Bounded Context: Bovinue System
 
 #### 2.6.3.1. Domain Layer
 
-**Table: ControlEconomico**
+**Table: `Bovinue` (Aggregate)**
 
-| Attribute   | Type | Notes |
-|-------------|------|-------|
-| id          | Guid | PK    |
-| fechaInicio | Date |       |
-| fechaFin    | Date |       |
+| Attribute | Type   | Notes |
+|-----------|--------|-------|
+| Id        | long   | PK |
+| FarmId    | long   | Required |
+| farm      | Farm   | Navigation; `[ForeignKey("FarmId")]`; Required |
+| deleted   | bool   | Required; soft-delete flag |
 
-**Methods:**
-- calcularBalance(): Balance
-- generarReporteMensual(): PDF
-- agregarTransaccion(transaccion: Transaccion): void
+**Constructors / Methods:**
+- `Bovinue()` — por defecto `FarmId = 0`, `deleted = false`.
+- `Bovinue(CreateBovinueCommand command)` — asigna `FarmId` desde el comando; `deleted = false`.
+- `UpdateFromCommand(UpdateBovinueCommand command)` — actualiza `FarmId`.
+- `DeleteFromCommand(DeleteBovinueCommand command)` — valida `command.id == Id`; marca `deleted = true` (idempotente).
+
+
+**Table: `BovinueCattleHealthRecord` (Entity)**
+
+| Attribute    | Type   | Notes |
+|--------------|--------|-------|
+| Id           | long   | PK |
+| ActivityName | string | Required; `StringLength(50, MinLength = 1)` |
+| Frequency    | int    | Required; mapeado como columna `"Frecuency"` |
+| Description  | string | Required; `StringLength(50, MinLength = 1)` |
+| deleted      | bool   | Required; soft-delete flag |
+
+**Constructors:**
+- `BovinueCattleHealthRecord()` — inicializa `ActivityName = ""`, `Description = ""`, `deleted = false`.
+
+
+**Table: `BovinueHealthRecord` (Entity)**
+
+| Attribute   | Type                          | Notes |
+|-------------|-------------------------------|-------|
+| Id          | long                          | PK |
+| BovinueId   | long                          | Required |
+| bovinue     | Bovinue                       | Navigation; `[ForeignKey("BovinueId")]`; Required |
+| BovinueCHRId| long                          | Required |
+| bovinueCHR  | BovinueCattleHealthRecord     | Navigation; `[ForeignKey("BovinueCHRId")]`; Required |
+| StartDate   | DateTime                      | Required |
+| EndDate     | DateTime?                     | Opcional (registro "abierto") |
+| deleted     | bool                          | Required; soft-delete flag |
+
+**Constructors / Methods:**
+- `BovinueHealthRecord(CreateBovinueHealthRecordCommand command)` — asigna `BovinueId`, `BovinueCHRId`, `StartDate`, `EndDate`; `deleted = false`.
+- `UpdateFromCommand(UpdateBovinueHealthRecordCommand command)` — actualiza campos básicos.
+- `DeleteFromCommand(DeleteBovinueHealthRecordCommand command)` — valida `command.id == Id`; marca `deleted = true` (idempotente).
+
+
+**Table: `BovinueMetric` (Entity)**
+
+| Attribute  | Type                    | Notes |
+|------------|-------------------------|-------|
+| Id         | long                    | PK |
+| BovinueId  | long                    | Required |
+| bovinue    | Bovinue                 | Navigation; `[ForeignKey("BovinueId")]`; Required |
+| BovinueMPId| long                    | Required |
+| parameter  | BovinueMetricParameter  | Navigation; `[ForeignKey("BovinueMPId")]`; Required |
+| Date       | DateTime                | Required |
+| Quantity   | double                  | Required; `[Range(0, double.MaxValue)]` |
+| deleted    | bool                    | Required; soft-delete flag |
+
+**Constructors / Methods:**
+- `BovinueMetric(CreateBovinueMetricCommand command)` — asigna `BovinueId`, `BovinueMPId`, `Date`, `Quantity`; `deleted = false`.
+- `UpdateFromCommand(UpdateBovinueMetricCommand command)` — actualiza campos básicos.
+- `DeleteFromCommand(DeleteBovinueMetricCommand command)` — valida `command.id == Id`; marca `deleted = true` (idempotente).
+
+
+**Table: `BovinueMetricCategory` (Aggregate/Entity)**
+
+| Attribute  | Type                                   | Notes |
+|------------|----------------------------------------|-------|
+| Id         | long                                   | PK; `private set` |
+| Category   | MetricCategory                         | Value Object; `private set` |
+| Parameters | `ICollection<BovinueMetricParameter>`  | `private set` |
+
+**Constructors / Methods:**
+- `BovinueMetricCategory()` — ctor por defecto.
+- `BovinueMetricCategory(string category)` — invoca `ReassignCategory(category)`.
+- `ReassignCategory(string category)` — valida requerido y longitud (1..100).
+
+
+**Table: `BovinueMetricParameter` (Entity)**
+
+| Attribute   | Type                   | Notes |
+|-------------|------------------------|-------|
+| Id          | long                   | PK |
+| CategoryId  | long                   | FK a `BovinueMetricCategory` |
+| Category    | BovinueMetricCategory  | Navigation |
+| Parameter   | MetricParameter        | Value Object |
+| Description | string                 | Por defecto `""` |
+
+**Constructors / Methods:**
+- `BovinueMetricParameter()` — ctor por defecto.
+- `BovinueMetricParameter(long categoryId, string parameter, string? description = null)` — invoca reasignaciones.
+- `ReassignCategory(long categoryId)` — valida `categoryId > 0` y asigna `CategoryId`.
+- `ReassignParameter(string parameter)` — valida requerido y longitud (≤160).
+- `ReassignDescription(string? description)` — normaliza y asigna `Description` (≤280).
+
+
 
 ---
 
-**Table: Transaccion**
+### 2.6.4. Bounded Context: Shared
 
-| Attribute    | Type     | Notes |
-|--------------|---------|-------|
-| id           | Guid    | PK    |
-| tipo         | string  |       |
-| monto        | decimal |       |
-| fecha        | DateTime|       |
-| descripcion  | string  |       |
-| categoria    | string  |       |
+**Table: `IBaseRepository<TEntity>`**
 
-**Methods:**
-- validarMonto(): bool
+| Member    | Signature                               | Notes |
+|-----------|------------------------------------------|-------|
+| Remove    | `void Remove(TEntity entity)`            | —     |
+| ListAsync | `Task<IEnumerable<TEntity>> ListAsync()` | —     |
 
 ---
 
-**Table: Balance**
+**Table: `IUnitOfWork`**
 
-| Attribute | Type | Notes |
-|-----------|------|-------|
-| (implícito, calculado) | - | Resultado del cálculo del ControlEconomico |
+| Member        | Signature              | Notes |
+|---------------|------------------------|-------|
+| CompleteAsync | `Task CompleteAsync()` | —     |
 
----
 
-#### 2.6.3.2. Interface Layer
-- API: `/transacciones`, `/balance`
-- UI para gestión financiera
+#### 2.6.3.1. Domain Layer
 
-#### 2.6.3.3. Application Layer
-- Registro de transacciones
-- Cálculo de balance y reportes económicos
+**Table: `IBaseRepository<TEntity>`**
+
+| Member        | Signature                               | Notes |
+|---------------|------------------------------------------|-------|
+| AddAsync      | `Task AddAsync(TEntity entity)`          | Agrega una entidad |
+| FindByIdAsync | `Task<TEntity?> FindByIdAsync(int id)`   | Busca por Id (nullable) |
+| Update        | `void Update(TEntity entity)`            | Actualiza una entidad |
+| Remove        | `void Remove(TEntity entity)`            | Elimina una entidad |
+| ListAsync     | `Task<IEnumerable<TEntity>> ListAsync()` | Lista todas las entidades |
+
+**Table: `IUnitOfWork`**
+
+| Member        | Signature              | Notes            |
+|---------------|------------------------|------------------|
+| CompleteAsync | `Task CompleteAsync()` | Confirma cambios |
 
 #### 2.6.3.4. Infrastructure Layer
-- Persistencia en BD
-- Exportación de reportes a PDF
+
+**Table: `GanLinkDBContext` (EF Core DbContext)**
+
+| Member / Property          | Signature / Type                                                    | Notes |
+|----------------------------|---------------------------------------------------------------------|-------|
+| (field) `_timestampsAudit` | `TimestampAudit`                                                    | Interceptor para setear `CreatedDate`/`UpdatedDate`. |
+| ctor                       | `GanLinkDBContext(DbContextOptions<GanLinkDBContext> options)`     | Ctor básico. |
+| ctor                       | `GanLinkDBContext(DbContextOptions<GanLinkDBContext> options, TimestampAudit timestampsAudit)` | Inyecta interceptor. |
+| OnConfiguring              | `protected override void OnConfiguring(DbContextOptionsBuilder ob)` | `ob.AddInterceptors(_timestampsAudit)`. |
+| OnModelCreating            | `protected override void OnModelCreating(ModelBuilder modelBuilder)`| `ApplyIamConfiguration()` y `UseSnakeCaseNamingConvention()`. |
+
+**Namespace:** `GanLink.Shared.Infrastructure.Persistence.EFC.Configuration`
+
+
+**Table: `TimestampAudit` (EF Core SaveChangesInterceptor)**
+
+| Member                     | Signature                                                                 | Notes |
+|---------------------------|---------------------------------------------------------------------------|-------|
+| SavingChangesAsync        | `public override ValueTask<InterceptionResult<int>> SavingChangesAsync(DbContextEventData eventData, InterceptionResult<int> result, CancellationToken cancellationToken = default)` | Recorre `ChangeTracker` y setea `CreatedDate`/`UpdatedDate` en entidades `IEntityWithCreatedUpdatedDate`. |
+
+**Implements/Extiende:** `Microsoft.EntityFrameworkCore.Diagnostics.SaveChangesInterceptor`
+
+
+**Table: `BaseRepository<TEntity>` (Generic Repository)**
+
+| Member        | Signature                                      | Notes |
+|---------------|-----------------------------------------------|-------|
+| (protected) Context | `GanLinkDBContext`                      | Contexto EF Core. |
+| ctor          | `protected BaseRepository(GanLinkDBContext context)` | Inyección del contexto. |
+| AddAsync      | `Task AddAsync(TEntity entity)`               | Crea entidad (`Set<TEntity>().AddAsync`). |
+| FindByIdAsync | `Task<TEntity?> FindByIdAsync(int id)`        | Busca por clave (`FindAsync`). |
+| Update        | `void Update(TEntity entity)`                 | Actualiza (`Set<TEntity>().Update`). |
+| Remove        | `void Remove(TEntity entity)`                 | Elimina (`Set<TEntity>().Remove`). |
+| ListAsync     | `Task<IEnumerable<TEntity>> ListAsync()`      | Lista (`ToListAsync`). |
+
+**Namespace:** `GanLink.Shared.Infrastructure.Persistence.EFC.Repositories`  
+**Implements:** `IBaseRepository<TEntity>`
+
+
+**Table: `UnitOfWork`**
+
+| Member        | Signature                 | Notes |
+|---------------|---------------------------|-------|
+| ctor          | `UnitOfWork(GanLinkDBContext context)` | Inyección del contexto. |
+| CompleteAsync | `Task CompleteAsync()`    | `context.SaveChangesAsync()`. |
+
+**Namespace:** `GanLink.Shared.Infrastructure.Persistence.EFC.Repositories`
 
 ---
-
-
 ##### 2.6.1.6.2. Database Design Diagram
-<img src="images/Class_Diagram.png">
+
+<img src="images/db.png">
 
 ## Conclusiones
-AgroTrace se ha consolidado como una solución tecnológica clave para modernizar la gestión ganadera, reemplazando los obsoletos sistemas manuales por una plataforma digital que centraliza el registro de animales, historial sanitario y transacciones económicas. Su implementación ha demostrado beneficios tangibles: mejora en la trazabilidad para cumplimiento normativo, reducción de pérdidas mediante alertas automatizadas, y acceso a datos en tiempo real para una toma de decisiones más informada. El uso de tecnologías como Angular, Node.js y PostgreSQL aseguró un desarrollo escalable y adaptable a las necesidades cambiantes del sector. Este proyecto no solo optimiza procesos operativos, sino que también acerca la innovación tecnológica a los pequeños y medianos ganaderos, marcando un precedente para la transformación digital en la agricultura latinoamericana. Con potencial para incorporar inteligencia artificial e integraciones con blockchain en futuras iteraciones, AgroDigital sienta las bases para una ganadería más eficiente, sostenible y competitiva.
+
+GanLink se ha consolidado como una solución tecnológica clave para modernizar la gestión ganadera, reemplazando los obsoletos sistemas manuales por una plataforma digital que centraliza el registro de animales, historial sanitario y transacciones económicas. Su implementación ha demostrado beneficios tangibles: mejora en la trazabilidad para cumplimiento normativo, reducción de pérdidas mediante alertas automatizadas, y acceso a datos en tiempo real para una toma de decisiones más informada. El uso de tecnologías como Kotlin, .NET y MySql aseguró un desarrollo escalable y adaptable a las necesidades cambiantes del sector. Este proyecto no solo optimiza procesos operativos, sino que también acerca la innovación tecnológica a los pequeños y medianos ganaderos, marcando un precedente para la transformación digital en la agricultura latinoamericana. Con potencial para incorporar inteligencia artificial e integraciones con blockchain en futuras iteraciones, GanLink sienta las bases para una ganadería más eficiente, sostenible y competitiva.
+
+
 ## Bibliografía
+
 - Food and Agriculture Organization (FAO). (2020). Guidelines for the humane handling, transport and slaughter of livestock. http://www.fao.org/3/x6909e/x6909e00.htm
 
 - García, E., & Santos, R. (2019). Bienestar animal en ganadería extensiva: Fundamentos y aplicaciones. Editorial Acribia.
@@ -1457,5 +1660,42 @@ AgroTrace se ha consolidado como una solución tecnológica clave para moderniza
 - Banhazi, T. M., & Halas, V. (2018). Precision livestock farming: Applications and perspectives. Wageningen Academic Publishers. https://doi.org/10.3920/978-90-8686-869-8
 
 - Ministerio de Agricultura [Perú]. (2022). Protocolo de trazabilidad ganadera. https://www.gob.pe/institucion/minagri
+
+- Cartín-Rojas, A. (2013). Trazabilidad, salud pública veterinaria y seguridad alimentaria: Un enfoque integral. *Revista de Investigaciones Veterinarias del Perú, 24*(3), 316–323. https://www.scielo.org.pe/pdf/rivep/v24n3/a08v24n3
+
+- Escobal, J., Trivelli, C., & Revesz, B. (2006). *Pequeña agricultura comercial: Dinámica y retos en el Perú*. GRADE. https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/LIBROGRADE_PEQUENAAGRICULTURACOMERCIAL.pdf
+
+- FAO, & ICAR. (2012). *Animal identification and recording systems for traceability and livestock development in Latin America and the Caribbean* (ICAR Technical Series No. 15). https://www.icar.org/wp-content/uploads/documents/tec_series_15_Santiago_Chile.pdf
+
+- Foreign Agricultural Service (USDA). (2024). *The overlooked consumer of affordable meat products – Lima, Peru (PE2024-0010).* https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=The+Overlooked+Consumer+of+Affordable+Meat+Products+_Lima_Peru_PE2024-0010
+
+- Gautreau, P. (2024). *Sistemas de trazabilidad de la carne bovina en Argentina, Paraguay y Uruguay*. AL-Invest Verde. https://alinvest-verde.eu/wp-content/uploads/2024/06/Sistemas-de-trazabilidad-carne-bovina.pdf
+
+- GSMA. (2024). *The state of mobile Internet connectivity 2024*. https://www.gsma.com/r/wp-content/uploads/2024/10/The-State-of-Mobile-Internet-Connectivity-Report-2024.pdf
+
+- Instituto Nacional de Estadística e Informática (INEI). (2014). *Inequidades de género en la actividad agropecuaria – TIC (CENAGRO 2012, cap. 17).* https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1185/cap17.pdf
+
+- Instituto Nacional de Estadística e Informática (INEI). (2025, 26 de marzo). *El 58,4% de los hogares del país tiene acceso a Internet (ENAHO, 4.º trim. 2024).* https://www.gob.pe/institucion/inei/noticias/1133448-el-58-4-de-los-hogares-del-pais-tiene-acceso-a-internet
+
+- Loukos, P., & Arathoon, L. (2021). *Panorama del ecosistema agrotecnológico para los pequeños agricultores de América Latina y el Caribe*. BID Lab. https://publications.iadb.org/publications/spanish/document/Panorama-del-ecosistema-agrotecnologico-para-los-pequenos-agricultores-de-America-Latina-y-el-Caribe.pdf
+
+- MIDAGRI. (2017). *Plan Nacional de Desarrollo Ganadero 2017–2027*. https://www.midagri.gob.pe/portal/download/pdf/especiales/plan-nacional-ganadero.pdf
+
+- OSIPTEL. (2025, 7 de octubre). *Erestel: El 94,8 % de hogares peruanos cuenta con un smartphone* (rural: 84,8% en 2024). https://www.gob.pe/institucion/osiptel/noticias/1259617-erestel-el-94-8-de-hogares-peruanos-cuenta-con-un-smartphone
+
+- Servicio Nacional de Sanidad Agraria (SENASA). (2020). *Guía de Buenas Prácticas Pecuarias en producción de bovinos*. https://www.senasa.gob.pe/senasa/descargasarchivos/2020/07/Guia-BP-BOVINO.pdf
+
+- Servicio Nacional de Sanidad Agraria (SENASA). (2021, 19 de febrero). *Más de un millón y medio de animales cuenta hoy con identificación oficial.* https://www.gob.pe/institucion/senasa/noticias/343387-mas-de-un-millon-y-medio-de-animales-cuenta-hoy-con-identificacion-oficial
+
+- World Bank. (2017). *Gaining momentum in Peruvian agriculture: Opportunities to increase productivity and enhance competitiveness.* https://documents1.worldbank.org/curated/en/107451498513689693/pdf/P162084-06-26-2017-1498513685623.pdf
+
+- World Organisation for Animal Health (WOAH). (2024). *General principles on identification and traceability of live animals (Terrestrial Code, ch. 4.2).* https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_ident_traceability.htm
+
+- Zúñiga, J. L. (2022). *Análisis sobre el mercado potencial de carne bovina* (Perú: 5,6 millones de cabezas). https://produccionsostenible.org.pe/wp-content/uploads/2022/12/AGRAP-251122.pdf
+- OSIPTEL. (2025, 7 de octubre). *Erestel: El 94.8 % de hogares peruanos cuenta con un smartphone* (rural: 84,8% en 2024). https://www.gob.pe/institucion/osiptel/noticias/1259617-erestel-el-94-8-de-hogares-peruanos-cuenta-con-un-smartphone 
+
+- Instituto Nacional de Estadística e Informática (INEI). (2025, 26 de marzo). *El 58,4% de los hogares del país tiene acceso a Internet* (uso de internet en población rural: 56,7% en 4T-2024). https://www.gob.pe/institucion/inei/noticias/1133448-el-58-4-de-los-hogares-del-pais-tiene-acceso-a-internet 
+
+- GSMA. (2024). *The State of Mobile Internet Connectivity 2024* (la brecha de uso supera ampliamente a la de cobertura). https://www.gsma.com/r/wp-content/uploads/2024/10/The-State-of-Mobile-Internet-Connectivity-Report-2024.pdf
 ## Anexos
 Enlace para acceder a los recursos
