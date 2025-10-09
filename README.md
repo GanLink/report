@@ -1384,6 +1384,44 @@ La arquitectura de información define cómo se estructura, organiza y etiqueta 
 #### 3.1.2.1. Organization Systems
 Define la forma en que se agrupan y jerarquizan los módulos del sistema (registro de animales, historial sanitario, control económico, etc.), priorizando la frecuencia de uso y la secuencia natural de tareas del usuario.
 
+En la aplicación **AgroTracer**, los sistemas de organización fueron diseñados bajo una estructura jerárquica y funcional, orientada a simplificar la navegación de los **pequeños y medianos ganaderos** dentro de un entorno digital intuitivo. El objetivo principal es garantizar que el usuario acceda con rapidez a los módulos críticos para la gestión productiva, sanitaria y económica del ganado, evitando sobrecarga visual o rutas confusas.
+
+**Jerárquica (visual hierarchy):**  
+Se implementa una jerarquía visual clara que prioriza los módulos esenciales del sistema:  
+- **Gestión de Hatos y Bovinos**  
+- **Eventos Sanitarios**  
+- **Control Económico**  
+- **Reportes e Indicadores Productivos**
+
+Cada uno ocupa posiciones destacadas en la interfaz principal (Dashboard), con íconos representativos, colores de contraste y etiquetas descriptivas. De esta forma, el usuario identifica de inmediato las funcionalidades críticas sin necesidad de recorrer menús extensos.
+
+**Organización funcional (por dominio):**  
+El contenido se organiza según los **bounded contexts** definidos en el modelo de dominio (IAM, Animal Health, Economic Control, Farm Management). Esto se refleja en menús y vistas agrupadas de acuerdo con las acciones que el usuario realiza:
+- **Registro y control de animales** (alta, baja, peso, estado de salud)  
+- **Gestión sanitaria** (vacunas, tratamientos, alertas)  
+- **Gestión económica** (ingresos, gastos, reportes financieros)  
+- **Configuración de usuario y granja** (datos del productor, perfil, ubicación)
+
+Esta organización modular favorece la comprensión funcional del sistema, reduciendo la carga cognitiva y mejorando la consistencia entre pantallas.
+
+**Secuencial (step-by-step):**  
+Procesos complejos, como el **registro de eventos sanitarios**, **ventas** o **creación de granjas**, se estructuran mediante flujos secuenciales que guían al usuario paso a paso.  
+Por ejemplo, en el registro de un nuevo bovino, la aplicación solicita los datos en un orden lógico: identificación → raza → edad → peso → historial sanitario, evitando errores y promoviendo un flujo de trabajo natural.
+
+**Categorización temática:**  
+Los contenidos se agrupan según tres dimensiones principales:
+- **Tipo de usuario:** Ganadero, técnico o asociación.  
+- **Funcionalidad:** Sanidad, reproducción, economía, reportes.  
+- **Nivel de uso:** Básico (registros manuales), intermedio (alertas automáticas), avanzado (reportes y análisis).  
+
+Esta categorización permite ofrecer una experiencia progresiva, adaptable al nivel de alfabetización digital de cada usuario.
+
+**Complementariedad educativa:**  
+El sistema también incluye un espacio de soporte denominado **Academia Ganadera**, donde los usuarios pueden acceder a recursos educativos, videos y guías de buenas prácticas. Este módulo está vinculado jerárquicamente a las secciones de gestión, de modo que el aprendizaje se asocia directamente con las tareas que el usuario realiza.
+
+En conjunto, estos sistemas de organización garantizan que la navegación dentro de **AgroTracer** sea coherente, predecible y accesible, incluso en contextos rurales con baja familiaridad tecnológica, alineándose con los principios de **usabilidad, accesibilidad y diseño centrado en el usuario (UCD)** propuestos en el enunciado del proyecto final.
+
+
 #### 3.1.2.2. Labelling Systems
 Establece la nomenclatura y etiquetas que se emplean en menús, botones y secciones de la aplicación, usando un lenguaje natural, comprensible y adaptado al contexto rural latinoamericano.
 
