@@ -1357,6 +1357,78 @@ Se presenta tres niveles del modelo C4 trabajado con structurizr para el proyect
 ##### 2.6.1.6.2. Database Design Diagram
 <img src="images/Class_Diagram.png">
 
+## 3. Solution UI/UX Design
+
+Este capítulo presenta el proceso de diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX) de la solución digital **AgroTracer**, desarrollada por la startup **GanLink**.  
+El objetivo es garantizar una experiencia coherente, accesible y atractiva para los pequeños y medianos ganaderos, alineada con los principios de diseño centrado en el usuario y con los lineamientos definidos en el *Style Guidelines* del producto.
+
+### 3.1. Product Design
+
+El diseño del producto se elaboró considerando las etapas del proceso **Lean UX**, los resultados de las entrevistas con usuarios y los hallazgos del *Needfinding*.  
+Se busca reflejar la identidad de GanLink mediante una interfaz moderna, minimalista y funcional, adaptada al contexto rural, priorizando la legibilidad, la navegación intuitiva y el acceso a la información esencial.
+
+
+### 3.1.1. Style Guidelines
+
+Este apartado define los lineamientos visuales y comunicativos que rigen la identidad del producto digital. Incluye decisiones de tipografía, color, iconografía, espaciado y tono comunicativo, asegurando una presentación consistente en la landing page y en la aplicación móvil.
+
+#### 3.1.1.1. General Style Guidelines
+
+Se establecen las guías visuales generales del producto. 
+
+
+### 3.1.2. Information Architecture
+
+La arquitectura de información define cómo se estructura, organiza y etiqueta el contenido dentro del producto. Su propósito es garantizar que los usuarios encuentren la información de manera rápida y lógica, reduciendo la carga cognitiva y optimizando la experiencia.
+
+#### 3.1.2.1. Organization Systems
+Define la forma en que se agrupan y jerarquizan los módulos del sistema (registro de animales, historial sanitario, control económico, etc.), priorizando la frecuencia de uso y la secuencia natural de tareas del usuario.
+
+#### 3.1.2.2. Labelling Systems
+Establece la nomenclatura y etiquetas que se emplean en menús, botones y secciones de la aplicación, usando un lenguaje natural, comprensible y adaptado al contexto rural latinoamericano.
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+Incluye las etiquetas meta y de optimización para motores de búsqueda (SEO) aplicadas en la landing page. Permite mejorar la visibilidad digital del producto en buscadores y redes sociales.
+
+#### 3.1.2.4. Searching Systems
+Describe los mecanismos de búsqueda implementados dentro de la plataforma (por ejemplo, búsqueda de animales por ID, raza o estado sanitario), priorizando rapidez y precisión.
+
+#### 3.1.2.5. Navigation Systems
+Define la estructura de navegación del producto, tanto en la versión web como móvil. Incluye menús principales, submenús, rutas internas y botones de acceso rápido para garantizar un flujo de interacción coherente.
+
+
+### 3.1.3. Landing Page UI Design
+
+El diseño de la **landing page** se centra en comunicar la propuesta de valor de AgroTracer, mostrar sus funcionalidades principales y dirigir a los visitantes hacia la descarga o uso de la aplicación.
+
+#### 3.1.3.1. Landing Page Wireframe
+Presenta el esquema estructural de la página inicial, definiendo jerarquías visuales, zonas de contenido y flujos de interacción.
+
+#### 3.1.3.2. Landing Page Mock-up
+Desarrollo visual detallado del wireframe anterior, incorporando los lineamientos de estilo (colores, tipografía, íconos, botones y banners informativos).
+
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+Esta sección describe el diseño visual y de interacción de la aplicación móvil, considerando la accesibilidad, la simplicidad operativa y la usabilidad en condiciones rurales.  
+El diseño se basa en los principios de *Mobile First* y en la coherencia con la identidad visual definida en los *Style Guidelines*.
+
+#### 3.1.4.1. Mobile Applications Wireframes
+Representan la estructura funcional de cada vista de la aplicación (pantallas de login, registro, menú principal, módulos de gestión, etc.).
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+Detallan los flujos de navegación entre pantallas, permitiendo visualizar las rutas y transiciones del usuario al interactuar con la aplicación.
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+Diseños visuales completos que integran colores, íconos y elementos gráficos reales, simulando la apariencia final del producto en dispositivos móviles.
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+Diagramas que describen los caminos lógicos del usuario en cada funcionalidad (por ejemplo: registrar animal, registrar vacuna, generar reporte).
+
+#### 3.1.4.5. Mobile Applications Prototyping
+Presenta la versión interactiva del prototipo creada en herramientas como **Figma** o **Adobe XD**, permitiendo validar la usabilidad antes del desarrollo final.
+
+
 ## Conclusiones
 AgroTrace se ha consolidado como una solución tecnológica clave para modernizar la gestión ganadera, reemplazando los obsoletos sistemas manuales por una plataforma digital que centraliza el registro de animales, historial sanitario y transacciones económicas. Su implementación ha demostrado beneficios tangibles: mejora en la trazabilidad para cumplimiento normativo, reducción de pérdidas mediante alertas automatizadas, y acceso a datos en tiempo real para una toma de decisiones más informada. El uso de tecnologías como Angular, Node.js y PostgreSQL aseguró un desarrollo escalable y adaptable a las necesidades cambiantes del sector. Este proyecto no solo optimiza procesos operativos, sino que también acerca la innovación tecnológica a los pequeños y medianos ganaderos, marcando un precedente para la transformación digital en la agricultura latinoamericana. Con potencial para incorporar inteligencia artificial e integraciones con blockchain en futuras iteraciones, AgroDigital sienta las bases para una ganadería más eficiente, sostenible y competitiva.
 ## Bibliografía
