@@ -1,4 +1,4 @@
-# Informe TB1
+# Informe TP
 <div align="center">
 
 <h3> Universidad Peruana de Ciencias Aplicadas </h3>
@@ -27,6 +27,7 @@ style="width:50%;" />
 | Rodas Sotomayor, Ernesto            | U202312443 |
 | Huaman Hinostroza, Milenio          | U20211c245 |
 | Mora Blas, Diego Alonzo             | U20231c069 |
+| León Vivas, Fabrizio Amir           | U20211B994 |
 
 </div>
 
@@ -34,12 +35,16 @@ style="width:50%;" />
 
 ## Registro de versiones del informe
 
-|Versión|Fecha|Autor|Descripción de modificación|
-|:-:|:-:|:-:|-|
-|1.0|17/09/2025|Mora Blas, Diego Alonzo|Creación del documento de trabajo en formato markdown|
-|1.1|18/09/2025|Rodas Sotomayor, Ernesto|Desarrollo del capítulo 1 del documento en formato markdown|
-|1.2|18/09/2025|Guerrero Tomas, Nelson Fabrizio  |Desarrollo del capítulo 2 del documento en formato markdown|
-|1.3|18/09/2025|Huaman Hinostroza, Milenio  |Desarrollo del capítulo 2.5 del documento en formato markdown|
+| Versión |    Fecha   |              Autor              | Descripción de modificación                                   |
+| :-----: | :--------: | :-----------------------------: | ------------------------------------------------------------- |
+|   1.0   | 17/09/2025 |     Mora Blas, Diego Alonzo     | Creación del documento de trabajo en formato markdown         |
+|   1.1   | 18/09/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 1 del documento en formato markdown   |
+|   1.2   | 18/09/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 2 del documento en formato markdown   |
+|   1.3   | 18/09/2025 |    Huaman Hinostroza, Milenio   | Desarrollo del capítulo 2.5 del documento en formato markdown |
+|   1.4   | 09/10/2025 |       León Vivas, Fabrizio      | Desarrollo del capítulo 2.6 del documento en formato markdown |
+|   1.5   | 09/10/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 3.1 del documento en formato markdown |
+|   1.6   | 09/10/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 4.1 del documento en formato markdown |
+|   1.7   | 09/10/2025 | Mora Blas, Diego Alonzo         |    Desarrollo del capítulo 4.2 del documento en formato markdown |
 
 ## Project Report Collaboration Insights
 
@@ -83,7 +88,39 @@ Se explican las ramas más prominentes:
 
 Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
 
+**TP**
+
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante      | Tareas Asignadas                                                                                                                                                                                                     |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ernesto Rodas   | Actualizar **Registro de Versiones del Informe**, **Project Report Collaboration Insights** y **Student Outcome**; revisión y corrección de artefactos previos.                                                      |
+| Nelson Guerrero | **Capítulo III – 3.1 Product design**: Style Guidelines, Arquitectura de Información, Landing Page (implementación + evidencia de despliegue).                                                                       |
+| Milenio Huamán  | **Capítulo III – 3.2–3.4**: Wireframes, Wireflows, Mockups, User Flows y Prototyping; demostración de **pantallas core** de la app.                                                                                  |
+| Diego Mora      | **Capítulo IV – 4.1 Software Configuration Management**: repos, convenciones (branching), CI/CD; evidencia de **backend al 70%** desplegado.                                                                         |
+| Fabrizio León   | **Capítulo IV – 4.2 Product Implementation & Validation (Sprint 1)**: plan y evidencias del Sprint 1 (backlog, burndown/velocity, increment), validación y testing; **Conclusiones**, **Bibliografía** y **Anexos**. |
+
 **TB1**
+
+**Github Collaboration Insights**
+
+Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
+
+Los integrantes son:
+
+* Nelson Guerrero (Nelsoondev)
+* Ernesto Rodas (ernesto1718)
+* Milenio Huaman (Milenioupc)
+* Diego Mora (diegoalonzomora)
+* Fabrizio León (codylionvivo)
+
+Se explican las ramas más prominentes:
+
+- **main**: Se trata de la rama principal del proyecto y se actualiza para cada entregable.
+
+- **develop**: Se trata de la rama principal para el proceso del desarrollo del proyecto.
+
+Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
 
 ## Student Outcomes
 
