@@ -288,6 +288,7 @@ GanLink busca consolidarse como un **modelo de negocio sostenible, confiable y c
 | Mi nombre es **Ernesto Rodas Sotomayor**, soy estudiante de Ingeniería de Software con experiencia en documentación académica, gestión de proyectos y diseño de soluciones digitales. Aporto al equipo en la redacción técnica, estructuración del informe y liderazgo en la organización de entregables. | <img src="images/137a.jpg" alt="Foto Ernesto" width="250px" /> |
 | Mi nombre es **Milenio Huamán Hinostroza**, soy estudiante de Ingeniería de Software con afinidad por el modelado de procesos y la especificación de requisitos. Mi aporte se centra en la definición de herramientas de análisis, mapas de empatía y estructuración de historias de usuario. | <img src="images/perfilMilenio.png" alt="Foto Milenio" width="250px" /> |
 | Mi nombre es **Diego Alonzo Mora Blas**, soy estudiante de Ingeniería de Software con orientación al diseño técnico y arquitectónico. Contribuyo con la elaboración de diagramas, modelos de dominio y propuestas de arquitectura de software para el desarrollo de la aplicación. | <img src="images/DiegoMora.PNG" alt="Foto Diego" width="250px" /> |
+| Mi nombre es **Fabrizio Amir León Vivas**, soy estudiante de Ingeniería de Software con una sólida formación en arquitectura empresarial y desarrollo basado en dominios (DDD). Me especializo en la implementación de microservicios RESTful utilizando Spring Boot y NestJS, aplicando principios de Clean Architecture, buenas prácticas de diseño y pruebas de integración BDD. | <img src="images/fabrizio.PNG" alt="Foto Diego" width="250px" /> |
 
 <div id='1.2.'><h3>1.2. Solution Profile</h3></div>
 
@@ -1353,7 +1354,12 @@ Este módulo comparte piezas comunes para no reinventar la rueda. Provee la base
 |----------------------------------|--------------------------------------------------------------------------------------------|-------|
 | UseRequestAuthorizationMiddleware| `IApplicationBuilder UseRequestAuthorizationMiddleware(this IApplicationBuilder builder)`  | Registra el middleware de autorización en el pipeline. |
 
+#### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+
+
 ---
+
 
 ### 2.6.2. Bounded Context: Farm Management
 
@@ -1686,53 +1692,49 @@ GanLink se ha consolidado como una solución tecnológica clave para modernizar 
 
 ## Bibliografía
 
+- Banhazi, T. M., & Halas, V. (2018). Precision livestock farming: Applications and perspectives. Wageningen Academic Publishers. https://doi.org/10.3920/978-90-8686-869-8
+
+- Blood, D. C., & Studdert, V. P. (2012). Veterinaria: Un enfoque hacia animales de producción (10.ª ed.). McGraw-Hill Interamericana.
+
+- Cartín-Rojas, A. (2013). Trazabilidad, salud pública veterinaria y seguridad alimentaria: Un enfoque integral. Revista de Investigaciones Veterinarias del Perú, 24(3), 316–323. https://www.scielo.org.pe/pdf/rivep/v24n3/a08v24n3
+
+- Escobal, J., Trivelli, C., & Revesz, B. (2006). Pequeña agricultura comercial: Dinámica y retos en el Perú. GRADE. https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/LIBROGRADE_PEQUENAAGRICULTURACOMERCIAL.pdf
+
+- FAO, & ICAR. (2012). Animal identification and recording systems for traceability and livestock development in Latin America and the Caribbean (ICAR Technical Series No. 15). https://www.icar.org/wp-content/uploads/documents/tec_series_15_Santiago_Chile.pdf
+
 - Food and Agriculture Organization (FAO). (2020). Guidelines for the humane handling, transport and slaughter of livestock. http://www.fao.org/3/x6909e/x6909e00.htm
+
+- Foreign Agricultural Service (USDA). (2024). The overlooked consumer of affordable meat products – Lima, Peru (PE2024-0010). https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=The+Overlooked+Consumer+of+Affordable+Meat+Products+_Lima_Peru_PE2024-0010
 
 - García, E., & Santos, R. (2019). Bienestar animal en ganadería extensiva: Fundamentos y aplicaciones. Editorial Acribia.
 
-- OIE. (2021). Terrestrial Animal Health Code (28th ed.). World Organisation for Animal Health. https://www.woah.org/en/what-we-do/standards/codes-and-manuals/
+- Gautreau, P. (2024). Sistemas de trazabilidad de la carne bovina en Argentina, Paraguay y Uruguay. AL-Invest Verde. https://alinvest-verde.eu/wp-content/uploads/2024/06/Sistemas-de-trazabilidad-carne-bovina.pdf
 
-- Blood, D. C., & Studdert, V. P. (2012). Veterinaria: Un enfoque hacia animales de producción (10a ed.). McGraw-Hill Interamericana.
+- GSMA. (2024). The state of mobile Internet connectivity 2024. https://www.gsma.com/r/wp-content/uploads/2024/10/The-State-of-Mobile-Internet-Connectivity-Report-2024.pdf
 
-- Banhazi, T. M., & Halas, V. (2018). Precision livestock farming: Applications and perspectives. Wageningen Academic Publishers. https://doi.org/10.3920/978-90-8686-869-8
+- Instituto Nacional de Estadística e Informática (INEI). (2014). Inequidades de género en la actividad agropecuaria – TIC (CENAGRO 2012, cap. 17). https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1185/cap17.pdf
+
+- Instituto Nacional de Estadística e Informática (INEI). (2025, 26 de marzo). El 58,4% de los hogares del país tiene acceso a Internet (ENAHO, 4.º trim. 2024). https://www.gob.pe/institucion/inei/noticias/1133448-el-58-4-de-los-hogares-del-pais-tiene-acceso-a-internet
+
+- Loukos, P., & Arathoon, L. (2021). Panorama del ecosistema agrotecnológico para los pequeños agricultores de América Latina y el Caribe. BID Lab. https://publications.iadb.org/publications/spanish/document/Panorama-del-ecosistema-agrotecnologico-para-los-pequenos-agricultores-de-America-Latina-y-el-Caribe.pdf
 
 - Ministerio de Agricultura [Perú]. (2022). Protocolo de trazabilidad ganadera. https://www.gob.pe/institucion/minagri
 
-- Cartín-Rojas, A. (2013). Trazabilidad, salud pública veterinaria y seguridad alimentaria: Un enfoque integral. *Revista de Investigaciones Veterinarias del Perú, 24*(3), 316–323. https://www.scielo.org.pe/pdf/rivep/v24n3/a08v24n3
+- Ministerio de Desarrollo Agrario y Riego (MIDAGRI). (2017). Plan Nacional de Desarrollo Ganadero 2017–2027. https://www.midagri.gob.pe/portal/download/pdf/especiales/plan-nacional-ganadero.pdf
 
-- Escobal, J., Trivelli, C., & Revesz, B. (2006). *Pequeña agricultura comercial: Dinámica y retos en el Perú*. GRADE. https://www.grade.org.pe/upload/publicaciones/archivo/download/pubs/LIBROGRADE_PEQUENAAGRICULTURACOMERCIAL.pdf
+- OIE. (2021). Terrestrial Animal Health Code (28th ed.). World Organisation for Animal Health. https://www.woah.org/en/what-we-do/standards/codes-and-manuals/
 
-- FAO, & ICAR. (2012). *Animal identification and recording systems for traceability and livestock development in Latin America and the Caribbean* (ICAR Technical Series No. 15). https://www.icar.org/wp-content/uploads/documents/tec_series_15_Santiago_Chile.pdf
+- Organismo Supervisor de Inversión Privada en Telecomunicaciones (OSIPTEL). (2025, 7 de octubre). Erestel: El 94,8 % de hogares peruanos cuenta con un smartphone (rural: 84,8% en 2024). https://www.gob.pe/institucion/osiptel/noticias/1259617-erestel-el-94-8-de-hogares-peruanos-cuenta-con-un-smartphone
 
-- Foreign Agricultural Service (USDA). (2024). *The overlooked consumer of affordable meat products – Lima, Peru (PE2024-0010).* https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=The+Overlooked+Consumer+of+Affordable+Meat+Products+_Lima_Peru_PE2024-0010
+- Servicio Nacional de Sanidad Agraria (SENASA). (2020). Guía de Buenas Prácticas Pecuarias en producción de bovinos. https://www.senasa.gob.pe/senasa/descargasarchivos/2020/07/Guia-BP-BOVINO.pdf
 
-- Gautreau, P. (2024). *Sistemas de trazabilidad de la carne bovina en Argentina, Paraguay y Uruguay*. AL-Invest Verde. https://alinvest-verde.eu/wp-content/uploads/2024/06/Sistemas-de-trazabilidad-carne-bovina.pdf
+- Servicio Nacional de Sanidad Agraria (SENASA). (2021, 19 de febrero). Más de un millón y medio de animales cuenta hoy con identificación oficial. https://www.gob.pe/institucion/senasa/noticias/343387-mas-de-un-millon-y-medio-de-animales-cuenta-hoy-con-identificacion-oficial
 
-- GSMA. (2024). *The state of mobile Internet connectivity 2024*. https://www.gsma.com/r/wp-content/uploads/2024/10/The-State-of-Mobile-Internet-Connectivity-Report-2024.pdf
+- World Bank. (2017). Gaining momentum in Peruvian agriculture: Opportunities to increase productivity and enhance competitiveness. https://documents1.worldbank.org/curated/en/107451498513689693/pdf/P162084-06-26-2017-1498513685623.pdf
 
-- Instituto Nacional de Estadística e Informática (INEI). (2014). *Inequidades de género en la actividad agropecuaria – TIC (CENAGRO 2012, cap. 17).* https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1185/cap17.pdf
+- World Organisation for Animal Health (WOAH). (2024). General principles on identification and traceability of live animals (Terrestrial Code, ch. 4.2). https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_ident_traceability.htm
 
-- Instituto Nacional de Estadística e Informática (INEI). (2025, 26 de marzo). *El 58,4% de los hogares del país tiene acceso a Internet (ENAHO, 4.º trim. 2024).* https://www.gob.pe/institucion/inei/noticias/1133448-el-58-4-de-los-hogares-del-pais-tiene-acceso-a-internet
+- Zúñiga, J. L. (2022). Análisis sobre el mercado potencial de carne bovina (Perú: 5,6 millones de cabezas). https://produccionsostenible.org.pe/wp-content/uploads/2022/12/AGRAP-251122.pdf
 
-- Loukos, P., & Arathoon, L. (2021). *Panorama del ecosistema agrotecnológico para los pequeños agricultores de América Latina y el Caribe*. BID Lab. https://publications.iadb.org/publications/spanish/document/Panorama-del-ecosistema-agrotecnologico-para-los-pequenos-agricultores-de-America-Latina-y-el-Caribe.pdf
-
-- MIDAGRI. (2017). *Plan Nacional de Desarrollo Ganadero 2017–2027*. https://www.midagri.gob.pe/portal/download/pdf/especiales/plan-nacional-ganadero.pdf
-
-- OSIPTEL. (2025, 7 de octubre). *Erestel: El 94,8 % de hogares peruanos cuenta con un smartphone* (rural: 84,8% en 2024). https://www.gob.pe/institucion/osiptel/noticias/1259617-erestel-el-94-8-de-hogares-peruanos-cuenta-con-un-smartphone
-
-- Servicio Nacional de Sanidad Agraria (SENASA). (2020). *Guía de Buenas Prácticas Pecuarias en producción de bovinos*. https://www.senasa.gob.pe/senasa/descargasarchivos/2020/07/Guia-BP-BOVINO.pdf
-
-- Servicio Nacional de Sanidad Agraria (SENASA). (2021, 19 de febrero). *Más de un millón y medio de animales cuenta hoy con identificación oficial.* https://www.gob.pe/institucion/senasa/noticias/343387-mas-de-un-millon-y-medio-de-animales-cuenta-hoy-con-identificacion-oficial
-
-- World Bank. (2017). *Gaining momentum in Peruvian agriculture: Opportunities to increase productivity and enhance competitiveness.* https://documents1.worldbank.org/curated/en/107451498513689693/pdf/P162084-06-26-2017-1498513685623.pdf
-
-- World Organisation for Animal Health (WOAH). (2024). *General principles on identification and traceability of live animals (Terrestrial Code, ch. 4.2).* https://www.woah.org/fileadmin/Home/eng/Health_standards/tahc/2024/en_chapitre_ident_traceability.htm
-
-- Zúñiga, J. L. (2022). *Análisis sobre el mercado potencial de carne bovina* (Perú: 5,6 millones de cabezas). https://produccionsostenible.org.pe/wp-content/uploads/2022/12/AGRAP-251122.pdf
-- OSIPTEL. (2025, 7 de octubre). *Erestel: El 94.8 % de hogares peruanos cuenta con un smartphone* (rural: 84,8% en 2024). https://www.gob.pe/institucion/osiptel/noticias/1259617-erestel-el-94-8-de-hogares-peruanos-cuenta-con-un-smartphone 
-
-- Instituto Nacional de Estadística e Informática (INEI). (2025, 26 de marzo). *El 58,4% de los hogares del país tiene acceso a Internet* (uso de internet en población rural: 56,7% en 4T-2024). https://www.gob.pe/institucion/inei/noticias/1133448-el-58-4-de-los-hogares-del-pais-tiene-acceso-a-internet 
-
-- GSMA. (2024). *The State of Mobile Internet Connectivity 2024* (la brecha de uso supera ampliamente a la de cobertura). https://www.gsma.com/r/wp-content/uploads/2024/10/The-State-of-Mobile-Internet-Connectivity-Report-2024.pdf
 ## Anexos
 Enlace para acceder a los recursos
