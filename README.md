@@ -1364,6 +1364,53 @@ Se presenta tres niveles del modelo C4 trabajado con structurizr para el proyect
 
 <div id='4.1.1.'><h4>4.1.1. Software Development Environment Configuration</h4></div>
 
+Para el desarrollo del proyecto **GanLink / AgroTracer**, se ha configurado un entorno integral de ingeniería de software que permite la colaboración eficiente del equipo, la trazabilidad de los avances y la correcta gestión de los artefactos del producto digital.  
+El ecosistema de herramientas empleadas se organiza en las siguientes categorías:
+
+#### Requirements Management
+
+**Trello:**  
+Plataforma colaborativa utilizada para la planificación y control de tareas bajo un enfoque ágil basado en sprints.  
+Cada tarjeta representa una historia de usuario o una tarea técnica, organizada por prioridad y asignada a un miembro del equipo.  
+Esta herramienta permitió mantener la trazabilidad de los avances y una visión general del progreso del proyecto.  
+Referencia: [https://trello.com/es](https://trello.com/es)
+
+#### Product UX/UI Design
+
+**Figma:**  
+Herramienta empleada para el diseño de interfaces y prototipos interactivos de la aplicación móvil y de la landing page.  
+Se utilizó para la creación de wireframes, mock-ups y prototipos navegables, guiando las decisiones de diseño de experiencia de usuario (UX) y consistencia visual (UI).  
+Referencia: [https://www.figma.com](https://www.figma.com)
+
+**Lucidchart:**  
+Aplicación web destinada a la elaboración de diagramas de flujo, mapas de navegación y diagramas de clases del sistema.  
+Facilitó la representación visual de los procesos internos y la relación entre los componentes lógicos y visuales de la aplicación.  
+Referencia: [https://www.lucidchart.com](https://www.lucidchart.com)
+
+#### Software Development
+
+**Android Studio:**  
+Entorno de desarrollo integrado (IDE) seleccionado para la implementación de la aplicación móvil **AgroTracer**, por su soporte nativo al lenguaje **Kotlin**, sus herramientas de depuración y su integración con el SDK de Android.  
+Incluye módulos para el diseño de interfaces mediante archivos XML, compilación con Gradle, y emuladores para la validación de la aplicación en distintas versiones de Android.  
+Referencia: [https://developer.android.com/studio](https://developer.android.com/studio)
+
+**Kotlin y XML:**  
+El lenguaje **Kotlin** se utilizó para el desarrollo de la lógica de negocio, controladores y validaciones, mientras que **XML** fue empleado para la definición de las interfaces gráficas (layouts), estilos y componentes visuales.  
+Esta combinación permite un desarrollo moderno, seguro y eficiente, asegurando compatibilidad con las últimas versiones del SDK de Android.  
+Referencia: [https://kotlinlang.org/docs/android-overview.html](https://kotlinlang.org/docs/android-overview.html)
+
+#### Software Deployment
+
+**Git:**  
+Sistema de control de versiones distribuido utilizado para el seguimiento y la gestión de cambios en el código fuente.  
+Permite registrar las iteraciones de desarrollo, mantener un historial de versiones y realizar integraciones controladas mediante ramas (branches).  
+Referencia: [https://git-scm.com](https://git-scm.com)
+
+**GitHub:**  
+Repositorio remoto configurado como entorno centralizado para la gestión del código fuente, documentación técnica y control de versiones bajo la metodología **GitFlow**.  
+Facilita la colaboración entre los miembros del equipo mediante *pull requests*, *code reviews* y la integración continua del proyecto.  
+Referencia: [https://github.com](https://github.com)
+
 <div id='4.1.2.'><h4>4.1.2. Source Code Management</h4></div>
 
 <div id='4.1.3.'><h4>4.1.3. Source Code Style Guide & Conventions</h4></div>
