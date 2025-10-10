@@ -1652,6 +1652,35 @@ Las actividades fueron gestionadas mediante **Trello**, lo que permitió dividir
 
 <div id='4.2.1.3.'><h5>4.2.1.3. Development Evidence for Sprint Review</h5></div>
 
+Durante el **Sprint 1**, se registraron múltiples commits distribuidos entre los repositorios de la **Landing Page**, **Backend**, **Aplicación Móvil (Android Studio)** y **Documentación (report)**.  
+A continuación, se detallan los principales commits generados durante esta iteración, evidenciando la participación de todos los integrantes y el avance progresivo del desarrollo.
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed On (Date)** |
+|----------------|-------------|----------------|--------------------|--------------------------|--------------------------|
+| **GanLink Backend** | develop | `84ec52b` | feat: Create Aggregates | Implementación de clases de dominio y agregados principales del sistema GanLink. | 29/09/2025 |
+| **GanLink Backend** | develop | `bac5c53` | feat(domain): add Bovine entity | Creación de la entidad principal Bovine con su relación FarmId. | 30/09/2025 |
+| **GanLink Backend** | develop | `842b4cb` | feat(bovine): add BovineAudit entity | Implementación de auditorías y registros sanitarios asociados a cada animal. | 30/09/2025 |
+| **GanLink Backend** | develop | `725b518` | feat(farm-management): update IAM bounded context | Actualización del contexto delimitado de gestión de granjas para pruebas unitarias. | 06/10/2025 |
+| **GanLink Backend** | develop | `69af537` | chore: configure db | Configuración de la base de datos inicial y conexión del entorno de desarrollo. | 06/10/2025 |
+| **GanLink Backend** | develop | `c27ae63` | fix: clean project files | Limpieza y reestructuración de archivos para consolidar la estructura final del proyecto. | 06/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `dabf5dd` | chore: create farm add views | Creación de vistas de registro y visualización de granjas en la aplicación móvil. | 04/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `f146f73` | chore: add farm home on click function | Configuración de función interactiva para el acceso directo desde el menú principal. | 05/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `c93eb92` | feat: user register feature connected to backend | Integración del módulo de registro de usuarios con el backend mediante Retrofit y Hilt. | 06/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `0485d74` | chore: add home validations and register viewmodel | Implementación del ViewModel con validaciones de formulario y navegación. | 06/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `c385642` | feat: add bovine form view and dependencies | Creación de la vista de registro de bovinos y configuración de dependencias Hilt y Room. | 06/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-3 | `011ee9a` | docs(ux/ui): add Style Guidelines | Incorporación de la guía de estilo visual y tipográfica de la aplicación. | 09/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-3 | `b73f273` | docs(uiux): refine Navigation Systems section | Revisión y actualización de la sección de sistemas de navegación del informe. | 09/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-3 | `24b61bb` | feat(report): add Chapter III – Solution UI/UX Design | Inclusión completa del capítulo de diseño de interfaz y arquitectura visual. | 09/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-3 | `2996f72` | docs(uiux): add Searching Systems section | Redacción de la sección de búsqueda y categorización dentro del diseño de información. | 09/10/2025 |
+| **GanLink Report** | feature/chapter-4 | `63b383d` | docs(implementation): update Software Development Environment Configuration for Android Studio (Kotlin) setup | Configuración del entorno de desarrollo en Android Studio con soporte Kotlin y dependencias iniciales. | 09/10/2025 |
+| **GanLink Report** | feature/chapter-4 | `db59737` | docs(implementation): add concise overview for Software Configuration Management | Incorporación de descripción general sobre la gestión de configuración del software y su propósito técnico. | 09/10/2025 |
+
+- **Diego Mora:** Estructuración del proyecto móvil, integración con backend (Hilt, Retrofit, Room).  
+- **Fabrizzio León:** Configuración de base de datos, dominios y controladores en backend.  
+- **Milenko Huamán:** Creación de entidades de salud, métricas y autenticación en backend.  
+- **Ernesto Rodas:** Coordinación del despliegue documental y elaboración de informes técnicos.  
+- **Nelson Guerrero:** Diseño, estructura de la landing page y documentación visual (Figma, Markdown).
+
 <div id='4.2.1.4.'><h5>4.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
 
 <div id='4.2.1.5.'><h5>4.2.1.5. Execution Evidence for Sprint Review</h5></div>
