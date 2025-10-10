@@ -1639,17 +1639,16 @@ Las actividades fueron gestionadas mediante **Trello**, lo que permitió dividir
 
 **Link del Trello:** [https://trello.com/b/I1kLkHX3](https://trello.com/b/I1kLkHX3)
 
-| **User Story** |  |  | **Work Item / Task** |  |  |  |  |
-|----------------|----------------|-----------|----------------|--------------------|--------------------|------------------|-----------------------------|
-| **Id** | **Title** |  | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
-| **US01** | Contactar a la startup |  | **UT01** | Formulario de contacto | Diseñar y programar el formulario de contacto en la Landing Page para que los usuarios puedan enviar consultas al equipo de desarrollo. | 2 | Ernesto Rodas | Done |
-| **US02** | Obtener información de la aplicación |  | **UT02** | Secciones informativas | Agregar las secciones “Sobre Nosotros”, “Visión”, “Valores” y “Testimonios” en la Landing Page, mostrando la identidad y propósito del proyecto. | 3 | Nelson Guerrero | Done |
-| **US03** | Acceder a la aplicación desde la Landing Page |  | **UT03** | Botón de acceso | Incorporar un botón funcional que redirija al entorno de la aplicación móvil o web desarrollada. | 2 | Nelson Guerrero | Done |
-| **US04** | Registrar nuevo animal |  | **UT04** | Endpoint POST /api/animals | Implementar el servicio backend para registrar animales mediante API REST con validaciones básicas. | 4 | Fabrizzio León | Done |
-| **US05** | Buscar animal por ID |  | **UT05** | Endpoint GET /api/animals | Desarrollar el servicio backend que permite consultar animales registrados a partir de su identificador único. | 3 | Milenko Huamán | Done |
-| **US06** | Iniciar sesión |  | **UT06** | Autenticación de usuarios | Implementar la funcionalidad de inicio de sesión con validación de credenciales y generación de token JWT. | 4 | Fabrizzio León / Diego Mora | Done |
-| **US07** | Registrar vacunación |  | **UT07** | Módulo de vacunación | Desarrollar el módulo para registrar vacunas aplicadas a cada animal, registrando tipo, dosis y fecha de aplicación. | 3 | Diego Mora | Done |
-| **US08** | Registrar venta |  | **UT08** | Registro de transacciones | Implementar la funcionalidad de registro de ventas de animales, con validaciones de datos y actualización de inventario. | 3 | Milenko Huamán / Diego Mora | Done |
+| **User Story ID** | **User Story Title** | **Work Item ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|-------------------|----------------------|------------------|----------------|-----------------|-----------------------|-----------------|------------|
+| **US01** | Contactar a la startup | **UT01** | Formulario de contacto | Diseñar y programar el formulario de contacto en la Landing Page para que los usuarios puedan enviar consultas al equipo de desarrollo. | 2 | Ernesto Rodas | Done |
+| **US02** | Obtener información de la aplicación | **UT02** | Secciones informativas | Agregar las secciones “Sobre Nosotros”, “Visión”, “Valores” y “Testimonios” en la Landing Page, mostrando la identidad y propósito del proyecto. | 3 | Nelson Guerrero | Done |
+| **US03** | Acceder a la aplicación desde la Landing Page | **UT03** | Botón de acceso | Incorporar un botón funcional que redirija al entorno de la aplicación móvil o web desarrollada. | 2 | Nelson Guerrero | Done |
+| **US04** | Registrar nuevo animal | **UT04** | Endpoint POST /api/animals | Implementar el servicio backend para registrar animales mediante API REST con validaciones básicas. | 4 | Fabrizzio León | Done |
+| **US05** | Buscar animal por ID | **UT05** | Endpoint GET /api/animals | Desarrollar el servicio backend que permite consultar animales registrados a partir de su identificador único. | 3 | Milenko Huamán | Done |
+| **US06** | Iniciar sesión | **UT06** | Autenticación de usuarios | Implementar la funcionalidad de inicio de sesión con validación de credenciales y generación de token JWT. | 4 | Fabrizzio León / Diego Mora | Done |
+| **US07** | Registrar vacunación | **UT07** | Módulo de vacunación | Desarrollar el módulo para registrar vacunas aplicadas a cada animal, registrando tipo, dosis y fecha de aplicación. | 3 | Diego Mora | Done |
+| **US08** | Registrar venta | **UT08** | Registro de transacciones | Implementar la funcionalidad de registro de ventas de animales, con validaciones de datos y actualización de inventario. | 3 | Milenko Huamán / Diego Mora | Done |
 
 <div id='4.2.1.3.'><h5>4.2.1.3. Development Evidence for Sprint Review</h5></div>
 
