@@ -1602,6 +1602,25 @@ El diseño de la **landing page** se centra en comunicar la propuesta de valor d
 #### 3.1.3.1. Landing Page Wireframe
 Presenta el esquema estructural de la página inicial, definiendo jerarquías visuales, zonas de contenido y flujos de interacción.
 
+El wireframe de la **Landing Page de AgroTracer** actúa como una guía visual preliminar que organiza los elementos esenciales de la página de presentación de la aplicación, sin incorporar aún aspectos gráficos o de estilo visual definitivo.  
+Su propósito es establecer la estructura funcional de los componentes principales, asegurando una navegación clara, un flujo lógico de información y una comunicación efectiva del valor del producto.
+
+El esquema propuesto muestra la disposición de secciones clave, orientadas a la captación y retención de potenciales usuarios:
+
+- **Encabezado:** Incluye el logotipo de **GanLink**, un menú de navegación principal y un botón de acceso o descarga. Este elemento se mantiene fijo para facilitar la navegación y reforzar la identidad visual de la marca.  
+- **Propuesta de valor:** Sección central donde se presenta el mensaje principal del producto, enfocado en la **digitalización de la gestión ganadera** y la optimización de los procesos productivos mediante la trazabilidad y el registro inteligente.  
+- **Características principales:** Bloque informativo que describe las funcionalidades clave de la aplicación, tales como registro de bovinos, control sanitario, métricas productivas y reportes económicos. Cada característica se representa mediante iconografía y títulos descriptivos.  
+- **Testimonios o casos de éxito:** Espacio destinado a presentar experiencias reales de ganaderos que validan la utilidad de la herramienta en entornos rurales.  
+- **Llamadas a la acción (CTA):** Botones o enlaces destacados que invitan al visitante a **descargar la aplicación**, **ver el video demostrativo** o **registrarse** para recibir novedades.  
+- **Pie de página:** Contiene la información institucional de GanLink, enlaces a políticas de privacidad y redes sociales, además de un formulario de contacto básico para consultas o soporte técnico.
+
+El wireframe fue diseñado bajo los principios de **usabilidad, simplicidad y enfoque en conversión**, garantizando que el visitante pueda comprender el propósito del producto en los primeros segundos de interacción y avanzar fácilmente hacia la descarga o registro.
+
+Este diseño preliminar constituye la base para el desarrollo visual posterior en herramientas de diseño como **Figma**, donde se aplicarán los lineamientos del *Style Guidelines* y las pautas definidas en la *Information Architecture* del proyecto.
+
+[Ver Wireframes en Figma](https://www.figma.com/design/YSwppmOeo23EbTSaKD23cH/Landingpage?node-id=2003-169&t=g9yVSC41J5y7Jerx-1)
+
+
 #### 3.1.3.2. Landing Page Mock-up
 Desarrollo visual detallado del wireframe anterior, incorporando los lineamientos de estilo (colores, tipografía, íconos, botones y banners informativos).
 
