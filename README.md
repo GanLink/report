@@ -1624,6 +1624,26 @@ Este diseño preliminar constituye la base para el desarrollo visual posterior e
 #### 3.1.3.2. Landing Page Mock-up
 Desarrollo visual detallado del wireframe anterior, incorporando los lineamientos de estilo (colores, tipografía, íconos, botones y banners informativos).
 
+El mock-up de la **Landing Page de AgroTracer** representa una versión visual avanzada y cercana al diseño final del sitio informativo. En esta etapa se integran los elementos gráficos definidos en el *Style Guidelines*, tales como la paleta cromática institucional, la tipografía base, la iconografía y los componentes visuales asociados al sector agropecuario.  
+El objetivo es ofrecer una vista realista de la experiencia visual que tendrán los usuarios al interactuar con la página de presentación del producto.
+
+El diseño mantiene coherencia con la identidad de **GanLink**, proyectando una imagen moderna, profesional y alineada con los valores de innovación tecnológica, sostenibilidad y digitalización rural.  
+La composición del mock-up busca transmitir confianza y cercanía, utilizando tonos verdes, beige y marrones que evocan el entorno ganadero y refuerzan la identidad natural del producto.
+
+Los principales componentes que conforman el mock-up son los siguientes:
+
+- **Encabezado fijo:** Contiene el logotipo de AgroTracer, un menú de navegación con las secciones principales (Inicio, Nosotros, Testimonios y Contacto), y un botón de llamada a la acción “Conócenos Ya”. Este diseño garantiza la accesibilidad inmediata a las secciones clave del sitio.  
+- **Sección principal (Hero Section):** Presenta el logotipo institucional y la propuesta de valor de la aplicación, acompañada del botón de acción “Comenzar”, que orienta al visitante hacia la interacción inicial.  
+- **Bloque “Sobre Nosotros”:** Divide el contenido en tres columnas: **Misión**, **Visión** y **Valores**, con texto descriptivo y fondo beige que mejora la legibilidad.  
+- **Sección de testimonios:** Incluye cuatro tarjetas con fotografías y comentarios de usuarios, aportando credibilidad y respaldo a la aplicación desde la perspectiva de los ganaderos.  
+- **Formulario de contacto:** Permite al visitante comunicarse directamente con el equipo de desarrollo mediante un formato simple (nombre, correo, mensaje), reforzando la transparencia y cercanía de la marca.  
+- **Bloque “Sobre el team”:** Presenta a los integrantes del equipo de desarrollo con sus fotografías, nombres y roles, reforzando el sentido de autoría y profesionalismo del proyecto.  
+- **Pie de página:** Contiene el logotipo institucional de GanLink, enlaces a políticas de privacidad y redes sociales, y un recordatorio de derechos reservados.
+
+El mock-up se desarrolló en **Figma** y constituye la referencia visual para el desarrollo posterior de la landing page en entornos web o híbridos.  
+Este diseño conserva la coherencia con la estructura del wireframe inicial y con las pautas establecidas en la *Information Architecture*, asegurando una experiencia centrada en el usuario y adaptable a distintos tamaños de pantalla.
+
+[Ver Wireframes en Figma](https://www.figma.com/design/YSwppmOeo23EbTSaKD23cH/Landingpage?node-id=2003-169&t=g9yVSC41J5y7Jerx-1)
 
 ### 3.1.4. Mobile Applications UX/UI Design
 
