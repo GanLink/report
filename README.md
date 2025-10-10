@@ -1614,8 +1614,12 @@ El diseño se basa en los principios de *Mobile First* y en la coherencia con la
 #### 3.1.4.1. Mobile Applications Wireframes
 Representan la estructura funcional de cada vista de la aplicación (pantallas de login, registro, menú principal, módulos de gestión, etc.).
 
+![Mobile Applications Wireframes](images/Mobile%20Applications%20Wireframes.png)
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 Detallan los flujos de navegación entre pantallas, permitiendo visualizar las rutas y transiciones del usuario al interactuar con la aplicación.
+
+![Wireflow Diagrams](images/Mobile%20Applications%20Wireflow%20Diagrams.png)
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 Diseños visuales completos que integran colores, íconos y elementos gráficos reales, simulando la apariencia final del producto en dispositivos móviles.
