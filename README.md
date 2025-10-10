@@ -1425,6 +1425,29 @@ En conjunto, estos sistemas de organización garantizan que la navegación dentr
 #### 3.1.2.2. Labelling Systems
 Establece la nomenclatura y etiquetas que se emplean en menús, botones y secciones de la aplicación, usando un lenguaje natural, comprensible y adaptado al contexto rural latinoamericano.
 
+En **AgroTracer**, los sistemas de etiquetado fueron diseñados cuidadosamente para garantizar una navegación clara, coherente y adaptada al lenguaje cotidiano de los **pequeños y medianos ganaderos**. Cada etiqueta, ícono o categoría semántica dentro de la aplicación responde a un propósito funcional: reducir la carga cognitiva del usuario y facilitar la identificación inmediata de cada módulo o acción.
+
+**Jerarquía visual:**  
+Las etiquetas principales priorizan los módulos clave de la aplicación —**Sanidad**, **Reproducción**, **Economía** y **Gestión de Hatos**— con un formato tipográfico diferenciado y colores de alto contraste. De este modo, los usuarios pueden reconocer rápidamente las áreas críticas, como alertas sanitarias o movimientos económicos recientes, sin depender de búsquedas extensas o menús ocultos.
+
+**Etiquetado contextual:**  
+Cada formulario o pantalla incluye etiquetas asociadas directamente a las acciones que el usuario realiza, evitando tecnicismos innecesarios. Por ejemplo, se emplean términos naturales y familiares como *“Registrar vacuna”*, *“Controlar peso”*, *“Agregar animal”* o *“Ver historial clínico”*, en lugar de expresiones más técnicas. Esto mejora la comprensión inmediata del propósito de cada función, incluso en usuarios con limitada experiencia digital.
+
+**Organización secuencial:**  
+En procesos lineales, como el registro de eventos sanitarios o productivos, las etiquetas guían al usuario paso a paso mediante una lógica cronológica: *Identificación → Datos productivos → Tratamientos → Resultados*. Esta secuencia visual facilita el ingreso ordenado de datos y minimiza errores de digitación o duplicidad de información.
+
+**Organización matricial:**  
+Los módulos de **Reportes** y **Estadísticas** utilizan un etiquetado matricial, en el cual los indicadores se disponen en filas y columnas con rótulos claros, permitiendo comparar rápidamente información entre animales, hatos o periodos de tiempo. Las etiquetas de columnas y métricas —por ejemplo, *“Ganancia diaria de peso (ADG)”*, *“Producción de leche”* o *“Costos sanitarios”*— han sido normalizadas según estándares de trazabilidad ganadera.
+
+**Consistencia terminológica:**  
+Se adoptó un **lenguaje unificado** basado en el *Ubiquitous Language* definido en el modelo de dominio de GanLink, asegurando coherencia entre las interfaces gráficas, la base de datos y los documentos técnicos. De esta forma, términos como *“Hato”*, *“Evento sanitario”*, *“Balance económico”* o *“Certificación sanitaria”* mantienen su significado en todo el sistema, fortaleciendo la comprensión global del producto.
+
+**Adaptación cultural y lingüística:**  
+El sistema de etiquetado considera la jerga común del sector pecuario latinoamericano. Expresiones como *“Peso al destete”*, *“Última monta”* o *“Registro de crías”* fueron incorporadas para reforzar la familiaridad del usuario con el entorno digital y fomentar la adopción de la herramienta.
+
+En conjunto, el sistema de etiquetado de **AgroTracer** contribuye a una interfaz accesible, autoexplicativa y contextualizada, alineada con los principios de diseño inclusivo y centrado en el usuario establecidos en el *Style Guidelines* del proyecto final.
+
+
 #### 3.1.2.3. SEO Tags and Meta Tags
 Incluye las etiquetas meta y de optimización para motores de búsqueda (SEO) aplicadas en la landing page. Permite mejorar la visibilidad digital del producto en buscadores y redes sociales.
 
