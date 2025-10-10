@@ -1795,11 +1795,56 @@ Los hallazgos derivados de estas entrevistas se emplearán como base para los aj
 | **Edad** | 28 |
 | **Profesión** | Ganadero |
 | **Link del video** | [Ver entrevista en YouTube](https://youtu.be/0NP1TeNYBgo) |
-| **Resumen** | *(Describe brevemente las respuestas y percepciones del entrevistado sobre el prototipo, su experiencia de uso y comentarios principales.)* |
-| **Características relevantes** | *(Anota comportamientos, necesidades, frustraciones o expectativas detectadas durante la entrevista.)* |
-
+| **Resumen** | El entrevistado destacó que el prototipo le pareció visualmente atractivo, con un diseño limpio y colores agradables que facilitan la lectura en campo. Mencionó que la navegación es intuitiva y que las funciones principales —como el registro de ganado, control sanitario y reportes— están bien organizadas y resultan fáciles de usar incluso para usuarios con poca experiencia tecnológica. |
+| **Características relevantes** | Consideró que la aplicación responde a necesidades reales del ganadero, ya que permite registrar información sin conexión y sincronizarla después. Valoró positivamente la propuesta, indicando que “está bien bonita y es totalmente funcional para el trabajo diario en la granja”. |
 
 <div id='4.3.3.'><h4>4.3.3. Evaluaciones según heurísticas</h4></div>
+
+##  Evaluaciones según heurísticas
+
+Con el objetivo de garantizar una experiencia de usuario óptima y coherente con los principios de diseño centrado 
+en el usuario, se aplicó una evaluación heurística a las interfaces del sistema **GanLink**, 
+incluyendo la **aplicación móvil** y la **Landing Page**.  
+Esta evaluación permitió identificar oportunidades de mejora en cuanto a usabilidad, consistencia visual, 
+retroalimentación del sistema y accesibilidad.
+
+El proceso se basó en las **10 Heurísticas de Usabilidad de Jakob Nielsen (2020)**, complementadas 
+con criterios de *Information Architecture* y *Inclusive Design*.  
+Se aplicó el formato descrito en el **Anexo E: Formato para Evaluación de User Experience según Heurísticas**, 
+mediante sesiones de revisión con usuarios representativos y observadores especializados.
+
+---
+
+###  Metodología
+
+- **Tipo de evaluación:** Heurística y observacional.  
+- **Evaluadores:** 3 (2 diseñadores UX y 1 usuario representativo del sector ganadero).  
+- **Instrumento aplicado:** Formato estructurado con escala de severidad de 0 a 4 (Nielsen).  
+- **Productos evaluados:** Prototipo móvil (Android) y Landing Page informativa.  
+
+---
+
+###  Formato de Evaluación de Usabilidad según Heurísticas
+
+| **Heurística Evaluada** | **Descripción del Criterio** | **Hallazgos en la Aplicación** | **Severidad (0–4)** | **Recomendación de Mejora** |
+|:--|:--|:--|:--:|:--|
+| **1. Visibilidad del estado del sistema** | El sistema debe mantener informado al usuario sobre lo que ocurre mediante retroalimentación visible y oportuna. | Los procesos de registro y login muestran mensajes de carga y confirmación, pero la retroalimentación en errores de conexión aún es limitada. | 2 (Moderado) | Incluir alertas visuales o mensajes temporales en caso de fallos de conexión o validación incorrecta. |
+| **2. Coincidencia entre el sistema y el mundo real** | Los elementos deben emplear un lenguaje familiar para el usuario. | El vocabulario de la app emplea términos comprensibles para el contexto ganadero (peso, vacunación, venta), alineado con la realidad del usuario final. | 1 (Leve) | Agregar íconos complementarios en formularios para facilitar la identificación de acciones. |
+| **3. Control y libertad del usuario** | El usuario debe tener la posibilidad de cancelar acciones y corregir errores. | En los formularios de registro y vacunación no existe una opción visible de cancelar o volver. | 3 (Importante) | Incluir un botón de retorno o confirmación antes de guardar datos sensibles. |
+| **4. Consistencia y estándares** | El diseño debe seguir convenciones de plataforma y mantener consistencia visual entre pantallas. | Los componentes mantienen un estilo uniforme, pero la paleta de colores no está totalmente aplicada en todos los módulos. | 2 (Moderado) | Unificar el uso de la paleta institucional definida en el sistema de diseño de GanLink. |
+| **5. Prevención de errores** | El sistema debe minimizar la posibilidad de errores antes de que ocurran. | Los campos de formulario tienen validaciones básicas (campos obligatorios, formatos), aunque algunos no advierten errores hasta enviar el formulario. | 3 (Importante) | Agregar validaciones en tiempo real y mensajes de ayuda al ingresar datos. |
+| **6. Reconocimiento en lugar de recuerdo** | El usuario no debería tener que memorizar información entre pantallas. | El menú lateral y botones principales son visibles en todo momento, reduciendo la carga de memoria. | 1 (Leve) | Mantener consistencia en íconos y títulos entre las vistas de móvil y landing. |
+| **7. Flexibilidad y eficiencia de uso** | El sistema debe ofrecer accesos rápidos o flujos cortos para usuarios frecuentes. | Los accesos a módulos son directos, pero la búsqueda de animales podría optimizarse con filtros más dinámicos. | 2 (Moderado) | Implementar filtros combinados por raza, edad o estado de salud. |
+| **8. Estética y diseño minimalista** | La interfaz debe evitar la sobrecarga de información. | El diseño mantiene equilibrio visual y buen uso de espacio negativo, especialmente en la Landing Page. | 1 (Leve) | Revisar el contraste entre texto y fondo en secciones secundarias. |
+| **9. Ayuda a los usuarios para reconocer y recuperarse de errores** | El sistema debe ofrecer mensajes claros para explicar problemas y cómo resolverlos. | Los mensajes de error son breves, pero podrían incluir detalles más específicos según el tipo de fallo. | 2 (Moderado) | Agregar descripciones contextuales en errores del login y carga de datos. |
+| **10. Ayuda y documentación** | Debe existir soporte o documentación accesible para el usuario. | Actualmente la aplicación no cuenta con un módulo de ayuda o tutorial introductorio. | 4 (Crítico) | Diseñar una pantalla inicial con guía o recorrido interactivo para nuevos usuarios. |
+
+---
+
+Los resultados de esta evaluación heurística permitieron identificar áreas de mejora 
+principalmente en la **prevención de errores** y **soporte al usuario**.  
+Las recomendaciones fueron documentadas y priorizadas para ser atendidas en el siguiente *Sprint*.
+
 
 
 ## Conclusiones
