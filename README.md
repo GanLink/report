@@ -960,6 +960,22 @@ As-Is Scenario Mapping Ganaderos
 
 2.4 Requirements Specification
 ---
+
+### Spike Stories
+
+**Spike** : Investigar de la integracion de libreria de encriptacion BCrypt.Net-Next en la plataforma GanLink
+
+**Contexto**
+La plataforma GanLink consta de una aplicacion mobile construida en Kotlin con el framework JetpackCompose para los componentes UI. Para el apartado del backend, usamos el lenguaje C# con el framework .NET Core, donde manipulamos la base de datos mediante un ORM conocido como Entity Framework.
+El Equipo busca integrar esta libreria para de esta manera mejorar nuestras practicas de seguridad de la informacion, mediante esta, buscamos mejorar nuestra confiabilidad de nuestros datos.
+
+**Spike Story**
+**Como** equipo de desarrollo (web, backend y movil)
+**quiero** investigar y prototipar la integracion de libreria BCrypt.Net, en nuestra aplicacion backend .NET,
+**para** que podamos entender las implicaciones tecnicas, riesgos potenciales y esfuerzo requerido para realizar esta implementacion en nuestro backend.
+
+
+
   <div id='2.4.1'><h3> 2.4.1. User Stories.</h3></div>
 Las user stories son una forma de convertir el lenguaje informal de los clientes del producto a un requisito de software que debe ser considerado en el desarrollo del sistema. Una user story construida adecuadamente explica al desarrollador la naturaleza de la funcionalidad que construyen, su razón de ser, y el valor que esta genera para el usuario. Para el producto AgroDigital, Ganlink presenta un conjunto de user stories para el desarrollo de la Landing Page, la aplicación web y user stories técnicas.
 
