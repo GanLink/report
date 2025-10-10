@@ -1788,6 +1788,17 @@ Los hallazgos derivados de estas entrevistas se emplearán como base para los aj
 
 <div id='4.3.2.'><h4>4.3.2. Registro de entrevistas</h4></div>
 
+| **Campo** | **Detalle** |
+|:--|:--|
+| **Evidencia** | ![Entrevista Prototipo](images/Entrevista%20Prototipo.png) |
+| **Nombre del entrevistado** | Fabián Marcelo |
+| **Edad** | 28 |
+| **Profesión** | Ganadero |
+| **Link del video** | [Ver entrevista en YouTube](https://youtu.be/0NP1TeNYBgo) |
+| **Resumen** | *(Describe brevemente las respuestas y percepciones del entrevistado sobre el prototipo, su experiencia de uso y comentarios principales.)* |
+| **Características relevantes** | *(Anota comportamientos, necesidades, frustraciones o expectativas detectadas durante la entrevista.)* |
+
+
 <div id='4.3.3.'><h4>4.3.3. Evaluaciones según heurísticas</h4></div>
 
 
