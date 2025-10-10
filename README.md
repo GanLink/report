@@ -1630,12 +1630,25 @@ Detallan los flujos de navegación entre pantallas, permitiendo visualizar las r
 #### 3.1.4.3. Mobile Applications Mock-ups
 Diseños visuales completos que integran colores, íconos y elementos gráficos reales, simulando la apariencia final del producto en dispositivos móviles.
 
+![Mobile Applications Mock-ups](images/Mobile%20Applications%20Mock-ups.png)
+
+[Ver Mock-ups en Figma](https://www.figma.com/design/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?node-id=0-1&t=XyW9EnoU7qr7zsMA-1)
+
+
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 Diagramas que describen los caminos lógicos del usuario en cada funcionalidad (por ejemplo: registrar animal, registrar vacuna, generar reporte).
+
+![Mobile Applications User Flow Diagrams](images/Mobile%20Applications%20User%20Flow%20Diagrams.png)
+
+[Ver User Flow Diagrams en Figma](https://www.figma.com/design/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?node-id=0-1&t=XyW9EnoU7qr7zsMA-1)
+
 
 #### 3.1.4.5. Mobile Applications Prototyping
 Presenta la versión interactiva del prototipo creada en herramientas como **Figma** o **Adobe XD**, permitiendo validar la usabilidad antes del desarrollo final.
 
+![Mobile Applications Prototypin](images/Mobile%20Applications%20Prototypin.png)
+
+[Ver prototipo en Figma](https://www.figma.com/proto/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?page-id=0%3A1&node-id=1-2&p=f&viewport=127%2C65%2C0.42&t=9XnKC3rpeZKh0NJh-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2)
 
 ## Conclusiones
 AgroTrace se ha consolidado como una solución tecnológica clave para modernizar la gestión ganadera, reemplazando los obsoletos sistemas manuales por una plataforma digital que centraliza el registro de animales, historial sanitario y transacciones económicas. Su implementación ha demostrado beneficios tangibles: mejora en la trazabilidad para cumplimiento normativo, reducción de pérdidas mediante alertas automatizadas, y acceso a datos en tiempo real para una toma de decisiones más informada. El uso de tecnologías como Angular, Node.js y PostgreSQL aseguró un desarrollo escalable y adaptable a las necesidades cambiantes del sector. Este proyecto no solo optimiza procesos operativos, sino que también acerca la innovación tecnológica a los pequeños y medianos ganaderos, marcando un precedente para la transformación digital en la agricultura latinoamericana. Con potencial para incorporar inteligencia artificial e integraciones con blockchain en futuras iteraciones, AgroDigital sienta las bases para una ganadería más eficiente, sostenible y competitiva.
