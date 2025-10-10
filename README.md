@@ -1362,6 +1362,9 @@ Se presenta tres niveles del modelo C4 trabajado con structurizr para el proyect
 
 <div id='4.1.'><h3>4.1. Software Configuration Management</h3></div>
 
+La gestión de configuración de software comprende las acciones orientadas a organizar, controlar y documentar los componentes del proyecto durante su desarrollo.  
+En **GanLink / AgroTracer**, este proceso permitió mantener orden, trazabilidad y coherencia en las versiones del código, facilitando el trabajo colaborativo y asegurando la calidad del producto final.
+
 <div id='4.1.1.'><h4>4.1.1. Software Development Environment Configuration</h4></div>
 
 Para el desarrollo del proyecto **GanLink / AgroTracer**, se ha configurado un entorno integral de ingeniería de software que permite la colaboración eficiente del equipo, la trazabilidad de los avances y la correcta gestión de los artefactos del producto digital.  
