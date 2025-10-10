@@ -2097,6 +2097,594 @@ Presenta la versión interactiva del prototipo creada en herramientas como **Fig
 
 [Ver prototipo en Figma](https://www.figma.com/proto/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?page-id=0%3A1&node-id=1-2&p=f&viewport=127%2C65%2C0.42&t=9XnKC3rpeZKh0NJh-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2)
 
+
+<div id='4.'><h2>Capítulo IV: Product Implementation & Validation</h2></div>
+
+<div id='4.1.'><h3>4.1. Software Configuration Management</h3></div>
+
+La gestión de configuración de software comprende las acciones orientadas a organizar, controlar y documentar los componentes del proyecto durante su desarrollo.  
+En **GanLink / AgroTracer**, este proceso permitió mantener orden, trazabilidad y coherencia en las versiones del código, facilitando el trabajo colaborativo y asegurando la calidad del producto final.
+
+<div id='4.1.1.'><h4>4.1.1. Software Development Environment Configuration</h4></div>
+
+Para el desarrollo del proyecto **GanLink / AgroTracer**, se ha configurado un entorno integral de ingeniería de software que permite la colaboración eficiente del equipo, la trazabilidad de los avances y la correcta gestión de los artefactos del producto digital.  
+El ecosistema de herramientas empleadas se organiza en las siguientes categorías:
+
+#### Requirements Management
+
+**Trello:**  
+Plataforma colaborativa utilizada para la planificación y control de tareas bajo un enfoque ágil basado en sprints.  
+Cada tarjeta representa una historia de usuario o una tarea técnica, organizada por prioridad y asignada a un miembro del equipo.  
+Esta herramienta permitió mantener la trazabilidad de los avances y una visión general del progreso del proyecto.  
+Referencia: [https://trello.com/es](https://trello.com/es)
+
+#### Product UX/UI Design
+
+**Figma:**  
+Herramienta empleada para el diseño de interfaces y prototipos interactivos de la aplicación móvil y de la landing page.  
+Se utilizó para la creación de wireframes, mock-ups y prototipos navegables, guiando las decisiones de diseño de experiencia de usuario (UX) y consistencia visual (UI).  
+Referencia: [https://www.figma.com](https://www.figma.com)
+
+**Lucidchart:**  
+Aplicación web destinada a la elaboración de diagramas de flujo, mapas de navegación y diagramas de clases del sistema.  
+Facilitó la representación visual de los procesos internos y la relación entre los componentes lógicos y visuales de la aplicación.  
+Referencia: [https://www.lucidchart.com](https://www.lucidchart.com)
+
+#### Software Development
+
+**Android Studio:**  
+Entorno de desarrollo integrado (IDE) seleccionado para la implementación de la aplicación móvil **AgroTracer**, por su soporte nativo al lenguaje **Kotlin**, sus herramientas de depuración y su integración con el SDK de Android.  
+Incluye módulos para el diseño de interfaces mediante archivos XML, compilación con Gradle, y emuladores para la validación de la aplicación en distintas versiones de Android.  
+Referencia: [https://developer.android.com/studio](https://developer.android.com/studio)
+
+**Kotlin y XML:**  
+El lenguaje **Kotlin** se utilizó para el desarrollo de la lógica de negocio, controladores y validaciones, mientras que **XML** fue empleado para la definición de las interfaces gráficas (layouts), estilos y componentes visuales.  
+Esta combinación permite un desarrollo moderno, seguro y eficiente, asegurando compatibilidad con las últimas versiones del SDK de Android.  
+Referencia: [https://kotlinlang.org/docs/android-overview.html](https://kotlinlang.org/docs/android-overview.html)
+
+#### Software Deployment
+
+**Git:**  
+Sistema de control de versiones distribuido utilizado para el seguimiento y la gestión de cambios en el código fuente.  
+Permite registrar las iteraciones de desarrollo, mantener un historial de versiones y realizar integraciones controladas mediante ramas (branches).  
+Referencia: [https://git-scm.com](https://git-scm.com)
+
+**GitHub:**  
+Repositorio remoto configurado como entorno centralizado para la gestión del código fuente, documentación técnica y control de versiones bajo la metodología **GitFlow**.  
+Facilita la colaboración entre los miembros del equipo mediante *pull requests*, *code reviews* y la integración continua del proyecto.  
+Referencia: [https://github.com](https://github.com)
+
+<div id='4.1.2.'><h4>4.1.2. Source Code Management</h4></div>
+
+El desarrollo del proyecto **GanLink / AgroTracer** adoptó las convenciones del flujo de trabajo **GitFlow** para la gestión de versiones, empleando **GitHub** como plataforma principal de control y almacenamiento del código fuente.  
+Este esquema permitió organizar el trabajo colaborativo, controlar los cambios realizados y mantener la trazabilidad de cada funcionalidad implementada durante las iteraciones de desarrollo.
+
+**Repositorios de GitHub:**  
+- Enlace a la organización general: [https://github.com/GanLink](https://github.com/GanLink)  
+- Enlace al repositorio del proyecto móvil: [https://github.com/GanLink/report](https://github.com/GanLink/report)  
+- Enlace al repositorio de la Landing Page: [https://github.com/GanLink/LadingGanLink)  
+
+#### Flujo de trabajo GitFlow
+
+El proyecto implementó el flujo de trabajo propuesto por **Vincent Driessen**, conocido como *A successful Git branching model*, que facilita el manejo estructurado de ramas y versiones durante el desarrollo del software.
+
+![GitFlow](https://i0.wp.com/select2web.com/wp-content/uploads/git-workflow-release-cycle-4maintenance.png?fit=614%2C380&ssl=1)
+
+#### Estructura de branches (Ramas)
+
+1. **Main branch (Rama principal):**  
+   Contiene las versiones estables y listas para distribución.  
+   Solo recibe integraciones desde ramas de lanzamiento (release) tras superar las pruebas funcionales.
+
+2. **Develop branch (Rama de desarrollo):**  
+   Es la rama base del desarrollo activo, donde se integran las funcionalidades completadas de cada sprint.
+
+3. **Feature branches (Ramas de funcionalidad):**  
+   Cada nueva característica o módulo se desarrolla en una rama independiente, siguiendo la nomenclatura:  
+   `feature/nombre-funcionalidad`  
+   Una vez completada, se fusiona con la rama develop mediante *pull request*.
+
+4. **Release branches (Ramas de lanzamiento):**  
+   Se crean a partir de develop cuando el proyecto alcanza un conjunto estable de funcionalidades.  
+   Permiten preparar versiones candidatas antes de integrarlas a main.
+
+5. **Hotfix branches (Ramas de corrección):**  
+   Se utilizan para resolver incidencias críticas detectadas en versiones productivas.  
+   Los cambios se aplican directamente sobre main y luego se integran en develop.
+
+#### Versionamiento Semántico
+
+El control de versiones se basa en el estándar **Versionamiento Semántico 2.0.0 (SemVer)**, con el formato:
+
+`MAJOR.MINOR.PATCH`  
+- **MAJOR:** Cambios incompatibles con versiones anteriores.  
+- **MINOR:** Nuevas funcionalidades compatibles.  
+- **PATCH:** Correcciones menores o ajustes internos.
+
+#### Convenciones de Commits
+
+Los mensajes de confirmación siguen las directrices de **Conventional Commits**, lo que permite mantener un historial limpio y comprensible del proyecto.  
+La estructura adoptada es la siguiente:
+
+ `git commit -m "<type>[optional scope]:<title>" -m"<description">`
+
+**Tipos más utilizados:**
+- `feat:` para nuevas funcionalidades.  
+- `fix:` para correcciones de errores.  
+- `docs:` para modificaciones en documentación.  
+- `refactor:` para mejoras de código sin cambiar su comportamiento.  
+- `style:` para ajustes de formato, identación o estructura visual.
+
+Este modelo de control de versiones garantizó un flujo de trabajo colaborativo, organizado y trazable, manteniendo la integridad del código en cada etapa del desarrollo del proyecto.
+
+<div id='4.1.3.'><h4>4.1.3. Source Code Style Guide & Conventions</h4></div>
+
+El cumplimiento de una guía de estilo y convenciones de codificación garantiza la coherencia, legibilidad y mantenibilidad del software en todas las etapas de desarrollo del proyecto **GanLink / AgroTracer**.  
+Dado que la solución integra una **aplicación móvil**, una **landing page** y un **backend de servicios web**, se establecieron lineamientos diferenciados para cada entorno, manteniendo uniformidad y buenas prácticas en el trabajo del equipo.
+
+#### **1. Aplicación móvil (Kotlin / XML – Android Studio)**
+
+**Kotlin**
+
+1. **Nombrado de elementos:**
+   - Clases y objetos: `UpperCamelCase` → `class RegistroAnimalActivity`.
+   - Variables y funciones: `lowerCamelCase` → `val totalGanado`, `fun calcularPromedioPeso()`.
+   - Constantes: mayúsculas con guiones bajos → `const val LIMITE_PESO = 1000`.
+
+2. **Estructura y formato:**
+   - Un archivo por clase, con nombres coincidentes.
+   - Sangría de **4 espacios** por nivel de anidación.
+   - Llaves `{}` en la misma línea de la declaración.
+   - Líneas de máximo **120 caracteres**.
+   - Comentarios tipo **KDoc (/** … */)** para describir clases o métodos relevantes.
+
+3. **Buenas prácticas:**
+   - Uso preferente de `val` para mantener la inmutabilidad de datos.
+   - Métodos breves y descriptivos, alineados al principio de *Single Responsibility*.
+   - Organización modular en paquetes: `ui`, `data`, `model`, `adapter`, `utils`.
+   - Gestión de dependencias mediante **Gradle**, asegurando compatibilidad con el SDK de Android.
+
+**XML**
+
+1. **Estructura:**
+   - Un archivo XML por interfaz dentro de `res/layout/`.
+   - IDs con formato *snake_case*: `@+id/btn_registrar_bovino`.
+   - Jerarquía visual clara y bien indentada para facilitar el mantenimiento.
+
+2. **Buenas prácticas:**
+   - Uso de `ConstraintLayout` como contenedor principal.
+   - Reutilización de colores y estilos definidos en `colors.xml`, `styles.xml` y `dimens.xml`.
+   - Inclusión de atributos de accesibilidad (`contentDescription` en imágenes o botones).
+
+#### **2. Landing Page (HTML / CSS)**
+
+**HTML**
+
+1. **Estructura y sintaxis:**
+   - Cierre correcto de todas las etiquetas: `<h1>Bienvenido</h1>`.
+   - Uso exclusivo de minúsculas para etiquetas y atributos.
+   - Inclusión de comillas en los valores de los atributos.
+   - Empleo de etiquetas semánticas (`<header>`, `<section>`, `<footer>`) para organizar el contenido.
+
+2. **Buenas prácticas:**
+   - Separación entre contenido (HTML) y estilo (CSS).
+   - Indentación de **2 espacios** para mantener legibilidad.
+   - Comentarios para marcar secciones principales del documento.
+
+**CSS**
+
+1. **Convenciones de nomenclatura:**
+   - Clases y selectores en formato *kebab-case*: `.hero-section`, `.footer-links`.
+   - IDs descriptivos y únicos: `#menu-principal`, `#formulario-contacto`.
+
+2. **Estructura y formato:**
+   - Cada selector y bloque de declaración en líneas independientes.
+   - No incluir unidades en valores cero (`margin: 0;`).
+   - Agrupar estilos por secciones visuales: encabezado, cuerpo y pie de página.
+
+3. **Buenas prácticas:**
+   - Jerarquía clara de estilos (estructura → componentes → detalles).
+   - Reutilización de variables globales de color y tipografía.
+   - Inclusión de comentarios para describir bloques funcionales.
+
+#### **3. Backend de servicios web (JavaScript / WebStorm)**
+
+1. **Estructura general del proyecto:**
+   - Organización modular de carpetas: `routes/`, `controllers/`, `models/`, `services/` y `config/`.
+   - Cada módulo cumple una responsabilidad específica (rutas, lógica de negocio o conexión con la base de datos).
+   - Archivos nombrados en formato *lowerCamelCase*, por ejemplo: `animalController.js`, `authService.js`.
+
+2. **Estilo y sintaxis del código:**
+   - Sangría de **2 espacios** por nivel de anidación.
+   - Uso de comillas simples (`'texto'`) de forma consistente.
+   - Inclusión de punto y coma al final de cada instrucción.
+   - Preferencia por `const` y `let` sobre `var` para asegurar un código más predecible.
+   - Comentarios descriptivos en bloques complejos o funciones críticas.
+
+3. **Buenas prácticas:**
+   - Estructura de código modular y reutilizable.
+   - Manejo controlado de errores con `try/catch`.
+   - Validación de endpoints y pruebas locales ejecutadas desde WebStorm.
+   - Documentación de endpoints mediante herramientas como **Swagger**, permitiendo describir y probar las rutas del API desde un entorno interactivo.
+
+Estas convenciones garantizan la uniformidad, claridad y trazabilidad del código en todas las capas del sistema, facilitando la colaboración del equipo y asegurando la calidad técnica del producto final.
+
+<div id='4.1.4.'><h4>4.1.4. Software Deployment Configuration</h4></div>
+
+La configuración de despliegue del software define los procedimientos, herramientas y estructuras necesarias para publicar los componentes del proyecto **GanLink / AgroTracer**, garantizando su disponibilidad y correcto funcionamiento en entornos de producción.  
+En este proyecto, se consideraron procesos específicos para la **Landing Page**, la **aplicación móvil (APK)** y el **backend de servicios web**.  
+A continuación, se detalla el proceso aplicado para la implementación de la Landing Page en GitHub Pages.
+
+#### **Despliegue de la Landing Page (GitHub Pages)**
+
+Para implementar la Landing Page, se requieren los siguientes elementos previos:  
+una cuenta de usuario personal en GitHub, una organización creada y un repositorio configurado donde se alojarán los archivos del proyecto.  
+Cumplidos estos prerrequisitos, se procede con el despliegue efectivo mediante los pasos que se describen a continuación:
+
+1. **Estructura de directorios:**
+   - Crear una carpeta denominada `docs` como contenedor principal del proyecto.  
+   - Esta carpeta funcionará como fuente directa de los archivos a publicar en GitHub Pages.
+
+2. **Organización de archivos:**
+   - El archivo principal debe denominarse **`index.html`**, siguiendo la nomenclatura estándar de publicación web.  
+   - Se incluye la hoja de estilos **`style.css`** para la gestión visual del contenido.  
+   - Se crea un directorio adicional denominado **`img`** para almacenar todos los recursos gráficos y multimedia de la página.
+
+3. **Sincronización con el repositorio:**
+   - Una vez completada la estructura de archivos, se realiza la sincronización con el repositorio remoto mediante **commits** que sigan las convenciones establecidas por el equipo.  
+   - El control de versiones se gestiona a través de Git y GitHub para mantener trazabilidad y control sobre las modificaciones.
+
+4. **Configuración en GitHub:**
+   - Acceder a **Settings > Pages** dentro del repositorio del proyecto.  
+   - Seleccionar la rama de despliegue (usualmente `main` o `master`).  
+   - Indicar **`/docs`** como el directorio fuente para la publicación.  
+   - Guardar los cambios y esperar la verificación automática por parte del sistema.
+
+5. **Publicación:**
+   - Tras la verificación automática, GitHub genera un enlace público para acceder a la Landing Page en producción.  
+   - Este enlace constituye la versión desplegada oficialmente y puede integrarse al informe o material de difusión.
+
+**Enlace a la Landing Page:** https://ganlink.github.io/LadingGanLink/
+
+<div id='4.2.'><h3>4.2. Landing Page & Mobile Application Implementation</h3></div>
+
+<div id='4.2.1.'><h4>4.2.1. Sprint 1</h4></div>
+
+<div id='4.2.1.1.'><h5>4.2.1.1. Sprint Planning 1</h5></div>
+
+En el **Sprint Planning 1**, se documentaron las actividades de planificación y definición de objetivos correspondientes a la primera iteración del proyecto **GanLink / AgroTracer**.  
+Durante esta sesión, el equipo estableció como prioridad el despliegue funcional de la **Landing Page**, el desarrollo base del **backend** y el avance inicial de la **aplicación móvil**.  
+Asimismo, se registraron las tareas asignadas y la colaboración continua mediante el repositorio en GitHub, evidenciando una gestión efectiva bajo el enfoque ágil de desarrollo.
+
+| Sprint # | Sprint 1 |
+|-------------------------|---------------------------------------|
+| **Sprint Planning Background** |  |
+| **Date** | 30 de setiembre de 2025 |
+| **Time** | 9:00 PM |
+| **Location** | Modalidad remota |
+| **Prepared By** | Diego Mora |
+| **Attendees (to planning meeting)** | Diego Mora, Ernesto Rodas, Milenko Huamán, Nelson Guerrero, Fabrizzio León |
+| **Sprint 0 Review Summary** | No aplica, al ser la primera iteración del proyecto. |
+| **Sprint 1 Retrospective Summary** | No aplica, al ser el primer sprint de desarrollo. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint Goal 1** | En este sprint se tiene como objetivo implementar la **Landing Page** del proyecto utilizando HTML y CSS, junto con la estructuración base del **backend** en WebStorm y los primeros módulos de la **aplicación móvil** en Android Studio. La landing page, diseñada previamente en Figma, debía estar desplegada en GitHub Pages al cierre del sprint, con el enlace público operativo. |
+| **Sprint Velocity 1** | 15 |
+| **Sum of Story Points** | 15 |
+
+<div id='4.2.1.2.'><h5>4.2.1.2. Sprint Backlog 1</h5></div>
+
+Durante el **Sprint 1**, el equipo de desarrollo estableció el *Sprint Backlog* considerando las *User Stories* prioritarias y alcanzables en el periodo asignado.  
+El objetivo principal fue completar la **Landing Page** y desarrollar los **módulos base del Backend**, garantizando su integración con la aplicación móvil.  
+Las actividades fueron gestionadas mediante **Trello**, lo que permitió dividir las tareas, asignarlas a cada miembro según su especialidad y mantener la trazabilidad del avance.
+
+**Link del Trello:** [https://trello.com/b/I1kLkHX3](https://trello.com/b/I1kLkHX3)
+
+| **User Story ID** | **User Story Title** | **Work Item ID** | **Task Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|-------------------|----------------------|------------------|----------------|-----------------|-----------------------|-----------------|------------|
+| **US01** | Contactar a la startup | **UT01** | Formulario de contacto | Diseñar y programar el formulario de contacto en la Landing Page para que los usuarios puedan enviar consultas al equipo de desarrollo. | 2 | Ernesto Rodas | Done |
+| **US02** | Obtener información de la aplicación | **UT02** | Secciones informativas | Agregar las secciones “Sobre Nosotros”, “Visión”, “Valores” y “Testimonios” en la Landing Page, mostrando la identidad y propósito del proyecto. | 3 | Nelson Guerrero | Done |
+| **US03** | Acceder a la aplicación desde la Landing Page | **UT03** | Botón de acceso | Incorporar un botón funcional que redirija al entorno de la aplicación móvil o web desarrollada. | 2 | Nelson Guerrero | Done |
+| **US04** | Registrar nuevo animal | **UT04** | Endpoint POST /api/animals | Implementar el servicio backend para registrar animales mediante API REST con validaciones básicas. | 4 | Fabrizzio León | Done |
+| **US05** | Buscar animal por ID | **UT05** | Endpoint GET /api/animals | Desarrollar el servicio backend que permite consultar animales registrados a partir de su identificador único. | 3 | Milenko Huamán | Done |
+| **US06** | Iniciar sesión | **UT06** | Autenticación de usuarios | Implementar la funcionalidad de inicio de sesión con validación de credenciales y generación de token JWT. | 4 | Fabrizzio León / Diego Mora | Done |
+| **US07** | Registrar vacunación | **UT07** | Módulo de vacunación | Desarrollar el módulo para registrar vacunas aplicadas a cada animal, registrando tipo, dosis y fecha de aplicación. | 3 | Diego Mora | Done |
+| **US08** | Registrar venta | **UT08** | Registro de transacciones | Implementar la funcionalidad de registro de ventas de animales, con validaciones de datos y actualización de inventario. | 3 | Milenko Huamán / Diego Mora | Done |
+
+<div id='4.2.1.3.'><h5>4.2.1.3. Development Evidence for Sprint Review</h5></div>
+
+Durante el **Sprint 1**, se registraron múltiples commits distribuidos entre los repositorios de la **Landing Page**, **Backend**, **Aplicación Móvil (Android Studio)** y **Documentación (report)**.  
+A continuación, se detallan los principales commits generados durante esta iteración, evidenciando la participación de todos los integrantes y el avance progresivo del desarrollo.
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed On (Date)** |
+|----------------|-------------|----------------|--------------------|--------------------------|--------------------------|
+| **GanLink Backend** | develop | `84ec52b` | feat: Create Aggregates | Implementación de clases de dominio y agregados principales del sistema GanLink. | 29/09/2025 |
+| **GanLink Backend** | develop | `bac5c53` | feat(domain): add Bovine entity | Creación de la entidad principal Bovine con su relación FarmId. | 30/09/2025 |
+| **GanLink Backend** | develop | `842b4cb` | feat(bovine): add BovineAudit entity | Implementación de auditorías y registros sanitarios asociados a cada animal. | 30/09/2025 |
+| **GanLink Backend** | develop | `725b518` | feat(farm-management): update IAM bounded context | Actualización del contexto delimitado de gestión de granjas para pruebas unitarias. | 06/10/2025 |
+| **GanLink Backend** | develop | `69af537` | chore: configure db | Configuración de la base de datos inicial y conexión del entorno de desarrollo. | 06/10/2025 |
+| **GanLink Backend** | develop | `c27ae63` | fix: clean project files | Limpieza y reestructuración de archivos para consolidar la estructura final del proyecto. | 06/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `dabf5dd` | chore: create farm add views | Creación de vistas de registro y visualización de granjas en la aplicación móvil. | 04/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `f146f73` | chore: add farm home on click function | Configuración de función interactiva para el acceso directo desde el menú principal. | 05/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `c93eb92` | feat: user register feature connected to backend | Integración del módulo de registro de usuarios con el backend mediante Retrofit y Hilt. | 06/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `0485d74` | chore: add home validations and register viewmodel | Implementación del ViewModel con validaciones de formulario y navegación. | 06/10/2025 |
+| **GanLink Mobile App** | feature/mobile | `c385642` | feat: add bovine form view and dependencies | Creación de la vista de registro de bovinos y configuración de dependencias Hilt y Room. | 06/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-3 | `011ee9a` | docs(ux/ui): add Style Guidelines | Incorporación de la guía de estilo visual y tipográfica de la aplicación. | 09/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-3 | `b73f273` | docs(uiux): refine Navigation Systems section | Revisión y actualización de la sección de sistemas de navegación del informe. | 09/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-3 | `24b61bb` | feat(report): add Chapter III – Solution UI/UX Design | Inclusión completa del capítulo de diseño de interfaz y arquitectura visual. | 09/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-3 | `2996f72` | docs(uiux): add Searching Systems section | Redacción de la sección de búsqueda y categorización dentro del diseño de información. | 09/10/2025 |
+| **GanLink Report** | feature/chapter-4 | `63b383d` | docs(implementation): update Software Development Environment Configuration for Android Studio (Kotlin) setup | Configuración del entorno de desarrollo en Android Studio con soporte Kotlin y dependencias iniciales. | 09/10/2025 |
+| **GanLink Report** | feature/chapter-4 | `db59737` | docs(implementation): add concise overview for Software Configuration Management | Incorporación de descripción general sobre la gestión de configuración del software y su propósito técnico. | 09/10/2025 |
+
+- **Diego Mora:** Estructuración del proyecto móvil, integración con backend (Hilt, Retrofit, Room).  
+- **Fabrizzio León:** Configuración de base de datos, dominios y controladores en backend.  
+- **Milenko Huamán:** Creación de entidades de salud, métricas y autenticación en backend.  
+- **Ernesto Rodas:** Coordinación del despliegue documental y elaboración de informes técnicos.  
+- **Nelson Guerrero:** Diseño, estructura de la landing page y documentación visual (Figma, Markdown).
+
+<div id='4.2.1.4.'><h5>4.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
+
+En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests** implementados y ejecutados durante el Sprint 1, enfocados en los **Web Services** y funcionalidades desarrolladas en los módulos de autenticación, registro de animales, vacunación y control económico.
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed On (Date)** |
+|----------------|-------------|----------------|--------------------|--------------------------|--------------------------|
+| **GanLink Backend** | feature/testing | `b34e7c2` | test(animals): add unit test for POST /api/animals | Verifica la creación exitosa de un nuevo animal en el sistema con datos válidos y manejo de errores por campos vacíos. | 07/10/2025 |
+| **GanLink Backend** | feature/testing | `c96f51a` | test(auth): implement login endpoint tests | Prueba de integración del endpoint de autenticación de usuarios con credenciales válidas e inválidas. | 07/10/2025 |
+| **GanLink Backend** | feature/testing | `e27b9a5` | test(vaccination): add integration test for POST /api/vaccines | Evalúa la correcta inserción de registros de vacunación, controlando fechas futuras o dosis incompletas. | 08/10/2025 |
+| **GanLink Backend** | feature/testing | `a71f89d` | test(sales): add acceptance tests for transaction module | Simula el proceso completo de registro de ventas con validaciones sobre el valor de transacción y actualización del inventario. | 08/10/2025 |
+| **GanLink Mobile App** | feature/test-suite | `b8932fa` | test(android): add instrumentation tests for login and register views | Implementación de pruebas automáticas con Espresso verificando la navegación y validación de campos en las vistas de registro e inicio de sesión. | 08/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-4 | `6d9b731` | docs(testing): add testing suite evidence for Sprint 1 | Inclusión de la evidencia de commits asociados a las pruebas unitarias, de integración y aceptación realizadas durante el Sprint. | 09/10/2025 |
+
+- **Unit Tests:** Verificación individual de clases y servicios (AnimalService, AuthService, VaccineService).  
+- **Integration Tests:** Validación de endpoints RESTful y conexión con la base de datos mediante Swagger.  
+- **Acceptance Tests:** Escenarios de validación funcional que reproducen flujos completos de usuario (registro, login, venta).  
+- **Mobile Instrumentation Tests:** Evaluación de interactividad y persistencia local en vistas críticas de la app Android.
+
+<div id='4.2.1.5.'><h5>4.2.1.5. Execution Evidence for Sprint Review</h5></div>
+
+Durante el **Sprint 1**, el equipo logró culminar el desarrollo y despliegue de la **Landing Page de GanLink**, una plataforma informativa orientada a presentar el propósito, funcionalidades y beneficios de la aplicación móvil.  
+El desarrollo se realizó utilizando **HTML5 y CSS3**, bajo una estructura semántica organizada y siguiendo las convenciones de estilo establecidas en el Capítulo IV.  
+
+El producto obtenido cumple con los objetivos definidos en la planificación del sprint, logrando:
+- La implementación de una interfaz funcional, moderna y responsive.  
+- La integración de secciones informativas como *Misión*, *Visión*, *Valores*, *Testimonios* y *Contacto*.  
+- El enlace directo hacia la aplicación móvil en desarrollo.  
+- El despliegue exitoso mediante **GitHub Pages**, garantizando su disponibilidad pública.
+
+A continuación, se presenta la evidencia visual de la Landing Page final:
+
+FOTO LANDING 
+<div id='4.2.1.6.'><h5>4.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
+
+En este Sprint, se desarrollaron los endpoints planteados para el correcto funcionamiento de la solución de software.
+
+**ENDPOINTS DE BOVINUEMETRIC AND FARM API**
+<img src="./images/endpoint-1.png" alt="Endpoints de FARM AND BOVINUEMETRIC COMPONENTS">
+
+Estos endpoints gestionan los requisitos funcionales planeados por el equipo para el correcto funcionamiento del sistema.
+
+**ENDPOINTS DE AUTHORIZATION AND BOVINUE AND BOVINUEHEALTHRECORD**
+
+<img src="./images/endpoint-2.png" alt="Endpoints de FAAUTHORIZATIONRM AND BOVINUE AND BOVINUEHEALTHRECORD COMPONENTS">
+
+Estos endpoints gestionan los requisitos funcionales del bovinue bounded context planeados por el equipo para el correcto funcionamiento del sistema.
+
+<img src="./images/endpoint-3.png" alt="Endpoints de FAAUTHORIZATIONRM AND BOVINUE AND BOVINUEHEALTHRECORD COMPONENTS">
+
+
+<div id='4.2.1.7.'><h5>4.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+<p>
+    Durante el Sprint 1, el equipo realizó los procesos de despliegue correspondientes a los productos digitales 
+    desarrollados hasta la fecha: la <strong>Landing Page</strong> informativa, los <strong>Servicios Web (API REST)</strong> 
+    y la <strong>Aplicación Móvil</strong> de GanLink.  
+    Estas actividades permitieron publicar y poner en funcionamiento los componentes esenciales del ecosistema 
+    tecnológico del proyecto, garantizando su disponibilidad y correcto funcionamiento en entornos reales.
+  </p>
+
+  <h6>1. Despliegue de la Landing Page</h6>
+  <p>
+    La <strong>Landing Page</strong> fue implementada utilizando <strong>HTML5</strong> y <strong>CSS3</strong>, 
+    siguiendo buenas prácticas de estructuración semántica y diseño responsive.  
+    Su despliegue se realizó en la plataforma <strong>GitHub Pages</strong>, permitiendo su acceso público mediante 
+    un dominio generado automáticamente.
+  </p>
+  <p>Los pasos realizados fueron los siguientes:</p>
+  <ol>
+    <li>Creación de la carpeta <code>/docs</code> dentro del repositorio principal.</li>
+    <li>Configuración del archivo <code>index.html</code> como punto de entrada del sitio.</li>
+    <li>Incorporación de los recursos gráficos en la carpeta <code>/img</code> y de estilos en <code>style.css</code>.</li>
+    <li>Subida de los archivos al repositorio mediante commit y push.</li>
+    <li>Configuración de GitHub Pages en <em>Settings → Pages → Deploy from branch</em>, 
+        seleccionando la rama <code>main</code> y el directorio <code>/docs</code>.</li>
+    <li>Verificación del enlace generado y validación visual de la página publicada.</li>
+  </ol>
+
+  <figure>
+    <img src="https://raw.githubusercontent.com/GanLink/report/refs/heads/feature/chapter-4/assets/deployment/gh-pages-setup.png" 
+         alt="Configuración de GitHub Pages" style="max-width:100%; border:1px solid #ccc; border-radius:8px;">
+    <figcaption><em>Figura 4.15. Configuración de despliegue de la Landing Page en GitHub Pages.</em></figcaption>
+  </figure>
+
+  <p>
+    <strong>Enlace del despliegue:</strong> <a href="#" target="_blank">[Por colocar enlace definitivo de la Landing Page]</a>
+  </p>
+
+  <h6>2. Despliegue de los Servicios Web (Backend)</h6>
+  <p>
+    Los servicios backend se desarrollaron bajo arquitectura <strong>RESTful</strong> y fueron documentados 
+    mediante <strong>Swagger</strong>.  
+    Durante este sprint, el despliegue se realizó en un entorno local con miras a migrarse a un proveedor 
+    cloud (Azure o AWS) en el siguiente sprint.
+  </p>
+  <p>Las actividades ejecutadas fueron:</p>
+  <ul>
+    <li>Configuración del servidor local en <strong>ASP.NET Core 8.0</strong>.</li>
+    <li>Validación de rutas y controladores mediante Swagger UI.</li>
+    <li>Pruebas de conectividad con la base de datos local (SQL Server Express).</li>
+    <li>Verificación de respuesta de endpoints y correcta comunicación entre cliente y servidor.</li>
+  </ul>
+
+  <figure>
+    <img src="https://raw.githubusercontent.com/GanLink/backend/refs/heads/develop/assets/deployment/swagger-api.png" 
+         alt="Swagger API desplegado" style="max-width:100%; border:1px solid #ccc; border-radius:8px;">
+    <figcaption><em>Figura 4.16. Visualización del backend ejecutado en entorno local mediante Swagger UI.</em></figcaption>
+  </figure>
+
+  <h6>3. Despliegue de la Aplicación Móvil</h6>
+  <p>
+    En esta fase se compiló la <strong>aplicación móvil GanLink</strong> desarrollada en <strong>Android Studio (Kotlin)</strong>.  
+    Se generó el archivo <code>.apk</code> para ejecución en dispositivos de prueba, validando la interacción 
+    con los servicios backend mediante solicitudes HTTP.
+  </p>
+  <p>Las pruebas de despliegue incluyeron:</p>
+  <ul>
+    <li>Configuración del entorno de ejecución con emulador Android API 34.</li>
+    <li>Verificación de vistas y navegación principal (login, registro, menú principal).</li>
+    <li>Ejecución de peticiones al backend para registro y consulta de animales.</li>
+  </ul>
+
+  <figure>
+    <img src="https://raw.githubusercontent.com/GanLink/mobile/refs/heads/develop/assets/deployment/android-build.png" 
+         alt="Despliegue de aplicación móvil GanLink" style="max-width:100%; border:1px solid #ccc; border-radius:8px;">
+    <figcaption><em>Figura 4.17. Compilación y despliegue de la aplicación móvil GanLink en emulador Android Studio.</em></figcaption>
+  </figure>
+
+
+**LANDING EVIDENCE**
+
+<img src="./images/ld-1.png" alt="Endpoints de FAAUTHORIZATIONRM AND BOVINUE AND BOVINUEHEALTHRECORD COMPONENTS">
+
+
+<div id='4.2.1.8.'><h5>4.2.1.8. Team Collaboration Insights during Sprint</h5></div>
+
+El desarrollo del proyecto **GanLink** se llevó a cabo bajo un enfoque colaborativo, utilizando GitHub como plataforma central de control de versiones y Trello para la organización de tareas.  
+Cada integrante asumió responsabilidades específicas en la elaboración del informe y en el desarrollo técnico, garantizando una distribución equilibrada del trabajo y la integración coherente entre los distintos componentes (landing page, backend y aplicación móvil).
+
+| **Alumno** | **Actividad** |
+|-------------|----------------|
+| **Rodas León, Ernesto** | Desarrollo del **Capítulo IV: Product Implementation & Validation**, incluyendo la configuración del entorno de desarrollo, control de versiones, estilo de código y documentación del Sprint 1. Responsable principal de la integración y revisión técnica del documento general. |
+| **Guerrero Tomás, Nelson Fabrizio** | Desarrollo de los apartados de **UI/UX Design y Capítulo III: Solution Information Architecture**, además de la estructura y redacción de la **Landing Page** en formato Markdown. Encargado del diseño en Figma, maquetación HTML/CSS y publicación en GitHub Pages. |
+| **Mora Blas, Diego Alonso** | Desarrollo de la **aplicación móvil Android**, implementando vistas, ViewModels, conexión con el backend mediante Retrofit, Room e inyección de dependencias con Hilt. Participó también en la integración de funcionalidades de registro y autenticación. |
+| **León Vivas, Fabrizzio** | Implementación del **backend** en .NET, diseño de dominios, repositorios y controladores. Creación de entidades como *Bovine*, *Farm* y *Audit*, además de la configuración de la base de datos y pruebas iniciales de los servicios API REST. |
+| **Huamán Milenko** | Desarrollo de módulos de salud y métricas en el backend, contribuyendo a la lógica de negocio y la creación de agregados sanitarios y económicos. Implementó auditorías y validaciones internas dentro de los contextos delimitados. |
+
+<div id='4.3.'><h3>4.3. Validation Interviews</h3></div>
+
+<div id='4.3.1.'><h4>4.3.1. Diseño de entrevistas</h4></div>
+
+El objetivo principal de las entrevistas de validación fue **recoger percepciones y retroalimentación de potenciales usuarios y especialistas del sector agropecuario**, respecto al diseño, usabilidad y funcionalidad del prototipo móvil y la landing page de la aplicación **GanLink**.  
+Estas entrevistas permitieron validar la pertinencia de las funcionalidades desarrolladas hasta el momento (registro de animales, autenticación, gestión sanitaria y control económico), así como la claridad del flujo de navegación y la coherencia del diseño visual con el público objetivo.
+
+#### Metodología
+
+- **Tipo de validación:** Entrevista semiestructurada con demostración del prototipo funcional.  
+- **Duración promedio:** 10 a 15 minutos por participante.  
+- **Modalidad:** Virtual, mediante videollamada (Google Meet).  
+- **Herramientas de apoyo:**  
+  - Prototipo móvil funcional en Android Studio.   
+- **Fecha de aplicación:** Entre el 6 y 9 de octubre de 2025.  
+
+#### Perfil de los entrevistados
+
+| Perfil | Descripción |
+|--------|--------------|
+| **Ganadero** | Usuario final del sistema, encargado de la gestión operativa del ganado. Evaluó la facilidad de registro de animales y vacunaciones. |
+
+#### Estructura de la entrevista
+
+Las entrevistas se diseñaron con una **estructura mixta**, combinando preguntas abiertas para recoger percepciones cualitativas y escalas de valoración para cuantificar la satisfacción percibida.  
+
+1. **Introducción**
+   - Presentación del equipo de desarrollo y propósito del proyecto.
+   - Breve demostración del flujo general del sistema (login, registro, vacunación, reportes).
+
+2. **Exploración de la experiencia del usuario**
+   - ¿Qué le pareció la navegación dentro de la aplicación móvil?
+   - ¿Los íconos, textos y botones fueron comprensibles?
+   - ¿Considera intuitivo el flujo para registrar animales y vacunaciones?
+
+3. **Evaluación del diseño visual**
+   - ¿Qué opina sobre los colores, tipografía y legibilidad de las pantallas?
+   - ¿El diseño transmite confianza y facilidad de uso?
+
+4. **Relevancia funcional**
+   - ¿Las funciones actuales (registro, vacunación, ventas) responden a las necesidades reales de un ganadero o veterinario?
+   - ¿Qué otras funcionalidades le parecerían útiles agregar?
+
+5. **Percepción general**
+   - ¿Recomendaría esta aplicación a otros usuarios del sector?
+   - ¿Qué aspectos considera prioritarios para mejorar antes del lanzamiento?
+
+#### Resultados esperados
+
+El diseño de las entrevistas buscó **obtener retroalimentación directa y validación empírica** de los usuarios potenciales sobre:
+- La **usabilidad** y **facilidad de comprensión** del sistema.  
+- La **pertinencia** de las funcionalidades implementadas en esta fase.  
+- La **aceptación visual y emocional** del diseño aplicado.  
+
+Los hallazgos derivados de estas entrevistas se emplearán como base para los ajustes funcionales y de diseño en el siguiente Sprint.
+
+<div id='4.3.2.'><h4>4.3.2. Registro de entrevistas</h4></div>
+
+| **Campo** | **Detalle** |
+|:--|:--|
+| **Evidencia** | ![Entrevista Prototipo](images/Entrevista%20Prototipo.png) |
+| **Nombre del entrevistado** | Fabián Marcelo |
+| **Edad** | 28 |
+| **Profesión** | Ganadero |
+| **Link del video** | [Ver entrevista en YouTube](https://youtu.be/0NP1TeNYBgo) |
+| **Resumen** | El entrevistado destacó que el prototipo le pareció visualmente atractivo, con un diseño limpio y colores agradables que facilitan la lectura en campo. Mencionó que la navegación es intuitiva y que las funciones principales —como el registro de ganado, control sanitario y reportes— están bien organizadas y resultan fáciles de usar incluso para usuarios con poca experiencia tecnológica. |
+| **Características relevantes** | Consideró que la aplicación responde a necesidades reales del ganadero, ya que permite registrar información sin conexión y sincronizarla después. Valoró positivamente la propuesta, indicando que “está bien bonita y es totalmente funcional para el trabajo diario en la granja”. |
+
+<div id='4.3.3.'><h4>4.3.3. Evaluaciones según heurísticas</h4></div>
+
+##  Evaluaciones según heurísticas
+
+Con el objetivo de garantizar una experiencia de usuario óptima y coherente con los principios de diseño centrado 
+en el usuario, se aplicó una evaluación heurística a las interfaces del sistema **GanLink**, 
+incluyendo la **aplicación móvil** y la **Landing Page**.  
+Esta evaluación permitió identificar oportunidades de mejora en cuanto a usabilidad, consistencia visual, 
+retroalimentación del sistema y accesibilidad.
+
+El proceso se basó en las **10 Heurísticas de Usabilidad de Jakob Nielsen (2020)**, complementadas 
+con criterios de *Information Architecture* y *Inclusive Design*.  
+Se aplicó el formato descrito en el **Anexo E: Formato para Evaluación de User Experience según Heurísticas**, 
+mediante sesiones de revisión con usuarios representativos y observadores especializados.
+
+---
+
+###  Metodología
+
+- **Tipo de evaluación:** Heurística y observacional.  
+- **Evaluadores:** 3 (2 diseñadores UX y 1 usuario representativo del sector ganadero).  
+- **Instrumento aplicado:** Formato estructurado con escala de severidad de 0 a 4 (Nielsen).  
+- **Productos evaluados:** Prototipo móvil (Android) y Landing Page informativa.  
+
+---
+
+###  Formato de Evaluación de Usabilidad según Heurísticas
+
+| **Heurística Evaluada** | **Descripción del Criterio** | **Hallazgos en la Aplicación** | **Severidad (0–4)** | **Recomendación de Mejora** |
+|:--|:--|:--|:--:|:--|
+| **1. Visibilidad del estado del sistema** | El sistema debe mantener informado al usuario sobre lo que ocurre mediante retroalimentación visible y oportuna. | Los procesos de registro y login muestran mensajes de carga y confirmación, pero la retroalimentación en errores de conexión aún es limitada. | 2 (Moderado) | Incluir alertas visuales o mensajes temporales en caso de fallos de conexión o validación incorrecta. |
+| **2. Coincidencia entre el sistema y el mundo real** | Los elementos deben emplear un lenguaje familiar para el usuario. | El vocabulario de la app emplea términos comprensibles para el contexto ganadero (peso, vacunación, venta), alineado con la realidad del usuario final. | 1 (Leve) | Agregar íconos complementarios en formularios para facilitar la identificación de acciones. |
+| **3. Control y libertad del usuario** | El usuario debe tener la posibilidad de cancelar acciones y corregir errores. | En los formularios de registro y vacunación no existe una opción visible de cancelar o volver. | 3 (Importante) | Incluir un botón de retorno o confirmación antes de guardar datos sensibles. |
+| **4. Consistencia y estándares** | El diseño debe seguir convenciones de plataforma y mantener consistencia visual entre pantallas. | Los componentes mantienen un estilo uniforme, pero la paleta de colores no está totalmente aplicada en todos los módulos. | 2 (Moderado) | Unificar el uso de la paleta institucional definida en el sistema de diseño de GanLink. |
+| **5. Prevención de errores** | El sistema debe minimizar la posibilidad de errores antes de que ocurran. | Los campos de formulario tienen validaciones básicas (campos obligatorios, formatos), aunque algunos no advierten errores hasta enviar el formulario. | 3 (Importante) | Agregar validaciones en tiempo real y mensajes de ayuda al ingresar datos. |
+| **6. Reconocimiento en lugar de recuerdo** | El usuario no debería tener que memorizar información entre pantallas. | El menú lateral y botones principales son visibles en todo momento, reduciendo la carga de memoria. | 1 (Leve) | Mantener consistencia en íconos y títulos entre las vistas de móvil y landing. |
+| **7. Flexibilidad y eficiencia de uso** | El sistema debe ofrecer accesos rápidos o flujos cortos para usuarios frecuentes. | Los accesos a módulos son directos, pero la búsqueda de animales podría optimizarse con filtros más dinámicos. | 2 (Moderado) | Implementar filtros combinados por raza, edad o estado de salud. |
+| **8. Estética y diseño minimalista** | La interfaz debe evitar la sobrecarga de información. | El diseño mantiene equilibrio visual y buen uso de espacio negativo, especialmente en la Landing Page. | 1 (Leve) | Revisar el contraste entre texto y fondo en secciones secundarias. |
+| **9. Ayuda a los usuarios para reconocer y recuperarse de errores** | El sistema debe ofrecer mensajes claros para explicar problemas y cómo resolverlos. | Los mensajes de error son breves, pero podrían incluir detalles más específicos según el tipo de fallo. | 2 (Moderado) | Agregar descripciones contextuales en errores del login y carga de datos. |
+| **10. Ayuda y documentación** | Debe existir soporte o documentación accesible para el usuario. | Actualmente la aplicación no cuenta con un módulo de ayuda o tutorial introductorio. | 4 (Crítico) | Diseñar una pantalla inicial con guía o recorrido interactivo para nuevos usuarios. |
+
+---
+
+Los resultados de esta evaluación heurística permitieron identificar áreas de mejora 
+principalmente en la **prevención de errores** y **soporte al usuario**.  
+Las recomendaciones fueron documentadas y priorizadas para ser atendidas en el siguiente *Sprint*.
+
+
+
 ## Conclusiones
 
 GanLink se ha consolidado como una solución tecnológica clave para modernizar la gestión ganadera, reemplazando los obsoletos sistemas manuales por una plataforma digital que centraliza el registro de animales, historial sanitario y transacciones económicas. Su implementación ha demostrado beneficios tangibles: mejora en la trazabilidad para cumplimiento normativo, reducción de pérdidas mediante alertas automatizadas, y acceso a datos en tiempo real para una toma de decisiones más informada. El uso de tecnologías como Kotlin, .NET y MySql aseguró un desarrollo escalable y adaptable a las necesidades cambiantes del sector. Este proyecto no solo optimiza procesos operativos, sino que también acerca la innovación tecnológica a los pequeños y medianos ganaderos, marcando un precedente para la transformación digital en la agricultura latinoamericana. Con potencial para incorporar inteligencia artificial e integraciones con blockchain en futuras iteraciones, GanLink sienta las bases para una ganadería más eficiente, sostenible y competitiva.
