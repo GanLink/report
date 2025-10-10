@@ -1449,7 +1449,63 @@ En conjunto, el sistema de etiquetado de **AgroTracer** contribuye a una interfa
 
 
 #### 3.1.2.3. SEO Tags and Meta Tags
-Incluye las etiquetas meta y de optimización para motores de búsqueda (SEO) aplicadas en la landing page. Permite mejorar la visibilidad digital del producto en buscadores y redes sociales.
+
+En esta sección se definen las etiquetas **SEO (Search Engine Optimization)** y **ASO (App Store Optimization)** que describen la identidad y los valores de la aplicación **AgroTracer**, desarrollada por la startup **GanLink**.  
+Si bien el producto está orientado principalmente a **dispositivos móviles Android**, también se considera su presencia digital mediante una **Landing Page informativa**, que funcionará como punto de difusión y descarga de la aplicación.
+
+#### Landing Page (Sitio informativo)
+
+**Title:**  
+AgroTracer - Plataforma Móvil para la Gestión Inteligente del Ganado  
+
+**Description:**  
+AgroTracer es una aplicación desarrollada por GanLink que digitaliza la gestión ganadera para pequeños y medianos productores. Permite registrar animales, monitorear métricas productivas, controlar eventos sanitarios y visualizar indicadores económicos desde una interfaz intuitiva y accesible.  
+
+**Keywords:**  
+gestión ganadera, aplicación móvil ganadera, GanLink, AgroTracer, trazabilidad animal, productividad ganadera, control sanitario, economía pecuaria, tecnología rural, ganadería digital, app para ganaderos.  
+
+**Author:**  
+GanLink Tech Solutions  
+
+**Viewport (Responsive Design):**  
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+#### Mobile Application (App Android)
+
+**App Title:**  
+AgroTracer – Gestión Ganadera Digital  
+
+**App Subtitle:**  
+Organiza, controla y mejora tu producción ganadera desde el móvil.  
+
+**App Description:**  
+AgroTracer es una aplicación móvil desarrollada por GanLink que facilita la gestión integral de hatos y bovinos, permitiendo registrar información productiva, sanitaria y económica. Diseñada para el contexto rural latinoamericano, combina simplicidad, trazabilidad y tecnología accesible para optimizar las operaciones del campo.  
+
+**App Keywords:**  
+GanLink, AgroTracer, gestión de ganado, trazabilidad ganadera, salud animal, control de hatos, economía pecuaria, productividad ganadera, app ganadera, tecnología rural, agricultura digital.  
+
+**App Author / Developer:**  
+GanLink Tech Solutions – Equipo de Desarrollo Móvil  
+
+**Package Name (Android):**  
+`com.ganlink.agrotracer`  
+
+**Category:**  
+Productividad / Agricultura  
+
+**Version:**  
+1.0.0 (Beta)  
+
+**Compatibility:**  
+Android 9.0 (Pie) o superior  
+
+#### Estrategia de Optimización
+
+Las etiquetas definidas permitirán mejorar la visibilidad tanto en buscadores web como en tiendas de aplicaciones. En el contexto **ASO**, los campos *App Title*, *Description* y *Keywords* se alinean con las prácticas de optimización en Google Play Store, enfocadas en términos relevantes para el sector agropecuario y tecnológico.  
+Por su parte, las *Meta Tags* del sitio estático se implementarán en la **Landing Page oficial de GanLink**, asegurando coherencia entre la comunicación visual, la narrativa de marca y los principios de diseño definidos en el *Style Guidelines*.
+
+En conjunto, esta estructura de etiquetas SEO y ASO fortalece la presencia digital del producto, garantizando que **AgroTracer** sea fácilmente localizable y reconocible por su público objetivo: los ganaderos rurales que buscan soluciones tecnológicas accesibles, confiables y adaptadas a su entorno productivo.
+
 
 #### 3.1.2.4. Searching Systems
 Describe los mecanismos de búsqueda implementados dentro de la plataforma (por ejemplo, búsqueda de animales por ID, raza o estado sanitario), priorizando rapidez y precisión.
