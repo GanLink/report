@@ -1416,6 +1416,67 @@ Referencia: [https://github.com](https://github.com)
 
 <div id='4.1.2.'><h4>4.1.2. Source Code Management</h4></div>
 
+El desarrollo del proyecto **GanLink / AgroTracer** adoptó las convenciones del flujo de trabajo **GitFlow** para la gestión de versiones, empleando **GitHub** como plataforma principal de control y almacenamiento del código fuente.  
+Este esquema permitió organizar el trabajo colaborativo, controlar los cambios realizados y mantener la trazabilidad de cada funcionalidad implementada durante las iteraciones de desarrollo.
+
+**Repositorios de GitHub:**  
+- Enlace a la organización general: [https://github.com/GanLink](https://github.com/GanLink)  
+- Enlace al repositorio del proyecto móvil: [https://github.com/GanLink/report](https://github.com/GanLink/report)  
+- Enlace al repositorio de la Landing Page: *(por crear)*  
+
+#### Flujo de trabajo GitFlow
+
+El proyecto implementó el flujo de trabajo propuesto por **Vincent Driessen**, conocido como *A successful Git branching model*, que facilita el manejo estructurado de ramas y versiones durante el desarrollo del software.
+
+![GitFlow](https://i0.wp.com/select2web.com/wp-content/uploads/git-workflow-release-cycle-4maintenance.png?fit=614%2C380&ssl=1)
+
+#### Estructura de branches (Ramas)
+
+1. **Main branch (Rama principal):**  
+   Contiene las versiones estables y listas para distribución.  
+   Solo recibe integraciones desde ramas de lanzamiento (release) tras superar las pruebas funcionales.
+
+2. **Develop branch (Rama de desarrollo):**  
+   Es la rama base del desarrollo activo, donde se integran las funcionalidades completadas de cada sprint.
+
+3. **Feature branches (Ramas de funcionalidad):**  
+   Cada nueva característica o módulo se desarrolla en una rama independiente, siguiendo la nomenclatura:  
+   `feature/nombre-funcionalidad`  
+   Una vez completada, se fusiona con la rama develop mediante *pull request*.
+
+4. **Release branches (Ramas de lanzamiento):**  
+   Se crean a partir de develop cuando el proyecto alcanza un conjunto estable de funcionalidades.  
+   Permiten preparar versiones candidatas antes de integrarlas a main.
+
+5. **Hotfix branches (Ramas de corrección):**  
+   Se utilizan para resolver incidencias críticas detectadas en versiones productivas.  
+   Los cambios se aplican directamente sobre main y luego se integran en develop.
+
+#### Versionamiento Semántico
+
+El control de versiones se basa en el estándar **Versionamiento Semántico 2.0.0 (SemVer)**, con el formato:
+
+`MAJOR.MINOR.PATCH`  
+- **MAJOR:** Cambios incompatibles con versiones anteriores.  
+- **MINOR:** Nuevas funcionalidades compatibles.  
+- **PATCH:** Correcciones menores o ajustes internos.
+
+#### Convenciones de Commits
+
+Los mensajes de confirmación siguen las directrices de **Conventional Commits**, lo que permite mantener un historial limpio y comprensible del proyecto.  
+La estructura adoptada es la siguiente:
+
+ `git commit -m "<type>[optional scope]:<title>" -m"<description">`
+
+**Tipos más utilizados:**
+- `feat:` para nuevas funcionalidades.  
+- `fix:` para correcciones de errores.  
+- `docs:` para modificaciones en documentación.  
+- `refactor:` para mejoras de código sin cambiar su comportamiento.  
+- `style:` para ajustes de formato, identación o estructura visual.
+
+Este modelo de control de versiones garantizó un flujo de trabajo colaborativo, organizado y trazable, manteniendo la integridad del código en cada etapa del desarrollo del proyecto.
+
 <div id='4.1.3.'><h4>4.1.3. Source Code Style Guide & Conventions</h4></div>
 
 <div id='4.1.4.'><h4>4.1.4. Software Deployment Configuration</h4></div>
