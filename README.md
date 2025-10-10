@@ -1703,7 +1703,105 @@ En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests*
 
 <div id='4.2.1.6.'><h5>4.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 
+En este Sprint, se desarrollaron los endpoints planteados para el correcto funcionamiento de la solución de software.
+
+**ENDPOINTS DE BOVINUEMETRIC AND FARM API**
+<img src="./images/endpoint-1.png" alt="Endpoints de FARM AND BOVINUEMETRIC COMPONENTS">
+
+Estos endpoints gestionan los requisitos funcionales planeados por el equipo para el correcto funcionamiento del sistema.
+
+**ENDPOINTS DE AUTHORIZATION AND BOVINUE AND BOVINUEHEALTHRECORD**
+
+<img src="./images/endpoint-2.png" alt="Endpoints de FAAUTHORIZATIONRM AND BOVINUE AND BOVINUEHEALTHRECORD COMPONENTS">
+
+Estos endpoints gestionan los requisitos funcionales del bovinue bounded context planeados por el equipo para el correcto funcionamiento del sistema.
+
+<img src="./images/endpoint-3.png" alt="Endpoints de FAAUTHORIZATIONRM AND BOVINUE AND BOVINUEHEALTHRECORD COMPONENTS">
+
+
 <div id='4.2.1.7.'><h5>4.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+<p>
+    Durante el Sprint 1, el equipo realizó los procesos de despliegue correspondientes a los productos digitales 
+    desarrollados hasta la fecha: la <strong>Landing Page</strong> informativa, los <strong>Servicios Web (API REST)</strong> 
+    y la <strong>Aplicación Móvil</strong> de GanLink.  
+    Estas actividades permitieron publicar y poner en funcionamiento los componentes esenciales del ecosistema 
+    tecnológico del proyecto, garantizando su disponibilidad y correcto funcionamiento en entornos reales.
+  </p>
+
+  <h6>1. Despliegue de la Landing Page</h6>
+  <p>
+    La <strong>Landing Page</strong> fue implementada utilizando <strong>HTML5</strong> y <strong>CSS3</strong>, 
+    siguiendo buenas prácticas de estructuración semántica y diseño responsive.  
+    Su despliegue se realizó en la plataforma <strong>GitHub Pages</strong>, permitiendo su acceso público mediante 
+    un dominio generado automáticamente.
+  </p>
+  <p>Los pasos realizados fueron los siguientes:</p>
+  <ol>
+    <li>Creación de la carpeta <code>/docs</code> dentro del repositorio principal.</li>
+    <li>Configuración del archivo <code>index.html</code> como punto de entrada del sitio.</li>
+    <li>Incorporación de los recursos gráficos en la carpeta <code>/img</code> y de estilos en <code>style.css</code>.</li>
+    <li>Subida de los archivos al repositorio mediante commit y push.</li>
+    <li>Configuración de GitHub Pages en <em>Settings → Pages → Deploy from branch</em>, 
+        seleccionando la rama <code>main</code> y el directorio <code>/docs</code>.</li>
+    <li>Verificación del enlace generado y validación visual de la página publicada.</li>
+  </ol>
+
+  <figure>
+    <img src="https://raw.githubusercontent.com/GanLink/report/refs/heads/feature/chapter-4/assets/deployment/gh-pages-setup.png" 
+         alt="Configuración de GitHub Pages" style="max-width:100%; border:1px solid #ccc; border-radius:8px;">
+    <figcaption><em>Figura 4.15. Configuración de despliegue de la Landing Page en GitHub Pages.</em></figcaption>
+  </figure>
+
+  <p>
+    <strong>Enlace del despliegue:</strong> <a href="#" target="_blank">[Por colocar enlace definitivo de la Landing Page]</a>
+  </p>
+
+  <h6>2. Despliegue de los Servicios Web (Backend)</h6>
+  <p>
+    Los servicios backend se desarrollaron bajo arquitectura <strong>RESTful</strong> y fueron documentados 
+    mediante <strong>Swagger</strong>.  
+    Durante este sprint, el despliegue se realizó en un entorno local con miras a migrarse a un proveedor 
+    cloud (Azure o AWS) en el siguiente sprint.
+  </p>
+  <p>Las actividades ejecutadas fueron:</p>
+  <ul>
+    <li>Configuración del servidor local en <strong>ASP.NET Core 8.0</strong>.</li>
+    <li>Validación de rutas y controladores mediante Swagger UI.</li>
+    <li>Pruebas de conectividad con la base de datos local (SQL Server Express).</li>
+    <li>Verificación de respuesta de endpoints y correcta comunicación entre cliente y servidor.</li>
+  </ul>
+
+  <figure>
+    <img src="https://raw.githubusercontent.com/GanLink/backend/refs/heads/develop/assets/deployment/swagger-api.png" 
+         alt="Swagger API desplegado" style="max-width:100%; border:1px solid #ccc; border-radius:8px;">
+    <figcaption><em>Figura 4.16. Visualización del backend ejecutado en entorno local mediante Swagger UI.</em></figcaption>
+  </figure>
+
+  <h6>3. Despliegue de la Aplicación Móvil</h6>
+  <p>
+    En esta fase se compiló la <strong>aplicación móvil GanLink</strong> desarrollada en <strong>Android Studio (Kotlin)</strong>.  
+    Se generó el archivo <code>.apk</code> para ejecución en dispositivos de prueba, validando la interacción 
+    con los servicios backend mediante solicitudes HTTP.
+  </p>
+  <p>Las pruebas de despliegue incluyeron:</p>
+  <ul>
+    <li>Configuración del entorno de ejecución con emulador Android API 34.</li>
+    <li>Verificación de vistas y navegación principal (login, registro, menú principal).</li>
+    <li>Ejecución de peticiones al backend para registro y consulta de animales.</li>
+  </ul>
+
+  <figure>
+    <img src="https://raw.githubusercontent.com/GanLink/mobile/refs/heads/develop/assets/deployment/android-build.png" 
+         alt="Despliegue de aplicación móvil GanLink" style="max-width:100%; border:1px solid #ccc; border-radius:8px;">
+    <figcaption><em>Figura 4.17. Compilación y despliegue de la aplicación móvil GanLink en emulador Android Studio.</em></figcaption>
+  </figure>
+
+
+**LANDING EVIDENCE**
+
+<img src="./images/ld-1.png" alt="Endpoints de FAAUTHORIZATIONRM AND BOVINUE AND BOVINUEHEALTHRECORD COMPONENTS">
+
 
 <div id='4.2.1.8.'><h5>4.2.1.8. Team Collaboration Insights during Sprint</h5></div>
 
