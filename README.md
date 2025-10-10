@@ -1510,6 +1510,46 @@ En conjunto, esta estructura de etiquetas SEO y ASO fortalece la presencia digit
 #### 3.1.2.4. Searching Systems
 Describe los mecanismos de búsqueda implementados dentro de la plataforma (por ejemplo, búsqueda de animales por ID, raza o estado sanitario), priorizando rapidez y precisión.
 
+El sistema de búsqueda en **AgroTracer** ha sido diseñado para ofrecer una experiencia ágil, precisa y adaptada a las necesidades de los pequeños y medianos ganaderos. Su objetivo es permitir el acceso rápido a información crítica relacionada con los animales, granjas y eventos productivos, optimizando el control operativo y la toma de decisiones en campo.
+
+**Búsqueda por bovino:**  
+La aplicación incluye una barra de búsqueda principal que permite localizar un animal específico utilizando filtros como:
+- Número de identificación o código interno del bovino.  
+- Raza o tipo de bovino (ternero, vaca, toro, novillo).  
+- Edad o rango etario.  
+- Estado sanitario o reproductivo.  
+- Fecha de registro o último evento asociado.
+
+Estos filtros facilitan la trazabilidad individual del ganado, garantizando un acceso inmediato a su historial productivo y sanitario.
+
+**Búsqueda por granja o hato:**  
+Los usuarios pueden filtrar y visualizar información asociada a una granja determinada.  
+A través de criterios como alias de la granja, actividad principal (carne, leche o mixta) y nombre del propietario, el sistema permite ubicar y acceder rápidamente a los datos registrados, manteniendo una estructura ordenada incluso en escenarios con múltiples hatos activos.
+
+**Búsqueda por eventos productivos o sanitarios:**  
+El sistema incorpora filtros para identificar eventos registrados en el tiempo, como vacunaciones, tratamientos, nacimientos, ventas o muertes.  
+Cada evento se encuentra indexado por fecha, tipo y estado, permitiendo a los usuarios realizar consultas históricas o planificar futuras intervenciones.
+
+**Búsqueda y filtrado en métricas productivas:**  
+Dentro del módulo de métricas, el usuario puede buscar indicadores específicos como ganancia diaria de peso (GMD), tasa de concepción, tasa de anestro o índice de conversión alimentaria.  
+Estas funciones permiten comparar el desempeño de diferentes animales o hatos, fortaleciendo la gestión técnica y económica de la producción.
+
+**Filtros por categoría funcional:**  
+El sistema agrupa la información según los módulos principales de la aplicación:  
+- **Sanidad** (tratamientos, vacunas, alertas).  
+- **Reproducción** (montas, partos, inseminaciones).  
+- **Economía** (gastos, ingresos, balances).  
+- **Gestión general** (configuración, usuarios, sincronización).  
+
+Esta clasificación mejora la accesibilidad a los datos más relevantes, reduciendo el tiempo de búsqueda y mejorando la organización del flujo de trabajo.
+
+**Ordenación y relevancia:**  
+Los resultados de búsqueda pueden ordenarse por criterios definidos, como fecha de registro, nombre, relevancia o estado del evento.  
+Este enfoque asegura que la información más reciente o más crítica se muestre primero, optimizando la eficiencia operativa del usuario en campo.
+
+En conjunto, el sistema de búsqueda de **AgroTracer** integra filtrado dinámico, categorización modular y ordenación inteligente, ofreciendo una experiencia de consulta rápida, precisa y coherente con la lógica de gestión ganadera establecida en los principios del diseño centrado en el usuario.
+
+
 #### 3.1.2.5. Navigation Systems
 Define la estructura de navegación del producto, tanto en la versión web como móvil. Incluye menús principales, submenús, rutas internas y botones de acceso rápido para garantizar un flujo de interacción coherente.
 
