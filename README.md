@@ -1616,10 +1616,16 @@ Representan la estructura funcional de cada vista de la aplicación (pantallas d
 
 ![Mobile Applications Wireframes](images/Mobile%20Applications%20Wireframes.png)
 
+[Ver Wireframes en Figma](https://www.figma.com/design/YOJv9Jfpsc0eiJm1qCN5yM/WIREFRAMES-GANLINK?node-id=0-1&t=kXn8qI7nVlnQc7gB-1)
+
+
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 Detallan los flujos de navegación entre pantallas, permitiendo visualizar las rutas y transiciones del usuario al interactuar con la aplicación.
 
 ![Wireflow Diagrams](images/Mobile%20Applications%20Wireflow%20Diagrams.png)
+
+[Ver Wireflow en Figma](https://www.figma.com/design/YOJv9Jfpsc0eiJm1qCN5yM/WIREFRAMES-GANLINK?node-id=0-1&t=kXn8qI7nVlnQc7gB-1)
+
 
 #### 3.1.4.3. Mobile Applications Mock-ups
 Diseños visuales completos que integran colores, íconos y elementos gráficos reales, simulando la apariencia final del producto en dispositivos móviles.
