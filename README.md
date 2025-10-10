@@ -1683,6 +1683,22 @@ A continuación, se detallan los principales commits generados durante esta iter
 
 <div id='4.2.1.4.'><h5>4.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
 
+En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests** implementados y ejecutados durante el Sprint 1, enfocados en los **Web Services** y funcionalidades desarrolladas en los módulos de autenticación, registro de animales, vacunación y control económico.
+
+| **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed On (Date)** |
+|----------------|-------------|----------------|--------------------|--------------------------|--------------------------|
+| **GanLink Backend** | feature/testing | `b34e7c2` | test(animals): add unit test for POST /api/animals | Verifica la creación exitosa de un nuevo animal en el sistema con datos válidos y manejo de errores por campos vacíos. | 07/10/2025 |
+| **GanLink Backend** | feature/testing | `c96f51a` | test(auth): implement login endpoint tests | Prueba de integración del endpoint de autenticación de usuarios con credenciales válidas e inválidas. | 07/10/2025 |
+| **GanLink Backend** | feature/testing | `e27b9a5` | test(vaccination): add integration test for POST /api/vaccines | Evalúa la correcta inserción de registros de vacunación, controlando fechas futuras o dosis incompletas. | 08/10/2025 |
+| **GanLink Backend** | feature/testing | `a71f89d` | test(sales): add acceptance tests for transaction module | Simula el proceso completo de registro de ventas con validaciones sobre el valor de transacción y actualización del inventario. | 08/10/2025 |
+| **GanLink Mobile App** | feature/test-suite | `b8932fa` | test(android): add instrumentation tests for login and register views | Implementación de pruebas automáticas con Espresso verificando la navegación y validación de campos en las vistas de registro e inicio de sesión. | 08/10/2025 |
+| **GanLink Documentation (report)** | feature/chapter-4 | `6d9b731` | docs(testing): add testing suite evidence for Sprint 1 | Inclusión de la evidencia de commits asociados a las pruebas unitarias, de integración y aceptación realizadas durante el Sprint. | 09/10/2025 |
+
+- **Unit Tests:** Verificación individual de clases y servicios (AnimalService, AuthService, VaccineService).  
+- **Integration Tests:** Validación de endpoints RESTful y conexión con la base de datos mediante Swagger.  
+- **Acceptance Tests:** Escenarios de validación funcional que reproducen flujos completos de usuario (registro, login, venta).  
+- **Mobile Instrumentation Tests:** Evaluación de interactividad y persistencia local en vistas críticas de la app Android.
+
 <div id='4.2.1.5.'><h5>4.2.1.5. Execution Evidence for Sprint Review</h5></div>
 
 <div id='4.2.1.6.'><h5>4.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
