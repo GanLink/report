@@ -1701,6 +1701,18 @@ En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests*
 
 <div id='4.2.1.5.'><h5>4.2.1.5. Execution Evidence for Sprint Review</h5></div>
 
+Durante el **Sprint 1**, el equipo logró culminar el desarrollo y despliegue de la **Landing Page de GanLink**, una plataforma informativa orientada a presentar el propósito, funcionalidades y beneficios de la aplicación móvil.  
+El desarrollo se realizó utilizando **HTML5 y CSS3**, bajo una estructura semántica organizada y siguiendo las convenciones de estilo establecidas en el Capítulo IV.  
+
+El producto obtenido cumple con los objetivos definidos en la planificación del sprint, logrando:
+- La implementación de una interfaz funcional, moderna y responsive.  
+- La integración de secciones informativas como *Misión*, *Visión*, *Valores*, *Testimonios* y *Contacto*.  
+- El enlace directo hacia la aplicación móvil en desarrollo.  
+- El despliegue exitoso mediante **GitHub Pages**, garantizando su disponibilidad pública.
+
+A continuación, se presenta la evidencia visual de la Landing Page final:
+
+FOTO LANDING 
 <div id='4.2.1.6.'><h5>4.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 
 <div id='4.2.1.7.'><h5>4.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
