@@ -1691,6 +1691,17 @@ A continuación, se detallan los principales commits generados durante esta iter
 
 <div id='4.2.1.8.'><h5>4.2.1.8. Team Collaboration Insights during Sprint</h5></div>
 
+El desarrollo del proyecto **GanLink** se llevó a cabo bajo un enfoque colaborativo, utilizando GitHub como plataforma central de control de versiones y Trello para la organización de tareas.  
+Cada integrante asumió responsabilidades específicas en la elaboración del informe y en el desarrollo técnico, garantizando una distribución equilibrada del trabajo y la integración coherente entre los distintos componentes (landing page, backend y aplicación móvil).
+
+| **Alumno** | **Actividad** |
+|-------------|----------------|
+| **Rodas León, Ernesto** | Desarrollo del **Capítulo IV: Product Implementation & Validation**, incluyendo la configuración del entorno de desarrollo, control de versiones, estilo de código y documentación del Sprint 1. Responsable principal de la integración y revisión técnica del documento general. |
+| **Guerrero Tomás, Nelson Fabrizio** | Desarrollo de los apartados de **UI/UX Design y Capítulo III: Solution Information Architecture**, además de la estructura y redacción de la **Landing Page** en formato Markdown. Encargado del diseño en Figma, maquetación HTML/CSS y publicación en GitHub Pages. |
+| **Mora Blas, Diego Alonso** | Desarrollo de la **aplicación móvil Android**, implementando vistas, ViewModels, conexión con el backend mediante Retrofit, Room e inyección de dependencias con Hilt. Participó también en la integración de funcionalidades de registro y autenticación. |
+| **León Vivas, Fabrizzio** | Implementación del **backend** en .NET, diseño de dominios, repositorios y controladores. Creación de entidades como *Bovine*, *Farm* y *Audit*, además de la configuración de la base de datos y pruebas iniciales de los servicios API REST. |
+| **Huamán Milenko** | Desarrollo de módulos de salud y métricas en el backend, contribuyendo a la lógica de negocio y la creación de agregados sanitarios y económicos. Implementó auditorías y validaciones internas dentro de los contextos delimitados. |
+
 <div id='4.3.'><h3>4.3. Validation Interviews</h3></div>
 
 <div id='4.3.1.'><h4>4.3.1. Diseño de entrevistas</h4></div>
