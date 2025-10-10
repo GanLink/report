@@ -1571,6 +1571,41 @@ Estas convenciones garantizan la uniformidad, claridad y trazabilidad del códig
 
 <div id='4.1.4.'><h4>4.1.4. Software Deployment Configuration</h4></div>
 
+La configuración de despliegue del software define los procedimientos, herramientas y estructuras necesarias para publicar los componentes del proyecto **GanLink / AgroTracer**, garantizando su disponibilidad y correcto funcionamiento en entornos de producción.  
+En este proyecto, se consideraron procesos específicos para la **Landing Page**, la **aplicación móvil (APK)** y el **backend de servicios web**.  
+A continuación, se detalla el proceso aplicado para la implementación de la Landing Page en GitHub Pages.
+
+#### **Despliegue de la Landing Page (GitHub Pages)**
+
+Para implementar la Landing Page, se requieren los siguientes elementos previos:  
+una cuenta de usuario personal en GitHub, una organización creada y un repositorio configurado donde se alojarán los archivos del proyecto.  
+Cumplidos estos prerrequisitos, se procede con el despliegue efectivo mediante los pasos que se describen a continuación:
+
+1. **Estructura de directorios:**
+   - Crear una carpeta denominada `docs` como contenedor principal del proyecto.  
+   - Esta carpeta funcionará como fuente directa de los archivos a publicar en GitHub Pages.
+
+2. **Organización de archivos:**
+   - El archivo principal debe denominarse **`index.html`**, siguiendo la nomenclatura estándar de publicación web.  
+   - Se incluye la hoja de estilos **`style.css`** para la gestión visual del contenido.  
+   - Se crea un directorio adicional denominado **`img`** para almacenar todos los recursos gráficos y multimedia de la página.
+
+3. **Sincronización con el repositorio:**
+   - Una vez completada la estructura de archivos, se realiza la sincronización con el repositorio remoto mediante **commits** que sigan las convenciones establecidas por el equipo.  
+   - El control de versiones se gestiona a través de Git y GitHub para mantener trazabilidad y control sobre las modificaciones.
+
+4. **Configuración en GitHub:**
+   - Acceder a **Settings > Pages** dentro del repositorio del proyecto.  
+   - Seleccionar la rama de despliegue (usualmente `main` o `master`).  
+   - Indicar **`/docs`** como el directorio fuente para la publicación.  
+   - Guardar los cambios y esperar la verificación automática por parte del sistema.
+
+5. **Publicación:**
+   - Tras la verificación automática, GitHub genera un enlace público para acceder a la Landing Page en producción.  
+   - Este enlace constituye la versión desplegada oficialmente y puede integrarse al informe o material de difusión.
+
+**Enlace a la Landing Page:** *(por colocar)*
+
 <div id='4.2.'><h3>4.2. Landing Page & Mobile Application Implementation</h3></div>
 
 <div id='4.2.1.'><h4>4.2.1. Sprint n</h4></div>
