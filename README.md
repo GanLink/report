@@ -1479,6 +1479,96 @@ Este modelo de control de versiones garantizó un flujo de trabajo colaborativo,
 
 <div id='4.1.3.'><h4>4.1.3. Source Code Style Guide & Conventions</h4></div>
 
+El cumplimiento de una guía de estilo y convenciones de codificación garantiza la coherencia, legibilidad y mantenibilidad del software en todas las etapas de desarrollo del proyecto **GanLink / AgroTracer**.  
+Dado que la solución integra una **aplicación móvil**, una **landing page** y un **backend de servicios web**, se establecieron lineamientos diferenciados para cada entorno, manteniendo uniformidad y buenas prácticas en el trabajo del equipo.
+
+#### **1. Aplicación móvil (Kotlin / XML – Android Studio)**
+
+**Kotlin**
+
+1. **Nombrado de elementos:**
+   - Clases y objetos: `UpperCamelCase` → `class RegistroAnimalActivity`.
+   - Variables y funciones: `lowerCamelCase` → `val totalGanado`, `fun calcularPromedioPeso()`.
+   - Constantes: mayúsculas con guiones bajos → `const val LIMITE_PESO = 1000`.
+
+2. **Estructura y formato:**
+   - Un archivo por clase, con nombres coincidentes.
+   - Sangría de **4 espacios** por nivel de anidación.
+   - Llaves `{}` en la misma línea de la declaración.
+   - Líneas de máximo **120 caracteres**.
+   - Comentarios tipo **KDoc (/** … */)** para describir clases o métodos relevantes.
+
+3. **Buenas prácticas:**
+   - Uso preferente de `val` para mantener la inmutabilidad de datos.
+   - Métodos breves y descriptivos, alineados al principio de *Single Responsibility*.
+   - Organización modular en paquetes: `ui`, `data`, `model`, `adapter`, `utils`.
+   - Gestión de dependencias mediante **Gradle**, asegurando compatibilidad con el SDK de Android.
+
+**XML**
+
+1. **Estructura:**
+   - Un archivo XML por interfaz dentro de `res/layout/`.
+   - IDs con formato *snake_case*: `@+id/btn_registrar_bovino`.
+   - Jerarquía visual clara y bien indentada para facilitar el mantenimiento.
+
+2. **Buenas prácticas:**
+   - Uso de `ConstraintLayout` como contenedor principal.
+   - Reutilización de colores y estilos definidos en `colors.xml`, `styles.xml` y `dimens.xml`.
+   - Inclusión de atributos de accesibilidad (`contentDescription` en imágenes o botones).
+
+#### **2. Landing Page (HTML / CSS)**
+
+**HTML**
+
+1. **Estructura y sintaxis:**
+   - Cierre correcto de todas las etiquetas: `<h1>Bienvenido</h1>`.
+   - Uso exclusivo de minúsculas para etiquetas y atributos.
+   - Inclusión de comillas en los valores de los atributos.
+   - Empleo de etiquetas semánticas (`<header>`, `<section>`, `<footer>`) para organizar el contenido.
+
+2. **Buenas prácticas:**
+   - Separación entre contenido (HTML) y estilo (CSS).
+   - Indentación de **2 espacios** para mantener legibilidad.
+   - Comentarios para marcar secciones principales del documento.
+
+**CSS**
+
+1. **Convenciones de nomenclatura:**
+   - Clases y selectores en formato *kebab-case*: `.hero-section`, `.footer-links`.
+   - IDs descriptivos y únicos: `#menu-principal`, `#formulario-contacto`.
+
+2. **Estructura y formato:**
+   - Cada selector y bloque de declaración en líneas independientes.
+   - No incluir unidades en valores cero (`margin: 0;`).
+   - Agrupar estilos por secciones visuales: encabezado, cuerpo y pie de página.
+
+3. **Buenas prácticas:**
+   - Jerarquía clara de estilos (estructura → componentes → detalles).
+   - Reutilización de variables globales de color y tipografía.
+   - Inclusión de comentarios para describir bloques funcionales.
+
+#### **3. Backend de servicios web (JavaScript / WebStorm)**
+
+1. **Estructura general del proyecto:**
+   - Organización modular de carpetas: `routes/`, `controllers/`, `models/`, `services/` y `config/`.
+   - Cada módulo cumple una responsabilidad específica (rutas, lógica de negocio o conexión con la base de datos).
+   - Archivos nombrados en formato *lowerCamelCase*, por ejemplo: `animalController.js`, `authService.js`.
+
+2. **Estilo y sintaxis del código:**
+   - Sangría de **2 espacios** por nivel de anidación.
+   - Uso de comillas simples (`'texto'`) de forma consistente.
+   - Inclusión de punto y coma al final de cada instrucción.
+   - Preferencia por `const` y `let` sobre `var` para asegurar un código más predecible.
+   - Comentarios descriptivos en bloques complejos o funciones críticas.
+
+3. **Buenas prácticas:**
+   - Estructura de código modular y reutilizable.
+   - Manejo controlado de errores con `try/catch`.
+   - Validación de endpoints y pruebas locales ejecutadas desde WebStorm.
+   - Documentación de endpoints mediante herramientas como **Swagger**, permitiendo describir y probar las rutas del API desde un entorno interactivo.
+
+Estas convenciones garantizan la uniformidad, claridad y trazabilidad del código en todas las capas del sistema, facilitando la colaboración del equipo y asegurando la calidad técnica del producto final.
+
 <div id='4.1.4.'><h4>4.1.4. Software Deployment Configuration</h4></div>
 
 <div id='4.2.'><h3>4.2. Landing Page & Mobile Application Implementation</h3></div>
