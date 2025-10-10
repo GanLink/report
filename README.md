@@ -1608,11 +1608,32 @@ Cumplidos estos prerrequisitos, se procede con el despliegue efectivo mediante l
 
 <div id='4.2.'><h3>4.2. Landing Page & Mobile Application Implementation</h3></div>
 
-<div id='4.2.1.'><h4>4.2.1. Sprint n</h4></div>
+<div id='4.2.1.'><h4>4.2.1. Sprint 1</h4></div>
 
-<div id='4.2.1.1.'><h5>4.2.1.1. Sprint Planning n</h5></div>
+<div id='4.2.1.1.'><h5>4.2.1.1. Sprint Planning 1</h5></div>
 
-<div id='4.2.1.2.'><h5>4.2.1.2. Sprint Backlog n</h5></div>
+En el **Sprint Planning 1**, se documentaron las actividades de planificación y definición de objetivos correspondientes a la primera iteración del proyecto **GanLink / AgroTracer**.  
+Durante esta sesión, el equipo estableció como prioridad el despliegue funcional de la **Landing Page**, el desarrollo base del **backend** y el avance inicial de la **aplicación móvil**.  
+Asimismo, se registraron las tareas asignadas y la colaboración continua mediante el repositorio en GitHub, evidenciando una gestión efectiva bajo el enfoque ágil de desarrollo.
+
+| Sprint # | Sprint 1 |
+|-------------------------|---------------------------------------|
+| **Sprint Planning Background** |  |
+| **Date** | 30 de setiembre de 2025 |
+| **Time** | 9:00 PM |
+| **Location** | Modalidad remota |
+| **Prepared By** | Diego Mora |
+| **Attendees (to planning meeting)** | Diego Mora, Ernesto Rodas, Milenko Huamán, Nelson Guerrero, Fabrizzio León |
+| **Sprint 0 Review Summary** | No aplica, al ser la primera iteración del proyecto. |
+| **Sprint 1 Retrospective Summary** | No aplica, al ser el primer sprint de desarrollo. |
+| **Sprint Goal & User Stories** |  |
+| **Sprint Goal 1** | En este sprint se tiene como objetivo implementar la **Landing Page** del proyecto utilizando HTML y CSS, junto con la estructuración base del **backend** en WebStorm y los primeros módulos de la **aplicación móvil** en Android Studio. La landing page, diseñada previamente en Figma, debía estar desplegada en GitHub Pages al cierre del sprint, con el enlace público operativo. |
+| **Sprint Velocity 1** | 15 |
+| **Sum of Story Points** | 15 |
+
+<div id='4.2.1.1.'><h5>4.2.1.1. Sprint Planning 1</h5></div>
+
+<div id='4.2.1.2.'><h5>4.2.1.2. Sprint Backlog 1</h5></div>
 
 <div id='4.2.1.3.'><h5>4.2.1.3. Development Evidence for Sprint Review</h5></div>
 
