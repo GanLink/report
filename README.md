@@ -1722,6 +1722,60 @@ Cada integrante asumió responsabilidades específicas en la elaboración del in
 
 <div id='4.3.1.'><h4>4.3.1. Diseño de entrevistas</h4></div>
 
+### 4.3.1 Diseño de Entrevistas
+
+El objetivo principal de las entrevistas de validación fue **recoger percepciones y retroalimentación de potenciales usuarios y especialistas del sector agropecuario**, respecto al diseño, usabilidad y funcionalidad del prototipo móvil y la landing page de la aplicación **GanLink**.  
+Estas entrevistas permitieron validar la pertinencia de las funcionalidades desarrolladas hasta el momento (registro de animales, autenticación, gestión sanitaria y control económico), así como la claridad del flujo de navegación y la coherencia del diseño visual con el público objetivo.
+
+#### Metodología
+
+- **Tipo de validación:** Entrevista semiestructurada con demostración del prototipo funcional.  
+- **Duración promedio:** 10 a 15 minutos por participante.  
+- **Modalidad:** Virtual, mediante videollamada (Google Meet).  
+- **Herramientas de apoyo:**  
+  - Prototipo móvil funcional en Android Studio.   
+- **Fecha de aplicación:** Entre el 6 y 9 de octubre de 2025.  
+
+#### Perfil de los entrevistados
+
+| Perfil | Descripción |
+|--------|--------------|
+| **Ganadero** | Usuario final del sistema, encargado de la gestión operativa del ganado. Evaluó la facilidad de registro de animales y vacunaciones. |
+
+#### Estructura de la entrevista
+
+Las entrevistas se diseñaron con una **estructura mixta**, combinando preguntas abiertas para recoger percepciones cualitativas y escalas de valoración para cuantificar la satisfacción percibida.  
+
+1. **Introducción**
+   - Presentación del equipo de desarrollo y propósito del proyecto.
+   - Breve demostración del flujo general del sistema (login, registro, vacunación, reportes).
+
+2. **Exploración de la experiencia del usuario**
+   - ¿Qué le pareció la navegación dentro de la aplicación móvil?
+   - ¿Los íconos, textos y botones fueron comprensibles?
+   - ¿Considera intuitivo el flujo para registrar animales y vacunaciones?
+
+3. **Evaluación del diseño visual**
+   - ¿Qué opina sobre los colores, tipografía y legibilidad de las pantallas?
+   - ¿El diseño transmite confianza y facilidad de uso?
+
+4. **Relevancia funcional**
+   - ¿Las funciones actuales (registro, vacunación, ventas) responden a las necesidades reales de un ganadero o veterinario?
+   - ¿Qué otras funcionalidades le parecerían útiles agregar?
+
+5. **Percepción general**
+   - ¿Recomendaría esta aplicación a otros usuarios del sector?
+   - ¿Qué aspectos considera prioritarios para mejorar antes del lanzamiento?
+
+#### Resultados esperados
+
+El diseño de las entrevistas buscó **obtener retroalimentación directa y validación empírica** de los usuarios potenciales sobre:
+- La **usabilidad** y **facilidad de comprensión** del sistema.  
+- La **pertinencia** de las funcionalidades implementadas en esta fase.  
+- La **aceptación visual y emocional** del diseño aplicado.  
+
+Los hallazgos derivados de estas entrevistas se emplearán como base para los ajustes funcionales y de diseño en el siguiente Sprint.
+
 <div id='4.3.2.'><h4>4.3.2. Registro de entrevistas</h4></div>
 
 <div id='4.3.3.'><h4>4.3.3. Evaluaciones según heurísticas</h4></div>
