@@ -1422,7 +1422,7 @@ Este esquema permitió organizar el trabajo colaborativo, controlar los cambios 
 **Repositorios de GitHub:**  
 - Enlace a la organización general: [https://github.com/GanLink](https://github.com/GanLink)  
 - Enlace al repositorio del proyecto móvil: [https://github.com/GanLink/report](https://github.com/GanLink/report)  
-- Enlace al repositorio de la Landing Page: *(por crear)*  
+- Enlace al repositorio de la Landing Page: [https://github.com/GanLink/LadingGanLink)  
 
 #### Flujo de trabajo GitFlow
 
@@ -1604,7 +1604,7 @@ Cumplidos estos prerrequisitos, se procede con el despliegue efectivo mediante l
    - Tras la verificación automática, GitHub genera un enlace público para acceder a la Landing Page en producción.  
    - Este enlace constituye la versión desplegada oficialmente y puede integrarse al informe o material de difusión.
 
-**Enlace a la Landing Page:** *(por colocar)*
+**Enlace a la Landing Page:** https://ganlink.github.io/LadingGanLink/
 
 <div id='4.2.'><h3>4.2. Landing Page & Mobile Application Implementation</h3></div>
 
