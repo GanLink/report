@@ -1722,8 +1722,6 @@ Cada integrante asumió responsabilidades específicas en la elaboración del in
 
 <div id='4.3.1.'><h4>4.3.1. Diseño de entrevistas</h4></div>
 
-### 4.3.1 Diseño de Entrevistas
-
 El objetivo principal de las entrevistas de validación fue **recoger percepciones y retroalimentación de potenciales usuarios y especialistas del sector agropecuario**, respecto al diseño, usabilidad y funcionalidad del prototipo móvil y la landing page de la aplicación **GanLink**.  
 Estas entrevistas permitieron validar la pertinencia de las funcionalidades desarrolladas hasta el momento (registro de animales, autenticación, gestión sanitaria y control económico), así como la claridad del flujo de navegación y la coherencia del diseño visual con el público objetivo.
 
