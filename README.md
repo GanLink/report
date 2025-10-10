@@ -1700,6 +1700,403 @@ Este módulo comparte piezas comunes para no reinventar la rueda. Provee la base
 
 <img src="images/db.png">
 
+# Capítulo III: Solution UI/UX Design
+
+Este capítulo presenta el diseño de la experiencia de usuario (UX) y la interfaz de usuario (UI) de la solución móvil y su landing page. Abarca la definición de lineamientos visuales y de estilo, la arquitectura de información y la organización de contenidos, así como el desarrollo de wireframes, mock-ups, flujos de usuario y prototipos interactivos que reflejan una experiencia coherente, funcional y alineada con los objetivos del producto y las necesidades del usuario
+
+## 3.1. Product Design
+
+Esta sección define la estructura, funcionalidad y experiencia del producto, detallando las decisiones de diseño que guían la interacción usuario-sistema y aseguran coherencia con los objetivos del proyecto.
+
+El diseño del producto **GanLink** se centra en ofrecer una **experiencia móvil moderna, intuitiva y funcional** para el ganadero peruano, facilitando la gestión de sus predios, bovinos y trazabilidad sanitaria desde una única aplicación.  
+
+La propuesta aplica los principios de **Material Theme 2** de Google, adaptados a un contexto agropecuario: jerarquía visual clara, componentes consistentes, tipografía legible y transiciones suaves.  
+El objetivo principal es **digitalizar el control ganadero**, manteniendo una interfaz accesible incluso en zonas rurales o con baja conectividad.  
+
+**Objetivos del diseño del producto:**
+- Simplificar la captura, visualización y control de datos ganaderos.  
+- Mantener consistencia visual y coherencia en todas las pantallas.  
+- Asegurar accesibilidad mediante contraste, tipografía clara y gestos simples.  
+- Reforzar la identidad visual del producto con un lenguaje de diseño coherente.  
+- Transmitir profesionalismo y cercanía mediante una estética limpia y moderna.  
+
+
+## 3.1.1. Style Guidelines
+Esta sección establece las pautas visuales y de estilo del producto, garantizando coherencia en colores, tipografía, iconografía y comunicación visual en todas las interfaces.
+
+El diseño de **GanLink** sigue un sistema visual basado en **Material Theme 2**, garantizando una experiencia uniforme en todos los módulos de la aplicación: *Predios*, *Bovinos*, *Trazabilidad* y *Reportes*.  
+
+El sistema de estilos actúa como una guía centralizada que define los lineamientos visuales y comunicacionales del producto, fomentando la coherencia y la escalabilidad futura de la interfaz.  
+
+**Principios de diseño adoptados:**
+1. **Consistencia visual:** todos los elementos mantienen espaciados, colores y estilos tipográficos definidos en el Design System.  
+2. **Accesibilidad:** contraste suficiente, tamaños táctiles mínimos de 48dp, y lenguaje inclusivo.  
+3. **Simplicidad:** jerarquía visual clara y reducción de elementos distractores.  
+4. **Escalabilidad:** componentes reutilizables basados en patrones de Angular Material y Flutter Material.  
+5. **Identidad de marca:** refuerza la conexión con el sector ganadero y tecnológico, reflejando confianza e innovación.  
+
+
+### 3.1.1.1. General Style Guidelines
+
+#### **Branding**
+La identidad visual de GanLink combina el concepto de **ganadería + conexión digital**.  
+El isotipo utiliza la silueta de un bovino enlazado a un nodo, simbolizando **tecnología, trazabilidad y gestión inteligente**.  
+El logotipo se aplica en formato horizontal con tipografía sans-serif moderna.
+
+#### **Color Palette (Material Theme 2 Adaptado)**
+
+| Tipo | Color | Hex | Uso principal |
+|------|--------|------|---------------|
+| Primary | Verde campo | `#4CAF50` | Botones principales, encabezados y énfasis |
+| Secondary | Verde lima | `#8BC34A` | Acciones secundarias y mensajes de éxito |
+| Background | Gris claro | `#F5F5F5` | Fondos de pantallas y formularios |
+| Surface | Blanco | `#FFFFFF` | Tarjetas, contenedores y modales |
+| Error | Rojo alerta | `#E53935` | Mensajes de error y validaciones |
+| On Primary | Blanco | `#FFFFFF` | Texto sobre botones o barras verdes |
+| On Background | Gris oscuro | `#212121` | Texto principal y descripciones |
+
+> La paleta se inspira en los tonos naturales del campo, transmitiendo sostenibilidad, crecimiento y confianza.
+
+#### **Typography**
+
+El sistema tipográfico adopta **Roboto**, conforme al estándar Material Design.
+
+| Jerarquía | Peso | Tamaño (sp) | Uso |
+|------------|--------|-------------|-----|
+| Headline | Bold | 20–24 | Títulos principales |
+| Subheadline | Medium | 18 | Subtítulos y encabezados secundarios |
+| Body | Regular | 14–16 | Texto principal |
+| Caption | Medium | 12 | Etiquetas y ayudas visuales |
+
+> Se privilegia la legibilidad y el equilibrio visual en pantallas móviles.
+
+#### **Spacing y Layout**
+
+- Grid base de 8dp (espaciado múltiplo de 8).  
+- Padding interno de tarjetas: **16dp**.  
+- Margen externo mínimo: **8dp**.  
+- Altura táctil mínima: **48dp** (accesibilidad).  
+- Elevaciones según contexto: **2dp–6dp** para jerarquía visual.  
+
+#### **Tone & Language**
+
+- **Tono:** Cercano, profesional y optimista.  
+- **Lenguaje:** Español claro y funcional. Ejemplo: “Agregar bovino”, “Ver trazabilidad”.  
+- **Personalidad visual:** Amigable, moderna y confiable, en sintonía con el público ganadero.  
+
+
+### 3.1.2. Information Architecture
+
+La arquitectura de información define cómo se estructura, organiza y etiqueta el contenido dentro del producto. Su propósito es garantizar que los usuarios encuentren la información de manera rápida y lógica, reduciendo la carga cognitiva y optimizando la experiencia.
+
+#### 3.1.2.1. Organization Systems
+Define la forma en que se agrupan y jerarquizan los módulos del sistema (registro de animales, historial sanitario, control económico, etc.), priorizando la frecuencia de uso y la secuencia natural de tareas del usuario.
+
+En la aplicación **AgroTracer**, los sistemas de organización fueron diseñados bajo una estructura jerárquica y funcional, orientada a simplificar la navegación de los **pequeños y medianos ganaderos** dentro de un entorno digital intuitivo. El objetivo principal es garantizar que el usuario acceda con rapidez a los módulos críticos para la gestión productiva, sanitaria y económica del ganado, evitando sobrecarga visual o rutas confusas.
+
+**Jerárquica (visual hierarchy):**  
+Se implementa una jerarquía visual clara que prioriza los módulos esenciales del sistema:  
+- **Gestión de Hatos y Bovinos**  
+- **Eventos Sanitarios**  
+- **Control Económico**  
+- **Reportes e Indicadores Productivos**
+
+Cada uno ocupa posiciones destacadas en la interfaz principal (Dashboard), con íconos representativos, colores de contraste y etiquetas descriptivas. De esta forma, el usuario identifica de inmediato las funcionalidades críticas sin necesidad de recorrer menús extensos.
+
+**Organización funcional (por dominio):**  
+El contenido se organiza según los **bounded contexts** definidos en el modelo de dominio (IAM, Animal Health, Economic Control, Farm Management). Esto se refleja en menús y vistas agrupadas de acuerdo con las acciones que el usuario realiza:
+- **Registro y control de animales** (alta, baja, peso, estado de salud)  
+- **Gestión sanitaria** (vacunas, tratamientos, alertas)  
+- **Gestión económica** (ingresos, gastos, reportes financieros)  
+- **Configuración de usuario y granja** (datos del productor, perfil, ubicación)
+
+Esta organización modular favorece la comprensión funcional del sistema, reduciendo la carga cognitiva y mejorando la consistencia entre pantallas.
+
+**Secuencial (step-by-step):**  
+Procesos complejos, como el **registro de eventos sanitarios**, **ventas** o **creación de granjas**, se estructuran mediante flujos secuenciales que guían al usuario paso a paso.  
+Por ejemplo, en el registro de un nuevo bovino, la aplicación solicita los datos en un orden lógico: identificación → raza → edad → peso → historial sanitario, evitando errores y promoviendo un flujo de trabajo natural.
+
+**Categorización temática:**  
+Los contenidos se agrupan según tres dimensiones principales:
+- **Tipo de usuario:** Ganadero, técnico o asociación.  
+- **Funcionalidad:** Sanidad, reproducción, economía, reportes.  
+- **Nivel de uso:** Básico (registros manuales), intermedio (alertas automáticas), avanzado (reportes y análisis).  
+
+Esta categorización permite ofrecer una experiencia progresiva, adaptable al nivel de alfabetización digital de cada usuario.
+
+**Complementariedad educativa:**  
+El sistema también incluye un espacio de soporte denominado **Academia Ganadera**, donde los usuarios pueden acceder a recursos educativos, videos y guías de buenas prácticas. Este módulo está vinculado jerárquicamente a las secciones de gestión, de modo que el aprendizaje se asocia directamente con las tareas que el usuario realiza.
+
+En conjunto, estos sistemas de organización garantizan que la navegación dentro de **AgroTracer** sea coherente, predecible y accesible, incluso en contextos rurales con baja familiaridad tecnológica, alineándose con los principios de **usabilidad, accesibilidad y diseño centrado en el usuario (UCD)** propuestos en el enunciado del proyecto final.
+
+
+#### 3.1.2.2. Labelling Systems
+Establece la nomenclatura y etiquetas que se emplean en menús, botones y secciones de la aplicación, usando un lenguaje natural, comprensible y adaptado al contexto rural latinoamericano.
+
+En **AgroTracer**, los sistemas de etiquetado fueron diseñados cuidadosamente para garantizar una navegación clara, coherente y adaptada al lenguaje cotidiano de los **pequeños y medianos ganaderos**. Cada etiqueta, ícono o categoría semántica dentro de la aplicación responde a un propósito funcional: reducir la carga cognitiva del usuario y facilitar la identificación inmediata de cada módulo o acción.
+
+**Jerarquía visual:**  
+Las etiquetas principales priorizan los módulos clave de la aplicación —**Sanidad**, **Reproducción**, **Economía** y **Gestión de Hatos**— con un formato tipográfico diferenciado y colores de alto contraste. De este modo, los usuarios pueden reconocer rápidamente las áreas críticas, como alertas sanitarias o movimientos económicos recientes, sin depender de búsquedas extensas o menús ocultos.
+
+**Etiquetado contextual:**  
+Cada formulario o pantalla incluye etiquetas asociadas directamente a las acciones que el usuario realiza, evitando tecnicismos innecesarios. Por ejemplo, se emplean términos naturales y familiares como *“Registrar vacuna”*, *“Controlar peso”*, *“Agregar animal”* o *“Ver historial clínico”*, en lugar de expresiones más técnicas. Esto mejora la comprensión inmediata del propósito de cada función, incluso en usuarios con limitada experiencia digital.
+
+**Organización secuencial:**  
+En procesos lineales, como el registro de eventos sanitarios o productivos, las etiquetas guían al usuario paso a paso mediante una lógica cronológica: *Identificación → Datos productivos → Tratamientos → Resultados*. Esta secuencia visual facilita el ingreso ordenado de datos y minimiza errores de digitación o duplicidad de información.
+
+**Organización matricial:**  
+Los módulos de **Reportes** y **Estadísticas** utilizan un etiquetado matricial, en el cual los indicadores se disponen en filas y columnas con rótulos claros, permitiendo comparar rápidamente información entre animales, hatos o periodos de tiempo. Las etiquetas de columnas y métricas —por ejemplo, *“Ganancia diaria de peso (ADG)”*, *“Producción de leche”* o *“Costos sanitarios”*— han sido normalizadas según estándares de trazabilidad ganadera.
+
+**Consistencia terminológica:**  
+Se adoptó un **lenguaje unificado** basado en el *Ubiquitous Language* definido en el modelo de dominio de GanLink, asegurando coherencia entre las interfaces gráficas, la base de datos y los documentos técnicos. De esta forma, términos como *“Hato”*, *“Evento sanitario”*, *“Balance económico”* o *“Certificación sanitaria”* mantienen su significado en todo el sistema, fortaleciendo la comprensión global del producto.
+
+**Adaptación cultural y lingüística:**  
+El sistema de etiquetado considera la jerga común del sector pecuario latinoamericano. Expresiones como *“Peso al destete”*, *“Última monta”* o *“Registro de crías”* fueron incorporadas para reforzar la familiaridad del usuario con el entorno digital y fomentar la adopción de la herramienta.
+
+En conjunto, el sistema de etiquetado de **AgroTracer** contribuye a una interfaz accesible, autoexplicativa y contextualizada, alineada con los principios de diseño inclusivo y centrado en el usuario establecidos en el *Style Guidelines* del proyecto final.
+
+
+#### 3.1.2.3. SEO Tags and Meta Tags
+
+En esta sección se definen las etiquetas **SEO (Search Engine Optimization)** y **ASO (App Store Optimization)** que describen la identidad y los valores de la aplicación **AgroTracer**, desarrollada por la startup **GanLink**.  
+Si bien el producto está orientado principalmente a **dispositivos móviles Android**, también se considera su presencia digital mediante una **Landing Page informativa**, que funcionará como punto de difusión y descarga de la aplicación.
+
+#### Landing Page (Sitio informativo)
+
+**Title:**  
+AgroTracer - Plataforma Móvil para la Gestión Inteligente del Ganado  
+
+**Description:**  
+AgroTracer es una aplicación desarrollada por GanLink que digitaliza la gestión ganadera para pequeños y medianos productores. Permite registrar animales, monitorear métricas productivas, controlar eventos sanitarios y visualizar indicadores económicos desde una interfaz intuitiva y accesible.  
+
+**Keywords:**  
+gestión ganadera, aplicación móvil ganadera, GanLink, AgroTracer, trazabilidad animal, productividad ganadera, control sanitario, economía pecuaria, tecnología rural, ganadería digital, app para ganaderos.  
+
+**Author:**  
+GanLink Tech Solutions  
+
+**Viewport (Responsive Design):**  
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+#### Mobile Application (App Android)
+
+**App Title:**  
+AgroTracer – Gestión Ganadera Digital  
+
+**App Subtitle:**  
+Organiza, controla y mejora tu producción ganadera desde el móvil.  
+
+**App Description:**  
+AgroTracer es una aplicación móvil desarrollada por GanLink que facilita la gestión integral de hatos y bovinos, permitiendo registrar información productiva, sanitaria y económica. Diseñada para el contexto rural latinoamericano, combina simplicidad, trazabilidad y tecnología accesible para optimizar las operaciones del campo.  
+
+**App Keywords:**  
+GanLink, AgroTracer, gestión de ganado, trazabilidad ganadera, salud animal, control de hatos, economía pecuaria, productividad ganadera, app ganadera, tecnología rural, agricultura digital.  
+
+**App Author / Developer:**  
+GanLink Tech Solutions – Equipo de Desarrollo Móvil  
+
+**Package Name (Android):**  
+`com.ganlink.agrotracer`  
+
+**Category:**  
+Productividad / Agricultura  
+
+**Version:**  
+1.0.0 (Beta)  
+
+**Compatibility:**  
+Android 9.0 (Pie) o superior  
+
+#### Estrategia de Optimización
+
+Las etiquetas definidas permitirán mejorar la visibilidad tanto en buscadores web como en tiendas de aplicaciones. En el contexto **ASO**, los campos *App Title*, *Description* y *Keywords* se alinean con las prácticas de optimización en Google Play Store, enfocadas en términos relevantes para el sector agropecuario y tecnológico.  
+Por su parte, las *Meta Tags* del sitio estático se implementarán en la **Landing Page oficial de GanLink**, asegurando coherencia entre la comunicación visual, la narrativa de marca y los principios de diseño definidos en el *Style Guidelines*.
+
+En conjunto, esta estructura de etiquetas SEO y ASO fortalece la presencia digital del producto, garantizando que **AgroTracer** sea fácilmente localizable y reconocible por su público objetivo: los ganaderos rurales que buscan soluciones tecnológicas accesibles, confiables y adaptadas a su entorno productivo.
+
+
+#### 3.1.2.4. Searching Systems
+Describe los mecanismos de búsqueda implementados dentro de la plataforma (por ejemplo, búsqueda de animales por ID, raza o estado sanitario), priorizando rapidez y precisión.
+
+El sistema de búsqueda en **AgroTracer** ha sido diseñado para ofrecer una experiencia ágil, precisa y adaptada a las necesidades de los pequeños y medianos ganaderos. Su objetivo es permitir el acceso rápido a información crítica relacionada con los animales, granjas y eventos productivos, optimizando el control operativo y la toma de decisiones en campo.
+
+**Búsqueda por bovino:**  
+La aplicación incluye una barra de búsqueda principal que permite localizar un animal específico utilizando filtros como:
+- Número de identificación o código interno del bovino.  
+- Raza o tipo de bovino (ternero, vaca, toro, novillo).  
+- Edad o rango etario.  
+- Estado sanitario o reproductivo.  
+- Fecha de registro o último evento asociado.
+
+Estos filtros facilitan la trazabilidad individual del ganado, garantizando un acceso inmediato a su historial productivo y sanitario.
+
+**Búsqueda por granja o hato:**  
+Los usuarios pueden filtrar y visualizar información asociada a una granja determinada.  
+A través de criterios como alias de la granja, actividad principal (carne, leche o mixta) y nombre del propietario, el sistema permite ubicar y acceder rápidamente a los datos registrados, manteniendo una estructura ordenada incluso en escenarios con múltiples hatos activos.
+
+**Búsqueda por eventos productivos o sanitarios:**  
+El sistema incorpora filtros para identificar eventos registrados en el tiempo, como vacunaciones, tratamientos, nacimientos, ventas o muertes.  
+Cada evento se encuentra indexado por fecha, tipo y estado, permitiendo a los usuarios realizar consultas históricas o planificar futuras intervenciones.
+
+**Búsqueda y filtrado en métricas productivas:**  
+Dentro del módulo de métricas, el usuario puede buscar indicadores específicos como ganancia diaria de peso (GMD), tasa de concepción, tasa de anestro o índice de conversión alimentaria.  
+Estas funciones permiten comparar el desempeño de diferentes animales o hatos, fortaleciendo la gestión técnica y económica de la producción.
+
+**Filtros por categoría funcional:**  
+El sistema agrupa la información según los módulos principales de la aplicación:  
+- **Sanidad** (tratamientos, vacunas, alertas).  
+- **Reproducción** (montas, partos, inseminaciones).  
+- **Economía** (gastos, ingresos, balances).  
+- **Gestión general** (configuración, usuarios, sincronización).  
+
+Esta clasificación mejora la accesibilidad a los datos más relevantes, reduciendo el tiempo de búsqueda y mejorando la organización del flujo de trabajo.
+
+**Ordenación y relevancia:**  
+Los resultados de búsqueda pueden ordenarse por criterios definidos, como fecha de registro, nombre, relevancia o estado del evento.  
+Este enfoque asegura que la información más reciente o más crítica se muestre primero, optimizando la eficiencia operativa del usuario en campo.
+
+En conjunto, el sistema de búsqueda de **AgroTracer** integra filtrado dinámico, categorización modular y ordenación inteligente, ofreciendo una experiencia de consulta rápida, precisa y coherente con la lógica de gestión ganadera establecida en los principios del diseño centrado en el usuario.
+
+
+#### 3.1.2.5. Navigation Systems
+Define la estructura de navegación del producto, tanto en la versión web como móvil. Incluye menús principales, submenús, rutas internas y botones de acceso rápido para garantizar un flujo de interacción coherente.
+
+El sistema de navegación de **AgroTracer** ha sido diseñado para garantizar una experiencia intuitiva, fluida y accesible, especialmente adaptada al contexto rural de los pequeños y medianos ganaderos. Se busca minimizar la complejidad visual y permitir que los usuarios realicen sus tareas principales con el menor número de pasos posibles, manteniendo una jerarquía clara y consistente en todas las pantallas.
+
+**Menú principal:**  
+El menú principal se encuentra en la pantalla de inicio y agrupa las funciones esenciales de la aplicación, organizadas según las necesidades operativas del usuario. Sus secciones son las siguientes:
+
+- **Inicio:** Presenta un panel general con información resumida del hato, incluyendo el número de animales activos, alertas sanitarias recientes y métricas productivas destacadas.  
+- **Registro de Bovinos:** Permite agregar nuevos animales, registrar sus datos productivos (peso, edad, raza) y vincularlos a una granja o hato específico.  
+- **Eventos Productivos y Sanitarios:** Sección destinada a registrar y consultar eventos como vacunaciones, tratamientos, partos o ventas.  
+- **Reportes:** Proporciona acceso a informes generados sobre rendimiento productivo, indicadores sanitarios y balance económico del sistema.  
+- **Academia Ganadera:** Permite acceder a recursos educativos, guías y videos de capacitación vinculados a las buenas prácticas de manejo pecuario.
+
+**Menú secundario:**  
+En la parte superior o lateral del entorno móvil, se dispone un menú complementario con accesos rápidos a herramientas de configuración y alertas:
+- **Alertas:** Muestra notificaciones automáticas relacionadas con vacunaciones próximas, eventos reproductivos o recordatorios de tareas.  
+- **Configuración:** Permite modificar parámetros de usuario, cambiar el tema visual, activar modo oscuro y sincronizar datos en línea.  
+
+**Menú de autenticación (Login y Registro):**  
+El flujo inicial de navegación contempla dos rutas principales:
+- **Inicio de sesión:** Acceso directo mediante correo electrónico y contraseña, con opción de recordar credenciales para facilitar el reingreso.  
+- **Registro de nuevos usuarios:** Permite crear cuentas vinculadas a la identidad del ganadero, solicitando datos básicos como nombre, correo electrónico, DNI y actividad principal.  
+- **Términos y condiciones:** Enlace visible antes del registro que asegura la aceptación de la política de uso y protección de datos.
+
+**Navegación jerárquica y por categorías:**  
+El usuario puede desplazarse entre módulos mediante una estructura jerárquica lógica:
+1. Seleccionar **Granja o Hato**.  
+2. Consultar o registrar **Bovinos** asociados.  
+3. Acceder a **Eventos** o **Métricas** vinculadas a cada animal.  
+4. Revisar **Reportes** o **Indicadores globales**.  
+
+Esta secuencia mantiene una coherencia funcional con los procesos reales de gestión ganadera, permitiendo un flujo descendente desde la unidad productiva (granja) hasta el nivel individual (bovino).
+
+**Consistencia visual:**  
+Cada vista mantiene un encabezado persistente con íconos universales y etiquetas claras, lo que permite al usuario orientarse fácilmente dentro de la aplicación.  
+La paleta cromática y los estilos de iconografía refuerzan la identidad visual definida en el *Style Guidelines*, asegurando continuidad perceptiva durante la navegación.
+
+**Accesibilidad y contexto de uso:**  
+El diseño prioriza botones de gran tamaño, tipografía legible y contrastes adecuados para garantizar una interacción cómoda en entornos rurales o de baja luminosidad.  
+Se evita la sobrecarga de menús o subniveles, asegurando que cualquier acción principal se ejecute en tres toques o menos.
+
+En conjunto, el sistema de navegación de **AgroTracer** ofrece una experiencia estructurada, accesible y coherente con la realidad operativa de los ganaderos, alineándose con los principios de diseño centrado en el usuario y las buenas prácticas de arquitectura de información para aplicaciones móviles.
+
+
+### 3.1.3. Landing Page UI Design
+
+El diseño de la **landing page** se centra en comunicar la propuesta de valor de AgroTracer, mostrar sus funcionalidades principales y dirigir a los visitantes hacia la descarga o uso de la aplicación.
+
+#### 3.1.3.1. Landing Page Wireframe
+Presenta el esquema estructural de la página inicial, definiendo jerarquías visuales, zonas de contenido y flujos de interacción.
+
+El wireframe de la **Landing Page de AgroTracer** actúa como una guía visual preliminar que organiza los elementos esenciales de la página de presentación de la aplicación, sin incorporar aún aspectos gráficos o de estilo visual definitivo.  
+Su propósito es establecer la estructura funcional de los componentes principales, asegurando una navegación clara, un flujo lógico de información y una comunicación efectiva del valor del producto.
+
+El esquema propuesto muestra la disposición de secciones clave, orientadas a la captación y retención de potenciales usuarios:
+
+- **Encabezado:** Incluye el logotipo de **GanLink**, un menú de navegación principal y un botón de acceso o descarga. Este elemento se mantiene fijo para facilitar la navegación y reforzar la identidad visual de la marca.  
+- **Propuesta de valor:** Sección central donde se presenta el mensaje principal del producto, enfocado en la **digitalización de la gestión ganadera** y la optimización de los procesos productivos mediante la trazabilidad y el registro inteligente.  
+- **Características principales:** Bloque informativo que describe las funcionalidades clave de la aplicación, tales como registro de bovinos, control sanitario, métricas productivas y reportes económicos. Cada característica se representa mediante iconografía y títulos descriptivos.  
+- **Testimonios o casos de éxito:** Espacio destinado a presentar experiencias reales de ganaderos que validan la utilidad de la herramienta en entornos rurales.  
+- **Llamadas a la acción (CTA):** Botones o enlaces destacados que invitan al visitante a **descargar la aplicación**, **ver el video demostrativo** o **registrarse** para recibir novedades.  
+- **Pie de página:** Contiene la información institucional de GanLink, enlaces a políticas de privacidad y redes sociales, además de un formulario de contacto básico para consultas o soporte técnico.
+
+El wireframe fue diseñado bajo los principios de **usabilidad, simplicidad y enfoque en conversión**, garantizando que el visitante pueda comprender el propósito del producto en los primeros segundos de interacción y avanzar fácilmente hacia la descarga o registro.
+
+Este diseño preliminar constituye la base para el desarrollo visual posterior en herramientas de diseño como **Figma**, donde se aplicarán los lineamientos del *Style Guidelines* y las pautas definidas en la *Information Architecture* del proyecto.
+
+[Ver Wireframes en Figma](https://www.figma.com/design/YSwppmOeo23EbTSaKD23cH/Landingpage?node-id=2003-169&t=g9yVSC41J5y7Jerx-1)
+
+
+#### 3.1.3.2. Landing Page Mock-up
+Desarrollo visual detallado del wireframe anterior, incorporando los lineamientos de estilo (colores, tipografía, íconos, botones y banners informativos).
+
+El mock-up de la **Landing Page de AgroTracer** representa una versión visual avanzada y cercana al diseño final del sitio informativo. En esta etapa se integran los elementos gráficos definidos en el *Style Guidelines*, tales como la paleta cromática institucional, la tipografía base, la iconografía y los componentes visuales asociados al sector agropecuario.  
+El objetivo es ofrecer una vista realista de la experiencia visual que tendrán los usuarios al interactuar con la página de presentación del producto.
+
+El diseño mantiene coherencia con la identidad de **GanLink**, proyectando una imagen moderna, profesional y alineada con los valores de innovación tecnológica, sostenibilidad y digitalización rural.  
+La composición del mock-up busca transmitir confianza y cercanía, utilizando tonos verdes, beige y marrones que evocan el entorno ganadero y refuerzan la identidad natural del producto.
+
+Los principales componentes que conforman el mock-up son los siguientes:
+
+- **Encabezado fijo:** Contiene el logotipo de AgroTracer, un menú de navegación con las secciones principales (Inicio, Nosotros, Testimonios y Contacto), y un botón de llamada a la acción “Conócenos Ya”. Este diseño garantiza la accesibilidad inmediata a las secciones clave del sitio.  
+- **Sección principal (Hero Section):** Presenta el logotipo institucional y la propuesta de valor de la aplicación, acompañada del botón de acción “Comenzar”, que orienta al visitante hacia la interacción inicial.  
+- **Bloque “Sobre Nosotros”:** Divide el contenido en tres columnas: **Misión**, **Visión** y **Valores**, con texto descriptivo y fondo beige que mejora la legibilidad.  
+- **Sección de testimonios:** Incluye cuatro tarjetas con fotografías y comentarios de usuarios, aportando credibilidad y respaldo a la aplicación desde la perspectiva de los ganaderos.  
+- **Formulario de contacto:** Permite al visitante comunicarse directamente con el equipo de desarrollo mediante un formato simple (nombre, correo, mensaje), reforzando la transparencia y cercanía de la marca.  
+- **Bloque “Sobre el team”:** Presenta a los integrantes del equipo de desarrollo con sus fotografías, nombres y roles, reforzando el sentido de autoría y profesionalismo del proyecto.  
+- **Pie de página:** Contiene el logotipo institucional de GanLink, enlaces a políticas de privacidad y redes sociales, y un recordatorio de derechos reservados.
+
+El mock-up se desarrolló en **Figma** y constituye la referencia visual para el desarrollo posterior de la landing page en entornos web o híbridos.  
+Este diseño conserva la coherencia con la estructura del wireframe inicial y con las pautas establecidas en la *Information Architecture*, asegurando una experiencia centrada en el usuario y adaptable a distintos tamaños de pantalla.
+
+[Ver Wireframes en Figma](https://www.figma.com/design/YSwppmOeo23EbTSaKD23cH/Landingpage?node-id=2003-169&t=g9yVSC41J5y7Jerx-1)
+
+### 3.1.4. Mobile Applications UX/UI Design
+
+Esta sección describe el diseño visual y de interacción de la aplicación móvil, considerando la accesibilidad, la simplicidad operativa y la usabilidad en condiciones rurales.  
+El diseño se basa en los principios de *Mobile First* y en la coherencia con la identidad visual definida en los *Style Guidelines*.
+
+#### 3.1.4.1. Mobile Applications Wireframes
+Representan la estructura funcional de cada vista de la aplicación (pantallas de login, registro, menú principal, módulos de gestión, etc.).
+
+![Mobile Applications Wireframes](images/Mobile%20Applications%20Wireframes.png)
+
+[Ver Wireframes en Figma](https://www.figma.com/design/YOJv9Jfpsc0eiJm1qCN5yM/WIREFRAMES-GANLINK?node-id=0-1&t=kXn8qI7nVlnQc7gB-1)
+
+
+#### 3.1.4.2. Mobile Applications Wireflow Diagrams
+Detallan los flujos de navegación entre pantallas, permitiendo visualizar las rutas y transiciones del usuario al interactuar con la aplicación.
+
+![Wireflow Diagrams](images/Mobile%20Applications%20Wireflow%20Diagrams.png)
+
+[Ver Wireflow en Figma](https://www.figma.com/design/YOJv9Jfpsc0eiJm1qCN5yM/WIREFRAMES-GANLINK?node-id=0-1&t=kXn8qI7nVlnQc7gB-1)
+
+
+#### 3.1.4.3. Mobile Applications Mock-ups
+Diseños visuales completos que integran colores, íconos y elementos gráficos reales, simulando la apariencia final del producto en dispositivos móviles.
+
+![Mobile Applications Mock-ups](images/Mobile%20Applications%20Mock-ups.png)
+
+[Ver Mock-ups en Figma](https://www.figma.com/design/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?node-id=0-1&t=XyW9EnoU7qr7zsMA-1)
+
+
+#### 3.1.4.4. Mobile Applications User Flow Diagrams
+Diagramas que describen los caminos lógicos del usuario en cada funcionalidad (por ejemplo: registrar animal, registrar vacuna, generar reporte).
+
+![Mobile Applications User Flow Diagrams](images/Mobile%20Applications%20User%20Flow%20Diagrams.png)
+
+[Ver User Flow Diagrams en Figma](https://www.figma.com/design/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?node-id=0-1&t=XyW9EnoU7qr7zsMA-1)
+
+
+#### 3.1.4.5. Mobile Applications Prototyping
+Presenta la versión interactiva del prototipo creada en herramientas como **Figma** o **Adobe XD**, permitiendo validar la usabilidad antes del desarrollo final.
+
+![Mobile Applications Prototypin](images/Mobile%20Applications%20Prototypin.png)
+
+[Ver prototipo en Figma](https://www.figma.com/proto/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?page-id=0%3A1&node-id=1-2&p=f&viewport=127%2C65%2C0.42&t=9XnKC3rpeZKh0NJh-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2)
+
 ## Conclusiones
 
 GanLink se ha consolidado como una solución tecnológica clave para modernizar la gestión ganadera, reemplazando los obsoletos sistemas manuales por una plataforma digital que centraliza el registro de animales, historial sanitario y transacciones económicas. Su implementación ha demostrado beneficios tangibles: mejora en la trazabilidad para cumplimiento normativo, reducción de pérdidas mediante alertas automatizadas, y acceso a datos en tiempo real para una toma de decisiones más informada. El uso de tecnologías como Kotlin, .NET y MySql aseguró un desarrollo escalable y adaptable a las necesidades cambiantes del sector. Este proyecto no solo optimiza procesos operativos, sino que también acerca la innovación tecnológica a los pequeños y medianos ganaderos, marcando un precedente para la transformación digital en la agricultura latinoamericana. Con potencial para incorporar inteligencia artificial e integraciones con blockchain en futuras iteraciones, GanLink sienta las bases para una ganadería más eficiente, sostenible y competitiva.
