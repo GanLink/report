@@ -1553,6 +1553,47 @@ En conjunto, el sistema de búsqueda de **AgroTracer** integra filtrado dinámic
 #### 3.1.2.5. Navigation Systems
 Define la estructura de navegación del producto, tanto en la versión web como móvil. Incluye menús principales, submenús, rutas internas y botones de acceso rápido para garantizar un flujo de interacción coherente.
 
+El sistema de navegación de **AgroTracer** ha sido diseñado para garantizar una experiencia intuitiva, fluida y accesible, especialmente adaptada al contexto rural de los pequeños y medianos ganaderos. Se busca minimizar la complejidad visual y permitir que los usuarios realicen sus tareas principales con el menor número de pasos posibles, manteniendo una jerarquía clara y consistente en todas las pantallas.
+
+**Menú principal:**  
+El menú principal se encuentra en la pantalla de inicio y agrupa las funciones esenciales de la aplicación, organizadas según las necesidades operativas del usuario. Sus secciones son las siguientes:
+
+- **Inicio:** Presenta un panel general con información resumida del hato, incluyendo el número de animales activos, alertas sanitarias recientes y métricas productivas destacadas.  
+- **Registro de Bovinos:** Permite agregar nuevos animales, registrar sus datos productivos (peso, edad, raza) y vincularlos a una granja o hato específico.  
+- **Eventos Productivos y Sanitarios:** Sección destinada a registrar y consultar eventos como vacunaciones, tratamientos, partos o ventas.  
+- **Reportes:** Proporciona acceso a informes generados sobre rendimiento productivo, indicadores sanitarios y balance económico del sistema.  
+- **Academia Ganadera:** Permite acceder a recursos educativos, guías y videos de capacitación vinculados a las buenas prácticas de manejo pecuario.
+
+**Menú secundario:**  
+En la parte superior o lateral del entorno móvil, se dispone un menú complementario con accesos rápidos a herramientas de configuración y alertas:
+- **Alertas:** Muestra notificaciones automáticas relacionadas con vacunaciones próximas, eventos reproductivos o recordatorios de tareas.  
+- **Configuración:** Permite modificar parámetros de usuario, cambiar el tema visual, activar modo oscuro y sincronizar datos en línea.  
+
+**Menú de autenticación (Login y Registro):**  
+El flujo inicial de navegación contempla dos rutas principales:
+- **Inicio de sesión:** Acceso directo mediante correo electrónico y contraseña, con opción de recordar credenciales para facilitar el reingreso.  
+- **Registro de nuevos usuarios:** Permite crear cuentas vinculadas a la identidad del ganadero, solicitando datos básicos como nombre, correo electrónico, DNI y actividad principal.  
+- **Términos y condiciones:** Enlace visible antes del registro que asegura la aceptación de la política de uso y protección de datos.
+
+**Navegación jerárquica y por categorías:**  
+El usuario puede desplazarse entre módulos mediante una estructura jerárquica lógica:
+1. Seleccionar **Granja o Hato**.  
+2. Consultar o registrar **Bovinos** asociados.  
+3. Acceder a **Eventos** o **Métricas** vinculadas a cada animal.  
+4. Revisar **Reportes** o **Indicadores globales**.  
+
+Esta secuencia mantiene una coherencia funcional con los procesos reales de gestión ganadera, permitiendo un flujo descendente desde la unidad productiva (granja) hasta el nivel individual (bovino).
+
+**Consistencia visual:**  
+Cada vista mantiene un encabezado persistente con íconos universales y etiquetas claras, lo que permite al usuario orientarse fácilmente dentro de la aplicación.  
+La paleta cromática y los estilos de iconografía refuerzan la identidad visual definida en el *Style Guidelines*, asegurando continuidad perceptiva durante la navegación.
+
+**Accesibilidad y contexto de uso:**  
+El diseño prioriza botones de gran tamaño, tipografía legible y contrastes adecuados para garantizar una interacción cómoda en entornos rurales o de baja luminosidad.  
+Se evita la sobrecarga de menús o subniveles, asegurando que cualquier acción principal se ejecute en tres toques o menos.
+
+En conjunto, el sistema de navegación de **AgroTracer** ofrece una experiencia estructurada, accesible y coherente con la realidad operativa de los ganaderos, alineándose con los principios de diseño centrado en el usuario y las buenas prácticas de arquitectura de información para aplicaciones móviles.
+
 
 ### 3.1.3. Landing Page UI Design
 
