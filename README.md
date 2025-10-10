@@ -1357,24 +1357,89 @@ Se presenta tres niveles del modelo C4 trabajado con structurizr para el proyect
 ##### 2.6.1.6.2. Database Design Diagram
 <img src="images/Class_Diagram.png">
 
-## 3. Solution UI/UX Design
+# Capítulo III: Solution UI/UX Design
 
-Este capítulo presenta el proceso de diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX) de la solución digital **AgroTracer**, desarrollada por la startup **GanLink**.  
-El objetivo es garantizar una experiencia coherente, accesible y atractiva para los pequeños y medianos ganaderos, alineada con los principios de diseño centrado en el usuario y con los lineamientos definidos en el *Style Guidelines* del producto.
+Este capítulo presenta el diseño de la experiencia de usuario (UX) y la interfaz de usuario (UI) de la solución móvil y su landing page. Abarca la definición de lineamientos visuales y de estilo, la arquitectura de información y la organización de contenidos, así como el desarrollo de wireframes, mock-ups, flujos de usuario y prototipos interactivos que reflejan una experiencia coherente, funcional y alineada con los objetivos del producto y las necesidades del usuario
 
-### 3.1. Product Design
+## 3.1. Product Design
 
-El diseño del producto se elaboró considerando las etapas del proceso **Lean UX**, los resultados de las entrevistas con usuarios y los hallazgos del *Needfinding*.  
-Se busca reflejar la identidad de GanLink mediante una interfaz moderna, minimalista y funcional, adaptada al contexto rural, priorizando la legibilidad, la navegación intuitiva y el acceso a la información esencial.
+Esta sección define la estructura, funcionalidad y experiencia del producto, detallando las decisiones de diseño que guían la interacción usuario-sistema y aseguran coherencia con los objetivos del proyecto.
+
+El diseño del producto **GanLink** se centra en ofrecer una **experiencia móvil moderna, intuitiva y funcional** para el ganadero peruano, facilitando la gestión de sus predios, bovinos y trazabilidad sanitaria desde una única aplicación.  
+
+La propuesta aplica los principios de **Material Theme 2** de Google, adaptados a un contexto agropecuario: jerarquía visual clara, componentes consistentes, tipografía legible y transiciones suaves.  
+El objetivo principal es **digitalizar el control ganadero**, manteniendo una interfaz accesible incluso en zonas rurales o con baja conectividad.  
+
+**Objetivos del diseño del producto:**
+- Simplificar la captura, visualización y control de datos ganaderos.  
+- Mantener consistencia visual y coherencia en todas las pantallas.  
+- Asegurar accesibilidad mediante contraste, tipografía clara y gestos simples.  
+- Reforzar la identidad visual del producto con un lenguaje de diseño coherente.  
+- Transmitir profesionalismo y cercanía mediante una estética limpia y moderna.  
 
 
-### 3.1.1. Style Guidelines
+## 3.1.1. Style Guidelines
+Esta sección establece las pautas visuales y de estilo del producto, garantizando coherencia en colores, tipografía, iconografía y comunicación visual en todas las interfaces.
 
-Este apartado define los lineamientos visuales y comunicativos que rigen la identidad del producto digital. Incluye decisiones de tipografía, color, iconografía, espaciado y tono comunicativo, asegurando una presentación consistente en la landing page y en la aplicación móvil.
+El diseño de **GanLink** sigue un sistema visual basado en **Material Theme 2**, garantizando una experiencia uniforme en todos los módulos de la aplicación: *Predios*, *Bovinos*, *Trazabilidad* y *Reportes*.  
 
-#### 3.1.1.1. General Style Guidelines
+El sistema de estilos actúa como una guía centralizada que define los lineamientos visuales y comunicacionales del producto, fomentando la coherencia y la escalabilidad futura de la interfaz.  
 
-Se establecen las guías visuales generales del producto. 
+**Principios de diseño adoptados:**
+1. **Consistencia visual:** todos los elementos mantienen espaciados, colores y estilos tipográficos definidos en el Design System.  
+2. **Accesibilidad:** contraste suficiente, tamaños táctiles mínimos de 48dp, y lenguaje inclusivo.  
+3. **Simplicidad:** jerarquía visual clara y reducción de elementos distractores.  
+4. **Escalabilidad:** componentes reutilizables basados en patrones de Angular Material y Flutter Material.  
+5. **Identidad de marca:** refuerza la conexión con el sector ganadero y tecnológico, reflejando confianza e innovación.  
+
+
+### 3.1.1.1. General Style Guidelines
+
+#### **Branding**
+La identidad visual de GanLink combina el concepto de **ganadería + conexión digital**.  
+El isotipo utiliza la silueta de un bovino enlazado a un nodo, simbolizando **tecnología, trazabilidad y gestión inteligente**.  
+El logotipo se aplica en formato horizontal con tipografía sans-serif moderna.
+
+#### **Color Palette (Material Theme 2 Adaptado)**
+
+| Tipo | Color | Hex | Uso principal |
+|------|--------|------|---------------|
+| Primary | Verde campo | `#4CAF50` | Botones principales, encabezados y énfasis |
+| Secondary | Verde lima | `#8BC34A` | Acciones secundarias y mensajes de éxito |
+| Background | Gris claro | `#F5F5F5` | Fondos de pantallas y formularios |
+| Surface | Blanco | `#FFFFFF` | Tarjetas, contenedores y modales |
+| Error | Rojo alerta | `#E53935` | Mensajes de error y validaciones |
+| On Primary | Blanco | `#FFFFFF` | Texto sobre botones o barras verdes |
+| On Background | Gris oscuro | `#212121` | Texto principal y descripciones |
+
+> La paleta se inspira en los tonos naturales del campo, transmitiendo sostenibilidad, crecimiento y confianza.
+
+#### **Typography**
+
+El sistema tipográfico adopta **Roboto**, conforme al estándar Material Design.
+
+| Jerarquía | Peso | Tamaño (sp) | Uso |
+|------------|--------|-------------|-----|
+| Headline | Bold | 20–24 | Títulos principales |
+| Subheadline | Medium | 18 | Subtítulos y encabezados secundarios |
+| Body | Regular | 14–16 | Texto principal |
+| Caption | Medium | 12 | Etiquetas y ayudas visuales |
+
+> Se privilegia la legibilidad y el equilibrio visual en pantallas móviles.
+
+#### **Spacing y Layout**
+
+- Grid base de 8dp (espaciado múltiplo de 8).  
+- Padding interno de tarjetas: **16dp**.  
+- Margen externo mínimo: **8dp**.  
+- Altura táctil mínima: **48dp** (accesibilidad).  
+- Elevaciones según contexto: **2dp–6dp** para jerarquía visual.  
+
+#### **Tone & Language**
+
+- **Tono:** Cercano, profesional y optimista.  
+- **Lenguaje:** Español claro y funcional. Ejemplo: “Agregar bovino”, “Ver trazabilidad”.  
+- **Personalidad visual:** Amigable, moderna y confiable, en sintonía con el público ganadero.  
 
 
 ### 3.1.2. Information Architecture
