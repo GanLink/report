@@ -2691,13 +2691,27 @@ Las recomendaciones fueron documentadas y priorizadas para ser atendidas en el s
 
 ## Conclusiones
 
+Conclusiones y recomendaciones
+
 GanLink se ha consolidado como una plataforma integral para la digitalización del sector ganadero, reemplazando los procesos manuales por un sistema moderno que centraliza el registro de animales, el historial sanitario, la trazabilidad productiva y las transacciones económicas. Durante la fase TB2 (Sprint 2), el proyecto alcanzó un nivel de madurez técnica y funcional que refleja su potencial de impacto real en el sector agropecuario. La plataforma ha permitido evidenciar mejoras tangibles en la gestión operativa: reducción de pérdidas a través de alertas automatizadas, cumplimiento normativo mediante trazabilidad en tiempo real y optimización del proceso de toma de decisiones gracias al acceso inmediato a información estructurada y confiable.
 
 El desarrollo técnico de GanLink se sustentó en un stack tecnológico robusto y escalable: Kotlin para el desarrollo móvil, .NET para la capa de servicios backend y MySQL como base de datos relacional. Esta integración garantizó estabilidad, modularidad y posibilidad de expansión a nuevas funcionalidades. Además, el despliegue en entornos públicos y la validación de usuarios permitieron comprobar la eficiencia del sistema, su facilidad de uso y su valor práctico en la gestión diaria del productor ganadero.
 
-Desde una perspectiva académica y profesional, el proyecto consolidó competencias clave en ingeniería de software, diseño UX/UI, arquitectura limpia, control de versiones y metodologías ágiles, integrando teoría y práctica en un contexto real de innovación digital. Cada miembro del equipo contribuyó en etapas específicas del ciclo de vida del producto, demostrando la importancia del trabajo colaborativo en proyectos de base tecnológica.
+Desde una perspectiva académica y profesional, el proyecto consolidó competencias clave en ingeniería de software, diseño UX/UI, arquitectura limpia, control de versiones y metodologías ágiles, integrando teoría y práctica en un contexto real de innovación digital. Cada miembro del equipo contribuyó en etapas específicas del ciclo de vida del producto, demostrando la importancia del trabajo colaborativo y de la comunicación efectiva en proyectos tecnológicos de alcance social.
 
-GanLink representa, por tanto, una iniciativa pionera dentro del ámbito agroindustrial latinoamericano, al democratizar el acceso a la tecnología para pequeños y medianos ganaderos. En futuras iteraciones, se proyecta la incorporación de inteligencia artificial para la predicción sanitaria, analítica avanzada de datos para decisiones estratégicas y blockchain para la trazabilidad inmutable, fortaleciendo así su aporte a una ganadería inteligente, sostenible, competitiva y alineada con los principios de la agricultura 4.0.
+GanLink representa una iniciativa pionera dentro del ámbito agroindustrial latinoamericano, al democratizar el acceso a la tecnología para pequeños y medianos ganaderos. En futuras iteraciones, se proyecta la incorporación de inteligencia artificial para la predicción sanitaria, analítica avanzada de datos para decisiones estratégicas y blockchain para la trazabilidad inmutable, fortaleciendo así su aporte a una ganadería inteligente, sostenible y competitiva, alineada con los principios de la agricultura 4.0.
+
+Recomendaciones
+
+Continuar fortaleciendo la fase de validación con usuarios reales del sector ganadero para optimizar la experiencia de uso y garantizar la adopción tecnológica.
+
+Ampliar la cobertura del sistema integrando módulos de gestión logística y control de alimentación animal, orientados a una supervisión integral de la producción.
+
+Implementar métricas de rendimiento y mantenimiento preventivo que aseguren la estabilidad del sistema en entornos de alta demanda.
+
+Promover la interoperabilidad con entidades gubernamentales y asociaciones ganaderas para mejorar el control sanitario y la trazabilidad nacional.
+
+Desarrollar un plan de escalabilidad técnica que contemple la incorporación de inteligencia artificial, blockchain y servicios en la nube para consolidar la sostenibilidad del producto en el largo plazo.
 
 
 ## Bibliografía
