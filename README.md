@@ -2713,6 +2713,15 @@ Promover la interoperabilidad con entidades gubernamentales y asociaciones ganad
 
 Desarrollar un plan de escalabilidad técnica que contemple la incorporación de inteligencia artificial, blockchain y servicios en la nube para consolidar la sostenibilidad del producto en el largo plazo.
 
+**Video App Validation**
+
+
+**Video About the product**
+
+
+**Video About the team**
+
+
 
 ## Bibliografía
 
