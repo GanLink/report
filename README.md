@@ -1,4 +1,4 @@
-# Informe TP
+# Informe TB2
 <div align="center">
 
 <h3> Universidad Peruana de Ciencias Aplicadas </h3>
