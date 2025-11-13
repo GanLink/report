@@ -35,16 +35,19 @@ style="width:50%;" />
 
 ## Registro de versiones del informe
 
-| Versión |    Fecha   |              Autor              | Descripción de modificación                                   |
-| :-----: | :--------: | :-----------------------------: | ------------------------------------------------------------- |
-|   1.0   | 17/09/2025 |     Mora Blas, Diego Alonzo     | Creación del documento de trabajo en formato markdown         |
-|   1.1   | 18/09/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 1 del documento en formato markdown   |
-|   1.2   | 18/09/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 2 del documento en formato markdown   |
-|   1.3   | 18/09/2025 |    Huaman Hinostroza, Milenio   | Desarrollo del capítulo 2.5 del documento en formato markdown |
-|   1.4   | 09/10/2025 |       León Vivas, Fabrizio      | Desarrollo del capítulo 2.6 del documento en formato markdown |
-|   1.5   | 09/10/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 3.1 del documento en formato markdown |
-|   1.6   | 09/10/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 4.1 del documento en formato markdown |
-|   1.7   | 09/10/2025 | Mora Blas, Diego Alonzo         |    Desarrollo del capítulo 4.2 del documento en formato markdown |
+| Versión |    Fecha   |              Autor              | Descripción de modificación                                                                                                   |
+| :-----: | :--------: | :-----------------------------: | ----------------------------------------------------------------------------------------------------------------------------- |
+|   1.0   | 17/09/2025 |     Mora Blas, Diego Alonzo     | Creación del documento de trabajo en formato markdown                                                                         |
+|   1.1   | 18/09/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 1 del documento en formato markdown                                                                   |
+|   1.2   | 18/09/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 2 del documento en formato markdown                                                                   |
+|   1.3   | 18/09/2025 |    Huaman Hinostroza, Milenio   | Desarrollo del capítulo 2.5 del documento en formato markdown                                                                 |
+|   1.4   | 09/10/2025 |       León Vivas, Fabrizio      | Desarrollo del capítulo 2.6 del documento en formato markdown                                                                 |
+|   1.5   | 09/10/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 3.1 del documento en formato markdown                                                                 |
+|   1.6   | 09/10/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 4.1 del documento en formato markdown                                                                 |
+|   1.7   | 09/10/2025 |     Mora Blas, Diego Alonzo     | Desarrollo del capítulo 4.2 del documento en formato markdown                                                                 |
+|   1.8   | 28/10/2025 | Guerrero Tomas, Nelson Fabrizio | Incorporación inicial del Capítulo IV: Product Implementation & Validation con despliegue del backend y documentación técnica |
+|   1.9   | 05/11/2025 |     Rodas Sotomayor, Ernesto    | Actualización del Sprint 2, adición de resultados de validación, Conclusiones, Bibliografía y Anexos para la entrega TB2      |
+
 
 ## Project Report Collaboration Insights
 
