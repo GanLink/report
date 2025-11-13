@@ -51,7 +51,7 @@ style="width:50%;" />
 
 ## Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: https://github.com/GanLink
 
 **TB1**
 
@@ -68,7 +68,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: https://github.com/GanLink
 
 **TB1**
 
@@ -89,7 +89,17 @@ Se explican las ramas más prominentes:
 
 - **develop**: Se trata de la rama principal para el proceso del desarrollo del proyecto.
 
-Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
+**TB1**
+
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante      | Tareas Asignadas                                                                                                                                                                                 |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Ernesto Rodas   | Elaboración de la **Carátula**, actualización del **Registro de Versiones del Informe** y redacción de la sección **Project Report Collaboration Insights**.                                     |
+| Nelson Guerrero | **Capítulo I – Presentación**: desarrollo del perfil de la startup y solución propuesta, redacción del contexto y problema.                                                                      |
+| Milenio Huamán  | **Capítulo II – Requirements Development and Software Solution Design (parte 1)**: elaboración del análisis de requerimientos, entrevistas y definición de **User Personas** y **User Stories**. |
+| Diego Mora      | **Capítulo II – Requirements Development and Software Solution Design (parte 2)**: desarrollo de diagramas de arquitectura, **Context Mapping**, y **EventStorming**.                            |
+| Fabrizio León   | Integración de la sección **Student Outcome**, conclusiones preliminares, **Bibliografía** y **Anexos** del informe.                                                                             |
 
 **TP**
 
@@ -103,27 +113,17 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 | Diego Mora      | **Capítulo IV – 4.1 Software Configuration Management**: repos, convenciones (branching), CI/CD; evidencia de **backend al 70%** desplegado.                                                                         |
 | Fabrizio León   | **Capítulo IV – 4.2 Product Implementation & Validation (Sprint 1)**: plan y evidencias del Sprint 1 (backlog, burndown/velocity, increment), validación y testing; **Conclusiones**, **Bibliografía** y **Anexos**. |
 
-**TB1**
+**TB2**
 
-**Github Collaboration Insights**
+Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
-
-Los integrantes son:
-
-* Nelson Guerrero (Nelsoondev)
-* Ernesto Rodas (ernesto1718)
-* Milenio Huaman (Milenioupc)
-* Diego Mora (diegoalonzomora)
-* Fabrizio León (codylionvivo)
-
-Se explican las ramas más prominentes:
-
-- **main**: Se trata de la rama principal del proyecto y se actualiza para cada entregable.
-
-- **develop**: Se trata de la rama principal para el proceso del desarrollo del proyecto.
-
-Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
+| Integrante      | Tareas Asignadas                                                                                                                                                                                                    |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ernesto Rodas   | Actualización final del **Registro de Versiones del Informe**, integración del **Sprint 2** y consolidación de **Conclusiones**, **Bibliografía** y **Anexos**.                                                     |
+| Nelson Guerrero | **Capítulo IV – 4.1 Software Configuration Management (actualización TB2)**: despliegue completo del backend en entorno público, documentación técnica y validación de los servicios implementados.                 |
+| Milenio Huamán  | **Capítulo IV – 4.2 Product Implementation & Validation (Sprint 2)**: elaboración de evidencias de desarrollo, pruebas de validación, registro de entrevistas y corrección de artefactos presentados en la TB1.     |
+| Diego Mora      | Elaboración del **video About-the-Product**, integrando la validación de las funcionalidades core y el proceso de testing del Sprint 2; colaboración en documentación del despliegue de la landing page.            |
+| Fabrizio León   | Elaboración del **video About-the-Team**, actualización de la documentación visual y soporte en la sección **Student Outcome** y **Project Report Collaboration Insights** con base en los resultados del Sprint 2. |
 
 ## Student Outcomes
 
