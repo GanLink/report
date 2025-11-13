@@ -2713,14 +2713,55 @@ Promover la interoperabilidad con entidades gubernamentales y asociaciones ganad
 
 Desarrollar un plan de escalabilidad técnica que contemple la incorporación de inteligencia artificial, blockchain y servicios en la nube para consolidar la sostenibilidad del producto en el largo plazo.
 
-**Video App Validation**
+## Video App Validation
 
 
-**Video About the product**
+## Video About the product
 
 
-**Video About the team**
+## Video About the team
 
+## Glosario
+En esta sección se definen los términos clave utilizados en el documento, proporcionando una comprensión clara de los conceptos técnicos y metodológicos. El glosario es esencial para asegurar que los lectores, ya sean técnicos o no, tengan acceso a las definiciones precisas de los términos que se emplean a lo largo del trabajo. Este espacio no solo sirve como referencia, sino que también facilita la comunicación y evita malentendidos, especialmente en documentos que abarcan temas complejos como la arquitectura de software, diseño de sistemas y metodologías de desarrollo.
+
+| Término / Acrónimo                                     | Definición                                                                                                                                                     |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| API (Application Programming Interface)                | Conjunto de funciones y procedimientos que permiten la comunicación e intercambio de datos entre diferentes aplicaciones o sistemas.                           |
+| Backend                                                | Parte del sistema que gestiona la lógica de negocio, las operaciones del servidor y la conexión con la base de datos.                                          |
+| Bounded Context                                        | Concepto de Domain-Driven Design (DDD) que define un límite lógico dentro del dominio donde un modelo tiene significado y consistencia propia.                 |
+| CI/CD (Continuous Integration / Continuous Deployment) | Prácticas que automatizan la integración de código, pruebas y despliegue en entornos de producción o prueba.                                                   |
+| CRUD (Create, Read, Update, Delete)                    | Operaciones básicas utilizadas en el manejo y persistencia de datos dentro de un sistema.                                                                      |
+| DDD (Domain-Driven Design)                             | Enfoque de diseño de software que centra la arquitectura del sistema en el modelo del dominio del negocio.                                                     |
+| DevOps                                                 | Conjunto de prácticas que integran desarrollo de software (Dev) y operaciones (Ops) para acortar el ciclo de vida del desarrollo y ofrecer entregas continuas. |
+| Frontend                                               | Parte visible del sistema con la que interactúa el usuario, desarrollada mediante tecnologías como HTML, CSS y JavaScript.                                     |
+| Git                                                    | Sistema de control de versiones distribuido utilizado para registrar cambios en el código fuente y facilitar la colaboración entre desarrolladores.            |
+| Kanban                                                 | Método de gestión visual del flujo de trabajo que permite organizar y priorizar tareas de desarrollo.                                                          |
+| Kotlin                                                 | Lenguaje de programación utilizado principalmente para el desarrollo de aplicaciones Android, reconocido por su sintaxis clara y seguridad de tipos.           |
+| Mockup                                                 | Representación visual de una interfaz que muestra el diseño final de una aplicación antes de su implementación.                                                |
+| MySQL                                                  | Sistema de gestión de bases de datos relacional de código abierto utilizado para almacenar y consultar información estructurada.                               |
+| Persona (User Persona)                                 | Representación ficticia de un tipo de usuario objetivo que ayuda a guiar las decisiones de diseño centradas en las necesidades del usuario real.               |
+| Prototipo (Prototype)                                  | Versión preliminar interactiva de una aplicación que permite validar la experiencia de usuario antes del desarrollo final.                                     |
+| Repository (Repositorio)                               | Espacio centralizado donde se almacena y gestiona el código fuente del proyecto.                                                                               |
+| Scrum                                                  | Metodología ágil que organiza el trabajo en ciclos cortos llamados sprints, fomentando la entrega incremental de valor.                                        |
+| Sprint                                                 | Periodo de tiempo determinado en Scrum durante el cual se desarrolla un conjunto específico de funcionalidades o tareas.                                       |
+| UI (User Interface)                                    | Conjunto de elementos gráficos y visuales con los que el usuario interactúa en una aplicación.                                                                 |
+| UX (User Experience)                                   | Experiencia general del usuario al interactuar con un producto digital, evaluada en términos de usabilidad, eficiencia y satisfacción.                         |
+| Wireframe                                              | Estructura esquemática que define la disposición de los elementos en una interfaz de usuario antes del diseño visual final.                                    |
+| Agile                                                  | Conjunto de principios y metodologías para el desarrollo de software que promueven la colaboración, la adaptación al cambio y la entrega continua de valor.    |
+| UML (Unified Modeling Language)                        | Lenguaje estándar para la representación gráfica de sistemas de software, utilizado para modelar procesos, clases y componentes.                               |
+| REST (Representational State Transfer)                 | Estilo de arquitectura de software que define cómo los servicios web deben estructurarse y comunicarse utilizando HTTP.                                        |
+| Endpoint                                               | Punto de conexión o URL en un servicio web que permite acceder a un recurso o ejecutar una operación específica.                                               |
+| JSON (JavaScript Object Notation)                      | Formato ligero de intercambio de datos que utiliza texto legible para representar objetos y estructuras de datos.                                              |
+| IDE (Integrated Development Environment)               | Entorno de desarrollo que agrupa herramientas para la programación, compilación, depuración y prueba del software.                                             |
+| MVP (Minimum Viable Product)                           | Versión mínima funcional de un producto que permite validar hipótesis y obtener retroalimentación temprana de los usuarios.                                    |
+| Repository Pattern                                     | Patrón de diseño que separa la lógica de acceso a datos del resto del sistema, promoviendo la independencia entre capas.                                       |
+| MVC (Model-View-Controller)                            | Patrón arquitectónico que separa la lógica de negocio, la interfaz de usuario y el control de flujo en componentes independientes.                             |
+| Heurísticas de Usabilidad                              | Conjunto de principios generales que guían el diseño de interfaces efectivas, centradas en la experiencia del usuario.                                         |
+| Testing Unitario                                       | Tipo de prueba que evalúa el correcto funcionamiento de unidades o componentes individuales del código.                                                        |
+| API RESTful                                            | Implementación de un servicio web basado en principios REST, orientado a la interoperabilidad entre sistemas mediante peticiones HTTP.                         |
+| Figma                                                  | Herramienta de diseño colaborativo utilizada para crear interfaces de usuario, prototipos y sistemas de diseño compartidos en la nube.                         |
+| CI (Continuous Integration)                            | Práctica que integra de manera continua los cambios de código en un repositorio compartido, permitiendo detectar errores tempranamente.                        |
+| Cloud Computing                                        | Modelo de prestación de servicios tecnológicos a través de Internet que permite el acceso bajo demanda a recursos de almacenamiento y procesamiento.           |
 
 
 ## Bibliografía
