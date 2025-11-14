@@ -2996,7 +2996,10 @@ Desarrollar un plan de escalabilidad técnica que contemple la incorporación de
 ## Video About the product
 
 
+
 ## Video About the team
+
+[**VIDEO**](https://upcedupe-my.sharepoint.com/personal/u20211b994_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211b994%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1acc0238%2D2005%2Dagrotracer%2Dabout%2Dthe%2Dteam%2Dsprint%2D2%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef2643f3f%2Dd60f%2D4e5b%2Db68f%2Dc3967de9f8d0)
 
 ## Glosario
 En esta sección se definen los términos clave utilizados en el documento, proporcionando una comprensión clara de los conceptos técnicos y metodológicos. El glosario es esencial para asegurar que los lectores, ya sean técnicos o no, tengan acceso a las definiciones precisas de los términos que se emplean a lo largo del trabajo. Este espacio no solo sirve como referencia, sino que también facilita la comunicación y evita malentendidos, especialmente en documentos que abarcan temas complejos como la arquitectura de software, diseño de sistemas y metodologías de desarrollo.
