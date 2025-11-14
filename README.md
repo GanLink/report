@@ -2817,6 +2817,18 @@ Figura 2: Endpoints de BovinueHealthRecord y BovinueMetric (Esta captura detalla
 Figura 3: Endpoints de User API y Schemas (Esta captura muestra los servicios para la gestión de usuarios y los esquemas de datos (DTOs) utilizados en la API)
 ![Endpoints 3](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/endpoints%203.jpeg)
 
+**Detalle de Endpoints Clave (Sprint 2)**
+
+| API | Verbo HTTP | Ruta (Sintaxis) | Parámetros (Request) | Respuesta (Ejemplo) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Authorization** | POST | `/api/v1/Authorization/sign-in` | `SignInResource` (Body) | `200 OK` (Token JWT) |
+| **Authorization** | POST | `/api/v1/Authorization/sign-up` | `SignUpResource` (Body) | `201 Created` (UserResource) |
+| **Bovinue** | POST | `/api/v1/Bovinue` | `CreateBovinueResource` (Body) | `201 Created` (BovinueResource) |
+| **Bovinue** | GET | `/api/v1/Bovinue/farm/{farmId}` | `farmId` (Path) | `200 OK` (Lista de BovinueResource) |
+| **BovinueMetric** | POST | `/api/v1/BovinueMetric` | `CreateBovinueMetric` (Body) | `201 Created` (BovinueMetricResource) |
+| **BovinueMetric** | GET | `/api/v1/BovinueMetric/{id}` | `id` (Path) | `200 OK` (BovinueMetricResource) |
+| **User API** | GET | `/api/v1/User/{id}/farms` | `id` (Path) | `200 OK` (Lista de FarmResource) |
+
 <div id='4.2.2.7.'><h5>4.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
 
 
