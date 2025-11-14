@@ -2646,6 +2646,8 @@ A continuación, se presenta la tabla de commits relevantes del Sprint 2, organi
 | **Nelson Guerrero** | Landing Page: diseño, responsive, assets; Documentación UI/UX.       |
 | **Ernesto Rodas**   | Documentación TB2: planificación, glosario, conclusiones, tablas.    |
 
+<div id='4.2.2.4.'><h5>4.2.2.4. Testing Suite Evidence for Sprint Review</h5></div>
+
 <div id='4.2.2.5.'><h5>4.2.2.5. Execution Evidence for Sprint Review</h5></div>
 
 <div id='4.2.2.6.'><h5>4.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
