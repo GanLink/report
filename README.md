@@ -2798,7 +2798,7 @@ Paralelamente, se alcanzó el 100% de la implementación del backend. Este traba
 
 Mejora de las configuracion de la app en Android Studio
 ![Configuraciones de la granja](https://raw.githubusercontent.com/GanLink/report/main/images/Configuraciones%20de%20la%20granja%20MODO%20OSCURO.jpeg)
-![Granja feature modo oscuro](images/granja%20feature%20modo%20oscuro.jpeg)
+![Granja feature modo oscuro](https://raw.githubusercontent.com/GanLink/report/main/images/granja%20feature%20modo%20oscuro.jpeg)
 
 <div id='4.2.2.6.'><h5>4.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
 
