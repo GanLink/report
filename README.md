@@ -2831,7 +2831,49 @@ Figura 3: Endpoints de User API y Schemas (Esta captura muestra los servicios pa
 
 <div id='4.2.2.7.'><h5>4.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
 
+Durante el Sprint 2, el equipo avanzó significativamente en la estrategia de despliegue, cumpliendo con el requisito de la entrega TB2 de tener un *backend* 100% desplegado en un sitio público. El hito principal fue la migración de los Servicios Web (API REST) desde el entorno local (usado en Sprint 1) a una infraestructura pública en la nube de **Microsoft Azure**.
 
+Paralelamente, la Landing Page fue refactorizada y migrada a **Netlify** para un despliegue continuo, y se validó la conexión de la aplicación móvil con el nuevo *backend* público.
+
+---
+
+**1. Despliegue de la Landing Page (Mejorado)**
+
+En este sprint, la Landing Page fue refactorizada para optimizar su rendimiento, semántica (HTML5) y diseño responsivo, como se evidencia en el nuevo código fuente. Además, el despliegue se migró de GitHub Pages a **Netlify**, una plataforma que facilita la integración y el despliegue continuo (CI/CD) directamente desde el repositorio.
+
+* **Enlace del despliegue (Netlify):** `https://ganlink-landing.netlify.app/`
+* **Evidencia Visual:**
+
+    ![Landing Page desplegada en Netlify][images/IMAGEN_DE_LA_NUEVA_LANDING_PAGE.png]
+  
+---
+
+**2. Despliegue de los Servicios Web (Backend en Azure)**
+
+Cumpliendo con el objetivo central del Sprint 2, el *backend* se desplegó en un entorno de nube público en **Microsoft Azure**. Se optó por un modelo IaaS (Infrastructure as a Service) configurando una **Máquina Virtual (VM)** para alojar la API de ASP.NET Core 8.0.
+
+Las actividades ejecutadas fueron:
+* Provisión de un Grupo de Recursos (`BackendGanLink_group`) en Azure.
+* Configuración de una Máquina Virtual (`BackendGanLink`) como servidor.
+* Configuración de una Red Virtual (`BackendGanLink-vnet`) con una IP pública (`BackendGanLink-ip`) y un Grupo de Seguridad (`BackendGanLink-nsg`) para gestionar el tráfico de la API.
+* Instalación del entorno .NET y despliegue de la API y su documentación Swagger en la VM.
+
+**Evidencia Visual (Portal de Azure):**
+
+![Recursos de Azure para el Backend](images/Portal de Azure.png)
+
+---
+
+**3. Despliegue de la Aplicación Móvil**
+
+Tal como en el sprint anterior, la compilación y prueba de la aplicación móvil se continuó realizando mediante el **emulador de Android Studio**.
+
+La actividad de despliegue clave en este sprint fue la **validación de la conectividad**:
+* Se actualizó la configuración de Retrofit (o el cliente HTTP) en la aplicación móvil para consumir el nuevo *endpoint* público del *backend* desplegado en Azure, en lugar de `localhost`.
+* Se validó la correcta ejecución de los flujos de `sign-in`, `sign-up` y la consulta de granjas contra el servidor en la nube.
+
+**Evidencia Visual:**
+![App móvil conectada a Azure][images/IMAGEN_DE_EMULADOR_CONECTADO_A_AZURE.jpeg]
 
 <div id='4.2.2.8.'><h5>4.2.2.8. Team Collaboration Insights during Sprint</h5></div>
 
