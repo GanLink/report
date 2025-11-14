@@ -1,4 +1,4 @@
-# Informe TP
+# Informe TB2
 <div align="center">
 
 <h3> Universidad Peruana de Ciencias Aplicadas </h3>
@@ -35,20 +35,23 @@ style="width:50%;" />
 
 ## Registro de versiones del informe
 
-| Versión |    Fecha   |              Autor              | Descripción de modificación                                   |
-| :-----: | :--------: | :-----------------------------: | ------------------------------------------------------------- |
-|   1.0   | 17/09/2025 |     Mora Blas, Diego Alonzo     | Creación del documento de trabajo en formato markdown         |
-|   1.1   | 18/09/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 1 del documento en formato markdown   |
-|   1.2   | 18/09/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 2 del documento en formato markdown   |
-|   1.3   | 18/09/2025 |    Huaman Hinostroza, Milenio   | Desarrollo del capítulo 2.5 del documento en formato markdown |
-|   1.4   | 09/10/2025 |       León Vivas, Fabrizio      | Desarrollo del capítulo 2.6 del documento en formato markdown |
-|   1.5   | 09/10/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 3.1 del documento en formato markdown |
-|   1.6   | 09/10/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 4.1 del documento en formato markdown |
-|   1.7   | 09/10/2025 | Mora Blas, Diego Alonzo         |    Desarrollo del capítulo 4.2 del documento en formato markdown |
+| Versión |    Fecha   |              Autor              | Descripción de modificación                                                                                                   |
+| :-----: | :--------: | :-----------------------------: | ----------------------------------------------------------------------------------------------------------------------------- |
+|   1.0   | 17/09/2025 |     Mora Blas, Diego Alonzo     | Creación del documento de trabajo en formato markdown                                                                         |
+|   1.1   | 18/09/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 1 del documento en formato markdown                                                                   |
+|   1.2   | 18/09/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 2 del documento en formato markdown                                                                   |
+|   1.3   | 18/09/2025 |    Huaman Hinostroza, Milenio   | Desarrollo del capítulo 2.5 del documento en formato markdown                                                                 |
+|   1.4   | 09/10/2025 |       León Vivas, Fabrizio      | Desarrollo del capítulo 2.6 del documento en formato markdown                                                                 |
+|   1.5   | 09/10/2025 |     Rodas Sotomayor, Ernesto    | Desarrollo del capítulo 3.1 del documento en formato markdown                                                                 |
+|   1.6   | 09/10/2025 | Guerrero Tomas, Nelson Fabrizio | Desarrollo del capítulo 4.1 del documento en formato markdown                                                                 |
+|   1.7   | 09/10/2025 |     Mora Blas, Diego Alonzo     | Desarrollo del capítulo 4.2 del documento en formato markdown                                                                 |
+|   1.8   | 28/10/2025 | Guerrero Tomas, Nelson Fabrizio | Incorporación inicial del Capítulo IV: Product Implementation & Validation con despliegue del backend y documentación técnica |
+|   1.9   | 05/11/2025 |     Rodas Sotomayor, Ernesto    | Actualización del Sprint 2, adición de resultados de validación, Conclusiones, Bibliografía y Anexos para la entrega TB2      |
+
 
 ## Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: https://github.com/GanLink
 
 **TB1**
 
@@ -65,7 +68,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: https://github.com/GanLink
 
 **TB1**
 
@@ -86,7 +89,17 @@ Se explican las ramas más prominentes:
 
 - **develop**: Se trata de la rama principal para el proceso del desarrollo del proyecto.
 
-Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
+**TB1**
+
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante      | Tareas Asignadas                                                                                                                                                                                 |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Ernesto Rodas   | Elaboración de la **Carátula**, actualización del **Registro de Versiones del Informe** y redacción de la sección **Project Report Collaboration Insights**.                                     |
+| Nelson Guerrero | **Capítulo I – Presentación**: desarrollo del perfil de la startup y solución propuesta, redacción del contexto y problema.                                                                      |
+| Milenio Huamán  | **Capítulo II – Requirements Development and Software Solution Design (parte 1)**: elaboración del análisis de requerimientos, entrevistas y definición de **User Personas** y **User Stories**. |
+| Diego Mora      | **Capítulo II – Requirements Development and Software Solution Design (parte 2)**: desarrollo de diagramas de arquitectura, **Context Mapping**, y **EventStorming**.                            |
+| Fabrizio León   | Integración de la sección **Student Outcome**, conclusiones preliminares, **Bibliografía** y **Anexos** del informe.                                                                             |
 
 **TP**
 
@@ -100,36 +113,27 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 | Diego Mora      | **Capítulo IV – 4.1 Software Configuration Management**: repos, convenciones (branching), CI/CD; evidencia de **backend al 70%** desplegado.                                                                         |
 | Fabrizio León   | **Capítulo IV – 4.2 Product Implementation & Validation (Sprint 1)**: plan y evidencias del Sprint 1 (backlog, burndown/velocity, increment), validación y testing; **Conclusiones**, **Bibliografía** y **Anexos**. |
 
-**TB1**
+**TB2**
 
-**Github Collaboration Insights**
+Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
-Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
-
-Los integrantes son:
-
-* Nelson Guerrero (Nelsoondev)
-* Ernesto Rodas (ernesto1718)
-* Milenio Huaman (Milenioupc)
-* Diego Mora (diegoalonzomora)
-* Fabrizio León (codylionvivo)
-
-Se explican las ramas más prominentes:
-
-- **main**: Se trata de la rama principal del proyecto y se actualiza para cada entregable.
-
-- **develop**: Se trata de la rama principal para el proceso del desarrollo del proyecto.
-
-Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
+| Integrante      | Tareas Asignadas                                                                                                                                                                                                    |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Ernesto Rodas   | Actualización final del **Registro de Versiones del Informe**, integración del **Sprint 2** y consolidación de **Conclusiones**, **Bibliografía** y **Anexos**.                                                     |
+| Nelson Guerrero | **Capítulo IV – 4.1 Software Configuration Management (actualización TB2)**: despliegue completo del backend en entorno público, documentación técnica y validación de los servicios implementados.                 |
+| Milenio Huamán  | **Capítulo IV – 4.2 Product Implementation & Validation (Sprint 2)**: elaboración de evidencias de desarrollo, pruebas de validación, registro de entrevistas y corrección de artefactos presentados en la TB1.     |
+| Diego Mora      | Elaboración del **video About-the-Product**, integrando la validación de las funcionalidades core y el proceso de testing del Sprint 2; colaboración en documentación del despliegue de la landing page.            |
+| Fabrizio León   | Elaboración del **video About-the-Team**, actualización de la documentación visual y soporte en la sección **Student Outcome** y **Project Report Collaboration Insights** con base en los resultados del Sprint 2. |
 
 ## Student Outcomes
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –EAC - Student Outcome 7.
 
-| Criterio específico                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Conclusiones                                                                                                                                                                                                                           |
-| -------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | **Ernesto Rodas** <br> TB1: Responsable del **Capítulo I** (Startup Profile, Solution Profile, Lean UX, Segmentos objetivo).  TP1: Responsable de colaborar en todas las areas que pudiera, tanto el UX design, landing page, etc.<br> **Nelson Guerrero** <br> TB1: Responsable de **Competidores (2.1)** y **Needfinding (2.3)**.  TP1: Se encargo de mockup, wireframes, flujos de trajo y colaboro en programacion.<br> **Milenio Huamán** <br> TB1: Responsable de **Entrevistas (2.2)** y **Requirements Specification (2.4)**.  TP1 : Responsable del bounded context bovinue donde aplico principios SOLID para generar endpoints estables.<br> **Diego Mora** <br> TB1: Responsable de **Strategic-Level DDD (2.5)** y **Tactical-Level DDD (2.6)**.    TP1 : Se encargo de liderar al equipo generando una comunicacion clara con objetivos definidos, ademas de trabajar tanto en el frontend como el backend.                                                   **Fabrizio Leon**         TP1: Complemento sus concocimientos de cursos anteriores para la integracion del backend en .NET en especial el bounded context IAM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Cada integrante desarrolló secciones específicas del documento, aplicando conceptos técnicos actualizados y orientados al desarrollo de soluciones de software en el marco del proyecto.                                               |
-| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software  | **Ernesto Rodas** <br> TB1: En su sección incorporó fundamentos actualizados sobre la startup y la solución digital. TP1: Demostró una mejora constante en el uso de herramientas de diseño mobile, aplicando principios de usabilidad y accesibilidad para la creación de interfaces intuitivas en la landing page. Se capacitó de forma autónoma en Figma para optimizar la experiencia del usuario en dispositivos móviles.<br> **Nelson Guerrero** <br> TB1: Investigó y contrastó información de competidores, aplicando metodologías de Needfinding. TP1: Fortaleció sus conocimientos en el diseño de interfaces responsivas, implementando wireframes y prototipos adaptables a distintos tamaños de pantalla. Investigó sobre patrones de navegación mobile y los aplicó en el flujo de usuario.<br> **Milenio Huamán** <br> TB1: Realizó entrevistas, recopiló evidencia y redactó la especificación de requerimientos. TP1: Continuó su aprendizaje en arquitecturas limpias aplicadas a entornos móviles, asegurando la integración eficiente entre backend y frontend. Buscó información sobre buenas prácticas de desarrollo modular en Kotlin y las aplicó en el bounded context de Bovinue.<br> **Diego Mora** <br> TB1: Desarrolló el modelado estratégico y táctico de DDD, aplicando buenas prácticas arquitectónicas.TP1: Reforzó sus conocimientos sobre la comunicación entre capas de la aplicación móvil, liderando la implementación del diseño responsive y la conexión con servicios backend. Promovió la actualización constante del equipo en metodologías ágiles y frameworks modernos.                  **Fabrizio León**  <br>TP1: Consolidó su aprendizaje previo en desarrollo backend aplicando nuevas prácticas de integración con aplicaciones móviles, especialmente en la autenticación y seguridad del usuario mediante el bounded context IAM. | El equipo demostró capacidad de aprendizaje continuo al integrar metodologías y herramientas modernas en el desarrollo del proyecto, reforzando la importancia de la actualización constante para responder a los retos profesionales. |
+| Criterio específico                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones                                                                                                                                                                                                                           |
+| -------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software | **Ernesto Rodas** <br> TB1: Responsable del **Capítulo I** (Startup Profile, Solution Profile, Lean UX, Segmentos objetivo). TP1: Responsable de colaborar en todas las áreas que pudiera, tanto el UX design, landing page, etc.<br> **TB2:** Actualización final del **Registro de Versiones del Informe**, integración del **Sprint 2** y consolidación de **Conclusiones**, **Bibliografía** y **Anexos**.<br><br> **Nelson Guerrero** <br> TB1: Responsable de **Competidores (2.1)** y **Needfinding (2.3)**. TP1: Se encargó de mockup, wireframes, flujos de trabajo y colaboró en programación.<br> **TB2:** Desarrollo de **Capítulo IV – 4.1 Software Configuration Management (actualización TB2)**: despliegue completo del backend en entorno público, documentación técnica y validación de los servicios implementados.<br><br> **Milenio Huamán** <br> TB1: Responsable de **Entrevistas (2.2)** y **Requirements Specification (2.4)**. TP1: Responsable del bounded context Bovinue donde aplicó principios SOLID para generar endpoints estables.<br> **TB2:** Desarrollo del **Capítulo IV – 4.2 Product Implementation & Validation (Sprint 2)**: evidencias de desarrollo, pruebas de validación y registro de entrevistas de verificación funcional.<br><br> **Diego Mora** <br> TB1: Responsable de **Strategic-Level DDD (2.5)** y **Tactical-Level DDD (2.6)**. TP1: Se encargó de liderar al equipo generando una comunicación clara con objetivos definidos, además de trabajar tanto en el frontend como en el backend.<br> **TB2:** Elaboración del **video About-the-Product**, integrando la validación de las funcionalidades core y el proceso de testing del Sprint 2; colaboración en la documentación del despliegue de la Landing Page.<br><br> **Fabrizio León** <br> TP1: Complementó sus conocimientos de cursos anteriores para la integración del backend en .NET, en especial el bounded context IAM.<br> **TB2:** Elaboración del **video About-the-Team**, actualización de la documentación visual y soporte en las secciones **Student Outcome** y **Project Report Collaboration Insights** basadas en los resultados del Sprint 2.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Cada integrante desarrolló secciones específicas del documento, aplicando conceptos técnicos actualizados y orientados al desarrollo de soluciones de software en el marco del proyecto.                                               |
+| Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software  | **Ernesto Rodas** <br> TB1: Incorporó fundamentos actualizados sobre la startup y la solución digital. TP1: Demostró una mejora constante en el uso de herramientas de diseño mobile, aplicando principios de usabilidad y accesibilidad para la creación de interfaces intuitivas en la landing page. Se capacitó de forma autónoma en Figma para optimizar la experiencia del usuario en dispositivos móviles.<br> **TB2:** Profundizó su aprendizaje en documentación técnica y metodologías ágiles, reforzando la capacidad de integrar resultados de Sprint 2 en el informe final de manera estructurada y colaborativa.<br><br> **Nelson Guerrero** <br> TB1: Investigó y contrastó información de competidores, aplicando metodologías de Needfinding. TP1: Fortaleció sus conocimientos en el diseño de interfaces responsivas, implementando wireframes y prototipos adaptables a distintos tamaños de pantalla. Investigó sobre patrones de navegación mobile y los aplicó en el flujo de usuario.<br> **TB2:** Amplió sus competencias en despliegue de backends públicos, aprendiendo sobre integración continua (CI/CD) y documentación de API para asegurar la trazabilidad del proyecto. Desarrolló habilidades de autoaprendizaje en DevOps y control de versiones colaborativas.<br><br> **Milenio Huamán** <br> TB1: Realizó entrevistas, recopiló evidencia y redactó la especificación de requerimientos. TP1: Continuó su aprendizaje en arquitecturas limpias aplicadas a entornos móviles, asegurando la integración eficiente entre backend y frontend. Buscó información sobre buenas prácticas de desarrollo modular en Kotlin y las aplicó en el bounded context de Bovinue.<br> **TB2:** Profundizó en técnicas de testing automatizado y validación funcional, empleando nuevas herramientas para asegurar la calidad del producto en Sprint 2 y reforzando la autoformación en validación de software. <br><br> **Diego Mora** <br> TB1: Desarrolló el modelado estratégico y táctico de DDD, aplicando buenas prácticas arquitectónicas. TP1: Reforzó sus conocimientos sobre la comunicación entre capas de la aplicación móvil, liderando la implementación del diseño responsive y la conexión con servicios backend. Promovió la actualización constante del equipo en metodologías ágiles y frameworks modernos.<br> **TB2:** Fortaleció su aprendizaje en gestión de equipos ágiles y en la documentación de entregables colaborativos, liderando la preparación del video **About-the-Product** y reforzando habilidades de presentación técnica profesional. <br><br> **Fabrizio León** <br> TP1: Consolidó su aprendizaje previo en desarrollo backend aplicando nuevas prácticas de integración con aplicaciones móviles, especialmente en la autenticación y seguridad del usuario mediante el bounded context IAM.<br> **TB2:** Amplió sus conocimientos en documentación visual colaborativa y en la creación de contenidos multimedia para difundir resultados técnicos del proyecto (Sprint 2), fortaleciendo su aprendizaje en comunicación profesional digital. | El equipo demostró capacidad de aprendizaje continuo al integrar metodologías y herramientas modernas en el desarrollo del proyecto, reforzando la importancia de la actualización constante para responder a los retos profesionales. |
+
 
 # Objetivos SMART
 
@@ -2363,7 +2367,7 @@ Asimismo, se registraron las tareas asignadas y la colaboración continua median
 | **Time** | 9:00 PM |
 | **Location** | Modalidad remota |
 | **Prepared By** | Diego Mora |
-| **Attendees (to planning meeting)** | Diego Mora, Ernesto Rodas, Milenko Huamán, Nelson Guerrero, Fabrizzio León |
+| **Attendees (to planning meeting)** | Diego Mora, Ernesto Rodas, Milenko Huamán, Nelson Guerrero, Fabrizio León |
 | **Sprint 0 Review Summary** | No aplica, al ser la primera iteración del proyecto. |
 | **Sprint 1 Retrospective Summary** | No aplica, al ser el primer sprint de desarrollo. |
 | **Sprint Goal & User Stories** |  |
@@ -2384,10 +2388,10 @@ Las actividades fueron gestionadas mediante **Trello**, lo que permitió dividir
 | **US01** | Contactar a la startup | **UT01** | Formulario de contacto | Diseñar y programar el formulario de contacto en la Landing Page para que los usuarios puedan enviar consultas al equipo de desarrollo. | 2 | Ernesto Rodas | Done |
 | **US02** | Obtener información de la aplicación | **UT02** | Secciones informativas | Agregar las secciones “Sobre Nosotros”, “Visión”, “Valores” y “Testimonios” en la Landing Page, mostrando la identidad y propósito del proyecto. | 3 | Nelson Guerrero | Done |
 | **US03** | Acceder a la aplicación desde la Landing Page | **UT03** | Botón de acceso | Incorporar un botón funcional que redirija al entorno de la aplicación móvil o web desarrollada. | 2 | Nelson Guerrero | Done |
-| **US04** | Registrar nuevo animal | **UT04** | Endpoint POST /api/animals | Implementar el servicio backend para registrar animales mediante API REST con validaciones básicas. | 4 | Fabrizzio León | Done |
-| **US05** | Buscar animal por ID | **UT05** | Endpoint GET /api/animals | Desarrollar el servicio backend que permite consultar animales registrados a partir de su identificador único. | 3 | Milenko Huamán | Done |
-| **US06** | Iniciar sesión | **UT06** | Autenticación de usuarios | Implementar la funcionalidad de inicio de sesión con validación de credenciales y generación de token JWT. | 4 | Fabrizzio León / Diego Mora | Done |
-| **US07** | Registrar vacunación | **UT07** | Módulo de vacunación | Desarrollar el módulo para registrar vacunas aplicadas a cada animal, registrando tipo, dosis y fecha de aplicación. | 3 | Diego Mora | Done |
+| **US04** | Registrar nuevo animal | **UT04** | Endpoint POST /api/animals | Implementar el servicio backend para registrar animales mediante API REST con validaciones básicas. | 4 | Fabrizio León | To do |
+| **US05** | Buscar animal por ID | **UT05** | Endpoint GET /api/animals | Desarrollar el servicio backend que permite consultar animales registrados a partir de su identificador único. | 3 | Milenko Huamán | To do |
+| **US06** | Iniciar sesión | **UT06** | Autenticación de usuarios | Implementar la funcionalidad de inicio de sesión con validación de credenciales y generación de token JWT. | 4 | Fabrizio León / Diego Mora | Done |
+| **US07** | Registrar vacunación | **UT07** | Módulo de vacunación | Desarrollar el módulo para registrar vacunas aplicadas a cada animal, registrando tipo, dosis y fecha de aplicación. | 3 | Diego Mora | To do |
 | **US08** | Registrar venta | **UT08** | Registro de transacciones | Implementar la funcionalidad de registro de ventas de animales, con validaciones de datos y actualización de inventario. | 3 | Milenko Huamán / Diego Mora | Done |
 
 <div id='4.2.1.3.'><h5>4.2.1.3. Development Evidence for Sprint Review</h5></div>
@@ -2416,7 +2420,7 @@ A continuación, se detallan los principales commits generados durante esta iter
 | **GanLink Report** | feature/chapter-4 | `db59737` | docs(implementation): add concise overview for Software Configuration Management | Incorporación de descripción general sobre la gestión de configuración del software y su propósito técnico. | 09/10/2025 |
 
 - **Diego Mora:** Estructuración del proyecto móvil, integración con backend (Hilt, Retrofit, Room).  
-- **Fabrizzio León:** Configuración de base de datos, dominios y controladores en backend.  
+- **Fabrizio León:** Configuración de base de datos, dominios y controladores en backend.  
 - **Milenko Huamán:** Creación de entidades de salud, métricas y autenticación en backend.  
 - **Ernesto Rodas:** Coordinación del despliegue documental y elaboración de informes técnicos.  
 - **Nelson Guerrero:** Diseño, estructura de la landing page y documentación visual (Figma, Markdown).
@@ -2565,8 +2569,329 @@ Cada integrante asumió responsabilidades específicas en la elaboración del in
 | **Rodas León, Ernesto** | Desarrollo del **Capítulo IV: Product Implementation & Validation**, incluyendo la configuración del entorno de desarrollo, control de versiones, estilo de código y documentación del Sprint 1. Responsable principal de la integración y revisión técnica del documento general. |
 | **Guerrero Tomás, Nelson Fabrizio** | Desarrollo de los apartados de **UI/UX Design y Capítulo III: Solution Information Architecture**, además de la estructura y redacción de la **Landing Page** en formato Markdown. Encargado del diseño en Figma, maquetación HTML/CSS y publicación en GitHub Pages. |
 | **Mora Blas, Diego Alonso** | Desarrollo de la **aplicación móvil Android**, implementando vistas, ViewModels, conexión con el backend mediante Retrofit, Room e inyección de dependencias con Hilt. Participó también en la integración de funcionalidades de registro y autenticación. |
-| **León Vivas, Fabrizzio** | Implementación del **backend** en .NET, diseño de dominios, repositorios y controladores. Creación de entidades como *Bovine*, *Farm* y *Audit*, además de la configuración de la base de datos y pruebas iniciales de los servicios API REST. |
+| **León Vivas, Fabrizio** | Implementación del **backend** en .NET, diseño de dominios, repositorios y controladores. Creación de entidades como *Bovine*, *Farm* y *Audit*, además de la configuración de la base de datos y pruebas iniciales de los servicios API REST. |
 | **Huamán Milenko** | Desarrollo de módulos de salud y métricas en el backend, contribuyendo a la lógica de negocio y la creación de agregados sanitarios y económicos. Implementó auditorías y validaciones internas dentro de los contextos delimitados. |
+
+
+<div id='4.2.2.'><h4>4.2.2. Sprint 2</h4></div>
+
+<div id='4.2.2.1.'><h5>4.2.2.1. Sprint Planning 2</h5></div>
+
+En el Sprint Planning 2, se documentaron las actividades de planificación, desarrollo y validación correspondientes a la segunda iteración del proyecto GanLink / AgroTracer.
+Durante esta fase, el equipo orientó sus esfuerzos a consolidar la arquitectura técnica del sistema, completando el backend funcional, fortaleciendo la integración con la base de datos MySQL, y desarrollando la interfaz móvil con mayor nivel de interactividad y conexión a servicios reales.
+Además, se incorporaron las actividades de validación del Sprint 1, ajustes en la Landing Page, y la preparación de los videos de entrega (About-the-Product y About-the-Team), evidenciando la evolución del producto hacia un entorno de despliegue estable y utilizable.
+La planificación y ejecución se realizaron bajo el enfoque ágil, empleando control de versiones colaborativo mediante GitHub, asegurando la trazabilidad y revisión continua de avances.
+
+| Sprint #                            | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ----------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**      | Segunda iteración del proyecto orientada a la implementación y validación integral del sistema GanLink / AgroTracer.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Date**                            | 28 de octubre de 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Time**                            | 9:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Location**                        | Modalidad remota                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Prepared By**                     | Diego Mora                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Attendees (to planning meeting)** | Diego Mora, Ernesto Rodas, Milenio Huamán, Nelson Guerrero, Fabrizio León                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sprint 1 Review Summary**         | Se completó el despliegue funcional de la Landing Page y la estructura inicial del backend. Se documentaron las tareas en GitHub y se validaron los primeros artefactos del sistema.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Sprint 1 Retrospective Summary**  | Se identificó la necesidad de mejorar la integración entre frontend y backend, optimizar la comunicación de commits en GitHub y reforzar la validación entre artefactos técnicos y documentación.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Sprint Goal & User Stories**      | **Objetivo:** consolidar la arquitectura funcional y exponer servicios reales consumidos por la app móvil. <br><br> **Historias de usuario seleccionadas:** <br> • **US04 – Registrar nuevo animal:** como ganadero, quiero agregar animales al sistema para mantener un inventario digital. <br> • **US05 – Buscar animal por ID:** como ganadero, quiero consultar un animal por su identificador para ver su ficha completa. <br> • **US07 – Registrar evento sanitario:** como ganadero, quiero registrar vacunas/partos para mantener el historial clínico. <br> • **US09 – Agregar control de peso/crecimiento:** como ganadero, quiero guardar el peso para monitorear la evolución. <br> • **US10 – Configurar alertas (sanidad/visitas):** como ganadero, quiero recibir recordatorios para no omitir atenciones. |
+| **Sprint Goal 2**                   | Consolidar la capa de servicios del backend en .NET con conexión MySQL; implementar endpoints para registro/búsqueda de animales y eventos; integrar la app móvil (Kotlin) consumiendo dichos servicios; actualizar la Landing Page con evidencias de despliegue público; y preparar los videos **About-the-Product** y **About-the-Team**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Sprint Velocity 2**               | 15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sum of Story Points**             | 15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+<div id='4.2.2.2.'><h5>4.2.2.2. Sprint Backlog 2</h5></div>
+
+Durante el Sprint 2, el equipo de desarrollo elaboró el Sprint Backlog considerando las User Stories seleccionadas en el Sprint Planning 2, priorizando las que permitieran completar la integración total entre el backend, la base de datos MySQL y la aplicación móvil.
+El objetivo central fue consolidar la arquitectura del sistema y validar la funcionalidad en entornos reales mediante pruebas de despliegue y revisión colaborativa en GitHub.
+La gestión del progreso se realizó utilizando Trello, herramienta que permitió mantener una comunicación fluida, trazabilidad de tareas y control del estado de cada historia.                                                                                                                 
+| **User Story ID** | **User Story Title**          | **Work Item ID** | **Task Title**                                         | **Description**                                                                            | **Estimation (Hours)** | **Assigned To** | **Status**  |
+| ----------------- | ----------------------------- | ---------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------ | ---------------------- | --------------- | ----------- |
+| **US04**          | Registrar nuevo animal        | **UT09**         | Extensión POST /api/animals con validaciones avanzadas | Ampliar el servicio para control de errores y persistencia en MySQL.                       | 4                      | Fabrizio León   | Done        |
+| **US05**          | Buscar animal por ID          | **UT10**         | Optimización GET /api/animals/{id}                     | Optimizar consultas y añadir mecanismo de paginación en respuestas JSON.                   | 4                      | Milenio Huamán  | Done        |
+| **US07**          | Registrar evento sanitario    | **UT11**         | Módulo sanitario completo                              | Desarrollar la lógica de registro de vacunaciones con validación de campos obligatorios.   | 4                      | Diego Mora      | Done        |
+| **US09**          | Control de peso y crecimiento | **UT12**         | Módulo de peso animal                                  | Implementar formulario y endpoint para registrar peso y calcular promedios de crecimiento. | 4                      | Nelson Guerrero | In progress |
+| **US10**          | Alertas sanitarias / visitas  | **UT13**         | Módulo de recordatorios                                | Programar notificaciones automáticas para vacunas y controles veterinarios.                | 4                      | Ernesto Rodas   | In progress |
+
+<div id='4.2.2.3.'><h5>4.2.2.3. Development Evidence for Sprint Review (Sprint 2)</h5></div>
+
+Durante el Sprint 2, el equipo avanzó en la implementación integral del sistema GanLink / AgroTracer, incluyendo mejoras en la aplicación móvil, servicios backend, refinamiento del diseño visual, ajustes de autenticación y actualización de la documentación técnica.
+Los integrantes participaron activamente dentro de sus repositorios asignados, logrando un incremento en el nivel de madurez del producto y consolidando la integración entre los distintos componentes de la arquitectura.
+
+A continuación, se presenta la tabla de commits relevantes del Sprint 2, organizada por repositorio, rama, autor e información técnica asociada.
+
+| **Repository**                     | **Branch**    | **Commit ID** | **Commit Message**                                                        | **Commit Message Body**                                                                           | **Author**                | **Committed On (Date)** |
+| ---------------------------------- | ------------- | ------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------- | ----------------------- |
+| **GanLink Mobile App (Flutter)**   | auth/feature  | `9d0c789`     | feat(auth): fix the logout functionality                                  | Corrección del proceso de cierre de sesión asegurando limpieza del estado y token JWT.            | CodyLionVivo (Diego Mora) | 11/11/2025              |
+| **GanLink Mobile App (Flutter)**   | auth/feature  | `baf33d8`     | feat: implement Week 2 - AuthBloc global state & auto-login with GoRouter | Manejo global de sesión y flujo de auto-login.                                                    | CodyLionVivo (Diego Mora) | 11/11/2025              |
+| **GanLink Mobile App (Flutter)**   | ui/feature    | `7128799`     | feat(auth): improve login and register UI design                          | Refinamiento visual y mejoras de validación del módulo Login/Register.                            | CodyLionVivo (Diego Mora) | 10/11/2025              |
+| **GanLink Mobile App (Flutter)**   | mobile/bovine | `7fa2bd1`     | feat(bovine): implement bovine list view & detail page                    | Implementación de listado y vista de detalle de bovinos consumiendo servicios reales del backend. | CodyLionVivo (Diego Mora) | 10/11/2025              |
+| **GanLink Backend (.NET)**         | develop       | `84ec52b`     | feat: Create Aggregates                                                   | Implementación de agregados base para el dominio ganadero.                                        | Fabrizio León            | 29/09/2025              |
+| **GanLink Backend (.NET)**         | develop       | `bac5c53`     | feat(domain): add Bovine entity                                           | Creación de entidad Bovine y relación FarmId.                                                     | Fabrizio León            | 30/09/2025              |
+| **GanLink Backend (.NET)**         | develop       | `ca92dd4`     | feat(api): add vaccination endpoints                                      | Implementación de endpoints REST para registrar vacunas con validación de reglas sanitarias.      | Milenko Huamán            | 06/10/2025              |
+| **GanLink Backend (.NET)**         | develop       | `4cb9a11`     | feat(api): add weight tracking endpoints                                  | Endpoint para almacenar y consultar métricas de peso/crescimiento.                                | Milenko Huamán            | 07/10/2025              |
+| **GanLink Backend (.NET)**         | develop       | `725b518`     | feat(farm-management): update IAM bounded context                         | Ajustes del contexto IAM para integración con móvil.                                              | Fabrizio León            | 06/10/2025              |
+| **GanLink Backend (.NET)**         | develop       | `3e1af99`     | fix(api): improve animal lookup by ID                                     | Optimización del método GET con validación de estados.                                            | Diego Mora                | 08/10/2025              |
+| **GanLink Landing Page**           | main          | `a83f903`     | feat(ui): add product sections and responsive layout                      | Adición de secciones del producto, visión, valores y ajustes responsivos.                         | Nelson Guerrero           | 04/10/2025              |
+| **GanLink Landing Page**           | main          | `c31bd22`     | feat(ui): add contact form and validation                                 | Implementación del formulario de contacto con validación y despliegue en GitHub Pages.            | Ernesto Rodas             | 04/10/2025              |
+| **GanLink Landing Page**           | main          | `9e72bb4`     | chore: update assets and icons for consistency                            | Actualización de imágenes, íconos y estilos para la presentación del Sprint 2.                    | Nelson Guerrero           | 05/10/2025              |
+| **GanLink Documentation (report)** | main          | `298f89a`     | docs: update Sprint 2 story points in planning section                    | Actualización de Story Points del Sprint 2.                                                       | Ernesto Rodas             | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `3cd4ce5`     | docs: add complete Sprint 2 planning and user stories section             | Inclusión total de la planificación del Sprint 2.                                                 | Ernesto Rodas             | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `c74dd78`     | docs: add glossary section with additional technical terms                | Expansión del glosario técnico.                                                                   | Ernesto Rodas             | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `c995a30`     | docs: add video subtitles                                                 | Adición de subtítulos para los videos obligatorios.                                               | Ernesto Rodas             | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `b37ac11`     | docs: add UI/UX refinement notes for Sprint 2                             | Documentación técnica de cambios visuales en la app.                                              | Nelson Guerrero           | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `f91ae72`     | docs: add backend integration notes for Sprint 2                          | Evidencia técnica de integración entre backend y móvil.                                           | Milenko Huamán            | 13/11/2025              |
+
+| Integrante          | Tipo de commits realizados                                           |
+| ------------------- | -------------------------------------------------------------------- |
+| **Fabrizio León**      | Flutter: UI, autenticación, integración con backend, Bloc, GoRouter. |
+| **Diego Mora**  | Backend: dominios, agregados, IAM, arquitectura.                     |
+| **Milenio Huamán**  | Backend: endpoints sanitarios, métricas, validaciones.               |
+| **Nelson Guerrero** | Landing Page: diseño, responsive, assets; Documentación UI/UX.       |
+| **Ernesto Rodas**   | Documentación TB2: planificación, glosario, conclusiones, tablas.    |
+
+<div id='4.2.2.4.'><h5>4.2.2.4. Testing Suite Evidence for Sprint Review</h5></div>
+
+En esta sección se presenta la evidencia de pruebas realizadas durante el Sprint 2, incluyendo Unit Tests, Integration Tests y Acceptance Tests, ejecutados sobre los servicios API del backend y las funcionalidades móviles desarrolladas en Kotlin. Las pruebas permitieron validar endpoints, flujos de registro, autenticación, vistas funcionales y reglas de negocio implementadas en esta iteración.
+
+| **Repository**                     | **Branch** | **Commit ID** | **Commit Message**                                                 | **Commit Message Body**                                              | **Author**         | **Committed On** |
+| ---------------------------------- | ---------- | ------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------ | ---------------- |
+| **GanLink Backend (.NET)**         | develop    | `c59f0c0`     | chore: added endpoint on service for create a bovine               | Endpoint usado para pruebas de creación (Unit & Integration Tests).  | **Diego Mora**     | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `b75602b`     | chore: create service and repository for BovineSystem              | Base utilizada en pruebas de integración para CRUD de bovinos.       | **Milenio Huamán** | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `8a2ff80`     | chore: update project                                              | Correcciones aplicadas tras ejecutar pruebas de regresión.           | **Diego Mora**     | 11/11/2025       |
+| **GanLink Backend (.NET)**         | develop    | `ea8281f`     | chore: add dao resources and farm management get info from backend | DAO utilizados para pruebas de acceso a datos en granjas.            | **Milenio Huamán** | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `8afaeec`     | chore: add dao resources and farm management get info from backend | Complemento para pruebas de integración (Farm → Bovine).             | **Diego Mora**     | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `7634a77`     | chore: change xml connection to localhost                          | Ajuste requerido para correr Integration Tests en entorno local.     | **Diego Mora**     | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `52130b0`     | chore: add xml connection to backend                               | Configuración final para ejecución de pruebas contra DB local.       | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Mobile App (Kotlin)**    | main       | `ca924e4`     | chore: add farm and bovines views                                  | Vistas utilizadas en pruebas de navegación y validación de UI.       | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Mobile App (Kotlin)**    | main       | `d0bb54d`     | chore: create farm add views                                       | Vistas base utilizadas en pruebas funcionales del flujo de registro. | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Mobile App (Kotlin)**    | main       | `2ff2dfe`     | feat: add login functionality                                      | Funcionalidad probada en tests de autenticación móvil.               | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Mobile App (Kotlin)**    | main       | `c93eb92`     | feat: user register feature connected to backend                   | Validado mediante pruebas de integración móvil ↔ backend.            | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Documentation (report)** | main       | `6d9b731`     | docs(testing): add testing suite evidence                          | Inclusión de evidencia de pruebas y commits técnicos del equipo.     | **Ernesto Rodas**  | 18/10/2025       |
+
+Durante el Sprint 2, se llevaron a cabo actividades de verificación y validación orientadas a garantizar la calidad del código implementado en los módulos de backend y aplicación móvil desarrollada en Kotlin. Las pruebas se ejecutaron de manera sistemática sobre los servicios expuestos, la lógica interna y las vistas funcionales, buscando asegurar consistencia, confiabilidad y conformidad con los requisitos establecidos en las historias de usuario del sprint.
+
+Unit Tests – Backend (.NET): Los casos de prueba unitarios estuvieron enfocados en componentes internos del dominio y servicios principales del sistema. Entre los comportamientos evaluados destacan: validación de la creación de entidades del dominio, particularmente el registro de bovinos mediante el servicio BovineService; verificación del funcionamiento de los repositorios y DAO utilizados para la gestión de información relacionada con granjas y animales; y pruebas sobre las reglas de negocio asociadas a la sanidad animal, incluyendo validaciones de datos requeridos y restricciones de consistencia.
+
+Integration Tests – Backend (.NET): Se diseñaron y ejecutaron pruebas de integración orientadas a validar la interacción entre los servicios REST y la base de datos. Estas pruebas permitieron comprobar la correcta ejecución de operaciones CRUD de animales y granjas, la respuesta de los endpoints bajo distintos escenarios de datos, la estabilidad de la conexión y el manejo de errores en entorno local, además de la correcta integración entre los módulos internos involucrados en procesos productivos.
+
+Acceptance Tests – Aplicación Móvil (Kotlin): Las pruebas de aceptación se centraron en validar el comportamiento funcional de la aplicación móvil desde la perspectiva del usuario. Se verificó el flujo completo de autenticación (inicio de sesión y registro) consumiendo servicios reales del backend, el funcionamiento del registro de bovinos con navegación y persistencia temporal, así como la integración de las vistas principales con la lógica del ViewModel.
+
+Testing de Interfaces (Android Instrumentation Tests): Se ejecutaron pruebas enfocadas en la interacción del usuario con las vistas, evaluando la validación de campos requeridos, la navegación entre pantallas mediante Jetpack Navigation y la consistencia visual y funcional de las vistas implementadas (Login, Register, Farm, Bovine).
+
+En conjunto, estas actividades de testing contribuyeron a garantizar la estabilidad del sistema durante el Sprint 2, fortaleciendo la calidad técnica del producto y proporcionando una base sólida para futuras iteraciones de desarrollo.
+
+Introducción a los archivos Gherkin (.feature)
+
+En el marco del Sprint 2, se implementó un conjunto de pruebas de aceptación bajo el enfoque Behavior-Driven Development (BDD) utilizando el lenguaje Gherkin, con el propósito de validar el comportamiento funcional del sistema desde la perspectiva del usuario final.
+Los archivos .feature describen, de manera legible tanto para perfiles técnicos como no técnicos, el funcionamiento esperado de los servicios y flujos principales del sistema GanLink, alineados con las User Stories priorizadas para esta iteración.
+
+Cada archivo Gherkin contiene:
+
+La Feature, que describe la capacidad o comportamiento general del sistema.
+
+Los Escenarios (Scenarios), definidos bajo el formato Given–When–Then, que representan casos de uso concretos.
+
+Un Background cuando existe un contexto común previo a los escenarios.
+
+La relación directa entre cada Feature y su correspondiente User Story (US04 – US10).
+
+## US04 - Registrar nuevo animal
+
+Feature: Registrar un nuevo animal en el sistema
+  Como ganadero
+  Quiero agregar animales al sistema
+  Para mantener un inventario digital actualizado
+
+  Background:
+    Given que el ganadero está autenticado correctamente
+
+  Scenario: Registro exitoso de un bovino con datos válidos
+    When el usuario envía los datos correctos del bovino
+    Then el sistema registra el animal satisfactoriamente
+    And devuelve un mensaje de confirmación
+
+  Scenario: Registro fallido por datos incompletos
+    When el usuario envía un formulario con campos vacíos
+    Then el sistema rechaza el registro
+    And muestra un mensaje indicando los campos faltantes
+
+## US05 - Buscar animal por ID
+
+Feature: Consultar un animal por su identificador
+  Como ganadero
+  Quiero buscar un animal por su ID
+  Para visualizar su ficha técnica completa
+
+  Background:
+    Given que el ganadero tiene animales registrados
+
+  Scenario: Búsqueda exitosa de un animal existente
+    When el usuario consulta el ID de un bovino existente
+    Then el sistema muestra toda su información registrada
+
+  Scenario: Búsqueda fallida de un ID inexistente
+    When el usuario consulta un ID que no está registrado
+    Then el sistema informa que el animal no existe
+
+
+## US07 - Registrar evento sanitario
+Feature: Registrar eventos de salud del bovino
+  Como ganadero
+  Quiero registrar vacunas o partos
+  Para mantener actualizado el historial clínico del animal
+
+  Background:
+    Given que el animal se encuentra registrado correctamente
+
+  Scenario: Registrar una vacunación válida
+    When el usuario registra el tipo de vacuna, dosis y fecha válida
+    Then el sistema almacena el evento sanitario
+    And actualiza el historial clínico
+
+  Scenario: Registrar un evento sanitario con fecha inválida
+    When el usuario ingresa una fecha en el futuro
+    Then el sistema rechaza el evento
+    And muestra un mensaje indicando que la fecha no es válida
+
+
+## US09 - Registrar control de peso / crecimiento
+Feature: Registrar control de peso del animal
+  Como ganadero
+  Quiero guardar el peso del bovino
+  Para monitorear su crecimiento y estado general
+
+  Background:
+    Given que el animal está registrado en el sistema
+
+  Scenario: Registrar un peso correcto
+    When el usuario ingresa el peso actual del bovino
+    Then el sistema guarda el registro de peso
+    And se actualiza el historial de crecimiento
+
+  Scenario: Intento fallido por valores fuera de rango
+    When el usuario ingresa un peso negativo o no numérico
+    Then el sistema rechaza el registro
+    And muestra un mensaje de error sobre el valor ingresado
+
+
+## US10 - Configurar alertas sanitarias / visitas
+Feature: Configuración de alertas sanitarias
+  Como ganadero
+  Quiero recibir recordatorios sobre vacunas o visitas
+  Para no omitir atenciones importantes
+
+  Background:
+    Given que el sistema cuenta con información sanitaria del animal
+
+  Scenario: Configurar alerta correctamente
+    When el usuario establece una fecha y motivo de alerta válidos
+    Then el sistema registra la alerta
+    And queda programado el recordatorio
+
+  Scenario: Error al configurar alerta con datos inválidos
+    When el usuario no ingresa fecha o motivo
+    Then el sistema rechaza la configuración
+    And muestra un mensaje indicando la información faltante
+
+<div id='4.2.2.5.'><h5>4.2.2.5. Execution Evidence for Sprint Review</h5></div>
+
+En este Sprint 2, el equipo se enfocó en la finalización y consolidación de las funcionalidades centrales del sistema. Se logró completar al 100% las historias de usuario planificadas para la aplicación móvil, implementadas en Android Studio, asegurando que los flujos de usuario principales estén operativos.
+
+Paralelamente, se alcanzó el 100% de la implementación del backend. Este trabajo no solo consistió en finalizar los endpoints y servicios pendientes, sino que también incluyó un proceso de actualización y refactorización de los componentes existentes para optimizar el rendimiento y la estabilidad de la API.
+
+Mejora de las configuracion de la app en Android Studio
+![Configuraciones de la granja](https://raw.githubusercontent.com/GanLink/report/main/images/Configuraciones%20de%20la%20granja%20MODO%20OSCURO.jpeg)
+![Granja feature modo oscuro](https://raw.githubusercontent.com/GanLink/report/main/images/granja%20feature%20modo%20oscuro.jpeg)
+
+<div id='4.2.2.6.'><h5>4.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
+
+En el Sprint 2, el equipo de desarrollo se centró en la finalización y consolidación de los servicios backend. Se logró completar al 100% la implementación de la API, asegurando que todos los Bounded Contexts (Authorization, User, Bovinue, BovinueHealthRecord y BovinueMetric) estén totalmente operativos.
+
+Siguiendo los requisitos de la entrega TB2, el backend y su documentación OpenAPI (Swagger) se han desplegado en un sitio público, garantizando su disponibilidad y permitiendo la validación y el consumo por parte de la aplicación móvil.
+
+A continuación, se presenta la evidencia de la documentación completa de la API, que abarca todos los endpoints del sistema:
+
+Figura 1: Endpoints de Authorization, Bovinue y BovinueHealthRecord (Esta captura muestra los servicios para la gestión de autenticación, el registro de bovinos y el inicio de los registros de salud)
+![Endpoints 1](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/endpoints%201.jpeg)
+
+Figura 2: Endpoints de BovinueHealthRecord y BovinueMetric (Esta captura detalla los servicios restantes para el historial de salud y la gestión de métricas de los bovinos)
+![Endpoints 2](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/endpoints%202.jpeg)
+
+Figura 3: Endpoints de User API y Schemas (Esta captura muestra los servicios para la gestión de usuarios y los esquemas de datos (DTOs) utilizados en la API)
+![Endpoints 3](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/endpoints%203.jpeg)
+
+**Detalle de Endpoints Clave (Sprint 2)**
+
+| API | Verbo HTTP | Ruta (Sintaxis) | Parámetros (Request) | Respuesta (Ejemplo) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Authorization** | POST | `/api/v1/Authorization/sign-in` | `SignInResource` (Body) | `200 OK` (Token JWT) |
+| **Authorization** | POST | `/api/v1/Authorization/sign-up` | `SignUpResource` (Body) | `201 Created` (UserResource) |
+| **Bovinue** | POST | `/api/v1/Bovinue` | `CreateBovinueResource` (Body) | `201 Created` (BovinueResource) |
+| **Bovinue** | GET | `/api/v1/Bovinue/farm/{farmId}` | `farmId` (Path) | `200 OK` (Lista de BovinueResource) |
+| **BovinueMetric** | POST | `/api/v1/BovinueMetric` | `CreateBovinueMetric` (Body) | `201 Created` (BovinueMetricResource) |
+| **BovinueMetric** | GET | `/api/v1/BovinueMetric/{id}` | `id` (Path) | `200 OK` (BovinueMetricResource) |
+| **User API** | GET | `/api/v1/User/{id}/farms` | `id` (Path) | `200 OK` (Lista de FarmResource) |
+
+<div id='4.2.2.7.'><h5>4.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+Durante el Sprint 2, el equipo avanzó significativamente en la estrategia de despliegue, cumpliendo con el requisito de la entrega TB2 de tener un *backend* 100% desplegado en un sitio público. El hito principal fue la migración de los Servicios Web (API REST) desde el entorno local (usado en Sprint 1) a una infraestructura pública en la nube de **Microsoft Azure**.
+
+Paralelamente, la Landing Page fue refactorizada y migrada a **Netlify** para un despliegue continuo, y se validó la conexión de la aplicación móvil con el nuevo *backend* público.
+
+---
+
+**1. Despliegue de la Landing Page (Mejorado)**
+
+En este sprint, la Landing Page fue refactorizada para optimizar su rendimiento, semántica (HTML5) y diseño responsivo, como se evidencia en el nuevo código fuente. Además, el despliegue se migró de GitHub Pages a **Netlify**, una plataforma que facilita la integración y el despliegue continuo (CI/CD) directamente desde el repositorio.
+
+* **Enlace del despliegue (Netlify):** `https://ganlink-landing.netlify.app/`
+* **Evidencia Visual:**
+
+![IMAGEN DE LA NUEVA LANDING PAGE](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/IMAGEN_DE_LA_NUEVA_LANDING_PAGE.png)
+
+---
+
+**2. Despliegue de los Servicios Web (Backend en Azure)**
+
+Cumpliendo con el objetivo central del Sprint 2, el *backend* se desplegó en un entorno de nube público en **Microsoft Azure**. Se optó por un modelo IaaS (Infrastructure as a Service) configurando una **Máquina Virtual (VM)** para alojar la API de ASP.NET Core 8.0.
+
+Las actividades ejecutadas fueron:
+* Provisión de un Grupo de Recursos (`BackendGanLink_group`) en Azure.
+* Configuración de una Máquina Virtual (`BackendGanLink`) como servidor.
+* Configuración de una Red Virtual (`BackendGanLink-vnet`) con una IP pública (`BackendGanLink-ip`) y un Grupo de Seguridad (`BackendGanLink-nsg`) para gestionar el tráfico de la API.
+* Instalación del entorno .NET y despliegue de la API y su documentación Swagger en la VM.
+
+**Evidencia Visual (Portal de Azure):**
+
+![Portal de Azure](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/Portal%20de%20Azure.png)
+
+---
+
+**3. Despliegue de la Aplicación Móvil**
+
+Tal como en el sprint anterior, la compilación y prueba de la aplicación móvil se continuó realizando mediante el **emulador de Android Studio**.
+
+La actividad de despliegue clave en este sprint fue la **validación de la conectividad**:
+* Se actualizó la configuración de Retrofit (o el cliente HTTP) en la aplicación móvil para consumir el nuevo *endpoint* público del *backend* desplegado en Azure, en lugar de `localhost`.
+* Se validó la correcta ejecución de los flujos de `sign-in`, `sign-up` y la consulta de granjas contra el servidor en la nube.
+
+**Evidencia Visual:**
+
+![Emulador conectado a Azure](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/IMAGEN_DE_EMULADOR_CONECTADO_A_AZURE.jpeg)
+
+
+<div id='4.2.2.8.'><h5>4.2.2.8. Team Collaboration Insights during Sprint</h5></div>
+
+Durante el Sprint 2, el equipo fortaleció el trabajo colaborativo mediante el uso integrado de GitHub (control de versiones), Trello (gestión de tareas) y comunicación sincrónica a través de Zoom y Discord. Cada integrante asumió responsabilidades técnicas alineadas con su dominio de especialización, garantizando la consolidación del backend, la evolución de la aplicación móvil, la actualización de la Landing Page y la ampliación del informe técnico para la entrega TB2.
+
+Se priorizó una coordinación continua entre backend y aplicación móvil, permitiendo validar los endpoints implementados y fortalecer la arquitectura de servicios. Asimismo, se reforzó la revisión cruzada de commits, asegurando buenas prácticas de versionamiento, claridad en mensajes de commit y coherencia entre artefactos.
+
+A continuación, se detallan las actividades colaborativas realizadas por cada miembro del equipo:
+
+| **Alumno** | **Actividad** |
+|-----------|----------------|
+| **Rodas León, Ernesto** | Responsable de la documentación del **Capítulo IV – Product Implementation & Validation**, incorporando planificación del Sprint 2, actualización del glosario, conclusiones y estructura del reporte TB2. Gestionó commits en GitHub y mantuvo la coherencia técnica del documento. |
+| **Guerrero Tomás, Nelson Fabrizio** | Realizó ajustes en la **Landing Page**, depuración de assets e integración visual del producto. Contribuyó en documentación UI/UX y soporte visual dentro del informe. |
+| **Mora Blas, Diego Alonso** | Responsable del avance en el **backend (.NET)** durante el Sprint 2, implementando mejoras en endpoints, validaciones, auditorías y ajustes para la integración con la aplicación móvil. Coordinó pruebas funcionales de servicios. |
+| **León Vivas, Fabrizio** | Responsable del desarrollo de la **aplicación móvil (Flutter)**, implementando los módulos de autenticación, manejo de estado (Bloc), vistas principales y consumo de servicios REST. Validó integración con backend y realizó mejoras de UI. |
+| **Huamán Hinostroza, Milenio** | Contribuyó a la lógica de negocio en backend (.NET), ampliando funcionalidades de salud animal, métricas productivas y validaciones internas del dominio. Además, apoyó en la revisión del modelado y pruebas de servicios. |
 
 <div id='4.3.'><h3>4.3. Validation Interviews</h3></div>
 
@@ -2687,7 +3012,80 @@ Las recomendaciones fueron documentadas y priorizadas para ser atendidas en el s
 
 ## Conclusiones
 
-GanLink se ha consolidado como una solución tecnológica clave para modernizar la gestión ganadera, reemplazando los obsoletos sistemas manuales por una plataforma digital que centraliza el registro de animales, historial sanitario y transacciones económicas. Su implementación ha demostrado beneficios tangibles: mejora en la trazabilidad para cumplimiento normativo, reducción de pérdidas mediante alertas automatizadas, y acceso a datos en tiempo real para una toma de decisiones más informada. El uso de tecnologías como Kotlin, .NET y MySql aseguró un desarrollo escalable y adaptable a las necesidades cambiantes del sector. Este proyecto no solo optimiza procesos operativos, sino que también acerca la innovación tecnológica a los pequeños y medianos ganaderos, marcando un precedente para la transformación digital en la agricultura latinoamericana. Con potencial para incorporar inteligencia artificial e integraciones con blockchain en futuras iteraciones, GanLink sienta las bases para una ganadería más eficiente, sostenible y competitiva.
+Conclusiones y recomendaciones
+
+GanLink se ha consolidado como una plataforma integral para la digitalización del sector ganadero, reemplazando los procesos manuales por un sistema moderno que centraliza el registro de animales, el historial sanitario, la trazabilidad productiva y las transacciones económicas. Durante la fase TB2 (Sprint 2), el proyecto alcanzó un nivel de madurez técnica y funcional que refleja su potencial de impacto real en el sector agropecuario. La plataforma ha permitido evidenciar mejoras tangibles en la gestión operativa: reducción de pérdidas a través de alertas automatizadas, cumplimiento normativo mediante trazabilidad en tiempo real y optimización del proceso de toma de decisiones gracias al acceso inmediato a información estructurada y confiable.
+
+El desarrollo técnico de GanLink se sustentó en un stack tecnológico robusto y escalable: Kotlin para el desarrollo móvil, .NET para la capa de servicios backend y MySQL como base de datos relacional. Esta integración garantizó estabilidad, modularidad y posibilidad de expansión a nuevas funcionalidades. Además, el despliegue en entornos públicos y la validación de usuarios permitieron comprobar la eficiencia del sistema, su facilidad de uso y su valor práctico en la gestión diaria del productor ganadero.
+
+Desde una perspectiva académica y profesional, el proyecto consolidó competencias clave en ingeniería de software, diseño UX/UI, arquitectura limpia, control de versiones y metodologías ágiles, integrando teoría y práctica en un contexto real de innovación digital. Cada miembro del equipo contribuyó en etapas específicas del ciclo de vida del producto, demostrando la importancia del trabajo colaborativo y de la comunicación efectiva en proyectos tecnológicos de alcance social.
+
+GanLink representa una iniciativa pionera dentro del ámbito agroindustrial latinoamericano, al democratizar el acceso a la tecnología para pequeños y medianos ganaderos. En futuras iteraciones, se proyecta la incorporación de inteligencia artificial para la predicción sanitaria, analítica avanzada de datos para decisiones estratégicas y blockchain para la trazabilidad inmutable, fortaleciendo así su aporte a una ganadería inteligente, sostenible y competitiva, alineada con los principios de la agricultura 4.0.
+
+Recomendaciones
+
+Continuar fortaleciendo la fase de validación con usuarios reales del sector ganadero para optimizar la experiencia de uso y garantizar la adopción tecnológica.
+
+Ampliar la cobertura del sistema integrando módulos de gestión logística y control de alimentación animal, orientados a una supervisión integral de la producción.
+
+Implementar métricas de rendimiento y mantenimiento preventivo que aseguren la estabilidad del sistema en entornos de alta demanda.
+
+Promover la interoperabilidad con entidades gubernamentales y asociaciones ganaderas para mejorar el control sanitario y la trazabilidad nacional.
+
+Desarrollar un plan de escalabilidad técnica que contemple la incorporación de inteligencia artificial, blockchain y servicios en la nube para consolidar la sostenibilidad del producto en el largo plazo.
+
+## Video App Validation
+
+
+## Video About the product
+
+[**VIDEO**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQD8A6AJYeWQTqqZ6VDQhu-rAdibFXeiK-K3L4SqYS2rtnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NDNT0a)
+
+## Video About the team
+
+[**VIDEO**](https://upcedupe-my.sharepoint.com/personal/u20211b994_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211b994%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1acc0238%2D2005%2Dagrotracer%2Dabout%2Dthe%2Dteam%2Dsprint%2D2%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef2643f3f%2Dd60f%2D4e5b%2Db68f%2Dc3967de9f8d0)
+
+## Glosario
+En esta sección se definen los términos clave utilizados en el documento, proporcionando una comprensión clara de los conceptos técnicos y metodológicos. El glosario es esencial para asegurar que los lectores, ya sean técnicos o no, tengan acceso a las definiciones precisas de los términos que se emplean a lo largo del trabajo. Este espacio no solo sirve como referencia, sino que también facilita la comunicación y evita malentendidos, especialmente en documentos que abarcan temas complejos como la arquitectura de software, diseño de sistemas y metodologías de desarrollo.
+
+| Término / Acrónimo                                     | Definición                                                                                                                                                     |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| API (Application Programming Interface)                | Conjunto de funciones y procedimientos que permiten la comunicación e intercambio de datos entre diferentes aplicaciones o sistemas.                           |
+| Backend                                                | Parte del sistema que gestiona la lógica de negocio, las operaciones del servidor y la conexión con la base de datos.                                          |
+| Bounded Context                                        | Concepto de Domain-Driven Design (DDD) que define un límite lógico dentro del dominio donde un modelo tiene significado y consistencia propia.                 |
+| CI/CD (Continuous Integration / Continuous Deployment) | Prácticas que automatizan la integración de código, pruebas y despliegue en entornos de producción o prueba.                                                   |
+| CRUD (Create, Read, Update, Delete)                    | Operaciones básicas utilizadas en el manejo y persistencia de datos dentro de un sistema.                                                                      |
+| DDD (Domain-Driven Design)                             | Enfoque de diseño de software que centra la arquitectura del sistema en el modelo del dominio del negocio.                                                     |
+| DevOps                                                 | Conjunto de prácticas que integran desarrollo de software (Dev) y operaciones (Ops) para acortar el ciclo de vida del desarrollo y ofrecer entregas continuas. |
+| Frontend                                               | Parte visible del sistema con la que interactúa el usuario, desarrollada mediante tecnologías como HTML, CSS y JavaScript.                                     |
+| Git                                                    | Sistema de control de versiones distribuido utilizado para registrar cambios en el código fuente y facilitar la colaboración entre desarrolladores.            |
+| Kanban                                                 | Método de gestión visual del flujo de trabajo que permite organizar y priorizar tareas de desarrollo.                                                          |
+| Kotlin                                                 | Lenguaje de programación utilizado principalmente para el desarrollo de aplicaciones Android, reconocido por su sintaxis clara y seguridad de tipos.           |
+| Mockup                                                 | Representación visual de una interfaz que muestra el diseño final de una aplicación antes de su implementación.                                                |
+| MySQL                                                  | Sistema de gestión de bases de datos relacional de código abierto utilizado para almacenar y consultar información estructurada.                               |
+| Persona (User Persona)                                 | Representación ficticia de un tipo de usuario objetivo que ayuda a guiar las decisiones de diseño centradas en las necesidades del usuario real.               |
+| Prototipo (Prototype)                                  | Versión preliminar interactiva de una aplicación que permite validar la experiencia de usuario antes del desarrollo final.                                     |
+| Repository (Repositorio)                               | Espacio centralizado donde se almacena y gestiona el código fuente del proyecto.                                                                               |
+| Scrum                                                  | Metodología ágil que organiza el trabajo en ciclos cortos llamados sprints, fomentando la entrega incremental de valor.                                        |
+| Sprint                                                 | Periodo de tiempo determinado en Scrum durante el cual se desarrolla un conjunto específico de funcionalidades o tareas.                                       |
+| UI (User Interface)                                    | Conjunto de elementos gráficos y visuales con los que el usuario interactúa en una aplicación.                                                                 |
+| UX (User Experience)                                   | Experiencia general del usuario al interactuar con un producto digital, evaluada en términos de usabilidad, eficiencia y satisfacción.                         |
+| Wireframe                                              | Estructura esquemática que define la disposición de los elementos en una interfaz de usuario antes del diseño visual final.                                    |
+| Agile                                                  | Conjunto de principios y metodologías para el desarrollo de software que promueven la colaboración, la adaptación al cambio y la entrega continua de valor.    |
+| UML (Unified Modeling Language)                        | Lenguaje estándar para la representación gráfica de sistemas de software, utilizado para modelar procesos, clases y componentes.                               |
+| REST (Representational State Transfer)                 | Estilo de arquitectura de software que define cómo los servicios web deben estructurarse y comunicarse utilizando HTTP.                                        |
+| Endpoint                                               | Punto de conexión o URL en un servicio web que permite acceder a un recurso o ejecutar una operación específica.                                               |
+| JSON (JavaScript Object Notation)                      | Formato ligero de intercambio de datos que utiliza texto legible para representar objetos y estructuras de datos.                                              |
+| IDE (Integrated Development Environment)               | Entorno de desarrollo que agrupa herramientas para la programación, compilación, depuración y prueba del software.                                             |
+| MVP (Minimum Viable Product)                           | Versión mínima funcional de un producto que permite validar hipótesis y obtener retroalimentación temprana de los usuarios.                                    |
+| Repository Pattern                                     | Patrón de diseño que separa la lógica de acceso a datos del resto del sistema, promoviendo la independencia entre capas.                                       |
+| MVC (Model-View-Controller)                            | Patrón arquitectónico que separa la lógica de negocio, la interfaz de usuario y el control de flujo en componentes independientes.                             |
+| Heurísticas de Usabilidad                              | Conjunto de principios generales que guían el diseño de interfaces efectivas, centradas en la experiencia del usuario.                                         |
+| Testing Unitario                                       | Tipo de prueba que evalúa el correcto funcionamiento de unidades o componentes individuales del código.                                                        |
+| API RESTful                                            | Implementación de un servicio web basado en principios REST, orientado a la interoperabilidad entre sistemas mediante peticiones HTTP.                         |
+| Figma                                                  | Herramienta de diseño colaborativo utilizada para crear interfaces de usuario, prototipos y sistemas de diseño compartidos en la nube.                         |
+| CI (Continuous Integration)                            | Práctica que integra de manera continua los cambios de código en un repositorio compartido, permitiendo detectar errores tempranamente.                        |
+| Cloud Computing                                        | Modelo de prestación de servicios tecnológicos a través de Internet que permite el acceso bajo demanda a recursos de almacenamiento y procesamiento.           |
 
 
 ## Bibliografía
