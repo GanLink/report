@@ -2367,7 +2367,7 @@ Asimismo, se registraron las tareas asignadas y la colaboración continua median
 | **Time** | 9:00 PM |
 | **Location** | Modalidad remota |
 | **Prepared By** | Diego Mora |
-| **Attendees (to planning meeting)** | Diego Mora, Ernesto Rodas, Milenko Huamán, Nelson Guerrero, Fabrizzio León |
+| **Attendees (to planning meeting)** | Diego Mora, Ernesto Rodas, Milenko Huamán, Nelson Guerrero, Fabrizio León |
 | **Sprint 0 Review Summary** | No aplica, al ser la primera iteración del proyecto. |
 | **Sprint 1 Retrospective Summary** | No aplica, al ser el primer sprint de desarrollo. |
 | **Sprint Goal & User Stories** |  |
@@ -2388,9 +2388,9 @@ Las actividades fueron gestionadas mediante **Trello**, lo que permitió dividir
 | **US01** | Contactar a la startup | **UT01** | Formulario de contacto | Diseñar y programar el formulario de contacto en la Landing Page para que los usuarios puedan enviar consultas al equipo de desarrollo. | 2 | Ernesto Rodas | Done |
 | **US02** | Obtener información de la aplicación | **UT02** | Secciones informativas | Agregar las secciones “Sobre Nosotros”, “Visión”, “Valores” y “Testimonios” en la Landing Page, mostrando la identidad y propósito del proyecto. | 3 | Nelson Guerrero | Done |
 | **US03** | Acceder a la aplicación desde la Landing Page | **UT03** | Botón de acceso | Incorporar un botón funcional que redirija al entorno de la aplicación móvil o web desarrollada. | 2 | Nelson Guerrero | Done |
-| **US04** | Registrar nuevo animal | **UT04** | Endpoint POST /api/animals | Implementar el servicio backend para registrar animales mediante API REST con validaciones básicas. | 4 | Fabrizzio León | To do |
+| **US04** | Registrar nuevo animal | **UT04** | Endpoint POST /api/animals | Implementar el servicio backend para registrar animales mediante API REST con validaciones básicas. | 4 | Fabrizio León | To do |
 | **US05** | Buscar animal por ID | **UT05** | Endpoint GET /api/animals | Desarrollar el servicio backend que permite consultar animales registrados a partir de su identificador único. | 3 | Milenko Huamán | To do |
-| **US06** | Iniciar sesión | **UT06** | Autenticación de usuarios | Implementar la funcionalidad de inicio de sesión con validación de credenciales y generación de token JWT. | 4 | Fabrizzio León / Diego Mora | Done |
+| **US06** | Iniciar sesión | **UT06** | Autenticación de usuarios | Implementar la funcionalidad de inicio de sesión con validación de credenciales y generación de token JWT. | 4 | Fabrizio León / Diego Mora | Done |
 | **US07** | Registrar vacunación | **UT07** | Módulo de vacunación | Desarrollar el módulo para registrar vacunas aplicadas a cada animal, registrando tipo, dosis y fecha de aplicación. | 3 | Diego Mora | To do |
 | **US08** | Registrar venta | **UT08** | Registro de transacciones | Implementar la funcionalidad de registro de ventas de animales, con validaciones de datos y actualización de inventario. | 3 | Milenko Huamán / Diego Mora | Done |
 
@@ -2420,7 +2420,7 @@ A continuación, se detallan los principales commits generados durante esta iter
 | **GanLink Report** | feature/chapter-4 | `db59737` | docs(implementation): add concise overview for Software Configuration Management | Incorporación de descripción general sobre la gestión de configuración del software y su propósito técnico. | 09/10/2025 |
 
 - **Diego Mora:** Estructuración del proyecto móvil, integración con backend (Hilt, Retrofit, Room).  
-- **Fabrizzio León:** Configuración de base de datos, dominios y controladores en backend.  
+- **Fabrizio León:** Configuración de base de datos, dominios y controladores en backend.  
 - **Milenko Huamán:** Creación de entidades de salud, métricas y autenticación en backend.  
 - **Ernesto Rodas:** Coordinación del despliegue documental y elaboración de informes técnicos.  
 - **Nelson Guerrero:** Diseño, estructura de la landing page y documentación visual (Figma, Markdown).
@@ -2569,7 +2569,7 @@ Cada integrante asumió responsabilidades específicas en la elaboración del in
 | **Rodas León, Ernesto** | Desarrollo del **Capítulo IV: Product Implementation & Validation**, incluyendo la configuración del entorno de desarrollo, control de versiones, estilo de código y documentación del Sprint 1. Responsable principal de la integración y revisión técnica del documento general. |
 | **Guerrero Tomás, Nelson Fabrizio** | Desarrollo de los apartados de **UI/UX Design y Capítulo III: Solution Information Architecture**, además de la estructura y redacción de la **Landing Page** en formato Markdown. Encargado del diseño en Figma, maquetación HTML/CSS y publicación en GitHub Pages. |
 | **Mora Blas, Diego Alonso** | Desarrollo de la **aplicación móvil Android**, implementando vistas, ViewModels, conexión con el backend mediante Retrofit, Room e inyección de dependencias con Hilt. Participó también en la integración de funcionalidades de registro y autenticación. |
-| **León Vivas, Fabrizzio** | Implementación del **backend** en .NET, diseño de dominios, repositorios y controladores. Creación de entidades como *Bovine*, *Farm* y *Audit*, además de la configuración de la base de datos y pruebas iniciales de los servicios API REST. |
+| **León Vivas, Fabrizio** | Implementación del **backend** en .NET, diseño de dominios, repositorios y controladores. Creación de entidades como *Bovine*, *Farm* y *Audit*, además de la configuración de la base de datos y pruebas iniciales de los servicios API REST. |
 | **Huamán Milenko** | Desarrollo de módulos de salud y métricas en el backend, contribuyendo a la lógica de negocio y la creación de agregados sanitarios y económicos. Implementó auditorías y validaciones internas dentro de los contextos delimitados. |
 
 
@@ -2622,11 +2622,11 @@ A continuación, se presenta la tabla de commits relevantes del Sprint 2, organi
 | **GanLink Mobile App (Flutter)**   | auth/feature  | `baf33d8`     | feat: implement Week 2 - AuthBloc global state & auto-login with GoRouter | Manejo global de sesión y flujo de auto-login.                                                    | CodyLionVivo (Diego Mora) | 11/11/2025              |
 | **GanLink Mobile App (Flutter)**   | ui/feature    | `7128799`     | feat(auth): improve login and register UI design                          | Refinamiento visual y mejoras de validación del módulo Login/Register.                            | CodyLionVivo (Diego Mora) | 10/11/2025              |
 | **GanLink Mobile App (Flutter)**   | mobile/bovine | `7fa2bd1`     | feat(bovine): implement bovine list view & detail page                    | Implementación de listado y vista de detalle de bovinos consumiendo servicios reales del backend. | CodyLionVivo (Diego Mora) | 10/11/2025              |
-| **GanLink Backend (.NET)**         | develop       | `84ec52b`     | feat: Create Aggregates                                                   | Implementación de agregados base para el dominio ganadero.                                        | Fabrizzio León            | 29/09/2025              |
-| **GanLink Backend (.NET)**         | develop       | `bac5c53`     | feat(domain): add Bovine entity                                           | Creación de entidad Bovine y relación FarmId.                                                     | Fabrizzio León            | 30/09/2025              |
+| **GanLink Backend (.NET)**         | develop       | `84ec52b`     | feat: Create Aggregates                                                   | Implementación de agregados base para el dominio ganadero.                                        | Fabrizio León            | 29/09/2025              |
+| **GanLink Backend (.NET)**         | develop       | `bac5c53`     | feat(domain): add Bovine entity                                           | Creación de entidad Bovine y relación FarmId.                                                     | Fabrizio León            | 30/09/2025              |
 | **GanLink Backend (.NET)**         | develop       | `ca92dd4`     | feat(api): add vaccination endpoints                                      | Implementación de endpoints REST para registrar vacunas con validación de reglas sanitarias.      | Milenko Huamán            | 06/10/2025              |
 | **GanLink Backend (.NET)**         | develop       | `4cb9a11`     | feat(api): add weight tracking endpoints                                  | Endpoint para almacenar y consultar métricas de peso/crescimiento.                                | Milenko Huamán            | 07/10/2025              |
-| **GanLink Backend (.NET)**         | develop       | `725b518`     | feat(farm-management): update IAM bounded context                         | Ajustes del contexto IAM para integración con móvil.                                              | Fabrizzio León            | 06/10/2025              |
+| **GanLink Backend (.NET)**         | develop       | `725b518`     | feat(farm-management): update IAM bounded context                         | Ajustes del contexto IAM para integración con móvil.                                              | Fabrizio León            | 06/10/2025              |
 | **GanLink Backend (.NET)**         | develop       | `3e1af99`     | fix(api): improve animal lookup by ID                                     | Optimización del método GET con validación de estados.                                            | Diego Mora                | 08/10/2025              |
 | **GanLink Landing Page**           | main          | `a83f903`     | feat(ui): add product sections and responsive layout                      | Adición de secciones del producto, visión, valores y ajustes responsivos.                         | Nelson Guerrero           | 04/10/2025              |
 | **GanLink Landing Page**           | main          | `c31bd22`     | feat(ui): add contact form and validation                                 | Implementación del formulario de contacto con validación y despliegue en GitHub Pages.            | Ernesto Rodas             | 04/10/2025              |
