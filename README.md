@@ -2646,6 +2646,27 @@ A continuación, se presenta la tabla de commits relevantes del Sprint 2, organi
 | **Nelson Guerrero** | Landing Page: diseño, responsive, assets; Documentación UI/UX.       |
 | **Ernesto Rodas**   | Documentación TB2: planificación, glosario, conclusiones, tablas.    |
 
+<div id='4.2.2.5.'><h5>4.2.2.5. Execution Evidence for Sprint Review</h5></div>
+
+<div id='4.2.2.6.'><h5>4.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
+
+<div id='4.2.2.7.'><h5>4.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+<div id='4.2.2.8.'><h5>4.2.2.8. Team Collaboration Insights during Sprint</h5></div>
+
+Durante el Sprint 2, el equipo fortaleció el trabajo colaborativo mediante el uso integrado de GitHub (control de versiones), Trello (gestión de tareas) y comunicación sincrónica a través de Zoom y Discord. Cada integrante asumió responsabilidades técnicas alineadas con su dominio de especialización, garantizando la consolidación del backend, la evolución de la aplicación móvil, la actualización de la Landing Page y la ampliación del informe técnico para la entrega TB2.
+
+Se priorizó una coordinación continua entre backend y aplicación móvil, permitiendo validar los endpoints implementados y fortalecer la arquitectura de servicios. Asimismo, se reforzó la revisión cruzada de commits, asegurando buenas prácticas de versionamiento, claridad en mensajes de commit y coherencia entre artefactos.
+
+A continuación, se detallan las actividades colaborativas realizadas por cada miembro del equipo:
+
+| **Alumno** | **Actividad** |
+|-----------|----------------|
+| **Rodas León, Ernesto** | Responsable de la documentación del **Capítulo IV – Product Implementation & Validation**, incorporando planificación del Sprint 2, actualización del glosario, conclusiones y estructura del reporte TB2. Gestionó commits en GitHub y mantuvo la coherencia técnica del documento. |
+| **Guerrero Tomás, Nelson Fabrizio** | Realizó ajustes en la **Landing Page**, depuración de assets e integración visual del producto. Contribuyó en documentación UI/UX y soporte visual dentro del informe. |
+| **Mora Blas, Diego Alonso** | Responsable del avance en el **backend (.NET)** durante el Sprint 2, implementando mejoras en endpoints, validaciones, auditorías y ajustes para la integración con la aplicación móvil. Coordinó pruebas funcionales de servicios. |
+| **León Vivas, Fabrizio** | Responsable del desarrollo de la **aplicación móvil (Flutter)**, implementando los módulos de autenticación, manejo de estado (Bloc), vistas principales y consumo de servicios REST. Validó integración con backend y realizó mejoras de UI. |
+| **Huamán Hinostroza, Milenio** | Contribuyó a la lógica de negocio en backend (.NET), ampliando funcionalidades de salud animal, métricas productivas y validaciones internas del dominio. Además, apoyó en la revisión del modelado y pruebas de servicios. |
 
 <div id='4.3.'><h3>4.3. Validation Interviews</h3></div>
 
