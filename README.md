@@ -2648,6 +2648,148 @@ A continuación, se presenta la tabla de commits relevantes del Sprint 2, organi
 
 <div id='4.2.2.4.'><h5>4.2.2.4. Testing Suite Evidence for Sprint Review</h5></div>
 
+En esta sección se presenta la evidencia de pruebas realizadas durante el Sprint 2, incluyendo Unit Tests, Integration Tests y Acceptance Tests, ejecutados sobre los servicios API del backend y las funcionalidades móviles desarrolladas en Kotlin. Las pruebas permitieron validar endpoints, flujos de registro, autenticación, vistas funcionales y reglas de negocio implementadas en esta iteración.
+
+| **Repository**                     | **Branch** | **Commit ID** | **Commit Message**                                                 | **Commit Message Body**                                              | **Author**         | **Committed On** |
+| ---------------------------------- | ---------- | ------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------- | ------------------ | ---------------- |
+| **GanLink Backend (.NET)**         | develop    | `c59f0c0`     | chore: added endpoint on service for create a bovine               | Endpoint usado para pruebas de creación (Unit & Integration Tests).  | **Diego Mora**     | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `b75602b`     | chore: create service and repository for BovineSystem              | Base utilizada en pruebas de integración para CRUD de bovinos.       | **Milenio Huamán** | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `8a2ff80`     | chore: update project                                              | Correcciones aplicadas tras ejecutar pruebas de regresión.           | **Diego Mora**     | 11/11/2025       |
+| **GanLink Backend (.NET)**         | develop    | `ea8281f`     | chore: add dao resources and farm management get info from backend | DAO utilizados para pruebas de acceso a datos en granjas.            | **Milenio Huamán** | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `8afaeec`     | chore: add dao resources and farm management get info from backend | Complemento para pruebas de integración (Farm → Bovine).             | **Diego Mora**     | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `7634a77`     | chore: change xml connection to localhost                          | Ajuste requerido para correr Integration Tests en entorno local.     | **Diego Mora**     | 18/10/2025       |
+| **GanLink Backend (.NET)**         | develop    | `52130b0`     | chore: add xml connection to backend                               | Configuración final para ejecución de pruebas contra DB local.       | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Mobile App (Kotlin)**    | main       | `ca924e4`     | chore: add farm and bovines views                                  | Vistas utilizadas en pruebas de navegación y validación de UI.       | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Mobile App (Kotlin)**    | main       | `d0bb54d`     | chore: create farm add views                                       | Vistas base utilizadas en pruebas funcionales del flujo de registro. | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Mobile App (Kotlin)**    | main       | `2ff2dfe`     | feat: add login functionality                                      | Funcionalidad probada en tests de autenticación móvil.               | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Mobile App (Kotlin)**    | main       | `c93eb92`     | feat: user register feature connected to backend                   | Validado mediante pruebas de integración móvil ↔ backend.            | **Fabrizio León**  | 18/10/2025       |
+| **GanLink Documentation (report)** | main       | `6d9b731`     | docs(testing): add testing suite evidence                          | Inclusión de evidencia de pruebas y commits técnicos del equipo.     | **Ernesto Rodas**  | 18/10/2025       |
+
+Durante el Sprint 2, se llevaron a cabo actividades de verificación y validación orientadas a garantizar la calidad del código implementado en los módulos de backend y aplicación móvil desarrollada en Kotlin. Las pruebas se ejecutaron de manera sistemática sobre los servicios expuestos, la lógica interna y las vistas funcionales, buscando asegurar consistencia, confiabilidad y conformidad con los requisitos establecidos en las historias de usuario del sprint.
+
+Unit Tests – Backend (.NET): Los casos de prueba unitarios estuvieron enfocados en componentes internos del dominio y servicios principales del sistema. Entre los comportamientos evaluados destacan: validación de la creación de entidades del dominio, particularmente el registro de bovinos mediante el servicio BovineService; verificación del funcionamiento de los repositorios y DAO utilizados para la gestión de información relacionada con granjas y animales; y pruebas sobre las reglas de negocio asociadas a la sanidad animal, incluyendo validaciones de datos requeridos y restricciones de consistencia.
+
+Integration Tests – Backend (.NET): Se diseñaron y ejecutaron pruebas de integración orientadas a validar la interacción entre los servicios REST y la base de datos. Estas pruebas permitieron comprobar la correcta ejecución de operaciones CRUD de animales y granjas, la respuesta de los endpoints bajo distintos escenarios de datos, la estabilidad de la conexión y el manejo de errores en entorno local, además de la correcta integración entre los módulos internos involucrados en procesos productivos.
+
+Acceptance Tests – Aplicación Móvil (Kotlin): Las pruebas de aceptación se centraron en validar el comportamiento funcional de la aplicación móvil desde la perspectiva del usuario. Se verificó el flujo completo de autenticación (inicio de sesión y registro) consumiendo servicios reales del backend, el funcionamiento del registro de bovinos con navegación y persistencia temporal, así como la integración de las vistas principales con la lógica del ViewModel.
+
+Testing de Interfaces (Android Instrumentation Tests): Se ejecutaron pruebas enfocadas en la interacción del usuario con las vistas, evaluando la validación de campos requeridos, la navegación entre pantallas mediante Jetpack Navigation y la consistencia visual y funcional de las vistas implementadas (Login, Register, Farm, Bovine).
+
+En conjunto, estas actividades de testing contribuyeron a garantizar la estabilidad del sistema durante el Sprint 2, fortaleciendo la calidad técnica del producto y proporcionando una base sólida para futuras iteraciones de desarrollo.
+
+Introducción a los archivos Gherkin (.feature)
+
+En el marco del Sprint 2, se implementó un conjunto de pruebas de aceptación bajo el enfoque Behavior-Driven Development (BDD) utilizando el lenguaje Gherkin, con el propósito de validar el comportamiento funcional del sistema desde la perspectiva del usuario final.
+Los archivos .feature describen, de manera legible tanto para perfiles técnicos como no técnicos, el funcionamiento esperado de los servicios y flujos principales del sistema GanLink, alineados con las User Stories priorizadas para esta iteración.
+
+Cada archivo Gherkin contiene:
+
+La Feature, que describe la capacidad o comportamiento general del sistema.
+
+Los Escenarios (Scenarios), definidos bajo el formato Given–When–Then, que representan casos de uso concretos.
+
+Un Background cuando existe un contexto común previo a los escenarios.
+
+La relación directa entre cada Feature y su correspondiente User Story (US04 – US10).
+
+## US04 - Registrar nuevo animal
+
+Feature: Registrar un nuevo animal en el sistema
+  Como ganadero
+  Quiero agregar animales al sistema
+  Para mantener un inventario digital actualizado
+
+  Background:
+    Given que el ganadero está autenticado correctamente
+
+  Scenario: Registro exitoso de un bovino con datos válidos
+    When el usuario envía los datos correctos del bovino
+    Then el sistema registra el animal satisfactoriamente
+    And devuelve un mensaje de confirmación
+
+  Scenario: Registro fallido por datos incompletos
+    When el usuario envía un formulario con campos vacíos
+    Then el sistema rechaza el registro
+    And muestra un mensaje indicando los campos faltantes
+
+## US05 - Buscar animal por ID
+
+Feature: Consultar un animal por su identificador
+  Como ganadero
+  Quiero buscar un animal por su ID
+  Para visualizar su ficha técnica completa
+
+  Background:
+    Given que el ganadero tiene animales registrados
+
+  Scenario: Búsqueda exitosa de un animal existente
+    When el usuario consulta el ID de un bovino existente
+    Then el sistema muestra toda su información registrada
+
+  Scenario: Búsqueda fallida de un ID inexistente
+    When el usuario consulta un ID que no está registrado
+    Then el sistema informa que el animal no existe
+
+
+## US07 - Registrar evento sanitario
+Feature: Registrar eventos de salud del bovino
+  Como ganadero
+  Quiero registrar vacunas o partos
+  Para mantener actualizado el historial clínico del animal
+
+  Background:
+    Given que el animal se encuentra registrado correctamente
+
+  Scenario: Registrar una vacunación válida
+    When el usuario registra el tipo de vacuna, dosis y fecha válida
+    Then el sistema almacena el evento sanitario
+    And actualiza el historial clínico
+
+  Scenario: Registrar un evento sanitario con fecha inválida
+    When el usuario ingresa una fecha en el futuro
+    Then el sistema rechaza el evento
+    And muestra un mensaje indicando que la fecha no es válida
+
+
+## US09 - Registrar control de peso / crecimiento
+Feature: Registrar control de peso del animal
+  Como ganadero
+  Quiero guardar el peso del bovino
+  Para monitorear su crecimiento y estado general
+
+  Background:
+    Given que el animal está registrado en el sistema
+
+  Scenario: Registrar un peso correcto
+    When el usuario ingresa el peso actual del bovino
+    Then el sistema guarda el registro de peso
+    And se actualiza el historial de crecimiento
+
+  Scenario: Intento fallido por valores fuera de rango
+    When el usuario ingresa un peso negativo o no numérico
+    Then el sistema rechaza el registro
+    And muestra un mensaje de error sobre el valor ingresado
+
+
+## US10 - Configurar alertas sanitarias / visitas
+Feature: Configuración de alertas sanitarias
+  Como ganadero
+  Quiero recibir recordatorios sobre vacunas o visitas
+  Para no omitir atenciones importantes
+
+  Background:
+    Given que el sistema cuenta con información sanitaria del animal
+
+  Scenario: Configurar alerta correctamente
+    When el usuario establece una fecha y motivo de alerta válidos
+    Then el sistema registra la alerta
+    And queda programado el recordatorio
+
+  Scenario: Error al configurar alerta con datos inválidos
+    When el usuario no ingresa fecha o motivo
+    Then el sistema rechaza la configuración
+    And muestra un mensaje indicando la información faltante
+
 <div id='4.2.2.5.'><h5>4.2.2.5. Execution Evidence for Sprint Review</h5></div>
 
 <div id='4.2.2.6.'><h5>4.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
