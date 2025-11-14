@@ -2609,6 +2609,42 @@ La gestión del progreso se realizó utilizando Trello, herramienta que permiti�
 | **US09**          | Control de peso y crecimiento | **UT12**         | Módulo de peso animal                                  | Implementar formulario y endpoint para registrar peso y calcular promedios de crecimiento. | 4                      | Nelson Guerrero | In progress |
 | **US10**          | Alertas sanitarias / visitas  | **UT13**         | Módulo de recordatorios                                | Programar notificaciones automáticas para vacunas y controles veterinarios.                | 4                      | Ernesto Rodas   | In progress |
 
+<div id='4.2.2.3.'><h5>4.2.2.3. Development Evidence for Sprint Review (Sprint 2)</h5></div>
+
+Durante el Sprint 2, el equipo avanzó en la implementación integral del sistema GanLink / AgroTracer, incluyendo mejoras en la aplicación móvil, servicios backend, refinamiento del diseño visual, ajustes de autenticación y actualización de la documentación técnica.
+Los integrantes participaron activamente dentro de sus repositorios asignados, logrando un incremento en el nivel de madurez del producto y consolidando la integración entre los distintos componentes de la arquitectura.
+
+A continuación, se presenta la tabla de commits relevantes del Sprint 2, organizada por repositorio, rama, autor e información técnica asociada.
+
+| **Repository**                     | **Branch**    | **Commit ID** | **Commit Message**                                                        | **Commit Message Body**                                                                           | **Author**                | **Committed On (Date)** |
+| ---------------------------------- | ------------- | ------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------- | ----------------------- |
+| **GanLink Mobile App (Flutter)**   | auth/feature  | `9d0c789`     | feat(auth): fix the logout functionality                                  | Corrección del proceso de cierre de sesión asegurando limpieza del estado y token JWT.            | CodyLionVivo (Diego Mora) | 11/11/2025              |
+| **GanLink Mobile App (Flutter)**   | auth/feature  | `baf33d8`     | feat: implement Week 2 - AuthBloc global state & auto-login with GoRouter | Manejo global de sesión y flujo de auto-login.                                                    | CodyLionVivo (Diego Mora) | 11/11/2025              |
+| **GanLink Mobile App (Flutter)**   | ui/feature    | `7128799`     | feat(auth): improve login and register UI design                          | Refinamiento visual y mejoras de validación del módulo Login/Register.                            | CodyLionVivo (Diego Mora) | 10/11/2025              |
+| **GanLink Mobile App (Flutter)**   | mobile/bovine | `7fa2bd1`     | feat(bovine): implement bovine list view & detail page                    | Implementación de listado y vista de detalle de bovinos consumiendo servicios reales del backend. | CodyLionVivo (Diego Mora) | 10/11/2025              |
+| **GanLink Backend (.NET)**         | develop       | `84ec52b`     | feat: Create Aggregates                                                   | Implementación de agregados base para el dominio ganadero.                                        | Fabrizzio León            | 29/09/2025              |
+| **GanLink Backend (.NET)**         | develop       | `bac5c53`     | feat(domain): add Bovine entity                                           | Creación de entidad Bovine y relación FarmId.                                                     | Fabrizzio León            | 30/09/2025              |
+| **GanLink Backend (.NET)**         | develop       | `ca92dd4`     | feat(api): add vaccination endpoints                                      | Implementación de endpoints REST para registrar vacunas con validación de reglas sanitarias.      | Milenko Huamán            | 06/10/2025              |
+| **GanLink Backend (.NET)**         | develop       | `4cb9a11`     | feat(api): add weight tracking endpoints                                  | Endpoint para almacenar y consultar métricas de peso/crescimiento.                                | Milenko Huamán            | 07/10/2025              |
+| **GanLink Backend (.NET)**         | develop       | `725b518`     | feat(farm-management): update IAM bounded context                         | Ajustes del contexto IAM para integración con móvil.                                              | Fabrizzio León            | 06/10/2025              |
+| **GanLink Backend (.NET)**         | develop       | `3e1af99`     | fix(api): improve animal lookup by ID                                     | Optimización del método GET con validación de estados.                                            | Diego Mora                | 08/10/2025              |
+| **GanLink Landing Page**           | main          | `a83f903`     | feat(ui): add product sections and responsive layout                      | Adición de secciones del producto, visión, valores y ajustes responsivos.                         | Nelson Guerrero           | 04/10/2025              |
+| **GanLink Landing Page**           | main          | `c31bd22`     | feat(ui): add contact form and validation                                 | Implementación del formulario de contacto con validación y despliegue en GitHub Pages.            | Ernesto Rodas             | 04/10/2025              |
+| **GanLink Landing Page**           | main          | `9e72bb4`     | chore: update assets and icons for consistency                            | Actualización de imágenes, íconos y estilos para la presentación del Sprint 2.                    | Nelson Guerrero           | 05/10/2025              |
+| **GanLink Documentation (report)** | main          | `298f89a`     | docs: update Sprint 2 story points in planning section                    | Actualización de Story Points del Sprint 2.                                                       | Ernesto Rodas             | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `3cd4ce5`     | docs: add complete Sprint 2 planning and user stories section             | Inclusión total de la planificación del Sprint 2.                                                 | Ernesto Rodas             | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `c74dd78`     | docs: add glossary section with additional technical terms                | Expansión del glosario técnico.                                                                   | Ernesto Rodas             | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `c995a30`     | docs: add video subtitles                                                 | Adición de subtítulos para los videos obligatorios.                                               | Ernesto Rodas             | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `b37ac11`     | docs: add UI/UX refinement notes for Sprint 2                             | Documentación técnica de cambios visuales en la app.                                              | Nelson Guerrero           | 13/11/2025              |
+| **GanLink Documentation (report)** | main          | `f91ae72`     | docs: add backend integration notes for Sprint 2                          | Evidencia técnica de integración entre backend y móvil.                                           | Milenko Huamán            | 13/11/2025              |
+
+| Integrante          | Tipo de commits realizados                                           |
+| ------------------- | -------------------------------------------------------------------- |
+| **Fabrizio León**      | Flutter: UI, autenticación, integración con backend, Bloc, GoRouter. |
+| **Diego Mora**  | Backend: dominios, agregados, IAM, arquitectura.                     |
+| **Milenio Huamán**  | Backend: endpoints sanitarios, métricas, validaciones.               |
+| **Nelson Guerrero** | Landing Page: diseño, responsive, assets; Documentación UI/UX.       |
+| **Ernesto Rodas**   | Documentación TB2: planificación, glosario, conclusiones, tablas.    |
 
 
 <div id='4.3.'><h3>4.3. Validation Interviews</h3></div>
