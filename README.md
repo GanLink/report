@@ -3039,7 +3039,7 @@ Desarrollar un plan de escalabilidad técnica que contemple la incorporación de
 
 ## Video About the product
 
-
+[**VIDEO**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQD8A6AJYeWQTqqZ6VDQhu-rAdibFXeiK-K3L4SqYS2rtnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NDNT0a)
 
 ## Video About the team
 
