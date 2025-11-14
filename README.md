@@ -2802,9 +2802,24 @@ Mejora de las configuracion de la app en Android Studio
 
 <div id='4.2.2.6.'><h5>4.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
 
+En el Sprint 2, el equipo de desarrollo se centró en la finalización y consolidación de los servicios backend. Se logró completar al 100% la implementación de la API, asegurando que todos los Bounded Contexts (Authorization, User, Bovinue, BovinueHealthRecord y BovinueMetric) estén totalmente operativos.
 
+Siguiendo los requisitos de la entrega TB2, el backend y su documentación OpenAPI (Swagger) se han desplegado en un sitio público, garantizando su disponibilidad y permitiendo la validación y el consumo por parte de la aplicación móvil.
+
+A continuación, se presenta la evidencia de la documentación completa de la API, que abarca todos los endpoints del sistema:
+
+Figura 1: Endpoints de Authorization, Bovinue y BovinueHealthRecord (Esta captura muestra los servicios para la gestión de autenticación, el registro de bovinos y el inicio de los registros de salud)
+![Endpoints 1](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/endpoints%201.jpeg)
+
+Figura 2: Endpoints de BovinueHealthRecord y BovinueMetric (Esta captura detalla los servicios restantes para el historial de salud y la gestión de métricas de los bovinos)
+![Endpoints 2](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/endpoints%202.jpeg)
+
+Figura 3: Endpoints de User API y Schemas (Esta captura muestra los servicios para la gestión de usuarios y los esquemas de datos (DTOs) utilizados en la API)
+![Endpoints 3](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/endpoints%203.jpeg)
 
 <div id='4.2.2.7.'><h5>4.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
+
+
 
 <div id='4.2.2.8.'><h5>4.2.2.8. Team Collaboration Insights during Sprint</h5></div>
 
