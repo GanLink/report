@@ -2792,7 +2792,17 @@ Feature: Configuración de alertas sanitarias
 
 <div id='4.2.2.5.'><h5>4.2.2.5. Execution Evidence for Sprint Review</h5></div>
 
+En este Sprint 2, el equipo se enfocó en la finalización y consolidación de las funcionalidades centrales del sistema. Se logró completar al 100% las historias de usuario planificadas para la aplicación móvil, implementadas en Android Studio, asegurando que los flujos de usuario principales estén operativos.
+
+Paralelamente, se alcanzó el 100% de la implementación del backend. Este trabajo no solo consistió en finalizar los endpoints y servicios pendientes, sino que también incluyó un proceso de actualización y refactorización de los componentes existentes para optimizar el rendimiento y la estabilidad de la API.
+
+Mejora de las configuracion de la app en Android Studio
+![Configuraciones de la granja](https://raw.githubusercontent.com/GanLink/report/main/images/Configuraciones%20de%20la%20granja%20MODO%20OSCURO.jpeg)
+![Granja feature modo oscuro](images/granja%20feature%20modo%20oscuro.jpeg)
+
 <div id='4.2.2.6.'><h5>4.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
+
+
 
 <div id='4.2.2.7.'><h5>4.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
 
