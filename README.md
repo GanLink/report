@@ -2844,8 +2844,8 @@ En este sprint, la Landing Page fue refactorizada para optimizar su rendimiento,
 * **Enlace del despliegue (Netlify):** `https://ganlink-landing.netlify.app/`
 * **Evidencia Visual:**
 
-    ![Landing Page desplegada en Netlify][images/IMAGEN_DE_LA_NUEVA_LANDING_PAGE.png]
-  
+![Landing Page desplegada en Netlify](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/IMAGEN_DE_LA_NUEVA_LANDING_PAGE.png)
+
 ---
 
 **2. Despliegue de los Servicios Web (Backend en Azure)**
@@ -2860,7 +2860,7 @@ Las actividades ejecutadas fueron:
 
 **Evidencia Visual (Portal de Azure):**
 
-![Recursos de Azure para el Backend](images/Portal de Azure.png)
+![Recursos de Azure para el Backend](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/Portal%20de%20Azure.png)
 
 ---
 
@@ -2873,7 +2873,8 @@ La actividad de despliegue clave en este sprint fue la **validación de la conec
 * Se validó la correcta ejecución de los flujos de `sign-in`, `sign-up` y la consulta de granjas contra el servidor en la nube.
 
 **Evidencia Visual:**
-![App móvil conectada a Azure][images/IMAGEN_DE_EMULADOR_CONECTADO_A_AZURE.jpeg]
+![App móvil conectada a Azure](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/IMAGEN_DE_EMULADOR_CONECTADO_A_AZURE.jpeg)
+
 
 <div id='4.2.2.8.'><h5>4.2.2.8. Team Collaboration Insights during Sprint</h5></div>
 
