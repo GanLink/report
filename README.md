@@ -244,20 +244,19 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
    5.1. [Conclusiones y recomendaciones](#5.1) <br>
 
 6. [**Videos**](#6) <br>
-   6.1. [Video App Validation](#6.1) <br>
-   6.2. [Video About the product](#6.2) <br>
-   6.3. [Video About the team](#6.3) <br>
+   6.1. [Video About the product](#6.1) <br>
+   6.2. [Video About the team](#6.2) <br>
 
 7. [**Glosario**](#7) <br>
 8. [**Bibliografía**](#8) <br>
 9. [**Anexos**](#9) <br>
 
-<div id='1.'><h2>Capítulo I: Introducción</h2></div>
+<div id='1'><h2>Capítulo I: Introducción</h2></div>
 
-<div id='1.1.'><h3>1.1 Startup Profile</h3></div>
+<div id='1.1'><h3>1.1 Startup Profile</h3></div>
 En esta sección se presenta la descripción de la startup y los perfiles de los miembros del equipo.
 
-<div id='1.1.1.'><h4>1.1.1 Descripción de la Startup</h4></div>
+<div id='1.1.1'><h4>1.1.1 Descripción de la Startup</h4></div>
 
 **GanLink** es una startup dedicada a ofrecer soluciones tecnológicas accesibles y efectivas para los **pequeños y medianos ganaderos de Latinoamérica**. Su propuesta se centra en digitalizar la gestión del ganado mediante herramientas móviles simples y asequibles que acompañan al productor en la toma de decisiones estratégicas.
 
@@ -284,7 +283,7 @@ GanLink busca consolidarse como un **modelo de negocio sostenible, confiable y c
 ##### Logotipo del servicio
 ![logotipo_servicio](images/ganlink.png)
 
-<div id='1.1.2.'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
+<div id='1.1.2'><h4>1.1.2. Perfiles de los integrantes del equipo</h4></div>
 
 || Perfiles de los integrantes del equipo |
 | :-------------------------------------- | :---------------------------------: |
@@ -294,11 +293,11 @@ GanLink busca consolidarse como un **modelo de negocio sostenible, confiable y c
 | Mi nombre es **Diego Alonzo Mora Blas**, soy estudiante de Ingeniería de Software con orientación al diseño técnico y arquitectónico. Contribuyo con la elaboración de diagramas, modelos de dominio y propuestas de arquitectura de software para el desarrollo de la aplicación. | <img src="images/DiegoMora.PNG" alt="Foto Diego" width="250px" /> |
 | Mi nombre es **Fabrizio Amir León Vivas**, soy estudiante de Ingeniería de Software con una sólida formación en arquitectura empresarial y desarrollo basado en dominios (DDD). Me especializo en la implementación de microservicios RESTful utilizando Spring Boot y NestJS, aplicando principios de Clean Architecture, buenas prácticas de diseño y pruebas de integración BDD. | <img src="images/fabrizio.PNG" alt="Foto Diego" width="250px" /> |
 
-<div id='1.2.'><h3>1.2. Solution Profile</h3></div>
+<div id='1.2'><h3>1.2. Solution Profile</h3></div>
 
 El **Solution Profile** tiene como propósito describir de forma clara la propuesta tecnológica que busca dar respuesta a una problemática específica identificada en el contexto productivo o social. 
 
-<div id='1.2.1.'><h4>1.2.1. Antecedentes y Problemática</h4></div>
+<div id='1.2.1'><h4>1.2.1. Antecedentes y Problemática</h4></div>
 En el Perú, la ganadería constituye una de las principales actividades económicas rurales; sin embargo, los **pequeños y medianos productores** enfrentan limitaciones estructurales que dificultan su competitividad frente a empresas de mayor escala. La **falta de digitalización**, la escasa trazabilidad del ganado y la **desorganización en el registro de información sanitaria y productiva** son factores que afectan directamente su productividad y acceso a mercados.  
 Instituciones como el **SENASA** y el **MIDAGRI** han reconocido estas brechas, señalando que la ausencia de registros confiables impide certificar el origen y las condiciones sanitarias del ganado, restringiendo la inserción de los productores a cadenas formales de valor. A ello se suma la carencia de herramientas tecnológicas adaptadas al contexto rural, lo que perpetúa el uso de métodos manuales, incrementa errores y limita la eficiencia en la toma de decisiones.  
 En este contexto, surge la necesidad de desarrollar una **solución tecnológica integral** que permita a los ganaderos registrar, gestionar y consultar de forma sencilla la información de su hato, mejorando la trazabilidad, el control sanitario y la organización productiva. Esta propuesta busca cerrar la brecha digital del sector y fortalecer la sostenibilidad económica de los pequeños productores mediante la adopción de herramientas modernas de gestión y trazabilidad.
@@ -352,8 +351,8 @@ En el Perú, la producción bovina está dominada por pequeños y medianos produ
 ###### ¿Qué porcentaje del sector se beneficiará?
 Con base en la tenencia de smartphones en hogares rurales del Perú y el uso de Internet, estimamos un universo adoptable inmediato cercano al 48% (0,848×0,567). Según Gestión (resumiendo ERESTEL–OSIPTEL), “al cierre de 2024 el 94.8% de los hogares peruanos cuenta con un smartphone” y “en el área rural… se disparó al 84.8%”. A su vez, INEI indicó que “el mayor crecimiento porcentual en el uso de Internet se dio… en el área rural… 56,7 %”. Dado que la brecha de **uso** suele superar a la de **cobertura** —“39%… within mobile broadband coverage but… not using it”—, el rango operativo de adopción directa del 40–60% es razonable si se acompaña con diseño *offline-first* y asistencia técnica. 
 
-<div id='1.2.2.'><h4>1.2.2. Lean UX Process</h4></div>
-<div id='1.2.2.1.'><h5>1.2.2.1. Lean UX Problem Statements</h5></div>
+<div id='1.2.2'><h4>1.2.2. Lean UX Process</h4></div>
+<div id='1.2.2.1'><h5>1.2.2.1. Lean UX Problem Statements</h5></div>
 
 ###### Problem statement
 
@@ -375,7 +374,7 @@ Referencias:
 **Pregunta orientadora:**  
 ¿Cómo podríamos digitalizar y automatizar la gestión de la información del ganado de manera que los pequeños y medianos productores puedan optimizar sus procesos sanitarios, reproductivos y económicos, evitando la dependencia de registros manuales y la pérdida de datos relevantes?
 
-<div id='1.2.2.2.'><h5>1.2.2.2. Lean UX Assumptions</h5></div>
+<div id='1.2.2.2'><h5>1.2.2.2. Lean UX Assumptions</h5></div>
 
 ###### **Business Assumptions**
 
@@ -431,7 +430,7 @@ La aplicación debe contar con una interfaz **amigable, intuitiva y accesible**,
 
 **Creemos que** **AgroTracer** debe integrar un **módulo de reportes y visualizaciones gráficas interactivas**, que permita a los ganaderos comprender de manera clara la evolución de su hato, tomar decisiones informadas basadas en datos y demostrar trazabilidad ante compradores, asociaciones o autoridades regulatorias.
 
-<div id='1.2.2.3.'><h5>1.2.2.3. Lean UX Hypothesis Statements</h5></div>
+<div id='1.2.2.3'><h5>1.2.2.3. Lean UX Hypothesis Statements</h5></div>
 
 * **Hypothesis Statement 01**
 
@@ -465,7 +464,7 @@ La aplicación debe contar con una interfaz **amigable, intuitiva y accesible**,
 
   **Cuando** se evidencie una disminución de al menos el 50% en los errores de registro —como omisiones, datos incompletos o duplicados— tras tres meses de uso continuo de la aplicación móvil.
 
-<div id='1.2.2.4.'><h5> 1.2.2.4. Lean UX Canvas.</h5></div>
+<div id='1.2.2.4'><h5> 1.2.2.4. Lean UX Canvas.</h5></div>
 
 El Lean UX Canvas es una herramienta empleada dentro del enfoque de diseño centrado en el usuario (UX) y la metodología Lean, destinada a facilitar la creación y evolución de productos de forma ágil y eficiente. Su finalidad es ofrecer una estructura organizada que promueva la colaboración entre equipos multidisciplinarios. A continuación, se muestra el Lean UX Canvas desarrollado por el equipo mediante el uso de la plataforma digital **Mural**:
 
@@ -473,7 +472,7 @@ El Lean UX Canvas es una herramienta empleada dentro del enfoque de diseño cent
 
 Enlace para acceder al [Canvas](https://docs.google.com/document/d/1QeEyI6S3-2wqPz3qXxDNnxgeR3CyS6JbQkdSieTT3ho/edit?tab=t.0#heading=h.vhscor30k2do)
 
-<div id='1.3.'><h3>1.3. Segmento Objetivo</h3></div>
+<div id='1.3'><h3>1.3. Segmento Objetivo</h3></div>
 
 Según el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023), el Perú cuenta con más de
 5 millones de cabezas de ganado vacuno, siendo la ganadería una de las actividades más
@@ -492,7 +491,7 @@ Ante el crecimiento proyectado de la demanda mundial de alimentos en un 70 % hac
 **inteligente, eficiente y rentable**, brindando a los ganaderos una aplicación móvil que centraliza
 y automatiza sus procesos de manera accesible y práctica.
 
-<div id='1.3.1.'><h4>1.3.1. Stakeholders</h4></div>
+<div id='1.3.1'><h4>1.3.1. Stakeholders</h4></div>
 
 * **Stakeholders Internos:**
     - Equipo fundador de GanLink.
@@ -504,13 +503,13 @@ y automatiza sus procesos de manera accesible y práctica.
 
 <!-- capitulo 2 -->
 
-<div id='2.'><h2> Capítulo II: Requirements Elicitation & Analysis.</h2></div>
+<div id='2'><h2> Capítulo II: Requirements Elicitation & Analysis.</h2></div>
 
-<div id='2.1.'><h3> 2.1. Competidores.</h3></div>
+<div id='2.1'><h3> 2.1. Competidores.</h3></div>
 
 Entender el entorno competitivo es crucial para el éxito de cualquier negocio. En esta sección analizaremos detalladamente quiénes son nuestros competidores, tanto directos como indirectos y examinaremos las estrategias que utilizan como también sus fortalezas y debilidades.
 
-<div id='2.1.1.'><h4> 2.1.1. Análisis competitivo.</h4></div>
+<div id='2.1.1'><h4> 2.1.1. Análisis competitivo.</h4></div>
 
 Realizar un análisis competitivo es fundamental para identificar las oportunidades y amenazas en el mercado, así como para posicionar estratégicamente a GanTrace. Este proceso permite entender cómo los competidores satisfacen las necesidades del cliente, qué brechas existen y cómo nuestra solución puede destacar mediante ventajas diferenciadoras. Además, ayuda a diseñar estrategias de marketing, precios y distribución más efectivas, asegurando una propuesta de valor única y sostenible.
 
@@ -621,7 +620,7 @@ Realizar un análisis competitivo es fundamental para identificar las oportunida
 </body>
 </html>
 
-<div id='2.1.2.'><h4>2.1.2. Estrategias y tácticas frente a competidores</h4></div>
+<div id='2.1.2'><h4>2.1.2. Estrategias y tácticas frente a competidores</h4></div>
 
 Como parte del plan de posicionamiento y diferenciación de **GanTrace** en el mercado, se han definido las siguientes estrategias y tácticas orientadas a superar a la competencia y asegurar la adopción de **AgroDigital**:
 
@@ -638,14 +637,14 @@ Como parte del plan de posicionamiento y diferenciación de **GanTrace** en el m
 - **Presencia en ferias y eventos agropecuarios:** participar activamente en ferias rurales, jornadas técnicas y espacios comunitarios para promover la solución directamente en el entorno del usuario.
 
 
-<div id='2.2.'><h3>2.2. Entrevistas</h3></div>
+<div id='2.2'><h3>2.2. Entrevistas</h3></div>
 
 Las entrevistas son una herramienta fundamental para conocer de primera mano la realidad,
 necesidades y expectativas de los **ganaderos**, nuestro público objetivo.  
 Estas deben seguir una estructura clara y concisa, con preguntas específicas que faciliten
 la recolección de información útil para el diseño de la solución digital.
 
-<div id='2.2.1.'><h4>2.2.1. Diseño de entrevistas</h4></div>
+<div id='2.2.1'><h4>2.2.1. Diseño de entrevistas</h4></div>
 
 **Objetivo:**  
 Identificar frustraciones, necesidades, nivel de digitalización, dispositivos disponibles
@@ -701,7 +700,7 @@ Entrevistas semiestructuradas de 25 a 30 minutos, registradas en audio o video c
 - Principales frustraciones en la gestión diaria
 - Influencia de técnicos, asociaciones o cooperativas en sus decisiones
 
-<div id='2.2.2.'><h4> 2.2.2. Registro de entrevistas. </h4></div>
+<div id='2.2.2'><h4> 2.2.2. Registro de entrevistas. </h4></div>
 
 **Entrevista a Ganaderos**
 
@@ -713,7 +712,7 @@ Entrevistas semiestructuradas de 25 a 30 minutos, registradas en audio o video c
 |Timing: 5:30-9:27 |URL: [upc-pre-202520-1acc0238-GanTrace-AgroDigital](https://www.youtube.com/watch?v=VVIPcymbLgw)|
 
 
-<div id='2.2.3.'><h4> 2.2.3. Análisis de entrevistas. </h4></div>
+<div id='2.2.3'><h4> 2.2.3. Análisis de entrevistas. </h4></div>
 
 ##### Análisis del segmento de Ganaderos
 
@@ -726,7 +725,7 @@ El análisis de las entrevistas realizadas evidencia características comunes y 
 - El **100 % señala que ninguna plataforma digital existente** ha resuelto sus necesidades relacionadas con la organización y traslado de datos, identificando este aspecto como el principal problema que requiere atención.
 - Finalmente, todos coinciden en que uno de los **problemas más frecuentes** es el **olvido de datos importantes**, como vacunas, pesos y eventos reproductivos, lo que repercute directamente en la eficiencia de la gestión ganadera.
 
-<div id='2.3.'><h3>2.3. Needfinding</h3></div>
+<div id='2.3'><h3>2.3. Needfinding</h3></div>
 
 El proceso de *needfinding* constituye una etapa fundamental dentro del diseño centrado en el usuario,
 pues permite identificar necesidades, expectativas y comportamientos de los ganaderos a partir de la
@@ -735,7 +734,7 @@ Como resultado de este proceso se construyen diferentes artefactos de investigac
 **User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-is Scenario Mapping**,
 los cuales proporcionan una visión clara y estructurada del público objetivo y sus interacciones con la solución digital.
 
-<div id='2.3.1.'><h4>2.3.1. User Personas</h4></div>
+<div id='2.3.1'><h4>2.3.1. User Personas</h4></div>
 
 Los *User Personas* son perfiles ficticios que representan a los segmentos de usuarios entrevistados e identificados.  
 Su construcción permite sintetizar las características demográficas, motivaciones, objetivos, desafíos,
@@ -749,7 +748,7 @@ A continuación, se presenta un ejemplo representativo de los ganaderos entrevis
 
 ![User-Persona Ganadero](https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/userpersona_cesarhuaman.png)
 
-<div id='2.3.2.'><h4>2.3.2. User Task Matrix</h4></div>
+<div id='2.3.2'><h4>2.3.2. User Task Matrix</h4></div>
 
 La **User Task Matrix** permite descomponer y clasificar las tareas que realizan los ganaderos al gestionar su hato.  
 Al organizar estas actividades según su **frecuencia** e **importancia**, es posible priorizar el diseño y desarrollo de funcionalidades que maximicen el impacto en la experiencia del usuario.
@@ -772,7 +771,7 @@ Estas acciones, de alta frecuencia e importancia, constituyen la base del **MVP*
 En un segundo nivel de prioridad se ubican tareas como la generación de reportes de productividad, el registro de peso y la planificación reproductiva.  
 Finalmente, funciones como la academia ganadera o la compartición de registros con terceros pueden ser consideradas como **extensiones en fases posteriores**, al no ser percibidas como críticas en el día a día.
 
-<div id='2.3.3.'><h4>2.3.3. User Journey Mapping</h4></div>
+<div id='2.3.3'><h4>2.3.3. User Journey Mapping</h4></div>
 
 El **User Journey Mapping** permite visualizar el ciclo completo de experiencia de los ganaderos con la aplicación **AgroDigital**, desarrollada por GanTrace.  
 Este análisis refleja cómo el usuario interactúa con la plataforma desde su primer contacto, pasando por la evaluación de su utilidad, el registro inicial, el uso de funcionalidades principales y la continuidad en el tiempo.
@@ -786,13 +785,13 @@ Este mapeo permite identificar los puntos críticos que influyen en la percepci�
 
 <img src="https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/User%20Journey%20Mapping%20Ganadero.png">
 
-<div id='2.3.4.'><h4> 2.3.4. As-is Scenario Mapping. </h4></div>
+<div id='2.3.4'><h4> 2.3.4. As-is Scenario Mapping. </h4></div>
 As-Is Scenario Mapping Ganaderos
 
 <img src="https://raw.githubusercontent.com/GanTrace/upc--2510-daos-4344-fp-grupo4/refs/heads/develop/Imagenes/As-Is%20Scenario%20Mapping%20Ganaderos.jpg">
 <a href="https://miro.com/welcomeonboard/NS9kcmdQVnY4aWhkRVlhaHo0d3grWCszei8vaFA1NmJpYnZnWnE5dWZqVEVYNzN0S3Z5Yi84STM3bjhPOEdqQVM0V2dSNUpybGYzNWkrWlNPU2kvMnFSbWF0eEcrTjhUTHpoYzk0blU3K1ovdmhDUHNZNFNNL1piYWNjbW9oL2tBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=786853897174" target="_blank"> Acceder al Miro </a>
 
-<div id='2.3.5.'><h4> 2.3.5. Ubiquitous Language - GanLink. </h4></div>
+<div id='2.3.5'><h4> 2.3.5. Ubiquitous Language - GanLink. </h4></div>
   <p>
     Glosario de términos del dominio ganadero y de trazabilidad. 
     Los términos están en <strong>inglés</strong> con su equivalente en <em>español</em> entre paréntesis. 
@@ -961,7 +960,7 @@ As-Is Scenario Mapping Ganaderos
       </tr>
     </tbody>
   </table>
-
+<div id='2.4'></div>
 2.4 Requirements Specification
 ---
 
@@ -1018,10 +1017,12 @@ Las user stories son una forma de convertir el lenguaje informal de los clientes
 | TS07               | POST Venta                                | **Como** desarrollador **Quiero** registrar ventas **Para** control financiero                                                                                                                       | **Escenario 1: Venta exitosa** <br> **Dado que** el animal tiene tratamientos registrados <br> **Cuando** solicito su historial <br> **Entonces** recibo la lista completa ordenada por fecha <br> **Escenario 2: Sin historial** <br> **Dado que** el animal no tiene tratamientos <br> **Cuando** solicito su historial <br> **Entonces** recibo una lista vacía                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                           |     |
 | TS08               | POST Login                                | **Como** desarrollador **Quiero** autenticar usuarios **Para** control de acceso                                                                                                                     | **Escenario 1: Login exitoso** <br> **Dado que** ingreso credenciales válidas <br> **Cuando** inicio sesión <br> **Entonces** recibo un token de acceso <br> **Escenario 2: Credenciales inválidas** <br> **Dado que** ingreso contraseña incorrecta <br> **Cuando** intento iniciar sesión <br> **Entonces** recibo un mensaje de error                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                           |     |
 
+<div id='2.4.2'></div>
 #### 2.4.2 Impact Mapping.
 
 ![Impact map](resources/Impact%20%20Map.png)
 
+<div id='2.4.3'></div>
 #### 2.4.3 Product Backlog
 
 | # Orden | User Story ID | Título | Descripción| Story Points |
@@ -1044,8 +1045,10 @@ Las user stories son una forma de convertir el lenguaje informal de los clientes
 
 
 
+<div id='2.5'></div>
 ## 2.5 Strategic-Level Domain-Driven Design
 
+<div id='2.5.1'></div>
 ### 2.5.1 Event Storming
 
 Event Storming es una herramienta que nos permite descubrir el comportamiento de un negocio, recopilando eventos importantes del
@@ -1125,12 +1128,14 @@ operaciones dentro de un contexto estén alineadas y mantengan la consistencia d
 <img src="images/Event Storming-9.jpg">
 
 
+<div id='2.5.1.1'></div>
 ### 2.5.1.1. Candidate Context Discovery
 
 Nuestro equipo decidió usar la técnica “start-with-simple” ya que empezamos a observar que esta técnica se enfoca en identificar partes
 del sistema que claramente pertenecen juntas desde el punto de vista funcional, de usuario o de infraestructura. Ideal para sistemas
 bien entendidos
 
+<div id='2.5.1.3'></div>
 Hemos identificado 6 Bounded Context.
 
 - IAM
@@ -1170,6 +1175,7 @@ Infraestructura común: repositorios base, unit of work, DbContext, auditoría y
 
 Concluimos en cuatro componentes núcleo: iam, farm management, bovinue system y shared, más la mobile application como cliente. Unificamos “bovinue management” y “bovinue configuration” en un único bounded context bovinue system, y “farm configuration” se integró dentro de farm management. shared concentra persistencia e integraciones con SUNAT/SENASA, mientras que la app móvil consume IAM, Farm y Bovinue vía APIs. El resultado es una separación por dominios clara, menos acoplamiento y una ruta de evolución más simple.
 
+<div id='2.5.1.2'></div>
 ### 2.5.1.2. Domain Message Flow Modeling
 
 En esta sección, se describe el proceso utilizado para visualizar la interacción entre los diferentes bounded contexts que conforman el
@@ -1197,16 +1203,20 @@ Nuestro sistema de budges de la aplicacion es un agregado netamente de design, q
 <img src="images/farmconfig-shared.jpg">
 
 
+<div id='2.5.2'></div>
 ### 2.5.2 Software Architecture
 
 Se presenta tres niveles del modelo C4 trabajado con structurizr para el proyecto con el que veremos un mejor enfoque de lo que se está desarrollando
 
+<div id='2.5.3'></div>
+<div id='2.5.3.1'></div>
 #### 2.5.3.1. Software Architecture Context Level Diagrams
 
 GanLink es una plataforma pensada para el día a día del productor ganadero. Centraliza en un solo lugar la gestión del predio, del hato bovino y de la identidad de los usuarios, con una app móvil sencilla al frente y servicios robustos detrás. La meta es que el granjero pueda registrar en campo, validar información oficial y tomar decisiones con datos confiables.
 
 <img src="images/structurizr-ContextoSistema.png">
 
+<div id='2.5.3.2'></div>
 #### 2.5.3.2. Software Architecture Container Level Diagrams
 
 La plataforma tiene una app móvil que el granjero usa en campo y que sincroniza por HTTP con tres servicios: IAM (registro, inicio de sesión y autorización), FarmManagement (gestión de granjas) y BovinueSystem (bovinos, métricas y salud). Todos se apoyan en un Shared que concentra infraestructura y clientes a SUNAT/SENASA, y persisten en una base MySQL común. Esta separación mantiene cada servicio enfocado y la app rápida y simple.
@@ -1214,6 +1224,7 @@ La plataforma tiene una app móvil que el granjero usa en campo y que sincroniza
 <img src="images/structurizr-ContenedoresSistema.png">
 
 
+<div id='2.5.3.3'></div>
 #### 2.5.3.3. Software Architecture Deployment Diagrams
 
 **Mobile Application**
@@ -1247,10 +1258,13 @@ Este módulo comparte piezas comunes para no reinventar la rueda. Provee la base
 
 <img src="images/structurizr-Shared_BoundedContext.png">
 
+<div id='2.6'></div>
+<div id='2.6.x'></div>
 ## 2.6 Tactical-Level Domain-Driven Design
 
 ### 2.6.1. Bounded Context: IAM
 
+<div id='2.6.x.1'></div>
 #### 2.6.1.1. Domain Layer
 
 **Table: `User` (Aggregate Root)** 
@@ -1285,8 +1299,10 @@ Este módulo comparte piezas comunes para no reinventar la rueda. Provee la base
 - `ToString(): string` — devuelve `Number`. 
 
 
+<div id='2.6.x.2'></div>
 #### 2.6.1.2. Interface Layer
 
+<div id='2.6.x.3'></div>
 #### 2.6.1.3. Application Layer
 
 **Table: `UserCommandService` (Application Command Service)**
@@ -1326,6 +1342,7 @@ Este módulo comparte piezas comunes para no reinventar la rueda. Provee la base
 | VerifyToken   | `Task<int?> VerifyToken(string token)`   | Valida token y devuelve `userId` (nullable). :contentReference[oaicite:13]{index=13} |
 
 
+<div id='2.6.x.4'></div>
 #### 2.6.1.4. Infrastructure Layer
 
 **Table: `HashingService` (BCrypt implementation)**
@@ -1373,6 +1390,7 @@ Este módulo comparte piezas comunes para no reinventar la rueda. Provee la base
 |----------------------------------|--------------------------------------------------------------------------------------------|-------|
 | UseRequestAuthorizationMiddleware| `IApplicationBuilder UseRequestAuthorizationMiddleware(this IApplicationBuilder builder)`  | Registra el middleware de autorización en el pipeline. |
 
+<div id='2.6.x.5'></div>
 #### 2.6.1.5. Bounded Context Software Architecture Component Level Diagrams
 
 
@@ -1700,14 +1718,19 @@ Este módulo comparte piezas comunes para no reinventar la rueda. Provee la base
 **Namespace:** `GanLink.Shared.Infrastructure.Persistence.EFC.Repositories`
 
 ---
+<div id='2.6.x.6'></div>
+<div id='2.6.x.6.1'></div>
+<div id='2.6.x.6.2'></div>
 ##### 2.6.1.6.2. Database Design Diagram
 
 <img src="images/db.png">
 
+<div id='3'></div>
 # Capítulo III: Solution UI/UX Design
 
 Este capítulo presenta el diseño de la experiencia de usuario (UX) y la interfaz de usuario (UI) de la solución móvil y su landing page. Abarca la definición de lineamientos visuales y de estilo, la arquitectura de información y la organización de contenidos, así como el desarrollo de wireframes, mock-ups, flujos de usuario y prototipos interactivos que reflejan una experiencia coherente, funcional y alineada con los objetivos del producto y las necesidades del usuario
 
+<div id='3.1'></div>
 ## 3.1. Product Design
 
 Esta sección define la estructura, funcionalidad y experiencia del producto, detallando las decisiones de diseño que guían la interacción usuario-sistema y aseguran coherencia con los objetivos del proyecto.
@@ -1725,6 +1748,7 @@ El objetivo principal es **digitalizar el control ganadero**, manteniendo una in
 - Transmitir profesionalismo y cercanía mediante una estética limpia y moderna.  
 
 
+<div id='3.1.1'></div>
 ## 3.1.1. Style Guidelines
 Esta sección establece las pautas visuales y de estilo del producto, garantizando coherencia en colores, tipografía, iconografía y comunicación visual en todas las interfaces.
 
@@ -1740,6 +1764,7 @@ El sistema de estilos actúa como una guía centralizada que define los lineamie
 5. **Identidad de marca:** refuerza la conexión con el sector ganadero y tecnológico, reflejando confianza e innovación.  
 
 
+<div id='3.1.1.1'></div>
 ### 3.1.1.1. General Style Guidelines
 
 #### **Branding**
@@ -1789,10 +1814,12 @@ El sistema tipográfico adopta **Roboto**, conforme al estándar Material Design
 - **Personalidad visual:** Amigable, moderna y confiable, en sintonía con el público ganadero.  
 
 
+<div id='3.1.2'></div>
 ### 3.1.2. Information Architecture
 
 La arquitectura de información define cómo se estructura, organiza y etiqueta el contenido dentro del producto. Su propósito es garantizar que los usuarios encuentren la información de manera rápida y lógica, reduciendo la carga cognitiva y optimizando la experiencia.
 
+<div id='3.1.2.1'></div>
 #### 3.1.2.1. Organization Systems
 Define la forma en que se agrupan y jerarquizan los módulos del sistema (registro de animales, historial sanitario, control económico, etc.), priorizando la frecuencia de uso y la secuencia natural de tareas del usuario.
 
@@ -1834,6 +1861,7 @@ El sistema también incluye un espacio de soporte denominado **Academia Ganadera
 En conjunto, estos sistemas de organización garantizan que la navegación dentro de **AgroTracer** sea coherente, predecible y accesible, incluso en contextos rurales con baja familiaridad tecnológica, alineándose con los principios de **usabilidad, accesibilidad y diseño centrado en el usuario (UCD)** propuestos en el enunciado del proyecto final.
 
 
+<div id='3.1.2.2'></div>
 #### 3.1.2.2. Labelling Systems
 Establece la nomenclatura y etiquetas que se emplean en menús, botones y secciones de la aplicación, usando un lenguaje natural, comprensible y adaptado al contexto rural latinoamericano.
 
@@ -1860,6 +1888,7 @@ El sistema de etiquetado considera la jerga común del sector pecuario latinoame
 En conjunto, el sistema de etiquetado de **AgroTracer** contribuye a una interfaz accesible, autoexplicativa y contextualizada, alineada con los principios de diseño inclusivo y centrado en el usuario establecidos en el *Style Guidelines* del proyecto final.
 
 
+<div id='3.1.2.3'></div>
 #### 3.1.2.3. SEO Tags and Meta Tags
 
 En esta sección se definen las etiquetas **SEO (Search Engine Optimization)** y **ASO (App Store Optimization)** que describen la identidad y los valores de la aplicación **AgroTracer**, desarrollada por la startup **GanLink**.  
@@ -1919,6 +1948,7 @@ Por su parte, las *Meta Tags* del sitio estático se implementarán en la **Land
 En conjunto, esta estructura de etiquetas SEO y ASO fortalece la presencia digital del producto, garantizando que **AgroTracer** sea fácilmente localizable y reconocible por su público objetivo: los ganaderos rurales que buscan soluciones tecnológicas accesibles, confiables y adaptadas a su entorno productivo.
 
 
+<div id='3.1.2.4'></div>
 #### 3.1.2.4. Searching Systems
 Describe los mecanismos de búsqueda implementados dentro de la plataforma (por ejemplo, búsqueda de animales por ID, raza o estado sanitario), priorizando rapidez y precisión.
 
@@ -1962,6 +1992,7 @@ Este enfoque asegura que la información más reciente o más crítica se muestr
 En conjunto, el sistema de búsqueda de **AgroTracer** integra filtrado dinámico, categorización modular y ordenación inteligente, ofreciendo una experiencia de consulta rápida, precisa y coherente con la lógica de gestión ganadera establecida en los principios del diseño centrado en el usuario.
 
 
+<div id='3.1.2.5'></div>
 #### 3.1.2.5. Navigation Systems
 Define la estructura de navegación del producto, tanto en la versión web como móvil. Incluye menús principales, submenús, rutas internas y botones de acceso rápido para garantizar un flujo de interacción coherente.
 
@@ -2007,10 +2038,12 @@ Se evita la sobrecarga de menús o subniveles, asegurando que cualquier acción 
 En conjunto, el sistema de navegación de **AgroTracer** ofrece una experiencia estructurada, accesible y coherente con la realidad operativa de los ganaderos, alineándose con los principios de diseño centrado en el usuario y las buenas prácticas de arquitectura de información para aplicaciones móviles.
 
 
+<div id='3.1.3'></div>
 ### 3.1.3. Landing Page UI Design
 
 El diseño de la **landing page** se centra en comunicar la propuesta de valor de AgroTracer, mostrar sus funcionalidades principales y dirigir a los visitantes hacia la descarga o uso de la aplicación.
 
+<div id='3.1.3.1'></div>
 #### 3.1.3.1. Landing Page Wireframe
 Presenta el esquema estructural de la página inicial, definiendo jerarquías visuales, zonas de contenido y flujos de interacción.
 
@@ -2033,6 +2066,7 @@ Este diseño preliminar constituye la base para el desarrollo visual posterior e
 [Ver Wireframes en Figma](https://www.figma.com/design/YSwppmOeo23EbTSaKD23cH/Landingpage?node-id=2003-169&t=g9yVSC41J5y7Jerx-1)
 
 
+<div id='3.1.3.2'></div>
 #### 3.1.3.2. Landing Page Mock-up
 Desarrollo visual detallado del wireframe anterior, incorporando los lineamientos de estilo (colores, tipografía, íconos, botones y banners informativos).
 
@@ -2057,11 +2091,13 @@ Este diseño conserva la coherencia con la estructura del wireframe inicial y co
 
 [Ver Wireframes en Figma](https://www.figma.com/design/YSwppmOeo23EbTSaKD23cH/Landingpage?node-id=2003-169&t=g9yVSC41J5y7Jerx-1)
 
+<div id='3.1.4'></div>
 ### 3.1.4. Mobile Applications UX/UI Design
 
 Esta sección describe el diseño visual y de interacción de la aplicación móvil, considerando la accesibilidad, la simplicidad operativa y la usabilidad en condiciones rurales.  
 El diseño se basa en los principios de *Mobile First* y en la coherencia con la identidad visual definida en los *Style Guidelines*.
 
+<div id='3.1.4.1'></div>
 #### 3.1.4.1. Mobile Applications Wireframes
 Representan la estructura funcional de cada vista de la aplicación (pantallas de login, registro, menú principal, módulos de gestión, etc.).
 
@@ -2070,6 +2106,7 @@ Representan la estructura funcional de cada vista de la aplicación (pantallas d
 [Ver Wireframes en Figma](https://www.figma.com/design/YOJv9Jfpsc0eiJm1qCN5yM/WIREFRAMES-GANLINK?node-id=0-1&t=kXn8qI7nVlnQc7gB-1)
 
 
+<div id='3.1.4.2'></div>
 #### 3.1.4.2. Mobile Applications Wireflow Diagrams
 Detallan los flujos de navegación entre pantallas, permitiendo visualizar las rutas y transiciones del usuario al interactuar con la aplicación.
 
@@ -2078,6 +2115,7 @@ Detallan los flujos de navegación entre pantallas, permitiendo visualizar las r
 [Ver Wireflow en Figma](https://www.figma.com/design/YOJv9Jfpsc0eiJm1qCN5yM/WIREFRAMES-GANLINK?node-id=0-1&t=kXn8qI7nVlnQc7gB-1)
 
 
+<div id='3.1.4.3'></div>
 #### 3.1.4.3. Mobile Applications Mock-ups
 Diseños visuales completos que integran colores, íconos y elementos gráficos reales, simulando la apariencia final del producto en dispositivos móviles.
 
@@ -2086,6 +2124,7 @@ Diseños visuales completos que integran colores, íconos y elementos gráficos 
 [Ver Mock-ups en Figma](https://www.figma.com/design/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?node-id=0-1&t=XyW9EnoU7qr7zsMA-1)
 
 
+<div id='3.1.4.4'></div>
 #### 3.1.4.4. Mobile Applications User Flow Diagrams
 Diagramas que describen los caminos lógicos del usuario en cada funcionalidad (por ejemplo: registrar animal, registrar vacuna, generar reporte).
 
@@ -2094,6 +2133,7 @@ Diagramas que describen los caminos lógicos del usuario en cada funcionalidad (
 [Ver User Flow Diagrams en Figma](https://www.figma.com/design/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?node-id=0-1&t=XyW9EnoU7qr7zsMA-1)
 
 
+<div id='3.1.4.5'></div>
 #### 3.1.4.5. Mobile Applications Prototyping
 Presenta la versión interactiva del prototipo creada en herramientas como **Figma** o **Adobe XD**, permitiendo validar la usabilidad antes del desarrollo final.
 
@@ -2102,14 +2142,14 @@ Presenta la versión interactiva del prototipo creada en herramientas como **Fig
 [Ver prototipo en Figma](https://www.figma.com/proto/jXufsVeTxNoiab9rGefQyk/MOCKUPS-GANKLINK?page-id=0%3A1&node-id=1-2&p=f&viewport=127%2C65%2C0.42&t=9XnKC3rpeZKh0NJh-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A2)
 
 
-<div id='4.'><h2>Capítulo IV: Product Implementation & Validation</h2></div>
+<div id='4'><h2>Capítulo IV: Product Implementation & Validation</h2></div>
 
-<div id='4.1.'><h3>4.1. Software Configuration Management</h3></div>
+<div id='4.1'><h3>4.1. Software Configuration Management</h3></div>
 
 La gestión de configuración de software comprende las acciones orientadas a organizar, controlar y documentar los componentes del proyecto durante su desarrollo.  
 En **GanLink / AgroTracer**, este proceso permitió mantener orden, trazabilidad y coherencia en las versiones del código, facilitando el trabajo colaborativo y asegurando la calidad del producto final.
 
-<div id='4.1.1.'><h4>4.1.1. Software Development Environment Configuration</h4></div>
+<div id='4.1.1'><h4>4.1.1. Software Development Environment Configuration</h4></div>
 
 Para el desarrollo del proyecto **GanLink / AgroTracer**, se ha configurado un entorno integral de ingeniería de software que permite la colaboración eficiente del equipo, la trazabilidad de los avances y la correcta gestión de los artefactos del producto digital.  
 El ecosistema de herramientas empleadas se organiza en las siguientes categorías:
@@ -2158,7 +2198,7 @@ Repositorio remoto configurado como entorno centralizado para la gestión del c�
 Facilita la colaboración entre los miembros del equipo mediante *pull requests*, *code reviews* y la integración continua del proyecto.  
 Referencia: [https://github.com](https://github.com)
 
-<div id='4.1.2.'><h4>4.1.2. Source Code Management</h4></div>
+<div id='4.1.2'><h4>4.1.2. Source Code Management</h4></div>
 
 El desarrollo del proyecto **GanLink / AgroTracer** adoptó las convenciones del flujo de trabajo **GitFlow** para la gestión de versiones, empleando **GitHub** como plataforma principal de control y almacenamiento del código fuente.  
 Este esquema permitió organizar el trabajo colaborativo, controlar los cambios realizados y mantener la trazabilidad de cada funcionalidad implementada durante las iteraciones de desarrollo.
@@ -2221,7 +2261,7 @@ La estructura adoptada es la siguiente:
 
 Este modelo de control de versiones garantizó un flujo de trabajo colaborativo, organizado y trazable, manteniendo la integridad del código en cada etapa del desarrollo del proyecto.
 
-<div id='4.1.3.'><h4>4.1.3. Source Code Style Guide & Conventions</h4></div>
+<div id='4.1.3'><h4>4.1.3. Source Code Style Guide & Conventions</h4></div>
 
 El cumplimiento de una guía de estilo y convenciones de codificación garantiza la coherencia, legibilidad y mantenibilidad del software en todas las etapas de desarrollo del proyecto **GanLink / AgroTracer**.  
 Dado que la solución integra una **aplicación móvil**, una **landing page** y un **backend de servicios web**, se establecieron lineamientos diferenciados para cada entorno, manteniendo uniformidad y buenas prácticas en el trabajo del equipo.
@@ -2313,7 +2353,7 @@ Dado que la solución integra una **aplicación móvil**, una **landing page** y
 
 Estas convenciones garantizan la uniformidad, claridad y trazabilidad del código en todas las capas del sistema, facilitando la colaboración del equipo y asegurando la calidad técnica del producto final.
 
-<div id='4.1.4.'><h4>4.1.4. Software Deployment Configuration</h4></div>
+<div id='4.1.4'><h4>4.1.4. Software Deployment Configuration</h4></div>
 
 La configuración de despliegue del software define los procedimientos, herramientas y estructuras necesarias para publicar los componentes del proyecto **GanLink / AgroTracer**, garantizando su disponibilidad y correcto funcionamiento en entornos de producción.  
 En este proyecto, se consideraron procesos específicos para la **Landing Page**, la **aplicación móvil (APK)** y el **backend de servicios web**.  
@@ -2350,11 +2390,11 @@ Cumplidos estos prerrequisitos, se procede con el despliegue efectivo mediante l
 
 **Enlace a la Landing Page:** https://ganlink.github.io/LadingGanLink/
 
-<div id='4.2.'><h3>4.2. Landing Page & Mobile Application Implementation</h3></div>
+<div id='4.2'><h3>4.2. Landing Page & Mobile Application Implementation</h3></div>
 
-<div id='4.2.1.'><h4>4.2.1. Sprint 1</h4></div>
+<div id='4.2.1'><h4>4.2.1. Sprint 1</h4></div>
 
-<div id='4.2.1.1.'><h5>4.2.1.1. Sprint Planning 1</h5></div>
+<div id='4.2.1.1'><h5>4.2.1.1. Sprint Planning 1</h5></div>
 
 En el **Sprint Planning 1**, se documentaron las actividades de planificación y definición de objetivos correspondientes a la primera iteración del proyecto **GanLink / AgroTracer**.  
 Durante esta sesión, el equipo estableció como prioridad el despliegue funcional de la **Landing Page**, el desarrollo base del **backend** y el avance inicial de la **aplicación móvil**.  
@@ -2375,7 +2415,7 @@ Asimismo, se registraron las tareas asignadas y la colaboración continua median
 | **Sprint Velocity 1** | 15 |
 | **Sum of Story Points** | 15 |
 
-<div id='4.2.1.2.'><h5>4.2.1.2. Sprint Backlog 1</h5></div>
+<div id='4.2.1.2'><h5>4.2.1.2. Sprint Backlog 1</h5></div>
 
 Durante el **Sprint 1**, el equipo de desarrollo estableció el *Sprint Backlog* considerando las *User Stories* prioritarias y alcanzables en el periodo asignado.  
 El objetivo principal fue completar la **Landing Page** y desarrollar los **módulos base del Backend**, garantizando su integración con la aplicación móvil.  
@@ -2394,7 +2434,7 @@ Las actividades fueron gestionadas mediante **Trello**, lo que permitió dividir
 | **US07** | Registrar vacunación | **UT07** | Módulo de vacunación | Desarrollar el módulo para registrar vacunas aplicadas a cada animal, registrando tipo, dosis y fecha de aplicación. | 3 | Diego Mora | To do |
 | **US08** | Registrar venta | **UT08** | Registro de transacciones | Implementar la funcionalidad de registro de ventas de animales, con validaciones de datos y actualización de inventario. | 3 | Milenko Huamán / Diego Mora | Done |
 
-<div id='4.2.1.3.'><h5>4.2.1.3. Development Evidence for Sprint Review</h5></div>
+<div id='4.2.1.3'><h5>4.2.1.3. Development Evidence for Sprint Review</h5></div>
 
 Durante el **Sprint 1**, se registraron múltiples commits distribuidos entre los repositorios de la **Landing Page**, **Backend**, **Aplicación Móvil (Android Studio)** y **Documentación (report)**.  
 A continuación, se detallan los principales commits generados durante esta iteración, evidenciando la participación de todos los integrantes y el avance progresivo del desarrollo.
@@ -2425,7 +2465,7 @@ A continuación, se detallan los principales commits generados durante esta iter
 - **Ernesto Rodas:** Coordinación del despliegue documental y elaboración de informes técnicos.  
 - **Nelson Guerrero:** Diseño, estructura de la landing page y documentación visual (Figma, Markdown).
 
-<div id='4.2.1.4.'><h5>4.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
+<div id='4.2.1.4'><h5>4.2.1.4. Testing Suite Evidence for Sprint Review</h5></div>
 
 En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests** y **Acceptance Tests** implementados y ejecutados durante el Sprint 1, enfocados en los **Web Services** y funcionalidades desarrolladas en los módulos de autenticación, registro de animales, vacunación y control económico.
 
@@ -2443,7 +2483,7 @@ En esta sección se presenta el conjunto de **Unit Tests**, **Integration Tests*
 - **Acceptance Tests:** Escenarios de validación funcional que reproducen flujos completos de usuario (registro, login, venta).  
 - **Mobile Instrumentation Tests:** Evaluación de interactividad y persistencia local en vistas críticas de la app Android.
 
-<div id='4.2.1.5.'><h5>4.2.1.5. Execution Evidence for Sprint Review</h5></div>
+<div id='4.2.1.5'><h5>4.2.1.5. Execution Evidence for Sprint Review</h5></div>
 
 Durante el **Sprint 1**, el equipo logró culminar el desarrollo y despliegue de la **Landing Page de GanLink**, una plataforma informativa orientada a presentar el propósito, funcionalidades y beneficios de la aplicación móvil.  
 El desarrollo se realizó utilizando **HTML5 y CSS3**, bajo una estructura semántica organizada y siguiendo las convenciones de estilo establecidas en el Capítulo IV.  
@@ -2457,7 +2497,7 @@ El producto obtenido cumple con los objetivos definidos en la planificación del
 A continuación, se presenta la evidencia visual de la Landing Page final:
 
 FOTO LANDING 
-<div id='4.2.1.6.'><h5>4.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
+<div id='4.2.1.6'><h5>4.2.1.6. Services Documentation Evidence for Sprint Review</h5></div>
 
 En este Sprint, se desarrollaron los endpoints planteados para el correcto funcionamiento de la solución de software.
 
@@ -2475,7 +2515,7 @@ Estos endpoints gestionan los requisitos funcionales del bovinue bounded context
 <img src="./images/endpoint-3.png" alt="Endpoints de FAAUTHORIZATIONRM AND BOVINUE AND BOVINUEHEALTHRECORD COMPONENTS">
 
 
-<div id='4.2.1.7.'><h5>4.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
+<div id='4.2.1.7'><h5>4.2.1.7. Software Deployment Evidence for Sprint Review</h5></div>
 
 <p>
     Durante el Sprint 1, el equipo realizó los procesos de despliegue correspondientes a los productos digitales 
@@ -2559,7 +2599,7 @@ Estos endpoints gestionan los requisitos funcionales del bovinue bounded context
 <img src="./images/ld-1.png" alt="Endpoints de FAAUTHORIZATIONRM AND BOVINUE AND BOVINUEHEALTHRECORD COMPONENTS">
 
 
-<div id='4.2.1.8.'><h5>4.2.1.8. Team Collaboration Insights during Sprint</h5></div>
+<div id='4.2.1.8'><h5>4.2.1.8. Team Collaboration Insights during Sprint</h5></div>
 
 El desarrollo del proyecto **GanLink** se llevó a cabo bajo un enfoque colaborativo, utilizando GitHub como plataforma central de control de versiones y Trello para la organización de tareas.  
 Cada integrante asumió responsabilidades específicas en la elaboración del informe y en el desarrollo técnico, garantizando una distribución equilibrada del trabajo y la integración coherente entre los distintos componentes (landing page, backend y aplicación móvil).
@@ -2573,9 +2613,9 @@ Cada integrante asumió responsabilidades específicas en la elaboración del in
 | **Huamán Milenko** | Desarrollo de módulos de salud y métricas en el backend, contribuyendo a la lógica de negocio y la creación de agregados sanitarios y económicos. Implementó auditorías y validaciones internas dentro de los contextos delimitados. |
 
 
-<div id='4.2.2.'><h4>4.2.2. Sprint 2</h4></div>
+<div id='4.2.2'><h4>4.2.2. Sprint 2</h4></div>
 
-<div id='4.2.2.1.'><h5>4.2.2.1. Sprint Planning 2</h5></div>
+<div id='4.2.2.1'><h5>4.2.2.1. Sprint Planning 2</h5></div>
 
 En el Sprint Planning 2, se documentaron las actividades de planificación, desarrollo y validación correspondientes a la segunda iteración del proyecto GanLink / AgroTracer.
 Durante esta fase, el equipo orientó sus esfuerzos a consolidar la arquitectura técnica del sistema, completando el backend funcional, fortaleciendo la integración con la base de datos MySQL, y desarrollando la interfaz móvil con mayor nivel de interactividad y conexión a servicios reales.
@@ -2596,7 +2636,7 @@ La planificación y ejecución se realizaron bajo el enfoque ágil, empleando co
 | **Sprint Goal 2**                   | Consolidar la capa de servicios del backend en .NET con conexión MySQL; implementar endpoints para registro/búsqueda de animales y eventos; integrar la app móvil (Kotlin) consumiendo dichos servicios; actualizar la Landing Page con evidencias de despliegue público; y preparar los videos **About-the-Product** y **About-the-Team**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Sprint Velocity 2**               | 15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Sum of Story Points**             | 15                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-<div id='4.2.2.2.'><h5>4.2.2.2. Sprint Backlog 2</h5></div>
+<div id='4.2.2.2'><h5>4.2.2.2. Sprint Backlog 2</h5></div>
 
 Durante el Sprint 2, el equipo de desarrollo elaboró el Sprint Backlog considerando las User Stories seleccionadas en el Sprint Planning 2, priorizando las que permitieran completar la integración total entre el backend, la base de datos MySQL y la aplicación móvil.
 El objetivo central fue consolidar la arquitectura del sistema y validar la funcionalidad en entornos reales mediante pruebas de despliegue y revisión colaborativa en GitHub.
@@ -2609,7 +2649,7 @@ La gestión del progreso se realizó utilizando Trello, herramienta que permiti�
 | **US09**          | Control de peso y crecimiento | **UT12**         | Módulo de peso animal                                  | Implementar formulario y endpoint para registrar peso y calcular promedios de crecimiento. | 4                      | Nelson Guerrero | In progress |
 | **US10**          | Alertas sanitarias / visitas  | **UT13**         | Módulo de recordatorios                                | Programar notificaciones automáticas para vacunas y controles veterinarios.                | 4                      | Ernesto Rodas   | In progress |
 
-<div id='4.2.2.3.'><h5>4.2.2.3. Development Evidence for Sprint Review (Sprint 2)</h5></div>
+<div id='4.2.2.3'><h5>4.2.2.3. Development Evidence for Sprint Review (Sprint 2)</h5></div>
 
 Durante el Sprint 2, el equipo avanzó en la implementación integral del sistema GanLink / AgroTracer, incluyendo mejoras en la aplicación móvil, servicios backend, refinamiento del diseño visual, ajustes de autenticación y actualización de la documentación técnica.
 Los integrantes participaron activamente dentro de sus repositorios asignados, logrando un incremento en el nivel de madurez del producto y consolidando la integración entre los distintos componentes de la arquitectura.
@@ -2646,7 +2686,7 @@ A continuación, se presenta la tabla de commits relevantes del Sprint 2, organi
 | **Nelson Guerrero** | Landing Page: diseño, responsive, assets; Documentación UI/UX.       |
 | **Ernesto Rodas**   | Documentación TB2: planificación, glosario, conclusiones, tablas.    |
 
-<div id='4.2.2.4.'><h5>4.2.2.4. Testing Suite Evidence for Sprint Review</h5></div>
+<div id='4.2.2.4'><h5>4.2.2.4. Testing Suite Evidence for Sprint Review</h5></div>
 
 En esta sección se presenta la evidencia de pruebas realizadas durante el Sprint 2, incluyendo Unit Tests, Integration Tests y Acceptance Tests, ejecutados sobre los servicios API del backend y las funcionalidades móviles desarrolladas en Kotlin. Las pruebas permitieron validar endpoints, flujos de registro, autenticación, vistas funcionales y reglas de negocio implementadas en esta iteración.
 
@@ -2790,7 +2830,7 @@ Feature: Configuración de alertas sanitarias
     Then el sistema rechaza la configuración
     And muestra un mensaje indicando la información faltante
 
-<div id='4.2.2.5.'><h5>4.2.2.5. Execution Evidence for Sprint Review</h5></div>
+<div id='4.2.2.5'><h5>4.2.2.5. Execution Evidence for Sprint Review</h5></div>
 
 En este Sprint 2, el equipo se enfocó en la finalización y consolidación de las funcionalidades centrales del sistema. Se logró completar al 100% las historias de usuario planificadas para la aplicación móvil, implementadas en Android Studio, asegurando que los flujos de usuario principales estén operativos.
 
@@ -2800,7 +2840,7 @@ Mejora de las configuracion de la app en Android Studio
 ![Configuraciones de la granja](https://raw.githubusercontent.com/GanLink/report/main/images/Configuraciones%20de%20la%20granja%20MODO%20OSCURO.jpeg)
 ![Granja feature modo oscuro](https://raw.githubusercontent.com/GanLink/report/main/images/granja%20feature%20modo%20oscuro.jpeg)
 
-<div id='4.2.2.6.'><h5>4.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
+<div id='4.2.2.6'><h5>4.2.2.6. Services Documentation Evidence for Sprint Review</h5></div>
 
 En el Sprint 2, el equipo de desarrollo se centró en la finalización y consolidación de los servicios backend. Se logró completar al 100% la implementación de la API, asegurando que todos los Bounded Contexts (Authorization, User, Bovinue, BovinueHealthRecord y BovinueMetric) estén totalmente operativos.
 
@@ -2829,7 +2869,7 @@ Figura 3: Endpoints de User API y Schemas (Esta captura muestra los servicios pa
 | **BovinueMetric** | GET | `/api/v1/BovinueMetric/{id}` | `id` (Path) | `200 OK` (BovinueMetricResource) |
 | **User API** | GET | `/api/v1/User/{id}/farms` | `id` (Path) | `200 OK` (Lista de FarmResource) |
 
-<div id='4.2.2.7.'><h5>4.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
+<div id='4.2.2.7'><h5>4.2.2.7. Software Deployment Evidence for Sprint Review</h5></div>
 
 Durante el Sprint 2, el equipo avanzó significativamente en la estrategia de despliegue, cumpliendo con el requisito de la entrega TB2 de tener un *backend* 100% desplegado en un sitio público. El hito principal fue la migración de los Servicios Web (API REST) desde el entorno local (usado en Sprint 1) a una infraestructura pública en la nube de **Microsoft Azure**.
 
@@ -2877,7 +2917,7 @@ La actividad de despliegue clave en este sprint fue la **validación de la conec
 ![Emulador conectado a Azure](https://raw.githubusercontent.com/GanLink/report/feature/chapter4.1/images/IMAGEN_DE_EMULADOR_CONECTADO_A_AZURE.jpeg)
 
 
-<div id='4.2.2.8.'><h5>4.2.2.8. Team Collaboration Insights during Sprint</h5></div>
+<div id='4.2.2.8'><h5>4.2.2.8. Team Collaboration Insights during Sprint</h5></div>
 
 Durante el Sprint 2, el equipo fortaleció el trabajo colaborativo mediante el uso integrado de GitHub (control de versiones), Trello (gestión de tareas) y comunicación sincrónica a través de Zoom y Discord. Cada integrante asumió responsabilidades técnicas alineadas con su dominio de especialización, garantizando la consolidación del backend, la evolución de la aplicación móvil, la actualización de la Landing Page y la ampliación del informe técnico para la entrega TB2.
 
@@ -2893,9 +2933,9 @@ A continuación, se detallan las actividades colaborativas realizadas por cada m
 | **León Vivas, Fabrizio** | Responsable del desarrollo de la **aplicación móvil (Flutter)**, implementando los módulos de autenticación, manejo de estado (Bloc), vistas principales y consumo de servicios REST. Validó integración con backend y realizó mejoras de UI. |
 | **Huamán Hinostroza, Milenio** | Contribuyó a la lógica de negocio en backend (.NET), ampliando funcionalidades de salud animal, métricas productivas y validaciones internas del dominio. Además, apoyó en la revisión del modelado y pruebas de servicios. |
 
-<div id='4.3.'><h3>4.3. Validation Interviews</h3></div>
+<div id='4.3'><h3>4.3. Validation Interviews</h3></div>
 
-<div id='4.3.1.'><h4>4.3.1. Diseño de entrevistas</h4></div>
+<div id='4.3.1'><h4>4.3.1. Diseño de entrevistas</h4></div>
 
 El objetivo principal de las entrevistas de validación fue **recoger percepciones y retroalimentación de potenciales usuarios y especialistas del sector agropecuario**, respecto al diseño, usabilidad y funcionalidad del prototipo móvil y la landing page de la aplicación **GanLink**.  
 Estas entrevistas permitieron validar la pertinencia de las funcionalidades desarrolladas hasta el momento (registro de animales, autenticación, gestión sanitaria y control económico), así como la claridad del flujo de navegación y la coherencia del diseño visual con el público objetivo.
@@ -2949,7 +2989,7 @@ El diseño de las entrevistas buscó **obtener retroalimentación directa y vali
 
 Los hallazgos derivados de estas entrevistas se emplearán como base para los ajustes funcionales y de diseño en el siguiente Sprint.
 
-<div id='4.3.2.'><h4>4.3.2. Registro de entrevistas</h4></div>
+<div id='4.3.2'><h4>4.3.2. Registro de entrevistas</h4></div>
 
 | **Campo** | **Detalle** |
 |:--|:--|
@@ -2961,7 +3001,7 @@ Los hallazgos derivados de estas entrevistas se emplearán como base para los aj
 | **Resumen** | El entrevistado destacó que el prototipo le pareció visualmente atractivo, con un diseño limpio y colores agradables que facilitan la lectura en campo. Mencionó que la navegación es intuitiva y que las funciones principales —como el registro de ganado, control sanitario y reportes— están bien organizadas y resultan fáciles de usar incluso para usuarios con poca experiencia tecnológica. |
 | **Características relevantes** | Consideró que la aplicación responde a necesidades reales del ganadero, ya que permite registrar información sin conexión y sincronizarla después. Valoró positivamente la propuesta, indicando que “está bien bonita y es totalmente funcional para el trabajo diario en la granja”. |
 
-<div id='4.3.3.'><h4>4.3.3. Evaluaciones según heurísticas</h4></div>
+<div id='4.3.3'><h4>4.3.3. Evaluaciones según heurísticas</h4></div>
 
 ##  Evaluaciones según heurísticas
 
@@ -3009,10 +3049,11 @@ principalmente en la **prevención de errores** y **soporte al usuario**.
 Las recomendaciones fueron documentadas y priorizadas para ser atendidas en el siguiente *Sprint*.
 
 
-
+<div id='5'></div>
 ## Conclusiones
 
-Conclusiones y recomendaciones
+<div id='5.1'></div>
+### 5.1. Conclusiones y recomendaciones
 
 GanLink se ha consolidado como una plataforma integral para la digitalización del sector ganadero, reemplazando los procesos manuales por un sistema moderno que centraliza el registro de animales, el historial sanitario, la trazabilidad productiva y las transacciones económicas. Durante la fase TB2 (Sprint 2), el proyecto alcanzó un nivel de madurez técnica y funcional que refleja su potencial de impacto real en el sector agropecuario. La plataforma ha permitido evidenciar mejoras tangibles en la gestión operativa: reducción de pérdidas a través de alertas automatizadas, cumplimiento normativo mediante trazabilidad en tiempo real y optimización del proceso de toma de decisiones gracias al acceso inmediato a información estructurada y confiable.
 
@@ -3034,17 +3075,20 @@ Promover la interoperabilidad con entidades gubernamentales y asociaciones ganad
 
 Desarrollar un plan de escalabilidad técnica que contemple la incorporación de inteligencia artificial, blockchain y servicios en la nube para consolidar la sostenibilidad del producto en el largo plazo.
 
-## Video App Validation
+<div id='6'></div>
+## Videos
 
-
-## Video About the product
+<div id='6.1'></div>
+### 6.1. Video About the product
 
 [**VIDEO**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222745_upc_edu_pe/IQD8A6AJYeWQTqqZ6VDQhu-rAdibFXeiK-K3L4SqYS2rtnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=NDNT0a)
 
-## Video About the team
+<div id='6.2'></div>
+### 6.2. Video About the team
 
 [**VIDEO**](https://upcedupe-my.sharepoint.com/personal/u20211b994_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211b994%5Fupc%5Fedu%5Fpe%2FDocuments%2Fupc%2Dpre%2D202520%2D1acc0238%2D2005%2Dagrotracer%2Dabout%2Dthe%2Dteam%2Dsprint%2D2%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ef2643f3f%2Dd60f%2D4e5b%2Db68f%2Dc3967de9f8d0)
 
+<div id='7'></div>
 ## Glosario
 En esta sección se definen los términos clave utilizados en el documento, proporcionando una comprensión clara de los conceptos técnicos y metodológicos. El glosario es esencial para asegurar que los lectores, ya sean técnicos o no, tengan acceso a las definiciones precisas de los términos que se emplean a lo largo del trabajo. Este espacio no solo sirve como referencia, sino que también facilita la comunicación y evita malentendidos, especialmente en documentos que abarcan temas complejos como la arquitectura de software, diseño de sistemas y metodologías de desarrollo.
 
@@ -3088,6 +3132,7 @@ En esta sección se definen los términos clave utilizados en el documento, prop
 | Cloud Computing                                        | Modelo de prestación de servicios tecnológicos a través de Internet que permite el acceso bajo demanda a recursos de almacenamiento y procesamiento.           |
 
 
+<div id='8'></div>
 ## Bibliografía
 
 - Banhazi, T. M., & Halas, V. (2018). Precision livestock farming: Applications and perspectives. Wageningen Academic Publishers. https://doi.org/10.3920/978-90-8686-869-8
@@ -3134,5 +3179,6 @@ En esta sección se definen los términos clave utilizados en el documento, prop
 
 - Zúñiga, J. L. (2022). Análisis sobre el mercado potencial de carne bovina (Perú: 5,6 millones de cabezas). https://produccionsostenible.org.pe/wp-content/uploads/2022/12/AGRAP-251122.pdf
 
+<div id='9'></div>
 ## Anexos
 Enlace para acceder a los recursos
